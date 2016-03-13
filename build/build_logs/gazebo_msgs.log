@@ -1,0 +1,411 @@
+[[36mgazebo_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/gazebo_msgs/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/gazebo_msgs[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/gazebo_msgs/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:4 (find_package)
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- gazebo_msgs: 9 messages, 20 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/gazebo_msgs
+[[36mgazebo_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/gazebo_msgs/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mgazebo_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/gazebo_msgs/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/gazebo_msgs[0m'[0m
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_JointRequest
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_ModelStates
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_GetLinkProperties
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_ODEJointProperties
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_BodyRequest
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_LinkStates
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_DeleteModel
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_GetPhysicsProperties
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_GetModelState
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_WorldState
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_ContactState
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_SpawnModel
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_SetLinkProperties
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_SetPhysicsProperties
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_ContactsState
+[  0%] Built target trajectory_msgs_generate_messages_py
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_ApplyJointEffort
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_SetJointProperties
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_GetWorldProperties
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_ApplyBodyWrench
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_GetModelProperties
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_SetModelState
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_LinkState
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_SetJointTrajectory
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_ODEPhysics
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_SetLinkState
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_GetLinkState
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_SetModelConfiguration
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_ModelState
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_GetJointProperties
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[ 27%] Built target gazebo_msgs_generate_messages_py
+[ 51%] Built target gazebo_msgs_generate_messages_lisp
+[ 76%] Built target gazebo_msgs_generate_messages_eus
+[100%] Built target gazebo_msgs_generate_messages_cpp
+[100%] Built target gazebo_msgs_generate_messages
+[[36mgazebo_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/gazebo_msgs/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mgazebo_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/gazebo_msgs/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/gazebo_msgs[0m'[0m
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_JointRequest
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_ModelStates
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_GetLinkProperties
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_ODEJointProperties
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_BodyRequest
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_LinkStates
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_DeleteModel
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_GetPhysicsProperties
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_GetModelState
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_WorldState
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_ContactState
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_SpawnModel
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_SetLinkProperties
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_SetPhysicsProperties
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_ContactsState
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_ApplyJointEffort
+[  0%] Built target trajectory_msgs_generate_messages_py
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_SetJointProperties
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_GetWorldProperties
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_ApplyBodyWrench
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_GetModelProperties
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_SetModelState
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_SetJointTrajectory
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_LinkState
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_ODEPhysics
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_SetLinkState
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_GetLinkState
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_SetModelConfiguration
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_ModelState
+[  0%] Built target _gazebo_msgs_generate_messages_check_deps_GetJointProperties
+[ 27%] Built target gazebo_msgs_generate_messages_py
+[ 27%] Built target geometry_msgs_generate_messages_lisp
+[ 27%] Built target std_msgs_generate_messages_lisp
+[ 27%] Built target sensor_msgs_generate_messages_lisp
+[ 27%] Built target trajectory_msgs_generate_messages_lisp
+[ 51%] Built target gazebo_msgs_generate_messages_lisp
+[ 51%] Built target sensor_msgs_generate_messages_eus
+[ 51%] Built target geometry_msgs_generate_messages_eus
+[ 51%] Built target trajectory_msgs_generate_messages_eus
+[ 51%] Built target std_msgs_generate_messages_eus
+[ 76%] Built target gazebo_msgs_generate_messages_eus
+[ 76%] Built target sensor_msgs_generate_messages_cpp
+[ 76%] Built target geometry_msgs_generate_messages_cpp
+[ 76%] Built target std_msgs_generate_messages_cpp
+[ 76%] Built target trajectory_msgs_generate_messages_cpp
+[100%] Built target gazebo_msgs_generate_messages_cpp
+[100%] Built target gazebo_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/msg/ContactsState.msg
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/msg/ContactState.msg
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/msg/LinkState.msg
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/msg/LinkStates.msg
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/msg/ModelState.msg
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/msg/ModelStates.msg
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/msg/ODEJointProperties.msg
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/msg/ODEPhysics.msg
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/msg/WorldState.msg
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/srv/ApplyBodyWrench.srv
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/srv/DeleteModel.srv
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/srv/GetLinkState.srv
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/srv/GetPhysicsProperties.srv
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/srv/SetJointProperties.srv
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/srv/SetModelConfiguration.srv
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/srv/SpawnModel.srv
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/srv/ApplyJointEffort.srv
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/srv/GetJointProperties.srv
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/srv/GetModelProperties.srv
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/srv/GetWorldProperties.srv
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/srv/SetLinkProperties.srv
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/srv/SetModelState.srv
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/srv/BodyRequest.srv
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/srv/GetLinkProperties.srv
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/srv/GetModelState.srv
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/srv/JointRequest.srv
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/srv/SetLinkState.srv
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/srv/SetPhysicsProperties.srv
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/srv/SetJointTrajectory.srv
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/cmake/gazebo_msgs-msg-paths.cmake
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/ApplyBodyWrench.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/ApplyBodyWrenchRequest.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/ApplyBodyWrenchResponse.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/ApplyJointEffort.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/ApplyJointEffortRequest.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/ApplyJointEffortResponse.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/BodyRequest.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/BodyRequestRequest.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/BodyRequestResponse.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/ContactsState.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/ContactState.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/DeleteModel.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/DeleteModelRequest.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/DeleteModelResponse.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/GetJointProperties.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/GetJointPropertiesRequest.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/GetJointPropertiesResponse.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/GetLinkProperties.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/GetLinkPropertiesRequest.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/GetLinkPropertiesResponse.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/GetLinkState.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/GetLinkStateRequest.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/GetLinkStateResponse.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/GetModelProperties.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/GetModelPropertiesRequest.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/GetModelPropertiesResponse.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/GetModelState.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/GetModelStateRequest.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/GetModelStateResponse.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/GetPhysicsProperties.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/GetPhysicsPropertiesRequest.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/GetPhysicsPropertiesResponse.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/GetWorldProperties.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/GetWorldPropertiesRequest.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/GetWorldPropertiesResponse.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/JointRequest.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/JointRequestRequest.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/JointRequestResponse.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/LinkState.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/LinkStates.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/ModelState.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/ModelStates.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/ODEJointProperties.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/ODEPhysics.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SetJointProperties.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SetJointPropertiesRequest.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SetJointPropertiesResponse.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SetJointTrajectory.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SetJointTrajectoryRequest.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SetJointTrajectoryResponse.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SetLinkProperties.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SetLinkPropertiesRequest.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SetLinkPropertiesResponse.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SetLinkState.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SetLinkStateRequest.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SetLinkStateResponse.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SetModelConfiguration.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SetModelConfigurationRequest.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SetModelConfigurationResponse.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SetModelState.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SetModelStateRequest.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SetModelStateResponse.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SetPhysicsProperties.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SetPhysicsPropertiesRequest.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SetPhysicsPropertiesResponse.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SpawnModel.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SpawnModelRequest.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/SpawnModelResponse.h
+-- Up-to-date: /opt/ros/jade/include/gazebo_msgs/WorldState.h
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/manifest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/msg
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/msg/ContactsState.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/msg/ContactState.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/msg/LinkState.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/msg/LinkStates.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/msg/ModelState.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/msg/ModelStates.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/msg/ODEJointProperties.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/msg/ODEPhysics.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/msg/WorldState.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/srv
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/srv/ApplyBodyWrench.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/srv/ApplyJointEffort.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/srv/BodyRequest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/srv/DeleteModel.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/srv/GetJointProperties.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/srv/GetLinkProperties.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/srv/GetLinkState.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/srv/GetModelProperties.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/srv/GetModelState.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/srv/GetPhysicsProperties.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/srv/GetWorldProperties.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/srv/JointRequest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/srv/SetJointProperties.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/srv/SetJointTrajectory.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/srv/SetLinkProperties.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/srv/SetLinkState.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/srv/SetModelConfiguration.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/srv/SetModelState.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/srv/SetPhysicsProperties.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/gazebo_msgs/srv/SpawnModel.l
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/msg
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/msg/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/msg/_package_ContactsState.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/msg/_package_ContactState.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/msg/_package_LinkState.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/msg/_package_LinkStates.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/msg/_package_ModelState.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/msg/_package_ModelStates.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/msg/_package_ODEJointProperties.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/msg/_package_ODEPhysics.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/msg/_package_WorldState.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/msg/ContactsState.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/msg/ContactState.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/msg/gazebo_msgs-msg.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/msg/LinkState.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/msg/LinkStates.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/msg/ModelState.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/msg/ModelStates.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/msg/ODEJointProperties.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/msg/ODEPhysics.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/msg/WorldState.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/_package_ApplyBodyWrench.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/_package_ApplyJointEffort.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/_package_BodyRequest.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/_package_DeleteModel.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/_package_GetJointProperties.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/_package_GetLinkProperties.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/_package_GetLinkState.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/_package_GetModelProperties.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/_package_GetModelState.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/_package_GetPhysicsProperties.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/_package_GetWorldProperties.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/_package_JointRequest.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/_package_SetJointProperties.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/_package_SetJointTrajectory.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/_package_SetLinkProperties.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/_package_SetLinkState.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/_package_SetModelConfiguration.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/_package_SetModelState.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/_package_SetPhysicsProperties.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/_package_SpawnModel.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/ApplyBodyWrench.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/ApplyJointEffort.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/BodyRequest.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/DeleteModel.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/gazebo_msgs-srv.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/GetJointProperties.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/GetLinkProperties.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/GetLinkState.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/GetModelProperties.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/GetModelState.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/GetPhysicsProperties.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/GetWorldProperties.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/JointRequest.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/SetJointProperties.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/SetJointTrajectory.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/SetLinkProperties.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/SetLinkState.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/SetModelConfiguration.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/SetModelState.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/SetPhysicsProperties.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/gazebo_msgs/srv/SpawnModel.lisp
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/gazebo_msgs ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/gazebo_msgs/msg ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/gazebo_msgs/srv ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/msg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/msg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/msg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/msg/_ContactsState.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/msg/_ContactsState.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/msg/_ContactState.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/msg/_ContactState.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/msg/_LinkState.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/msg/_LinkState.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/msg/_LinkStates.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/msg/_LinkStates.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/msg/_ModelState.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/msg/_ModelState.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/msg/_ModelStates.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/msg/_ModelStates.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/msg/_ODEJointProperties.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/msg/_ODEJointProperties.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/msg/_ODEPhysics.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/msg/_ODEPhysics.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/msg/_WorldState.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/msg/_WorldState.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_ApplyBodyWrench.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_ApplyBodyWrench.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_ApplyJointEffort.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_ApplyJointEffort.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_BodyRequest.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_BodyRequest.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_DeleteModel.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_DeleteModel.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_GetJointProperties.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_GetJointProperties.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_GetLinkProperties.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_GetLinkProperties.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_GetLinkState.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_GetLinkState.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_GetModelProperties.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_GetModelProperties.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_GetModelState.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_GetModelState.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_GetPhysicsProperties.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_GetPhysicsProperties.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_GetWorldProperties.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_GetWorldProperties.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_JointRequest.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_JointRequest.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_SetJointProperties.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_SetJointProperties.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_SetJointTrajectory.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_SetJointTrajectory.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_SetLinkProperties.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_SetLinkProperties.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_SetLinkState.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_SetLinkState.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_SetModelConfiguration.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_SetModelConfiguration.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_SetModelState.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_SetModelState.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_SetPhysicsProperties.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_SetPhysicsProperties.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_SpawnModel.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/gazebo_msgs/srv/_SpawnModel.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/gazebo_msgs.pc
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/cmake/gazebo_msgs-msg-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/cmake/gazebo_msgsConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/cmake/gazebo_msgsConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/gazebo_msgs/package.xml
+[[36mgazebo_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/gazebo_msgs/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

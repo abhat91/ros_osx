@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: qt_gui
+Description: Description of qt_gui
+Version: 0.2.29
+Cflags: 
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: 

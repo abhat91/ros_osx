@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: urdf_parser_plugin
+Description: Description of urdf_parser_plugin
+Version: 1.11.10
+Cflags: -I/Users/adityabhat/Downloads/src/robot_model/urdf_parser_plugin/include -I/usr/local/Cellar/urdfdom_headers/0.2.3/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: 

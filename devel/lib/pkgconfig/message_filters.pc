@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: message_filters
+Description: Description of message_filters
+Version: 1.11.16
+Cflags: -I/Users/adityabhat/Downloads/src/ros_comm/message_filters/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -lmessage_filters
+Requires: roscpp xmlrpcpp rosconsole

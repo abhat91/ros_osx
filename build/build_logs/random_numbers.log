@@ -1,0 +1,24 @@
+[[36mrandom_numbers[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/random_numbers/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/random_numbers[0m'[0m
+[[36mrandom_numbers[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/random_numbers/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mrandom_numbers[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/random_numbers/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/random_numbers[0m'[0m
+[100%] Built target random_numbers
+[[36mrandom_numbers[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/random_numbers/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mrandom_numbers[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/random_numbers/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/random_numbers[0m'[0m
+[100%] Built target random_numbers
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/lib/pkgconfig/random_numbers.pc
+-- Up-to-date: /opt/ros/jade/share/random_numbers/cmake/random_numbersConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/random_numbers/cmake/random_numbersConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/random_numbers/package.xml
+-- Installing: /opt/ros/jade/lib/librandom_numbers.dylib
+-- Up-to-date: /opt/ros/jade/include
+-- Up-to-date: /opt/ros/jade/include/random_numbers
+-- Up-to-date: /opt/ros/jade/include/random_numbers/random_numbers.h
+[[36mrandom_numbers[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/random_numbers/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

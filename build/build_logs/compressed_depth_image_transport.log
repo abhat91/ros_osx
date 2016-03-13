@@ -1,0 +1,71 @@
+[[36mcompressed_depth_image_transport[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/compressed_depth_image_transport/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/compressed_depth_image_transport[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/compressed_depth_image_transport/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:5 (find_package)
+
+
+-- catkin 0.6.16
+-- Configuring done
+CMake Warning (dev):
+  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  MACOSX_RPATH is not specified for the following targets:
+
+   compressed_depth_image_transport
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/compressed_depth_image_transport
+[[36mcompressed_depth_image_transport[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/compressed_depth_image_transport/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mcompressed_depth_image_transport[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/compressed_depth_image_transport/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/compressed_depth_image_transport[0m'[0m
+[ 16%] Built target compressed_depth_image_transport_gencfg
+[100%] Built target compressed_depth_image_transport
+[[36mcompressed_depth_image_transport[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/compressed_depth_image_transport/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mcompressed_depth_image_transport[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/compressed_depth_image_transport/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/compressed_depth_image_transport[0m'[0m
+[ 16%] Built target compressed_depth_image_transport_gencfg
+[100%] Built target compressed_depth_image_transport
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/include/compressed_depth_image_transport/CompressedDepthPublisherConfig.h
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/compressed_depth_image_transport/__init__.py
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/compressed_depth_image_transport/cfg ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/compressed_depth_image_transport/cfg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/compressed_depth_image_transport/cfg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/compressed_depth_image_transport/cfg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/compressed_depth_image_transport/cfg/CompressedDepthPublisherConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/compressed_depth_image_transport/cfg/CompressedDepthPublisherConfig.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/compressed_depth_image_transport.pc
+-- Up-to-date: /opt/ros/jade/share/compressed_depth_image_transport/cmake/compressed_depth_image_transportConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/compressed_depth_image_transport/cmake/compressed_depth_image_transportConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/compressed_depth_image_transport/package.xml
+-- Installing: /opt/ros/jade/lib/libcompressed_depth_image_transport.dylib
+-- Up-to-date: /opt/ros/jade/include/compressed_depth_image_transport
+-- Up-to-date: /opt/ros/jade/include/compressed_depth_image_transport/codec.h
+-- Up-to-date: /opt/ros/jade/include/compressed_depth_image_transport/compressed_depth_publisher.h
+-- Up-to-date: /opt/ros/jade/include/compressed_depth_image_transport/compressed_depth_subscriber.h
+-- Up-to-date: /opt/ros/jade/include/compressed_depth_image_transport/compression_common.h
+-- Up-to-date: /opt/ros/jade/share/compressed_depth_image_transport/compressed_depth_plugins.xml
+[[36mcompressed_depth_image_transport[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/compressed_depth_image_transport/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

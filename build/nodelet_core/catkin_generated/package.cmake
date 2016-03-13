@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "nodelet_core")
+set(nodelet_core_MAINTAINER "Esteve Fernandez <esteve@osrfoundation.org>")
+set(nodelet_core_DEPRECATED "")
+set(nodelet_core_VERSION "1.9.3")
+set(nodelet_core_BUILD_DEPENDS )
+set(nodelet_core_RUN_DEPENDS "nodelet" "nodelet_topic_tools")
+set(nodelet_core_BUILDTOOL_DEPENDS "catkin")

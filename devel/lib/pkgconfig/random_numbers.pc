@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: random_numbers
+Description: Description of random_numbers
+Version: 0.3.0
+Cflags: -I/Users/adityabhat/Downloads/src/random_numbers/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -lrandom_numbers
+Requires: 

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "pluginlib_tutorials")
+set(pluginlib_tutorials_MAINTAINER "Daniel Stonier <d.stonier@gmail.com>")
+set(pluginlib_tutorials_DEPRECATED "")
+set(pluginlib_tutorials_VERSION "0.1.8")
+set(pluginlib_tutorials_BUILD_DEPENDS "pluginlib" "roscpp")
+set(pluginlib_tutorials_RUN_DEPENDS "pluginlib" "roscpp")
+set(pluginlib_tutorials_BUILDTOOL_DEPENDS "catkin")

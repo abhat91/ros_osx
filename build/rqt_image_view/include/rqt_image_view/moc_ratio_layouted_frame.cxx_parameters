@@ -1,0 +1,11 @@
+-I/usr/local/Cellar/qt/4.8.7_2/include
+-F/usr/local/Cellar/qt/4.8.7_2/lib
+-I/usr/local/Cellar/qt/4.8.7_2/include/QtGui
+-I/usr/local/Cellar/qt/4.8.7_2/lib/QtCore.framework/Headers
+-DROS_PACKAGE_NAME="rqt_image_view"
+-D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
+-DQT_GUI_LIB
+-DQT_CORE_LIB
+-o
+/Users/adityabhat/Downloads/build/rqt_image_view/include/rqt_image_view/moc_ratio_layouted_frame.cxx
+/Users/adityabhat/Downloads/src/rqt_common_plugins/rqt_image_view/include/rqt_image_view/ratio_layouted_frame.h

@@ -1,0 +1,12 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/random_numbers.pc
+/opt/ros/jade/share/random_numbers/cmake/random_numbersConfig.cmake
+/opt/ros/jade/share/random_numbers/cmake/random_numbersConfig-version.cmake
+/opt/ros/jade/share/random_numbers/package.xml
+/opt/ros/jade/lib/librandom_numbers.dylib
+/opt/ros/jade/include/random_numbers/random_numbers.h

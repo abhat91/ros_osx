@@ -1,0 +1,123 @@
+[[36mshape_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/shape_msgs/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/shape_msgs[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/shape_msgs/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:4 (find_package)
+
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- shape_msgs: 4 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/shape_msgs
+[[36mshape_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/shape_msgs/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mshape_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/shape_msgs/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/shape_msgs[0m'[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target _shape_msgs_generate_messages_check_deps_MeshTriangle
+[  0%] Built target _shape_msgs_generate_messages_check_deps_Mesh
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _shape_msgs_generate_messages_check_deps_SolidPrimitive
+[  0%] Built target _shape_msgs_generate_messages_check_deps_Plane
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[ 27%] Built target shape_msgs_generate_messages_eus
+[ 50%] Built target shape_msgs_generate_messages_lisp
+[ 72%] Built target shape_msgs_generate_messages_cpp
+[100%] Built target shape_msgs_generate_messages_py
+[100%] Built target shape_msgs_generate_messages
+[[36mshape_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/shape_msgs/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mshape_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/shape_msgs/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/shape_msgs[0m'[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target _shape_msgs_generate_messages_check_deps_MeshTriangle
+[  0%] Built target _shape_msgs_generate_messages_check_deps_Mesh
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _shape_msgs_generate_messages_check_deps_SolidPrimitive
+[  0%] Built target _shape_msgs_generate_messages_check_deps_Plane
+[ 27%] Built target shape_msgs_generate_messages_eus
+[ 27%] Built target std_msgs_generate_messages_lisp
+[ 27%] Built target geometry_msgs_generate_messages_lisp
+[ 50%] Built target shape_msgs_generate_messages_lisp
+[ 50%] Built target geometry_msgs_generate_messages_cpp
+[ 50%] Built target std_msgs_generate_messages_cpp
+[ 72%] Built target shape_msgs_generate_messages_cpp
+[ 72%] Built target std_msgs_generate_messages_py
+[ 72%] Built target geometry_msgs_generate_messages_py
+[100%] Built target shape_msgs_generate_messages_py
+[100%] Built target shape_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/share/shape_msgs/msg/Mesh.msg
+-- Up-to-date: /opt/ros/jade/share/shape_msgs/msg/MeshTriangle.msg
+-- Up-to-date: /opt/ros/jade/share/shape_msgs/msg/Plane.msg
+-- Up-to-date: /opt/ros/jade/share/shape_msgs/msg/SolidPrimitive.msg
+-- Up-to-date: /opt/ros/jade/share/shape_msgs/cmake/shape_msgs-msg-paths.cmake
+-- Up-to-date: /opt/ros/jade/include/shape_msgs
+-- Up-to-date: /opt/ros/jade/include/shape_msgs/Mesh.h
+-- Up-to-date: /opt/ros/jade/include/shape_msgs/MeshTriangle.h
+-- Up-to-date: /opt/ros/jade/include/shape_msgs/Plane.h
+-- Up-to-date: /opt/ros/jade/include/shape_msgs/SolidPrimitive.h
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/shape_msgs
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/shape_msgs/manifest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/shape_msgs/msg
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/shape_msgs/msg/Mesh.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/shape_msgs/msg/MeshTriangle.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/shape_msgs/msg/Plane.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/shape_msgs/msg/SolidPrimitive.l
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/shape_msgs
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/shape_msgs/msg
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/shape_msgs/msg/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/shape_msgs/msg/_package_Mesh.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/shape_msgs/msg/_package_MeshTriangle.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/shape_msgs/msg/_package_Plane.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/shape_msgs/msg/_package_SolidPrimitive.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/shape_msgs/msg/Mesh.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/shape_msgs/msg/MeshTriangle.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/shape_msgs/msg/Plane.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/shape_msgs/msg/shape_msgs-msg.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/shape_msgs/msg/SolidPrimitive.lisp
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/shape_msgs ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/shape_msgs/msg ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/shape_msgs
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/shape_msgs/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/shape_msgs/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/shape_msgs/msg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/shape_msgs/msg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/shape_msgs/msg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/shape_msgs/msg/_Mesh.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/shape_msgs/msg/_Mesh.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/shape_msgs/msg/_MeshTriangle.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/shape_msgs/msg/_MeshTriangle.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/shape_msgs/msg/_Plane.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/shape_msgs/msg/_Plane.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/shape_msgs/msg/_SolidPrimitive.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/shape_msgs/msg/_SolidPrimitive.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/shape_msgs.pc
+-- Up-to-date: /opt/ros/jade/share/shape_msgs/cmake/shape_msgs-msg-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/shape_msgs/cmake/shape_msgsConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/shape_msgs/cmake/shape_msgsConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/shape_msgs/package.xml
+[[36mshape_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/shape_msgs/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

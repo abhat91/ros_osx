@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "bondpy")
+set(bondpy_MAINTAINER "Esteve Fernandez <esteve@osrfoundation.org>")
+set(bondpy_DEPRECATED "")
+set(bondpy_VERSION "1.7.16")
+set(bondpy_BUILD_DEPENDS "bond" "rospy" "smclib")
+set(bondpy_RUN_DEPENDS "rospy" "smclib" "uuid")
+set(bondpy_BUILDTOOL_DEPENDS "catkin")

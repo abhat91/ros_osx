@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: pluginlib_tutorials
+Description: Description of pluginlib_tutorials
+Version: 0.1.8
+Cflags: -I/Users/adityabhat/Downloads/src/common_tutorials/pluginlib_tutorials/include -I/usr/local/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -lpluginlib_tutorials
+Requires: pluginlib roscpp

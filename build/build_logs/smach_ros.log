@@ -1,0 +1,27 @@
+[[36msmach_ros[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/smach_ros/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/smach_ros[0m'[0m
+[[36msmach_ros[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/smach_ros/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36msmach_ros[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/smach_ros/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/smach_ros[0m'[0m
+[[36msmach_ros[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/smach_ros/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36msmach_ros[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/smach_ros/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/smach_ros[0m'[0m
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
++ cd /Users/adityabhat/Downloads/src/executive_smach/smach_ros
++ /usr/bin/env PYTHONPATH=/opt/ros/jade/lib/python2.7/site-packages:/Users/adityabhat/Downloads/build/smach_ros/lib/python2.7/site-packages:/opt/ros/jade/lib/python2.7/site-packages CATKIN_BINARY_DIR=/Users/adityabhat/Downloads/build/smach_ros /usr/bin/python /Users/adityabhat/Downloads/src/executive_smach/smach_ros/setup.py build --build-base /Users/adityabhat/Downloads/build/smach_ros install --prefix=/opt/ros/jade --install-scripts=/opt/ros/jade/bin
+running build
+running build_py
+running install
+running install_lib
+running install_egg_info
+Removing /opt/ros/jade/lib/python2.7/site-packages/smach_ros-2.0.0-py2.7.egg-info
+Writing /opt/ros/jade/lib/python2.7/site-packages/smach_ros-2.0.0-py2.7.egg-info
+-- Up-to-date: /opt/ros/jade/lib/pkgconfig/smach_ros.pc
+-- Up-to-date: /opt/ros/jade/share/smach_ros/cmake/smach_rosConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/smach_ros/cmake/smach_rosConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/smach_ros/package.xml
+[[36msmach_ros[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/smach_ros/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

@@ -1,0 +1,14 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/genpy.pc
+/opt/ros/jade/share/genpy/cmake/genpy-extras.cmake
+/opt/ros/jade/share/genpy/cmake/genpyConfig.cmake
+/opt/ros/jade/share/genpy/cmake/genpyConfig-version.cmake
+/opt/ros/jade/share/genpy/package.xml
+/opt/ros/jade/etc/ros/genmsg/genpy
+/opt/ros/jade/lib/genpy/genmsg_py.py
+/opt/ros/jade/lib/genpy/gensrv_py.py

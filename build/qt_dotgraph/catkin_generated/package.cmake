@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "qt_dotgraph")
+set(qt_dotgraph_MAINTAINER "Dirk Thomas <dthomas@osrfoundation.org>")
+set(qt_dotgraph_DEPRECATED "")
+set(qt_dotgraph_VERSION "0.2.29")
+set(qt_dotgraph_BUILD_DEPENDS )
+set(qt_dotgraph_RUN_DEPENDS "python-pydot" "python_qt_binding")
+set(qt_dotgraph_BUILDTOOL_DEPENDS "catkin")

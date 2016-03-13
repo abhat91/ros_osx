@@ -1,0 +1,94 @@
+[[36mimage_view[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/image_view/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/image_view[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/image_view/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:4 (find_package)
+
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- Boost version: 1.60.0
+-- Found the following Boost libraries:
+--   signals
+--   thread
+--   chrono
+--   system
+--   date_time
+--   atomic
+-- Configuring done
+CMake Warning (dev):
+  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  MACOSX_RPATH is not specified for the following targets:
+
+   image_view
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/image_view
+[[36mimage_view[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/image_view/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mimage_view[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/image_view/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/image_view[0m'[0m
+[ 11%] Built target stereo_view
+[ 23%] Built target video_recorder
+[ 35%] Built target image_saver
+[ 47%] Built target extract_images
+[ 52%] Built target image_view_gencfg
+[ 64%] Built target disparity_view
+[ 76%] Built target image_view_exe
+[100%] Built target image_view
+[[36mimage_view[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/image_view/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mimage_view[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/image_view/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/image_view[0m'[0m
+[ 11%] Built target stereo_view
+[ 23%] Built target video_recorder
+[ 35%] Built target image_saver
+[ 47%] Built target extract_images
+[ 58%] Built target disparity_view
+[ 64%] Built target image_view_gencfg
+[ 76%] Built target image_view_exe
+[100%] Built target image_view
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Up-to-date: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/include/image_view/ImageViewConfig.h
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/image_view/__init__.py
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/image_view/cfg ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/image_view/cfg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/image_view/cfg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/image_view/cfg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/image_view/cfg/ImageViewConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/image_view/cfg/ImageViewConfig.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/image_view.pc
+-- Up-to-date: /opt/ros/jade/share/image_view/cmake/image_viewConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/image_view/cmake/image_viewConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/image_view/package.xml
+-- Up-to-date: /opt/ros/jade/lib/image_view/extract_images
+-- Up-to-date: /opt/ros/jade/lib/image_view/image_saver
+-- Up-to-date: /opt/ros/jade/lib/image_view/video_recorder
+-- Installing: /opt/ros/jade/lib/libimage_view.dylib
+-- Up-to-date: /opt/ros/jade/lib/image_view/disparity_view
+-- Up-to-date: /opt/ros/jade/lib/image_view/image_view
+-- Up-to-date: /opt/ros/jade/lib/image_view/stereo_view
+-- Up-to-date: /opt/ros/jade/share/image_view/nodelet_plugins.xml
+-- Installing: /opt/ros/jade/lib/image_view/extract_images_sync
+[[36mimage_view[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/image_view/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

@@ -1,0 +1,11 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/rqt_gui_py.pc
+/opt/ros/jade/share/rqt_gui_py/cmake/rqt_gui_pyConfig.cmake
+/opt/ros/jade/share/rqt_gui_py/cmake/rqt_gui_pyConfig-version.cmake
+/opt/ros/jade/share/rqt_gui_py/package.xml
+/opt/ros/jade/share/rqt_gui_py/plugin.xml

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "laser_pipeline")
+set(laser_pipeline_MAINTAINER "David Gossow <dgossow@willowgarage.com>")
+set(laser_pipeline_DEPRECATED "")
+set(laser_pipeline_VERSION "1.6.1")
+set(laser_pipeline_BUILD_DEPENDS )
+set(laser_pipeline_RUN_DEPENDS "laser_assembler" "laser_filters" "laser_geometry")
+set(laser_pipeline_BUILDTOOL_DEPENDS "catkin")

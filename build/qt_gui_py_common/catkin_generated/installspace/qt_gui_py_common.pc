@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: qt_gui_py_common
+Description: Description of qt_gui_py_common
+Version: 0.2.29
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: 

@@ -1,0 +1,14 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/diagnostic_updater.pc
+/opt/ros/jade/share/diagnostic_updater/cmake/diagnostic_updaterConfig.cmake
+/opt/ros/jade/share/diagnostic_updater/cmake/diagnostic_updaterConfig-version.cmake
+/opt/ros/jade/share/diagnostic_updater/package.xml
+/opt/ros/jade/include/diagnostic_updater/diagnostic_updater.h
+/opt/ros/jade/include/diagnostic_updater/DiagnosticStatusWrapper.h
+/opt/ros/jade/include/diagnostic_updater/publisher.h
+/opt/ros/jade/include/diagnostic_updater/update_functions.h

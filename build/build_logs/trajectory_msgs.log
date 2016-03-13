@@ -1,0 +1,125 @@
+[[36mtrajectory_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/trajectory_msgs/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/trajectory_msgs[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/trajectory_msgs/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:4 (find_package)
+
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- trajectory_msgs: 4 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/trajectory_msgs
+[[36mtrajectory_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/trajectory_msgs/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mtrajectory_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/trajectory_msgs/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/trajectory_msgs[0m'[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target _trajectory_msgs_generate_messages_check_deps_MultiDOFJointTrajectory
+[  0%] Built target _trajectory_msgs_generate_messages_check_deps_MultiDOFJointTrajectoryPoint
+[  0%] Built target _trajectory_msgs_generate_messages_check_deps_JointTrajectoryPoint
+[  0%] Built target _trajectory_msgs_generate_messages_check_deps_JointTrajectory
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[ 22%] Built target trajectory_msgs_generate_messages_cpp
+[ 44%] Built target trajectory_msgs_generate_messages_lisp
+[ 72%] Built target trajectory_msgs_generate_messages_eus
+[100%] Built target trajectory_msgs_generate_messages_py
+[100%] Built target trajectory_msgs_generate_messages
+[[36mtrajectory_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/trajectory_msgs/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mtrajectory_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/trajectory_msgs/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/trajectory_msgs[0m'[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target _trajectory_msgs_generate_messages_check_deps_MultiDOFJointTrajectory
+[  0%] Built target _trajectory_msgs_generate_messages_check_deps_MultiDOFJointTrajectoryPoint
+[  0%] Built target _trajectory_msgs_generate_messages_check_deps_JointTrajectoryPoint
+[  0%] Built target _trajectory_msgs_generate_messages_check_deps_JointTrajectory
+[  0%] Built target std_msgs_generate_messages_cpp
+[ 22%] Built target trajectory_msgs_generate_messages_cpp
+[ 22%] Built target std_msgs_generate_messages_lisp
+[ 22%] Built target geometry_msgs_generate_messages_lisp
+[ 44%] Built target trajectory_msgs_generate_messages_lisp
+[ 44%] Built target geometry_msgs_generate_messages_eus
+[ 44%] Built target std_msgs_generate_messages_eus
+[ 72%] Built target trajectory_msgs_generate_messages_eus
+[ 72%] Built target std_msgs_generate_messages_py
+[ 72%] Built target geometry_msgs_generate_messages_py
+[100%] Built target trajectory_msgs_generate_messages_py
+[100%] Built target trajectory_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/share/trajectory_msgs/msg/JointTrajectory.msg
+-- Up-to-date: /opt/ros/jade/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
+-- Up-to-date: /opt/ros/jade/share/trajectory_msgs/msg/MultiDOFJointTrajectory.msg
+-- Up-to-date: /opt/ros/jade/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg
+-- Up-to-date: /opt/ros/jade/share/trajectory_msgs/cmake/trajectory_msgs-msg-paths.cmake
+-- Up-to-date: /opt/ros/jade/include/trajectory_msgs
+-- Up-to-date: /opt/ros/jade/include/trajectory_msgs/JointTrajectory.h
+-- Up-to-date: /opt/ros/jade/include/trajectory_msgs/JointTrajectoryPoint.h
+-- Up-to-date: /opt/ros/jade/include/trajectory_msgs/MultiDOFJointTrajectory.h
+-- Up-to-date: /opt/ros/jade/include/trajectory_msgs/MultiDOFJointTrajectoryPoint.h
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/trajectory_msgs
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/trajectory_msgs/manifest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/trajectory_msgs/msg
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/trajectory_msgs/msg/JointTrajectory.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/trajectory_msgs/msg/JointTrajectoryPoint.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/trajectory_msgs/msg/MultiDOFJointTrajectory.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.l
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/trajectory_msgs
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/trajectory_msgs/msg
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/trajectory_msgs/msg/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/trajectory_msgs/msg/_package_JointTrajectory.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/trajectory_msgs/msg/_package_JointTrajectoryPoint.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/trajectory_msgs/msg/_package_MultiDOFJointTrajectory.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/trajectory_msgs/msg/_package_MultiDOFJointTrajectoryPoint.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/trajectory_msgs/msg/JointTrajectory.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/trajectory_msgs/msg/JointTrajectoryPoint.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/trajectory_msgs/msg/MultiDOFJointTrajectory.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/trajectory_msgs/msg/trajectory_msgs-msg.asd
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/trajectory_msgs ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/trajectory_msgs/msg ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/trajectory_msgs
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/trajectory_msgs/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/trajectory_msgs/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/trajectory_msgs/msg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/trajectory_msgs/msg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/trajectory_msgs/msg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/trajectory_msgs/msg/_JointTrajectory.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/trajectory_msgs/msg/_JointTrajectory.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/trajectory_msgs/msg/_JointTrajectoryPoint.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/trajectory_msgs/msg/_JointTrajectoryPoint.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/trajectory_msgs/msg/_MultiDOFJointTrajectory.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/trajectory_msgs/msg/_MultiDOFJointTrajectory.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/trajectory_msgs/msg/_MultiDOFJointTrajectoryPoint.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/trajectory_msgs/msg/_MultiDOFJointTrajectoryPoint.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/trajectory_msgs.pc
+-- Up-to-date: /opt/ros/jade/share/trajectory_msgs/cmake/trajectory_msgs-msg-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/trajectory_msgs/cmake/trajectory_msgsConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/trajectory_msgs/cmake/trajectory_msgsConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/trajectory_msgs/package.xml
+-- Up-to-date: /opt/ros/jade/share/trajectory_msgs/rules
+-- Up-to-date: /opt/ros/jade/share/trajectory_msgs/rules/JointTrajectoryPoint_Groovy2Hydro_08.10.2013.bmr
+[[36mtrajectory_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/trajectory_msgs/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

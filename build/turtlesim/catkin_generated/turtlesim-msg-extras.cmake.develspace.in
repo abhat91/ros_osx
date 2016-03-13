@@ -1,0 +1,2 @@
+set(turtlesim_MESSAGE_FILES "/Users/adityabhat/Downloads/src/ros_tutorials/turtlesim/msg/Color.msg;/Users/adityabhat/Downloads/src/ros_tutorials/turtlesim/msg/Pose.msg")
+set(turtlesim_SERVICE_FILES "/Users/adityabhat/Downloads/src/ros_tutorials/turtlesim/srv/Kill.srv;/Users/adityabhat/Downloads/src/ros_tutorials/turtlesim/srv/SetPen.srv;/Users/adityabhat/Downloads/src/ros_tutorials/turtlesim/srv/Spawn.srv;/Users/adityabhat/Downloads/src/ros_tutorials/turtlesim/srv/TeleportAbsolute.srv;/Users/adityabhat/Downloads/src/ros_tutorials/turtlesim/srv/TeleportRelative.srv")

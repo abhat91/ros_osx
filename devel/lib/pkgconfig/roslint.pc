@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: roslint
+Description: Description of roslint
+Version: 0.10.0
+Cflags: 
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: turtlesim
+Description: Description of turtlesim
+Version: 0.6.1
+Cflags: -I/Users/adityabhat/Downloads/devel/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: geometry_msgs message_runtime std_msgs std_srvs

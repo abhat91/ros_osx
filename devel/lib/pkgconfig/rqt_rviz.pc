@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: rqt_rviz
+Description: Description of rqt_rviz
+Version: 0.4.3
+Cflags: 
+Libs: -L/Users/adityabhat/Downloads/devel/lib -lrqt_rviz
+Requires: rqt_gui rqt_gui_cpp rviz

@@ -1,0 +1,15 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/roslib.pc
+/opt/ros/jade/share/roslib/cmake/roslib-extras.cmake
+/opt/ros/jade/share/roslib/cmake/roslibConfig.cmake
+/opt/ros/jade/share/roslib/cmake/roslibConfig-version.cmake
+/opt/ros/jade/share/roslib/package.xml
+/opt/ros/jade/etc/catkin/profile.d/10.ros.sh
+/opt/ros/jade/lib/libroslib.dylib
+/opt/ros/jade/include/ros/package.h
+/opt/ros/jade/lib/roslib/gendeps

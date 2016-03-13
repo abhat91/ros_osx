@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: rosbash
+Description: Description of rosbash
+Version: 1.12.5
+Cflags: 
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: 

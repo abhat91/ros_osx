@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: topic_tools
+Description: Description of topic_tools
+Version: 1.11.16
+Cflags: -I/Users/adityabhat/Downloads/devel/include -I/Users/adityabhat/Downloads/src/ros_comm/topic_tools/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -ltopic_tools
+Requires: message_runtime rosconsole roscpp std_msgs xmlrpcpp

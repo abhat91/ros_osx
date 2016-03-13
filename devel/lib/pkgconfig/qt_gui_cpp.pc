@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: qt_gui_cpp
+Description: Description of qt_gui_cpp
+Version: 0.2.29
+Cflags: -I/Users/adityabhat/Downloads/src/qt_gui_core/qt_gui_cpp/include -I/usr/local/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -lqt_gui_cpp -l:/usr/local/lib/libboost_filesystem-mt.dylib -l:/usr/local/lib/libboost_system-mt.dylib
+Requires: pluginlib

@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: rosnode
+Description: Description of rosnode
+Version: 1.11.16
+Cflags: 
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: 

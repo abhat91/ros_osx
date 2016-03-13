@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "turtle_tf2")
+set(turtle_tf2_MAINTAINER "Denis Štogl <denis.stogl@mailbox.org>")
+set(turtle_tf2_DEPRECATED "")
+set(turtle_tf2_VERSION "0.2.2")
+set(turtle_tf2_BUILD_DEPENDS "geometry_msgs" "roscpp" "rospy" "std_msgs" "tf2" "tf2_ros" "turtlesim")
+set(turtle_tf2_RUN_DEPENDS "geometry_msgs" "roscpp" "rospy" "std_msgs" "tf2" "tf2_ros" "turtlesim")
+set(turtle_tf2_BUILDTOOL_DEPENDS "catkin")

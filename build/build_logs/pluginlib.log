@@ -1,0 +1,37 @@
+[[36mpluginlib[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/pluginlib/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/pluginlib[0m'[0m
+[[36mpluginlib[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/pluginlib/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mpluginlib[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/pluginlib/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/pluginlib[0m'[0m
+[100%] Built target plugin_tool
+[[36mpluginlib[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/pluginlib/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mpluginlib[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/pluginlib/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/pluginlib[0m'[0m
+[100%] Built target plugin_tool
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
++ cd /Users/adityabhat/Downloads/src/pluginlib
++ /usr/bin/env PYTHONPATH=/opt/ros/jade/lib/python2.7/site-packages:/Users/adityabhat/Downloads/build/pluginlib/lib/python2.7/site-packages:/opt/ros/jade/lib/python2.7/site-packages CATKIN_BINARY_DIR=/Users/adityabhat/Downloads/build/pluginlib /usr/bin/python /Users/adityabhat/Downloads/src/pluginlib/setup.py build --build-base /Users/adityabhat/Downloads/build/pluginlib install --prefix=/opt/ros/jade --install-scripts=/opt/ros/jade/bin
+running build
+running install
+running install_egg_info
+Removing /opt/ros/jade/lib/python2.7/site-packages/pluginlib-1.10.1-py2.7.egg-info
+Writing /opt/ros/jade/lib/python2.7/site-packages/pluginlib-1.10.1-py2.7.egg-info
+-- Up-to-date: /opt/ros/jade/lib/pkgconfig/pluginlib.pc
+-- Up-to-date: /opt/ros/jade/share/pluginlib/cmake/pluginlibConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/pluginlib/cmake/pluginlibConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/pluginlib/package.xml
+-- Up-to-date: /opt/ros/jade/lib/pluginlib/plugin_tool
+-- Up-to-date: /opt/ros/jade/include/pluginlib
+-- Up-to-date: /opt/ros/jade/include/pluginlib/class_desc.h
+-- Up-to-date: /opt/ros/jade/include/pluginlib/class_list_macros.h
+-- Up-to-date: /opt/ros/jade/include/pluginlib/class_loader.h
+-- Up-to-date: /opt/ros/jade/include/pluginlib/class_loader_base.h
+-- Up-to-date: /opt/ros/jade/include/pluginlib/class_loader_imp.h
+-- Up-to-date: /opt/ros/jade/include/pluginlib/pluginlib_exceptions.h
+-- Up-to-date: /opt/ros/jade/share/pluginlib/typed_class_loader_template.cpp
+-- Up-to-date: /opt/ros/jade/lib/pluginlib/plugin_macro_update
+[[36mpluginlib[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/pluginlib/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

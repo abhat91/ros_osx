@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: rqt_publisher
+Description: Description of rqt_publisher
+Version: 0.3.13
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: 

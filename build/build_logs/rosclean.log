@@ -1,0 +1,30 @@
+[[36mrosclean[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/rosclean/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/rosclean[0m'[0m
+[[36mrosclean[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/rosclean/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mrosclean[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/rosclean/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/rosclean[0m'[0m
+[[36mrosclean[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/rosclean/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mrosclean[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/rosclean/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/rosclean[0m'[0m
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/lib/pkgconfig/rosclean.pc
+-- Up-to-date: /opt/ros/jade/share/rosclean/cmake/roscleanConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/rosclean/cmake/roscleanConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/rosclean/package.xml
++ cd /Users/adityabhat/Downloads/src/ros/rosclean
++ /usr/bin/env PYTHONPATH=/opt/ros/jade/lib/python2.7/site-packages:/Users/adityabhat/Downloads/build/rosclean/lib/python2.7/site-packages:/opt/ros/jade/lib/python2.7/site-packages CATKIN_BINARY_DIR=/Users/adityabhat/Downloads/build/rosclean /usr/bin/python /Users/adityabhat/Downloads/src/ros/rosclean/setup.py build --build-base /Users/adityabhat/Downloads/build/rosclean install --prefix=/opt/ros/jade --install-scripts=/opt/ros/jade/bin
+running build
+running build_py
+running build_scripts
+running install
+running install_lib
+running install_scripts
+changing mode of /opt/ros/jade/bin/rosclean to 755
+running install_egg_info
+Removing /opt/ros/jade/lib/python2.7/site-packages/rosclean-1.12.5-py2.7.egg-info
+Writing /opt/ros/jade/lib/python2.7/site-packages/rosclean-1.12.5-py2.7.egg-info
+[[36mrosclean[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/rosclean/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

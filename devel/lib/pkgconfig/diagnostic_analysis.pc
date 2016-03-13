@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: diagnostic_analysis
+Description: Description of diagnostic_analysis
+Version: 1.8.7
+Cflags: 
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: diagnostic_msgs rosbag roslib

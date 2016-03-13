@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: bondpy
+Description: Description of bondpy
+Version: 1.7.16
+Cflags: 
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: 

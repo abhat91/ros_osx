@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: diagnostic_aggregator
+Description: Description of diagnostic_aggregator
+Version: 1.8.7
+Cflags: -I/Users/adityabhat/Downloads/src/diagnostics/diagnostic_aggregator/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -ldiagnostic_aggregator
+Requires: diagnostic_msgs pluginlib roscpp rospy xmlrpcpp

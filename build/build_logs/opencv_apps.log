@@ -1,0 +1,540 @@
+[[36mopencv_apps[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/opencv_apps/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/opencv_apps[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/opencv_apps/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:4 (find_package)
+
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- OpenCV Components: opencv_videostab;opencv_video;opencv_ts;opencv_superres;opencv_stitching;opencv_photo;opencv_ocl;opencv_objdetect;opencv_nonfree;opencv_ml;opencv_legacy;opencv_imgproc;opencv_highgui;opencv_gpu;opencv_flann;opencv_features2d;opencv_core;opencv_contrib;opencv_calib3d
+-- opencv_apps: 32 messages, 0 services
+-- Configuring done
+CMake Warning (dev):
+  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  MACOSX_RPATH is not specified for the following targets:
+
+   opencv_apps
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/opencv_apps
+[[36mopencv_apps[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/opencv_apps/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mopencv_apps[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/opencv_apps/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/opencv_apps[0m'[0m
+[  1%] Built target simple_flow_exe
+[  2%] Built target fback_flow_exe
+[  3%] Built target simple_compressed_example_exe
+[  4%] Built target simple_example_exe
+[  4%] Built target camshift_exe
+[  5%] Built target convex_hull_exe
+[  6%] Built target hough_circles_exe
+[  7%] Built target lk_flow_exe
+[  8%] Built target segment_objects_exe
+[  9%] Built target goodfeature_track_exe
+[ 10%] Built target face_detection_exe
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Point2DArray
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_LineArray
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Circle
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_FlowArray
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_RotatedRectStamped
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Moment
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Point2DStamped
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_RectArray
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Face
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_CircleArrayStamped
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_FlowArrayStamped
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_MomentArrayStamped
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Rect
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Point2D
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_RotatedRectArray
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_FaceArray
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_ContourArray
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_RotatedRect
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Point2DArrayStamped
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Size
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_FlowStamped
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Flow
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Contour
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Line
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_LineArrayStamped
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_FaceArrayStamped
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_CircleArray
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_ContourArrayStamped
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_RotatedRectArrayStamped
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_MomentArray
+[ 10%] Built target geometry_msgs_generate_messages_cpp
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_RectArrayStamped
+[ 19%] Built target opencv_apps_gencfg
+[ 19%] Built target geometry_msgs_generate_messages_lisp
+[ 19%] Built target geometry_msgs_generate_messages_py
+[ 19%] Built target geometry_msgs_generate_messages_eus
+[ 20%] Built target people_detect_exe
+[ 21%] Built target watershed_segmentation_exe
+[ 22%] Built target edge_detection_exe
+[ 23%] Built target phase_corr_exe
+[ 24%] Built target find_contours_exe
+[ 25%] Built target hough_lines_exe
+[ 26%] Built target contour_moments_exe
+[ 27%] Built target general_contours_exe
+[ 42%] Built target opencv_apps_generate_messages_cpp
+[ 57%] Built target opencv_apps_generate_messages_lisp
+[ 73%] Built target opencv_apps_generate_messages_py
+[ 89%] Built target opencv_apps_generate_messages_eus
+[100%] Built target opencv_apps
+[100%] Built target opencv_apps_generate_messages
+[[36mopencv_apps[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/opencv_apps/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mopencv_apps[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/opencv_apps/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/opencv_apps[0m'[0m
+[  1%] Built target simple_flow_exe
+[  2%] Built target fback_flow_exe
+[  3%] Built target simple_compressed_example_exe
+[  4%] Built target simple_example_exe
+[  4%] Built target camshift_exe
+[  5%] Built target convex_hull_exe
+[  6%] Built target hough_circles_exe
+[  7%] Built target lk_flow_exe
+[  8%] Built target segment_objects_exe
+[  9%] Built target goodfeature_track_exe
+[ 10%] Built target face_detection_exe
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Point2DArray
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_LineArray
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Circle
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_FlowArray
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_RotatedRectStamped
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Moment
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Point2DStamped
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_RectArray
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Face
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_CircleArrayStamped
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_FlowArrayStamped
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_MomentArrayStamped
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Rect
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Point2D
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_RotatedRectArray
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_FaceArray
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_ContourArray
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_RotatedRect
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Point2DArrayStamped
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Size
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_FlowStamped
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Flow
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Contour
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_Line
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_LineArrayStamped
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_FaceArrayStamped
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_CircleArray
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_ContourArrayStamped
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_RotatedRectArrayStamped
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_MomentArray
+[ 10%] Built target geometry_msgs_generate_messages_cpp
+[ 10%] Built target _opencv_apps_generate_messages_check_deps_RectArrayStamped
+[ 25%] Built target opencv_apps_generate_messages_cpp
+[ 34%] Built target opencv_apps_gencfg
+[ 44%] Built target opencv_apps
+[ 44%] Built target geometry_msgs_generate_messages_lisp
+[ 59%] Built target opencv_apps_generate_messages_lisp
+[ 59%] Built target geometry_msgs_generate_messages_py
+[ 75%] Built target opencv_apps_generate_messages_py
+[ 75%] Built target geometry_msgs_generate_messages_eus
+[ 91%] Built target opencv_apps_generate_messages_eus
+[ 91%] Built target opencv_apps_generate_messages
+[ 92%] Built target people_detect_exe
+[ 93%] Built target watershed_segmentation_exe
+[ 94%] Built target edge_detection_exe
+[ 95%] Built target phase_corr_exe
+[ 96%] Built target find_contours_exe
+[ 97%] Built target hough_lines_exe
+[ 98%] Built target contour_moments_exe
+[100%] Built target general_contours_exe
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Up-to-date: /opt/ros/jade/env.sh
+-- Up-to-date: /opt/ros/jade/setup.bash
+-- Up-to-date: /opt/ros/jade/setup.sh
+-- Up-to-date: /opt/ros/jade/setup.zsh
+-- Up-to-date: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/EdgeDetectionConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/HoughLinesConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/HoughCirclesConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/FindContoursConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/ConvexHullConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/GeneralContoursConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/ContourMomentsConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/FaceDetectionConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/GoodfeatureTrackConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/CamShiftConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/FBackFlowConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/LKFlowConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/PeopleDetectConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/PhaseCorrConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/SegmentObjectsConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/SimpleFlowConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/WatershedSegmentationConfig.h
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/__init__.py
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/cfg ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/CamShiftConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/CamShiftConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/ContourMomentsConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/ContourMomentsConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/ConvexHullConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/ConvexHullConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/EdgeDetectionConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/EdgeDetectionConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/FaceDetectionConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/FaceDetectionConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/FBackFlowConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/FBackFlowConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/FindContoursConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/FindContoursConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/GeneralContoursConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/GeneralContoursConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/GoodfeatureTrackConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/GoodfeatureTrackConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/HoughCirclesConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/HoughCirclesConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/HoughLinesConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/HoughLinesConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/LKFlowConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/LKFlowConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/PeopleDetectConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/PeopleDetectConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/PhaseCorrConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/PhaseCorrConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/SegmentObjectsConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/SegmentObjectsConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/SimpleFlowConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/SimpleFlowConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/WatershedSegmentationConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/WatershedSegmentationConfig.pyc
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/Point2D.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/Point2DStamped.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/Point2DArray.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/Point2DArrayStamped.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/Rect.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/RectArray.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/RectArrayStamped.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/Flow.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/FlowStamped.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/FlowArray.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/FlowArrayStamped.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/RectArrayStamped.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/Size.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/Face.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/FaceArray.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/FaceArrayStamped.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/Line.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/LineArray.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/LineArrayStamped.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/RotatedRect.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/RotatedRectStamped.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/RotatedRectArray.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/RotatedRectArrayStamped.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/Circle.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/CircleArray.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/CircleArrayStamped.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/Moment.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/MomentArray.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/MomentArrayStamped.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/Contour.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/ContourArray.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/msg/ContourArrayStamped.msg
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/cmake/opencv_apps-msg-paths.cmake
+-- Up-to-date: /opt/ros/jade/include/opencv_apps
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/CamShiftConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/Circle.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/CircleArray.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/CircleArrayStamped.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/Contour.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/ContourArray.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/ContourArrayStamped.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/ContourMomentsConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/ConvexHullConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/EdgeDetectionConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/Face.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/FaceArray.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/FaceArrayStamped.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/FaceDetectionConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/FBackFlowConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/FindContoursConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/Flow.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/FlowArray.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/FlowArrayStamped.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/FlowStamped.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/GeneralContoursConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/GoodfeatureTrackConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/HoughCirclesConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/HoughLinesConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/Line.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/LineArray.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/LineArrayStamped.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/LKFlowConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/Moment.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/MomentArray.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/MomentArrayStamped.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/PeopleDetectConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/PhaseCorrConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/Point2D.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/Point2DArray.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/Point2DArrayStamped.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/Point2DStamped.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/Rect.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/RectArray.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/RectArrayStamped.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/RotatedRect.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/RotatedRectArray.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/RotatedRectArrayStamped.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/RotatedRectStamped.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/SegmentObjectsConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/SimpleFlowConfig.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/Size.h
+-- Up-to-date: /opt/ros/jade/include/opencv_apps/WatershedSegmentationConfig.h
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/manifest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/Circle.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/CircleArray.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/CircleArrayStamped.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/Contour.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/ContourArray.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/ContourArrayStamped.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/Face.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/FaceArray.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/FaceArrayStamped.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/Flow.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/FlowArray.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/FlowArrayStamped.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/FlowStamped.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/Line.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/LineArray.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/LineArrayStamped.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/Moment.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/MomentArray.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/MomentArrayStamped.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/Point2D.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/Point2DArray.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/Point2DArrayStamped.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/Point2DStamped.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/Rect.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/RectArray.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/RectArrayStamped.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/RotatedRect.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/RotatedRectArray.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/RotatedRectArrayStamped.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/RotatedRectStamped.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/opencv_apps/msg/Size.l
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_Circle.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_CircleArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_CircleArrayStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_Contour.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_ContourArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_ContourArrayStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_Face.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_FaceArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_FaceArrayStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_Flow.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_FlowArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_FlowArrayStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_FlowStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_Line.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_LineArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_LineArrayStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_Moment.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_MomentArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_MomentArrayStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_Point2D.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_Point2DArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_Point2DArrayStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_Point2DStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_Rect.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_RectArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_RectArrayStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_RotatedRect.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_RotatedRectArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_RotatedRectArrayStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_RotatedRectStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/_package_Size.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/Circle.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/CircleArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/CircleArrayStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/Contour.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/ContourArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/ContourArrayStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/Face.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/FaceArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/FaceArrayStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/Flow.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/FlowArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/FlowArrayStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/FlowStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/Line.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/LineArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/LineArrayStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/Moment.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/MomentArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/MomentArrayStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/opencv_apps-msg.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/Point2D.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/Point2DArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/Point2DArrayStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/Point2DStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/Rect.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/RectArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/RectArrayStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/RotatedRect.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/RotatedRectArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/RotatedRectArrayStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/RotatedRectStamped.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/opencv_apps/msg/Size.lisp
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/cfg ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/CamShiftConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/CamShiftConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/ContourMomentsConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/ContourMomentsConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/ConvexHullConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/ConvexHullConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/EdgeDetectionConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/EdgeDetectionConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/FaceDetectionConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/FaceDetectionConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/FBackFlowConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/FBackFlowConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/FindContoursConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/FindContoursConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/GeneralContoursConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/GeneralContoursConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/GoodfeatureTrackConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/GoodfeatureTrackConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/HoughCirclesConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/HoughCirclesConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/HoughLinesConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/HoughLinesConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/LKFlowConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/LKFlowConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/PeopleDetectConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/PeopleDetectConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/PhaseCorrConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/PhaseCorrConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/SegmentObjectsConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/SegmentObjectsConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/SimpleFlowConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/SimpleFlowConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/WatershedSegmentationConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/cfg/WatershedSegmentationConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Circle.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Circle.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_CircleArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_CircleArray.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_CircleArrayStamped.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_CircleArrayStamped.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Contour.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Contour.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_ContourArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_ContourArray.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_ContourArrayStamped.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_ContourArrayStamped.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Face.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Face.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_FaceArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_FaceArray.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_FaceArrayStamped.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_FaceArrayStamped.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Flow.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Flow.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_FlowArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_FlowArray.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_FlowArrayStamped.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_FlowArrayStamped.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_FlowStamped.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_FlowStamped.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Line.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Line.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_LineArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_LineArray.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_LineArrayStamped.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_LineArrayStamped.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Moment.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Moment.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_MomentArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_MomentArray.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_MomentArrayStamped.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_MomentArrayStamped.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Point2D.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Point2D.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Point2DArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Point2DArray.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Point2DArrayStamped.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Point2DArrayStamped.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Point2DStamped.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Point2DStamped.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Rect.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Rect.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_RectArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_RectArray.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_RectArrayStamped.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_RectArrayStamped.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_RotatedRect.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_RotatedRect.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_RotatedRectArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_RotatedRectArray.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_RotatedRectArrayStamped.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_RotatedRectArrayStamped.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_RotatedRectStamped.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_RotatedRectStamped.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Size.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/opencv_apps/msg/_Size.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/opencv_apps.pc
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/cmake/opencv_apps-msg-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/cmake/opencv_appsConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/cmake/opencv_appsConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/package.xml
+-- Installing: /opt/ros/jade/lib/libopencv_apps.dylib
+-- Up-to-date: /opt/ros/jade/lib/opencv_apps/edge_detection
+-- Up-to-date: /opt/ros/jade/lib/opencv_apps/hough_lines
+-- Up-to-date: /opt/ros/jade/lib/opencv_apps/hough_circles
+-- Up-to-date: /opt/ros/jade/lib/opencv_apps/face_detection
+-- Up-to-date: /opt/ros/jade/lib/opencv_apps/goodfeature_track
+-- Up-to-date: /opt/ros/jade/lib/opencv_apps/camshift
+-- Up-to-date: /opt/ros/jade/lib/opencv_apps/simple_example
+-- Up-to-date: /opt/ros/jade/lib/opencv_apps/simple_compressed_example
+-- Up-to-date: /opt/ros/jade/lib/opencv_apps/fback_flow
+-- Up-to-date: /opt/ros/jade/lib/opencv_apps/lk_flow
+-- Up-to-date: /opt/ros/jade/lib/opencv_apps/people_detect
+-- Up-to-date: /opt/ros/jade/lib/opencv_apps/phase_corr
+-- Up-to-date: /opt/ros/jade/lib/opencv_apps/segment_objects
+-- Up-to-date: /opt/ros/jade/lib/opencv_apps/watershed_segmentation
+-- Up-to-date: /opt/ros/jade/share/opencv_apps/nodelet_plugins.xml
+[[36mopencv_apps[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/opencv_apps/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

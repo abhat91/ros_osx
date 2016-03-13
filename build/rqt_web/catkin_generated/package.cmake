@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rqt_web")
+set(rqt_web_MAINTAINER "Aaron Blasdel <ablasdel@gmail.com>")
+set(rqt_web_DEPRECATED "")
+set(rqt_web_VERSION "0.3.13")
+set(rqt_web_BUILD_DEPENDS )
+set(rqt_web_RUN_DEPENDS "python-rospkg" "qt_gui" "rospy" "rqt_gui" "rqt_gui_py")
+set(rqt_web_BUILDTOOL_DEPENDS "catkin")

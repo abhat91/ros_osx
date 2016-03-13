@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: pr2_description
+Description: Description of pr2_description
+Version: 1.11.9
+Cflags: 
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: xacro

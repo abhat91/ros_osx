@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rqt_reconfigure")
+set(rqt_reconfigure_MAINTAINER "Scott K Logan <logans@cottsay.net>")
+set(rqt_reconfigure_DEPRECATED "")
+set(rqt_reconfigure_VERSION "0.3.13")
+set(rqt_reconfigure_BUILD_DEPENDS )
+set(rqt_reconfigure_RUN_DEPENDS "dynamic_reconfigure" "rospy" "rqt_console" "rqt_gui" "rqt_gui_py" "rqt_py_common")
+set(rqt_reconfigure_BUILDTOOL_DEPENDS "catkin")

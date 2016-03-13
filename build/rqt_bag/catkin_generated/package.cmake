@@ -1,0 +1,8 @@
+set(_CATKIN_CURRENT_PACKAGE "rqt_bag")
+set(rqt_bag_RUN_DEPENDS_rqt_gui_VERSION_GTE "0.2.12")
+set(rqt_bag_VERSION "0.3.13")
+set(rqt_bag_MAINTAINER "Aaron Blasdel <ablasdel@gmail.com>, Austin Hendrix <namniart@gmail.com>")
+set(rqt_bag_BUILD_DEPENDS )
+set(rqt_bag_RUN_DEPENDS "python-rospkg" "rosbag" "rosgraph_msgs" "roslib" "rospy" "rqt_gui" "rqt_gui_py")
+set(rqt_bag_DEPRECATED "")
+set(rqt_bag_BUILDTOOL_DEPENDS "catkin")

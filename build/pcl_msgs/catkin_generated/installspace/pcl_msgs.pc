@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: pcl_msgs
+Description: Description of pcl_msgs
+Version: 0.2.0
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib 
+Requires: message_runtime sensor_msgs std_msgs

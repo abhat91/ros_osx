@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "robot")
+set(robot_MAINTAINER "Dirk Thomas <dthomas@osrfoundation.org>")
+set(robot_DEPRECATED "")
+set(robot_VERSION "1.2.0")
+set(robot_BUILD_DEPENDS )
+set(robot_RUN_DEPENDS "ros_base" "control_msgs" "diagnostics" "executive_smach" "filters" "geometry" "robot_model" "robot_state_publisher" "xacro")
+set(robot_BUILDTOOL_DEPENDS "catkin")

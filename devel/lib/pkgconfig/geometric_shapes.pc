@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: geometric_shapes
+Description: Description of geometric_shapes
+Version: 0.4.4
+Cflags: -I/Users/adityabhat/Downloads/src/geometric_shapes/include -I/opt/ros/jade/include -I/usr/local/Cellar/eigen/3.2.8/include/eigen3 -I/usr/local/Cellar/console_bridge/0.2.5/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -lgeometric_shapes -l:/opt/ros/jade/lib/liboctomap.dylib -l:/opt/ros/jade/lib/liboctomath.dylib -l:/usr/local/lib/libconsole_bridge.dylib
+Requires: shape_msgs random_numbers eigen_stl_containers visualization_msgs

@@ -1,0 +1,13 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/image_geometry.pc
+/opt/ros/jade/share/image_geometry/cmake/image_geometryConfig.cmake
+/opt/ros/jade/share/image_geometry/cmake/image_geometryConfig-version.cmake
+/opt/ros/jade/share/image_geometry/package.xml
+/opt/ros/jade/include/image_geometry//pinhole_camera_model.h
+/opt/ros/jade/include/image_geometry//stereo_camera_model.h
+/opt/ros/jade/lib/libimage_geometry.dylib

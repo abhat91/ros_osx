@@ -1,0 +1,14 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/rospy.pc
+/opt/ros/jade/share/rospy/cmake/rospyConfig.cmake
+/opt/ros/jade/share/rospy/cmake/rospyConfig-version.cmake
+/opt/ros/jade/share/rospy/package.xml
+/opt/ros/jade/share/rospy/rosbuild/rospy.cmake
+/opt/ros/jade/share/rospy/rosbuild/scripts/genmsg_py.py
+/opt/ros/jade/share/rospy/rosbuild/scripts/gensrv_py.py
+/opt/ros/jade/share/rospy/rosbuild/scripts/genutil.py

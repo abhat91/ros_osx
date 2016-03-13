@@ -1,0 +1,111 @@
+[[36minteractive_marker_tutorials[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/interactive_marker_tutorials/build_env.sh /usr/local/bin/cmake /Users/adityabhat/Downloads/src/visualization_tutorials/interactive_marker_tutorials -DCATKIN_DEVEL_PREFIX=/Users/adityabhat/Downloads/devel -DCMAKE_INSTALL_PREFIX=/opt/ros/jade -DCMAKE_BUILD_TYPE=Release -DPYTHON_LIBRARY=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib -DPYTHON_INCLUDE_DIR=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/include/python2.7[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/interactive_marker_tutorials[0m'[0m
+[36m-- [0mThe C compiler identification is AppleClang 7.0.2.7000181
+[0m[36m-- [0mThe CXX compiler identification is AppleClang 7.0.2.7000181
+[0m[36m-- [0mCheck for working C compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+[0m[0m[36m-- [0mCheck for working C compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
+[0m[0m[36m-- [0mDetecting C compiler ABI info
+[0m[36m-- [0mDetecting C compiler ABI info - done
+[0m[36m-- [0mDetecting C compile features
+[0m[36m-- [0mDetecting C compile features - done
+[0m[36m-- [0mCheck for working CXX compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+[0m[0m[36m-- [0mCheck for working CXX compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -- works
+[0m[0m[36m-- [0mDetecting CXX compiler ABI info
+[0m[36m-- [0mDetecting CXX compiler ABI info - done
+[0m[36m-- [0mDetecting CXX compile features
+[0m[36m-- [0mDetecting CXX compile features - done
+[0m[36m-- [0mUsing CATKIN_DEVEL_PREFIX:[33m /Users/adityabhat/Downloads/devel
+[0m[0m[36m-- [0mUsing CMAKE_PREFIX_PATH:[33m /opt/ros/jade
+[0m[0m[36m-- [0mThis workspace overlays:[33m /opt/ros/jade
+[0m[0m[36m-- [0mFound PythonInterp:[33m /usr/bin/python (found version "2.7.10") 
+[0m[0m[36m-- [0mUsing PYTHON_EXECUTABLE:[33m /usr/bin/python
+[0m[0m[36m-- [0mUsing default Python package layout
+[0m[36m-- [0mFound PY_em:[33m /usr/local/lib/python2.7/site-packages/em.pyc  
+[0m[0m[36m-- [0mUsing empy:[33m /usr/local/lib/python2.7/site-packages/em.pyc
+[0m[0m[36m-- [0mUsing CATKIN_ENABLE_TESTING:[33m ON
+[0m[0m[36m-- [0mCall enable_testing()
+[0m[36m-- [0mUsing CATKIN_TEST_RESULTS_DIR:[33m /Users/adityabhat/Downloads/build/interactive_marker_tutorials/test_results
+[0m[0m[36m-- [0mFound gtest:[33m gtests will be built
+[0m[0m[33m[1mCMake Warning[0m at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+[0m  nosetests not found, Python tests can not be run (try installing package
+[0m  'python-nose')
+[0m[36m[4mCall Stack (most recent call first):[0m
+[0m  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+[0m  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+[0m  CMakeLists.txt:4 (find_package)
+[0m
+[0m
+[0m[36m-- [0mcatkin 0.6.16
+[0m[36m-- [0mUsing these message generators:[33m gencpp;geneus;genlisp;genpy
+[0m[0m[36m-- [0mConfiguring done
+[0m[36m-- [0mGenerating done
+[0m[33m[1mCMake Warning[0m:
+[0m  Manually-specified variables were not used by the project:
+[0m
+[0m    PYTHON_INCLUDE_DIR
+[0m    PYTHON_LIBRARY
+[0m
+[0m
+[0m[36m-- [0mBuild files have been written to:[33m /Users/adityabhat/Downloads/build/interactive_marker_tutorials
+[0m[0m[[36minteractive_marker_tutorials[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/interactive_marker_tutorials/build_env.sh /usr/local/bin/cmake /Users/adityabhat/Downloads/src/visualization_tutorials/interactive_marker_tutorials -DCATKIN_DEVEL_PREFIX=/Users/adityabhat/Downloads/devel -DCMAKE_INSTALL_PREFIX=/opt/ros/jade -DCMAKE_BUILD_TYPE=Release -DPYTHON_LIBRARY=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib -DPYTHON_INCLUDE_DIR=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/include/python2.7[0m' finished with return code '[1m0[0m'[0m
+[[36minteractive_marker_tutorials[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/interactive_marker_tutorials/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/interactive_marker_tutorials[0m'[0m
+[35m[1mScanning dependencies of target pong[0m
+[35m[1mScanning dependencies of target menu[0m
+[35m[1mScanning dependencies of target point_cloud[0m
+[35m[1mScanning dependencies of target cube[0m
+[  7%] [32mBuilding CXX object CMakeFiles/cube.dir/src/cube.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/point_cloud.dir/src/point_cloud.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/pong.dir/src/pong.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/menu.dir/src/menu.cpp.o[0m
+[ 35%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/interactive_marker_tutorials/point_cloud[0m
+[ 35%] Built target point_cloud
+[ 42%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/interactive_marker_tutorials/cube[0m
+[35m[1mScanning dependencies of target selection[0m
+[ 42%] Built target cube
+[35m[1mScanning dependencies of target basic_controls[0m
+[ 50%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/interactive_marker_tutorials/pong[0m
+[ 50%] Built target pong
+[35m[1mScanning dependencies of target simple_marker[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/selection.dir/src/selection.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/simple_marker.dir/src/simple_marker.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/basic_controls.dir/src/basic_controls.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/interactive_marker_tutorials/menu[0m
+[ 78%] Built target menu
+[ 85%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/interactive_marker_tutorials/simple_marker[0m
+[ 85%] Built target simple_marker
+[ 92%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/interactive_marker_tutorials/selection[0m
+[ 92%] Built target selection
+[100%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/interactive_marker_tutorials/basic_controls[0m
+[100%] Built target basic_controls
+[[36minteractive_marker_tutorials[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/interactive_marker_tutorials/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36minteractive_marker_tutorials[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/interactive_marker_tutorials/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/interactive_marker_tutorials[0m'[0m
+[ 14%] Built target point_cloud
+[ 28%] Built target menu
+[ 42%] Built target cube
+[ 57%] Built target pong
+[ 71%] Built target selection
+[ 85%] Built target basic_controls
+[100%] Built target simple_marker
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Installing: /opt/ros/jade/lib/pkgconfig/interactive_marker_tutorials.pc
+-- Installing: /opt/ros/jade/share/interactive_marker_tutorials/cmake/interactive_marker_tutorialsConfig.cmake
+-- Installing: /opt/ros/jade/share/interactive_marker_tutorials/cmake/interactive_marker_tutorialsConfig-version.cmake
+-- Installing: /opt/ros/jade/share/interactive_marker_tutorials/package.xml
+-- Installing: /opt/ros/jade/lib/interactive_marker_tutorials/basic_controls.py
+-- Installing: /opt/ros/jade/lib/interactive_marker_tutorials/cube.py
+-- Installing: /opt/ros/jade/lib/interactive_marker_tutorials/menu.py
+-- Installing: /opt/ros/jade/lib/interactive_marker_tutorials/simple_marker.py
+-- Installing: /opt/ros/jade/lib/interactive_marker_tutorials/simple_marker
+-- Installing: /opt/ros/jade/lib/interactive_marker_tutorials/basic_controls
+-- Installing: /opt/ros/jade/lib/interactive_marker_tutorials/selection
+-- Installing: /opt/ros/jade/lib/interactive_marker_tutorials/pong
+-- Installing: /opt/ros/jade/lib/interactive_marker_tutorials/cube
+-- Installing: /opt/ros/jade/lib/interactive_marker_tutorials/menu
+-- Installing: /opt/ros/jade/lib/interactive_marker_tutorials/point_cloud
+[[36minteractive_marker_tutorials[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/interactive_marker_tutorials/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

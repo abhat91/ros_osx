@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: tf2_geometry_msgs
+Description: Description of tf2_geometry_msgs
+Version: 0.5.12
+Cflags: -I/Users/adityabhat/Downloads/src/geometry_experimental/tf2_geometry_msgs/include -I/usr/local/include -I/usr/local/include/eigen3 -I/opt/ros/jade/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -l:/opt/ros/jade/lib/liborocos-kdl.dylib -l:/opt/ros/jade/lib/liborocos-kdl.1.3.0.dylib
+Requires: geometry_msgs tf2_ros tf2

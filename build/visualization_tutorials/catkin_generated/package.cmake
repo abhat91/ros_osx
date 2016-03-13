@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "visualization_tutorials")
+set(visualization_tutorials_MAINTAINER "William Woodall <william@osrfoundation.org>")
+set(visualization_tutorials_DEPRECATED "")
+set(visualization_tutorials_VERSION "0.9.2")
+set(visualization_tutorials_BUILD_DEPENDS )
+set(visualization_tutorials_RUN_DEPENDS "interactive_marker_tutorials" "librviz_tutorial" "rviz_plugin_tutorials" "rviz_python_tutorial" "visualization_marker_tutorials")
+set(visualization_tutorials_BUILDTOOL_DEPENDS "catkin")

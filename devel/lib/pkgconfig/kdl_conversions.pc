@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: kdl_conversions
+Description: Description of kdl_conversions
+Version: 1.11.7
+Cflags: -I/Users/adityabhat/Downloads/src/geometry/kdl_conversions/include -I/usr/local/include -I/usr/local/include/eigen3 -I/opt/ros/jade/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -lkdl_conversions -l:/opt/ros/jade/lib/liborocos-kdl.1.3.0.dylib
+Requires: geometry_msgs

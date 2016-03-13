@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: std_srvs
+Description: Description of std_srvs
+Version: 1.11.1
+Cflags: -I/Users/adityabhat/Downloads/devel/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: message_runtime

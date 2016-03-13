@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/opencv_apps_generate_messages_py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_MomentArray.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_Face.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_Moment.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_Flow.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_Line.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_ContourArrayStamped.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_Size.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_RotatedRect.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_Circle.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_FaceArrayStamped.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_FaceArray.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_Point2DArray.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_RotatedRectArray.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_LineArrayStamped.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_RectArrayStamped.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_CircleArray.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_FlowStamped.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_Rect.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_Contour.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_Point2DStamped.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_Point2DArrayStamped.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_MomentArrayStamped.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_LineArray.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_FlowArrayStamped.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_RotatedRectArrayStamped.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_ContourArray.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_Point2D.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_CircleArrayStamped.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_RectArray.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_RotatedRectStamped.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/_FlowArray.py"
+  "/Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/opencv_apps/msg/__init__.py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/opencv_apps_generate_messages_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

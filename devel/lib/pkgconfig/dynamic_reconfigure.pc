@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: dynamic_reconfigure
+Description: Description of dynamic_reconfigure
+Version: 1.5.39
+Cflags: -I/Users/adityabhat/Downloads/devel/include -I/Users/adityabhat/Downloads/src/dynamic_reconfigure/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -ldynamic_reconfigure_config_init_mutex
+Requires: message_runtime std_msgs

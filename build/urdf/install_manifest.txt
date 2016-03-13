@@ -1,0 +1,12 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/urdf.pc
+/opt/ros/jade/share/urdf/cmake/urdfConfig.cmake
+/opt/ros/jade/share/urdf/cmake/urdfConfig-version.cmake
+/opt/ros/jade/share/urdf/package.xml
+/opt/ros/jade/lib/liburdf.dylib
+/opt/ros/jade/include/urdf/model.h

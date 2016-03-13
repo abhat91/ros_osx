@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: opencv_apps
+Description: Description of opencv_apps
+Version: 1.11.11
+Cflags: -I/Users/adityabhat/Downloads/devel/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: 

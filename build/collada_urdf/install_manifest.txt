@@ -1,0 +1,14 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/collada_urdf.pc
+/opt/ros/jade/share/collada_urdf/cmake/collada_urdfConfig.cmake
+/opt/ros/jade/share/collada_urdf/cmake/collada_urdfConfig-version.cmake
+/opt/ros/jade/share/collada_urdf/package.xml
+/opt/ros/jade/lib/libcollada_urdf.dylib
+/opt/ros/jade/lib/collada_urdf/urdf_to_collada
+/opt/ros/jade/lib/collada_urdf/collada_to_urdf
+/opt/ros/jade/include/collada_urdf/collada_urdf.h

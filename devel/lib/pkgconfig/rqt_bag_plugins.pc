@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: rqt_bag_plugins
+Description: Description of rqt_bag_plugins
+Version: 0.3.13
+Cflags: 
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: 

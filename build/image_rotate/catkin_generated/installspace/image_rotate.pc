@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: image_rotate
+Description: Description of image_rotate
+Version: 1.12.15
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib 
+Requires: 

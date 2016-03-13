@@ -1,0 +1,8 @@
+set(_CATKIN_CURRENT_PACKAGE "tf2_kdl")
+set(tf2_kdl_VERSION "0.5.12")
+set(tf2_kdl_MAINTAINER "Tully Foote <tfoote@osrfoundation.org>")
+set(tf2_kdl_BUILD_DEPENDS "cmake_modules" "eigen" "orocos_kdl" "tf2" "tf2_ros")
+set(tf2_kdl_RUN_DEPENDS "cmake_modules" "eigen" "orocos_kdl" "tf2" "tf2_ros")
+set(tf2_kdl_DEPRECATED "")
+set(tf2_kdl_BUILDTOOL_DEPENDS "catkin")
+set(tf2_kdl_BUILDTOOL_DEPENDS_catkin_VERSION_GTE "0.5.68")

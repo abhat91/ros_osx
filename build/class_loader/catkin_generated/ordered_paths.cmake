@@ -1,0 +1,1 @@
+set(ORDERED_PATHS "/Users/adityabhat/Downloads/src/class_loader/include;/usr/local/include;/usr/local/Cellar/console_bridge/0.2.5/include")

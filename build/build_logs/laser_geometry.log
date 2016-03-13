@@ -1,0 +1,86 @@
+[[36mlaser_geometry[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/laser_geometry/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/laser_geometry[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/laser_geometry/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:4 (find_package)
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- Boost version: 1.60.0
+-- Found the following Boost libraries:
+--   system
+--   thread
+--   chrono
+--   date_time
+--   atomic
+CMake Warning at /Users/adityabhat/Downloads/src/cmake_modules/cmake/Modules/FindEigen.cmake:62 (message):
+  The FindEigen.cmake Module in the cmake_modules package is deprecated.
+
+  Please use the FindEigen3.cmake Module provided with Eigen.  Change
+  instances of find_package(Eigen) to find_package(Eigen3).  Check the
+  FindEigen3.cmake Module for the resulting CMake variable names.
+
+Call Stack (most recent call first):
+  CMakeLists.txt:16 (find_package)
+
+
+-- Eigen found (include: /usr/local/Cellar/eigen/3.2.8/include/eigen3)
+-- skipping nosetests(test/projection_test.py) in project 'laser_geometry'
+-- Configuring done
+CMake Warning (dev):
+  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  MACOSX_RPATH is not specified for the following targets:
+
+   laser_geometry
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/laser_geometry
+[[36mlaser_geometry[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/laser_geometry/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mlaser_geometry[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/laser_geometry/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/laser_geometry[0m'[0m
+[100%] Built target laser_geometry
+[[36mlaser_geometry[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/laser_geometry/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mlaser_geometry[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/laser_geometry/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/laser_geometry[0m'[0m
+[100%] Built target laser_geometry
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
++ cd /Users/adityabhat/Downloads/src/laser_geometry
++ /usr/bin/env PYTHONPATH=/opt/ros/jade/lib/python2.7/site-packages:/Users/adityabhat/Downloads/build/laser_geometry/lib/python2.7/site-packages:/opt/ros/jade/lib/python2.7/site-packages CATKIN_BINARY_DIR=/Users/adityabhat/Downloads/build/laser_geometry /usr/bin/python /Users/adityabhat/Downloads/src/laser_geometry/setup.py build --build-base /Users/adityabhat/Downloads/build/laser_geometry install --prefix=/opt/ros/jade --install-scripts=/opt/ros/jade/bin
+running build
+running build_py
+running install
+running install_lib
+running install_egg_info
+Removing /opt/ros/jade/lib/python2.7/site-packages/laser_geometry-1.6.4-py2.7.egg-info
+Writing /opt/ros/jade/lib/python2.7/site-packages/laser_geometry-1.6.4-py2.7.egg-info
+-- Installing: /opt/ros/jade/lib/pkgconfig/laser_geometry.pc
+-- Up-to-date: /opt/ros/jade/share/laser_geometry/cmake/laser_geometryConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/laser_geometry/cmake/laser_geometryConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/laser_geometry/package.xml
+-- Installing: /opt/ros/jade/lib/liblaser_geometry.dylib
+-- Up-to-date: /opt/ros/jade/include/laser_geometry
+-- Up-to-date: /opt/ros/jade/include/laser_geometry/laser_geometry.h
+[[36mlaser_geometry[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/laser_geometry/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

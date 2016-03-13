@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: std_msgs
+Description: Description of std_msgs
+Version: 0.5.9
+Cflags: -I/Users/adityabhat/Downloads/devel/include -I/Users/adityabhat/Downloads/src/std_msgs/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: message_runtime

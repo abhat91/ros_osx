@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: smclib
+Description: Description of smclib
+Version: 1.7.16
+Cflags: -I/Users/adityabhat/Downloads/src/bond_core/smclib/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: 

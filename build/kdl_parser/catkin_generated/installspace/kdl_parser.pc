@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: kdl_parser
+Description: Description of kdl_parser
+Version: 1.11.10
+Cflags: -I/opt/ros/jade/include -I/usr/local/include -I/usr/local/include/eigen3
+Libs: -L/opt/ros/jade/lib -lkdl_parser -l:/opt/ros/jade/lib/liborocos-kdl.dylib -l:/opt/ros/jade/lib/liborocos-kdl.1.3.0.dylib -l:/usr/local/lib/libtinyxml.dylib
+Requires: roscpp rosconsole urdf

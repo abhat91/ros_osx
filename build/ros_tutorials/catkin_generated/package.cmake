@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ros_tutorials")
+set(ros_tutorials_MAINTAINER "Dirk Thomas <dthomas@osrfoundation.org>")
+set(ros_tutorials_DEPRECATED "")
+set(ros_tutorials_VERSION "0.6.1")
+set(ros_tutorials_BUILD_DEPENDS )
+set(ros_tutorials_RUN_DEPENDS "roscpp_tutorials" "rospy_tutorials" "turtlesim")
+set(ros_tutorials_BUILDTOOL_DEPENDS "catkin")

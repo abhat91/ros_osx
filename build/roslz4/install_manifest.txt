@@ -1,0 +1,13 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/roslz4.pc
+/opt/ros/jade/share/roslz4/cmake/roslz4Config.cmake
+/opt/ros/jade/share/roslz4/cmake/roslz4Config-version.cmake
+/opt/ros/jade/share/roslz4/package.xml
+/opt/ros/jade/lib/libroslz4.dylib
+/opt/ros/jade/lib/python2.7/site-packages/roslz4/_roslz4.so
+/opt/ros/jade/include/roslz4/lz4s.h

@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: self_test
+Description: Description of self_test
+Version: 1.8.7
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib 
+Requires: diagnostic_msgs diagnostic_updater roscpp

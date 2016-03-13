@@ -1,0 +1,13 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/rostest.pc
+/opt/ros/jade/share/rostest/cmake/rostest-extras.cmake
+/opt/ros/jade/share/rostest/cmake/rostestConfig.cmake
+/opt/ros/jade/share/rostest/cmake/rostestConfig-version.cmake
+/opt/ros/jade/share/rostest/package.xml
+/opt/ros/jade/share/rostest/nodes/hztest/hztest
+/opt/ros/jade/include/rostest/permuter.h

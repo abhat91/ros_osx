@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "desktop")
+set(desktop_MAINTAINER "Dirk Thomas <dthomas@osrfoundation.org>")
+set(desktop_DEPRECATED "")
+set(desktop_VERSION "1.2.0")
+set(desktop_BUILD_DEPENDS )
+set(desktop_RUN_DEPENDS "robot" "viz" "common_tutorials" "geometry_tutorials" "ros_tutorials" "roslint" "rqt_common_plugins" "rqt_robot_plugins" "urdf_tutorial" "visualization_tutorials")
+set(desktop_BUILDTOOL_DEPENDS "catkin")

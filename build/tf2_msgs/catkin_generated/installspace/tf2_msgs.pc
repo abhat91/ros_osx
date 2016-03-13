@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: tf2_msgs
+Description: Description of tf2_msgs
+Version: 0.5.12
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib 
+Requires: message_generation geometry_msgs actionlib_msgs

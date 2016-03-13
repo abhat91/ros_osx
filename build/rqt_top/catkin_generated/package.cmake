@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rqt_top")
+set(rqt_top_MAINTAINER "Dan Lazewatsky <dan@lazewatsky.com>")
+set(rqt_top_DEPRECATED "")
+set(rqt_top_VERSION "0.3.13")
+set(rqt_top_BUILD_DEPENDS )
+set(rqt_top_RUN_DEPENDS "python-psutil" "rospy" "rqt_gui" "rqt_gui_py")
+set(rqt_top_BUILDTOOL_DEPENDS "catkin")

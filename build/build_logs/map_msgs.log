@@ -1,0 +1,205 @@
+[[36mmap_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/map_msgs/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/map_msgs[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/map_msgs/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:4 (find_package)
+
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- map_msgs: 4 messages, 6 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/map_msgs
+[[36mmap_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/map_msgs/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mmap_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/map_msgs/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/map_msgs[0m'[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _map_msgs_generate_messages_check_deps_GetPointMapROI
+[  0%] Built target _map_msgs_generate_messages_check_deps_ProjectedMapsInfo
+[  0%] Built target _map_msgs_generate_messages_check_deps_PointCloud2Update
+[  0%] Built target _map_msgs_generate_messages_check_deps_ProjectedMap
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target _map_msgs_generate_messages_check_deps_GetPointMap
+[  0%] Built target _map_msgs_generate_messages_check_deps_ProjectedMapInfo
+[  0%] Built target _map_msgs_generate_messages_check_deps_GetMapROI
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _map_msgs_generate_messages_check_deps_SaveMap
+[  0%] Built target _map_msgs_generate_messages_check_deps_OccupancyGridUpdate
+[  0%] Built target _map_msgs_generate_messages_check_deps_SetMapProjections
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_lisp
+[ 65%] Built target map_msgs_generate_messages_py
+[ 69%] Built target map_msgs_generate_messages_eus
+[ 76%] Built target map_msgs_generate_messages_cpp
+[100%] Built target map_msgs_generate_messages_lisp
+[100%] Built target map_msgs_generate_messages
+[[36mmap_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/map_msgs/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mmap_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/map_msgs/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/map_msgs[0m'[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _map_msgs_generate_messages_check_deps_ProjectedMapsInfo
+[  0%] Built target _map_msgs_generate_messages_check_deps_GetPointMapROI
+[  0%] Built target _map_msgs_generate_messages_check_deps_PointCloud2Update
+[  0%] Built target _map_msgs_generate_messages_check_deps_ProjectedMap
+[  0%] Built target _map_msgs_generate_messages_check_deps_GetPointMap
+[  0%] Built target _map_msgs_generate_messages_check_deps_ProjectedMapInfo
+[  0%] Built target _map_msgs_generate_messages_check_deps_GetMapROI
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target _map_msgs_generate_messages_check_deps_OccupancyGridUpdate
+[  0%] Built target _map_msgs_generate_messages_check_deps_SaveMap
+[  0%] Built target _map_msgs_generate_messages_check_deps_SetMapProjections
+[ 23%] Built target map_msgs_generate_messages_cpp
+[ 23%] Built target sensor_msgs_generate_messages_py
+[ 23%] Built target nav_msgs_generate_messages_py
+[ 23%] Built target std_msgs_generate_messages_py
+[ 51%] Built target map_msgs_generate_messages_py
+[ 51%] Built target sensor_msgs_generate_messages_eus
+[ 51%] Built target std_msgs_generate_messages_eus
+[ 51%] Built target nav_msgs_generate_messages_eus
+[ 76%] Built target map_msgs_generate_messages_eus
+[ 76%] Built target std_msgs_generate_messages_lisp
+[ 76%] Built target sensor_msgs_generate_messages_lisp
+[ 76%] Built target nav_msgs_generate_messages_lisp
+[100%] Built target map_msgs_generate_messages_lisp
+[100%] Built target map_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/share/map_msgs/msg/OccupancyGridUpdate.msg
+-- Up-to-date: /opt/ros/jade/share/map_msgs/msg/PointCloud2Update.msg
+-- Up-to-date: /opt/ros/jade/share/map_msgs/msg/ProjectedMapInfo.msg
+-- Up-to-date: /opt/ros/jade/share/map_msgs/msg/ProjectedMap.msg
+-- Up-to-date: /opt/ros/jade/share/map_msgs/srv/GetMapROI.srv
+-- Up-to-date: /opt/ros/jade/share/map_msgs/srv/GetPointMapROI.srv
+-- Up-to-date: /opt/ros/jade/share/map_msgs/srv/GetPointMap.srv
+-- Up-to-date: /opt/ros/jade/share/map_msgs/srv/ProjectedMapsInfo.srv
+-- Up-to-date: /opt/ros/jade/share/map_msgs/srv/SaveMap.srv
+-- Up-to-date: /opt/ros/jade/share/map_msgs/srv/SetMapProjections.srv
+-- Up-to-date: /opt/ros/jade/share/map_msgs/cmake/map_msgs-msg-paths.cmake
+-- Up-to-date: /opt/ros/jade/include/map_msgs
+-- Up-to-date: /opt/ros/jade/include/map_msgs/GetMapROI.h
+-- Up-to-date: /opt/ros/jade/include/map_msgs/GetMapROIRequest.h
+-- Up-to-date: /opt/ros/jade/include/map_msgs/GetMapROIResponse.h
+-- Up-to-date: /opt/ros/jade/include/map_msgs/GetPointMap.h
+-- Up-to-date: /opt/ros/jade/include/map_msgs/GetPointMapRequest.h
+-- Up-to-date: /opt/ros/jade/include/map_msgs/GetPointMapResponse.h
+-- Up-to-date: /opt/ros/jade/include/map_msgs/GetPointMapROI.h
+-- Up-to-date: /opt/ros/jade/include/map_msgs/GetPointMapROIRequest.h
+-- Up-to-date: /opt/ros/jade/include/map_msgs/GetPointMapROIResponse.h
+-- Up-to-date: /opt/ros/jade/include/map_msgs/OccupancyGridUpdate.h
+-- Up-to-date: /opt/ros/jade/include/map_msgs/PointCloud2Update.h
+-- Up-to-date: /opt/ros/jade/include/map_msgs/ProjectedMap.h
+-- Up-to-date: /opt/ros/jade/include/map_msgs/ProjectedMapInfo.h
+-- Up-to-date: /opt/ros/jade/include/map_msgs/ProjectedMapsInfo.h
+-- Up-to-date: /opt/ros/jade/include/map_msgs/ProjectedMapsInfoRequest.h
+-- Up-to-date: /opt/ros/jade/include/map_msgs/ProjectedMapsInfoResponse.h
+-- Up-to-date: /opt/ros/jade/include/map_msgs/SaveMap.h
+-- Up-to-date: /opt/ros/jade/include/map_msgs/SaveMapRequest.h
+-- Up-to-date: /opt/ros/jade/include/map_msgs/SaveMapResponse.h
+-- Up-to-date: /opt/ros/jade/include/map_msgs/SetMapProjections.h
+-- Up-to-date: /opt/ros/jade/include/map_msgs/SetMapProjectionsRequest.h
+-- Up-to-date: /opt/ros/jade/include/map_msgs/SetMapProjectionsResponse.h
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/map_msgs
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/map_msgs/manifest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/map_msgs/msg
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/map_msgs/msg/OccupancyGridUpdate.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/map_msgs/msg/PointCloud2Update.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/map_msgs/msg/ProjectedMap.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/map_msgs/msg/ProjectedMapInfo.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/map_msgs/srv
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/map_msgs/srv/GetMapROI.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/map_msgs/srv/GetPointMap.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/map_msgs/srv/GetPointMapROI.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/map_msgs/srv/ProjectedMapsInfo.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/map_msgs/srv/SaveMap.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/map_msgs/srv/SetMapProjections.l
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/msg
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/msg/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/msg/_package_OccupancyGridUpdate.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/msg/_package_PointCloud2Update.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/msg/_package_ProjectedMap.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/msg/_package_ProjectedMapInfo.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/msg/map_msgs-msg.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/msg/OccupancyGridUpdate.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/msg/PointCloud2Update.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/msg/ProjectedMap.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/msg/ProjectedMapInfo.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/srv
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/srv/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/srv/_package_GetMapROI.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/srv/_package_GetPointMap.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/srv/_package_GetPointMapROI.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/srv/_package_ProjectedMapsInfo.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/srv/_package_SaveMap.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/srv/_package_SetMapProjections.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/srv/GetMapROI.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/srv/GetPointMap.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/srv/GetPointMapROI.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/srv/map_msgs-srv.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/srv/ProjectedMapsInfo.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/srv/SaveMap.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/map_msgs/srv/SetMapProjections.lisp
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/map_msgs ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/map_msgs/msg ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/map_msgs/srv ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/msg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/msg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/msg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/msg/_OccupancyGridUpdate.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/msg/_OccupancyGridUpdate.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/msg/_PointCloud2Update.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/msg/_PointCloud2Update.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/msg/_ProjectedMap.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/msg/_ProjectedMap.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/msg/_ProjectedMapInfo.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/msg/_ProjectedMapInfo.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/srv
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/srv/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/srv/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/srv/_GetMapROI.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/srv/_GetMapROI.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/srv/_GetPointMap.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/srv/_GetPointMap.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/srv/_GetPointMapROI.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/srv/_GetPointMapROI.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/srv/_ProjectedMapsInfo.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/srv/_ProjectedMapsInfo.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/srv/_SaveMap.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/srv/_SaveMap.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/srv/_SetMapProjections.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/map_msgs/srv/_SetMapProjections.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/map_msgs.pc
+-- Up-to-date: /opt/ros/jade/share/map_msgs/cmake/map_msgs-msg-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/map_msgs/cmake/map_msgsConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/map_msgs/cmake/map_msgsConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/map_msgs/package.xml
+[[36mmap_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/map_msgs/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

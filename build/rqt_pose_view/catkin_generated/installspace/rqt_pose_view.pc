@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: rqt_pose_view
+Description: Description of rqt_pose_view
+Version: 0.4.3
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: 

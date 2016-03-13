@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: turtlesim
+Description: Description of turtlesim
+Version: 0.6.1
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib 
+Requires: geometry_msgs message_runtime std_msgs std_srvs

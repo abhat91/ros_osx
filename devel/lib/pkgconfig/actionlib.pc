@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: actionlib
+Description: Description of actionlib
+Version: 1.11.4
+Cflags: -I/Users/adityabhat/Downloads/devel/include -I/Users/adityabhat/Downloads/src/actionlib/include -I/usr/local/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -lactionlib -l:/usr/local/lib/libboost_thread-mt.dylib -l:/usr/local/lib/libboost_chrono-mt.dylib -l:/usr/local/lib/libboost_system-mt.dylib -l:/usr/local/lib/libboost_date_time-mt.dylib -l:/usr/local/lib/libboost_atomic-mt.dylib
+Requires: actionlib_msgs message_runtime roscpp std_msgs

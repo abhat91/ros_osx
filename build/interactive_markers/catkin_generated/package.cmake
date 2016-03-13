@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "interactive_markers")
+set(interactive_markers_MAINTAINER "William Woodall <william@osrfoundation.org>")
+set(interactive_markers_DEPRECATED "")
+set(interactive_markers_VERSION "1.11.1")
+set(interactive_markers_BUILD_DEPENDS "rosconsole" "roscpp" "rospy" "rostest" "std_msgs" "tf" "visualization_msgs")
+set(interactive_markers_RUN_DEPENDS "rosconsole" "roscpp" "rospy" "rostest" "std_msgs" "tf" "visualization_msgs")
+set(interactive_markers_BUILDTOOL_DEPENDS "catkin")

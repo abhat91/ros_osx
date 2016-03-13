@@ -1,0 +1,47 @@
+[[36mmessage_filters[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/message_filters/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/message_filters[0m'[0m
+[[36mmessage_filters[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/message_filters/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mmessage_filters[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/message_filters/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/message_filters[0m'[0m
+[100%] Built target message_filters
+[[36mmessage_filters[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/message_filters/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mmessage_filters[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/message_filters/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/message_filters[0m'[0m
+[100%] Built target message_filters
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/lib/pkgconfig/message_filters.pc
+-- Up-to-date: /opt/ros/jade/share/message_filters/cmake/message_filtersConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/message_filters/cmake/message_filtersConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/message_filters/package.xml
++ cd /Users/adityabhat/Downloads/src/ros_comm/message_filters
++ /usr/bin/env PYTHONPATH=/opt/ros/jade/lib/python2.7/site-packages:/Users/adityabhat/Downloads/build/message_filters/lib/python2.7/site-packages:/opt/ros/jade/lib/python2.7/site-packages CATKIN_BINARY_DIR=/Users/adityabhat/Downloads/build/message_filters /usr/bin/python /Users/adityabhat/Downloads/src/ros_comm/message_filters/setup.py build --build-base /Users/adityabhat/Downloads/build/message_filters install --prefix=/opt/ros/jade --install-scripts=/opt/ros/jade/bin
+running build
+running build_py
+running install
+running install_lib
+running install_egg_info
+Removing /opt/ros/jade/lib/python2.7/site-packages/message_filters-1.11.16-py2.7.egg-info
+Writing /opt/ros/jade/lib/python2.7/site-packages/message_filters-1.11.16-py2.7.egg-info
+-- Installing: /opt/ros/jade/lib/libmessage_filters.dylib
+-- Up-to-date: /opt/ros/jade/include/message_filters
+-- Up-to-date: /opt/ros/jade/include/message_filters/cache.h
+-- Up-to-date: /opt/ros/jade/include/message_filters/chain.h
+-- Up-to-date: /opt/ros/jade/include/message_filters/connection.h
+-- Up-to-date: /opt/ros/jade/include/message_filters/macros.h
+-- Up-to-date: /opt/ros/jade/include/message_filters/null_types.h
+-- Up-to-date: /opt/ros/jade/include/message_filters/pass_through.h
+-- Up-to-date: /opt/ros/jade/include/message_filters/signal1.h
+-- Up-to-date: /opt/ros/jade/include/message_filters/signal9.h
+-- Up-to-date: /opt/ros/jade/include/message_filters/simple_filter.h
+-- Up-to-date: /opt/ros/jade/include/message_filters/subscriber.h
+-- Up-to-date: /opt/ros/jade/include/message_filters/sync_policies
+-- Up-to-date: /opt/ros/jade/include/message_filters/sync_policies/approximate_time.h
+-- Up-to-date: /opt/ros/jade/include/message_filters/sync_policies/exact_time.h
+-- Up-to-date: /opt/ros/jade/include/message_filters/synchronizer.h
+-- Up-to-date: /opt/ros/jade/include/message_filters/time_sequencer.h
+-- Up-to-date: /opt/ros/jade/include/message_filters/time_synchronizer.h
+[[36mmessage_filters[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/message_filters/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

@@ -1,0 +1,245 @@
+[[36mnav_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/nav_msgs/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/nav_msgs[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/nav_msgs/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:4 (find_package)
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- Generating .msg files for action nav_msgs/GetMap /Users/adityabhat/Downloads/src/common_msgs/nav_msgs/action/GetMap.action
+-- nav_msgs: 12 messages, 3 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/nav_msgs
+[[36mnav_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/nav_msgs/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mnav_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/nav_msgs/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/nav_msgs[0m'[0m
+[  0%] Built target _nav_msgs_generate_messages_check_deps_Path
+[  0%] Built target _nav_msgs_generate_messages_check_deps_GetMapActionResult
+[  0%] Built target _nav_msgs_generate_messages_check_deps_GetMapGoal
+[  0%] Built target _nav_msgs_generate_messages_check_deps_GetMapFeedback
+[  0%] Built target _nav_msgs_generate_messages_check_deps_GetMapActionFeedback
+[  0%] Built target _nav_msgs_generate_messages_check_deps_GridCells
+[  0%] Built target _nav_msgs_generate_messages_check_deps_GetMapResult
+[  0%] Built target _nav_msgs_generate_messages_check_deps_GetMapActionGoal
+[  0%] Built target _nav_msgs_generate_messages_check_deps_GetMap
+[  0%] Built target _nav_msgs_generate_messages_check_deps_SetMap
+[  0%] Built target _nav_msgs_generate_messages_check_deps_OccupancyGrid
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target _nav_msgs_generate_messages_check_deps_GetMapAction
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _nav_msgs_generate_messages_check_deps_MapMetaData
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target _nav_msgs_generate_messages_check_deps_GetPlan
+[  0%] Built target _nav_msgs_generate_messages_check_deps_Odometry
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[ 25%] Built target nav_msgs_generate_messages_eus
+[ 49%] Built target nav_msgs_generate_messages_cpp
+[ 76%] Built target nav_msgs_generate_messages_py
+[100%] Built target nav_msgs_generate_messages_lisp
+[100%] Built target nav_msgs_generate_messages
+[[36mnav_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/nav_msgs/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mnav_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/nav_msgs/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/nav_msgs[0m'[0m
+[  0%] Built target _nav_msgs_generate_messages_check_deps_Path
+[  0%] Built target _nav_msgs_generate_messages_check_deps_GetMapActionResult
+[  0%] Built target _nav_msgs_generate_messages_check_deps_GetMapGoal
+[  0%] Built target _nav_msgs_generate_messages_check_deps_GetMapFeedback
+[  0%] Built target _nav_msgs_generate_messages_check_deps_GetMapActionFeedback
+[  0%] Built target _nav_msgs_generate_messages_check_deps_GridCells
+[  0%] Built target _nav_msgs_generate_messages_check_deps_GetMapResult
+[  0%] Built target _nav_msgs_generate_messages_check_deps_GetMapActionGoal
+[  0%] Built target _nav_msgs_generate_messages_check_deps_GetMap
+[  0%] Built target _nav_msgs_generate_messages_check_deps_SetMap
+[  0%] Built target _nav_msgs_generate_messages_check_deps_OccupancyGrid
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target _nav_msgs_generate_messages_check_deps_GetMapAction
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _nav_msgs_generate_messages_check_deps_MapMetaData
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target _nav_msgs_generate_messages_check_deps_GetPlan
+[  0%] Built target _nav_msgs_generate_messages_check_deps_Odometry
+[ 25%] Built target nav_msgs_generate_messages_eus
+[ 25%] Built target geometry_msgs_generate_messages_cpp
+[ 25%] Built target actionlib_msgs_generate_messages_cpp
+[ 25%] Built target std_msgs_generate_messages_cpp
+[ 49%] Built target nav_msgs_generate_messages_cpp
+[ 49%] Built target actionlib_msgs_generate_messages_py
+[ 49%] Built target std_msgs_generate_messages_py
+[ 49%] Built target geometry_msgs_generate_messages_py
+[ 76%] Built target nav_msgs_generate_messages_py
+[ 76%] Built target geometry_msgs_generate_messages_lisp
+[ 76%] Built target actionlib_msgs_generate_messages_lisp
+[ 76%] Built target std_msgs_generate_messages_lisp
+[100%] Built target nav_msgs_generate_messages_lisp
+[100%] Built target nav_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/share/nav_msgs/msg/GridCells.msg
+-- Up-to-date: /opt/ros/jade/share/nav_msgs/msg/MapMetaData.msg
+-- Up-to-date: /opt/ros/jade/share/nav_msgs/msg/OccupancyGrid.msg
+-- Up-to-date: /opt/ros/jade/share/nav_msgs/msg/Odometry.msg
+-- Up-to-date: /opt/ros/jade/share/nav_msgs/msg/Path.msg
+-- Up-to-date: /opt/ros/jade/share/nav_msgs/srv/GetMap.srv
+-- Up-to-date: /opt/ros/jade/share/nav_msgs/srv/GetPlan.srv
+-- Up-to-date: /opt/ros/jade/share/nav_msgs/srv/SetMap.srv
+-- Up-to-date: /opt/ros/jade/share/nav_msgs/action/GetMap.action
+-- Up-to-date: /opt/ros/jade/share/nav_msgs/msg/GetMapAction.msg
+-- Up-to-date: /opt/ros/jade/share/nav_msgs/msg/GetMapActionGoal.msg
+-- Up-to-date: /opt/ros/jade/share/nav_msgs/msg/GetMapActionResult.msg
+-- Up-to-date: /opt/ros/jade/share/nav_msgs/msg/GetMapActionFeedback.msg
+-- Up-to-date: /opt/ros/jade/share/nav_msgs/msg/GetMapGoal.msg
+-- Up-to-date: /opt/ros/jade/share/nav_msgs/msg/GetMapResult.msg
+-- Up-to-date: /opt/ros/jade/share/nav_msgs/msg/GetMapFeedback.msg
+-- Up-to-date: /opt/ros/jade/share/nav_msgs/cmake/nav_msgs-msg-paths.cmake
+-- Up-to-date: /opt/ros/jade/include/nav_msgs
+-- Up-to-date: /opt/ros/jade/include/nav_msgs/GetMap.h
+-- Up-to-date: /opt/ros/jade/include/nav_msgs/GetMapAction.h
+-- Up-to-date: /opt/ros/jade/include/nav_msgs/GetMapActionFeedback.h
+-- Up-to-date: /opt/ros/jade/include/nav_msgs/GetMapActionGoal.h
+-- Up-to-date: /opt/ros/jade/include/nav_msgs/GetMapActionResult.h
+-- Up-to-date: /opt/ros/jade/include/nav_msgs/GetMapFeedback.h
+-- Up-to-date: /opt/ros/jade/include/nav_msgs/GetMapGoal.h
+-- Up-to-date: /opt/ros/jade/include/nav_msgs/GetMapRequest.h
+-- Up-to-date: /opt/ros/jade/include/nav_msgs/GetMapResponse.h
+-- Up-to-date: /opt/ros/jade/include/nav_msgs/GetMapResult.h
+-- Up-to-date: /opt/ros/jade/include/nav_msgs/GetPlan.h
+-- Up-to-date: /opt/ros/jade/include/nav_msgs/GetPlanRequest.h
+-- Up-to-date: /opt/ros/jade/include/nav_msgs/GetPlanResponse.h
+-- Up-to-date: /opt/ros/jade/include/nav_msgs/GridCells.h
+-- Up-to-date: /opt/ros/jade/include/nav_msgs/MapMetaData.h
+-- Up-to-date: /opt/ros/jade/include/nav_msgs/OccupancyGrid.h
+-- Up-to-date: /opt/ros/jade/include/nav_msgs/Odometry.h
+-- Up-to-date: /opt/ros/jade/include/nav_msgs/Path.h
+-- Up-to-date: /opt/ros/jade/include/nav_msgs/SetMap.h
+-- Up-to-date: /opt/ros/jade/include/nav_msgs/SetMapRequest.h
+-- Up-to-date: /opt/ros/jade/include/nav_msgs/SetMapResponse.h
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nav_msgs
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nav_msgs/manifest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nav_msgs/msg
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nav_msgs/msg/GetMapAction.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nav_msgs/msg/GetMapActionFeedback.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nav_msgs/msg/GetMapActionGoal.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nav_msgs/msg/GetMapActionResult.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nav_msgs/msg/GetMapFeedback.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nav_msgs/msg/GetMapGoal.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nav_msgs/msg/GetMapResult.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nav_msgs/msg/GridCells.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nav_msgs/msg/MapMetaData.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nav_msgs/msg/OccupancyGrid.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nav_msgs/msg/Odometry.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nav_msgs/msg/Path.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nav_msgs/srv
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nav_msgs/srv/GetMap.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nav_msgs/srv/GetPlan.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nav_msgs/srv/SetMap.l
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/_package_GetMapAction.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/_package_GetMapActionFeedback.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/_package_GetMapActionGoal.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/_package_GetMapActionResult.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/_package_GetMapFeedback.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/_package_GetMapGoal.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/_package_GetMapResult.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/_package_GridCells.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/_package_MapMetaData.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/_package_OccupancyGrid.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/_package_Odometry.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/_package_Path.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/GetMapAction.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/GetMapActionFeedback.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/GetMapActionGoal.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/GetMapActionResult.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/GetMapFeedback.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/GetMapGoal.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/GetMapResult.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/GridCells.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/MapMetaData.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/nav_msgs-msg.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/OccupancyGrid.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/Odometry.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/msg/Path.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/srv
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/srv/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/srv/_package_GetMap.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/srv/_package_GetPlan.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/srv/_package_SetMap.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/srv/GetMap.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/srv/GetPlan.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/srv/nav_msgs-srv.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nav_msgs/srv/SetMap.lisp
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/nav_msgs ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/nav_msgs/msg ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/nav_msgs/srv ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_GetMapAction.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_GetMapAction.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_GetMapActionFeedback.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_GetMapActionFeedback.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_GetMapActionGoal.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_GetMapActionGoal.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_GetMapActionResult.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_GetMapActionResult.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_GetMapFeedback.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_GetMapFeedback.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_GetMapGoal.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_GetMapGoal.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_GetMapResult.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_GetMapResult.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_GridCells.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_GridCells.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_MapMetaData.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_MapMetaData.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_OccupancyGrid.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_OccupancyGrid.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_Odometry.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_Odometry.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_Path.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/msg/_Path.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/srv
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/srv/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/srv/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/srv/_GetMap.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/srv/_GetMap.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/srv/_GetPlan.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/srv/_GetPlan.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/srv/_SetMap.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nav_msgs/srv/_SetMap.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/nav_msgs.pc
+-- Up-to-date: /opt/ros/jade/share/nav_msgs/cmake/nav_msgs-msg-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/nav_msgs/cmake/nav_msgsConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/nav_msgs/cmake/nav_msgsConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/nav_msgs/package.xml
+[[36mnav_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/nav_msgs/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

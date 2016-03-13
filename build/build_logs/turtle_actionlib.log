@@ -1,0 +1,214 @@
+[[36mturtle_actionlib[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/turtle_actionlib/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/turtle_actionlib[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/turtle_actionlib/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:5 (find_package)
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- Generating .msg files for action turtle_actionlib/Shape /Users/adityabhat/Downloads/src/common_tutorials/turtle_actionlib/action/Shape.action
+-- turtle_actionlib: 8 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/turtle_actionlib
+[[36mturtle_actionlib[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/turtle_actionlib/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mturtle_actionlib[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/turtle_actionlib/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/turtle_actionlib[0m'[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target _turtle_actionlib_generate_messages_check_deps_ShapeResult
+[  0%] Built target _turtle_actionlib_generate_messages_check_deps_ShapeActionGoal
+[  0%] Built target _turtle_actionlib_generate_messages_check_deps_ShapeAction
+[  0%] Built target _turtle_actionlib_generate_messages_check_deps_Velocity
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _turtle_actionlib_generate_messages_check_deps_ShapeActionFeedback
+[  0%] Built target _turtle_actionlib_generate_messages_check_deps_ShapeFeedback
+[  0%] Built target _turtle_actionlib_generate_messages_check_deps_ShapeGoal
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target _turtle_actionlib_generate_messages_check_deps_ShapeActionResult
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target turtlesim_generate_messages_cpp
+[  0%] Built target turtlesim_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target turtlesim_generate_messages_py
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target turtlesim_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[ 23%] Built target turtle_actionlib_generate_messages_eus
+[ 44%] Built target turtle_actionlib_generate_messages_cpp
+[ 89%] Built target turtle_actionlib_generate_messages_lisp
+[ 89%] Built target turtle_actionlib_generate_messages_py
+[ 89%] Built target turtle_actionlib_generate_messages
+[100%] Built target shape_server
+[100%] Built target shape_client
+[[36mturtle_actionlib[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/turtle_actionlib/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mturtle_actionlib[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/turtle_actionlib/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/turtle_actionlib[0m'[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target _turtle_actionlib_generate_messages_check_deps_ShapeResult
+[  0%] Built target _turtle_actionlib_generate_messages_check_deps_ShapeAction
+[  0%] Built target _turtle_actionlib_generate_messages_check_deps_ShapeActionGoal
+[  0%] Built target _turtle_actionlib_generate_messages_check_deps_Velocity
+[  0%] Built target _turtle_actionlib_generate_messages_check_deps_ShapeFeedback
+[  0%] Built target _turtle_actionlib_generate_messages_check_deps_ShapeActionFeedback
+[  0%] Built target _turtle_actionlib_generate_messages_check_deps_ShapeGoal
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _turtle_actionlib_generate_messages_check_deps_ShapeActionResult
+[ 23%] Built target turtle_actionlib_generate_messages_eus
+[ 23%] Built target actionlib_msgs_generate_messages_cpp
+[ 23%] Built target std_msgs_generate_messages_cpp
+[ 44%] Built target turtle_actionlib_generate_messages_cpp
+[ 44%] Built target actionlib_msgs_generate_messages_lisp
+[ 44%] Built target std_srvs_generate_messages_lisp
+[ 44%] Built target roscpp_generate_messages_py
+[ 44%] Built target std_srvs_generate_messages_eus
+[ 44%] Built target std_srvs_generate_messages_py
+[ 44%] Built target std_srvs_generate_messages_cpp
+[ 44%] Built target actionlib_generate_messages_py
+[ 44%] Built target geometry_msgs_generate_messages_eus
+[ 44%] Built target actionlib_msgs_generate_messages_py
+[ 44%] Built target geometry_msgs_generate_messages_lisp
+[ 44%] Built target turtlesim_generate_messages_eus
+[ 44%] Built target turtlesim_generate_messages_cpp
+[ 44%] Built target rosgraph_msgs_generate_messages_py
+[ 44%] Built target turtlesim_generate_messages_py
+[ 44%] Built target rosgraph_msgs_generate_messages_eus
+[ 44%] Built target actionlib_generate_messages_lisp
+[ 44%] Built target roscpp_generate_messages_eus
+[ 44%] Built target std_msgs_generate_messages_py
+[ 68%] Built target turtle_actionlib_generate_messages_py
+[ 68%] Built target roscpp_generate_messages_cpp
+[ 68%] Built target std_msgs_generate_messages_lisp
+[ 89%] Built target turtle_actionlib_generate_messages_lisp
+[ 89%] Built target turtlesim_generate_messages_lisp
+[ 89%] Built target actionlib_generate_messages_cpp
+[ 89%] Built target rosgraph_msgs_generate_messages_cpp
+[ 89%] Built target actionlib_generate_messages_eus
+[ 89%] Built target geometry_msgs_generate_messages_cpp
+[ 89%] Built target roscpp_generate_messages_lisp
+[ 89%] Built target rosgraph_msgs_generate_messages_lisp
+[ 94%] Built target shape_client
+[100%] Built target shape_server
+[100%] Built target turtle_actionlib_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/share/turtle_actionlib/msg/Velocity.msg
+-- Up-to-date: /opt/ros/jade/share/turtle_actionlib/action/Shape.action
+-- Up-to-date: /opt/ros/jade/share/turtle_actionlib/msg/ShapeAction.msg
+-- Up-to-date: /opt/ros/jade/share/turtle_actionlib/msg/ShapeActionGoal.msg
+-- Up-to-date: /opt/ros/jade/share/turtle_actionlib/msg/ShapeActionResult.msg
+-- Up-to-date: /opt/ros/jade/share/turtle_actionlib/msg/ShapeActionFeedback.msg
+-- Up-to-date: /opt/ros/jade/share/turtle_actionlib/msg/ShapeGoal.msg
+-- Up-to-date: /opt/ros/jade/share/turtle_actionlib/msg/ShapeResult.msg
+-- Up-to-date: /opt/ros/jade/share/turtle_actionlib/msg/ShapeFeedback.msg
+-- Up-to-date: /opt/ros/jade/share/turtle_actionlib/cmake/turtle_actionlib-msg-paths.cmake
+-- Up-to-date: /opt/ros/jade/include/turtle_actionlib
+-- Up-to-date: /opt/ros/jade/include/turtle_actionlib/ShapeAction.h
+-- Up-to-date: /opt/ros/jade/include/turtle_actionlib/ShapeActionFeedback.h
+-- Up-to-date: /opt/ros/jade/include/turtle_actionlib/ShapeActionGoal.h
+-- Up-to-date: /opt/ros/jade/include/turtle_actionlib/ShapeActionResult.h
+-- Up-to-date: /opt/ros/jade/include/turtle_actionlib/ShapeFeedback.h
+-- Up-to-date: /opt/ros/jade/include/turtle_actionlib/ShapeGoal.h
+-- Up-to-date: /opt/ros/jade/include/turtle_actionlib/ShapeResult.h
+-- Up-to-date: /opt/ros/jade/include/turtle_actionlib/Velocity.h
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/turtle_actionlib
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/turtle_actionlib/manifest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/turtle_actionlib/msg
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/turtle_actionlib/msg/ShapeAction.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/turtle_actionlib/msg/ShapeActionFeedback.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/turtle_actionlib/msg/ShapeActionGoal.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/turtle_actionlib/msg/ShapeActionResult.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/turtle_actionlib/msg/ShapeFeedback.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/turtle_actionlib/msg/ShapeGoal.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/turtle_actionlib/msg/ShapeResult.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/turtle_actionlib/msg/Velocity.l
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtle_actionlib
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtle_actionlib/msg
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtle_actionlib/msg/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtle_actionlib/msg/_package_ShapeAction.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtle_actionlib/msg/_package_ShapeActionFeedback.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtle_actionlib/msg/_package_ShapeActionGoal.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtle_actionlib/msg/_package_ShapeActionResult.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtle_actionlib/msg/_package_ShapeFeedback.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtle_actionlib/msg/_package_ShapeGoal.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtle_actionlib/msg/_package_ShapeResult.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtle_actionlib/msg/_package_Velocity.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtle_actionlib/msg/ShapeAction.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtle_actionlib/msg/ShapeActionFeedback.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtle_actionlib/msg/ShapeActionGoal.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtle_actionlib/msg/ShapeActionResult.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtle_actionlib/msg/ShapeFeedback.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtle_actionlib/msg/ShapeGoal.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtle_actionlib/msg/ShapeResult.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtle_actionlib/msg/turtle_actionlib-msg.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtle_actionlib/msg/Velocity.lisp
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/turtle_actionlib ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/turtle_actionlib/msg ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtle_actionlib
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtle_actionlib/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtle_actionlib/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtle_actionlib/msg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtle_actionlib/msg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtle_actionlib/msg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtle_actionlib/msg/_ShapeAction.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtle_actionlib/msg/_ShapeAction.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtle_actionlib/msg/_ShapeActionFeedback.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtle_actionlib/msg/_ShapeActionFeedback.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtle_actionlib/msg/_ShapeActionGoal.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtle_actionlib/msg/_ShapeActionGoal.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtle_actionlib/msg/_ShapeActionResult.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtle_actionlib/msg/_ShapeActionResult.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtle_actionlib/msg/_ShapeFeedback.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtle_actionlib/msg/_ShapeFeedback.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtle_actionlib/msg/_ShapeGoal.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtle_actionlib/msg/_ShapeGoal.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtle_actionlib/msg/_ShapeResult.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtle_actionlib/msg/_ShapeResult.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtle_actionlib/msg/_Velocity.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtle_actionlib/msg/_Velocity.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/turtle_actionlib.pc
+-- Up-to-date: /opt/ros/jade/share/turtle_actionlib/cmake/turtle_actionlib-msg-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/turtle_actionlib/cmake/turtle_actionlibConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/turtle_actionlib/cmake/turtle_actionlibConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/turtle_actionlib/package.xml
+-- Up-to-date: /opt/ros/jade/lib/turtle_actionlib/shape_server
+-- Up-to-date: /opt/ros/jade/lib/turtle_actionlib/shape_client
+[[36mturtle_actionlib[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/turtle_actionlib/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

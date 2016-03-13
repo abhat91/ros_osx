@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "viz")
+set(viz_MAINTAINER "Dirk Thomas <dthomas@osrfoundation.org>")
+set(viz_DEPRECATED "")
+set(viz_VERSION "1.2.0")
+set(viz_BUILD_DEPENDS )
+set(viz_RUN_DEPENDS "ros_base" "rqt_common_plugins" "rqt_robot_plugins" "rviz")
+set(viz_BUILDTOOL_DEPENDS "catkin")

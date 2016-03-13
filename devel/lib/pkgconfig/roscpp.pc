@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: roscpp
+Description: Description of roscpp
+Version: 1.11.16
+Cflags: -I/Users/adityabhat/Downloads/devel/include -I/Users/adityabhat/Downloads/src/ros_comm/roscpp/include -I/Users/adityabhat/Downloads/devel/include/ros -I/usr/local/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -lroscpp -l:/usr/local/lib/libboost_signals-mt.dylib -l:/usr/local/lib/libboost_filesystem-mt.dylib -l:/usr/local/lib/libboost_system-mt.dylib
+Requires: cpp_common message_runtime rosconsole roscpp_serialization roscpp_traits rosgraph_msgs rostime std_msgs xmlrpcpp

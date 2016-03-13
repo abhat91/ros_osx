@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: roslib
+Description: Description of roslib
+Version: 1.12.5
+Cflags: -I/Users/adityabhat/Downloads/src/ros/roslib/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -lroslib
+Requires: 

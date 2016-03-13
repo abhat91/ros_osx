@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: camera_calibration_parsers
+Description: Description of camera_calibration_parsers
+Version: 1.11.10
+Cflags: -I/Users/adityabhat/Downloads/src/image_common/camera_calibration_parsers/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -lcamera_calibration_parsers
+Requires: sensor_msgs

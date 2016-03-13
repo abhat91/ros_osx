@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: message_runtime
+Description: Description of message_runtime
+Version: 0.4.12
+Cflags: 
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: cpp_common roscpp_serialization roscpp_traits rostime

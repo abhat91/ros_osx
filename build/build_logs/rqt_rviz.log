@@ -1,0 +1,147 @@
+[[36mrqt_rviz[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/rqt_rviz/build_env.sh /usr/local/bin/cmake /Users/adityabhat/Downloads/src/rqt_robot_plugins/rqt_rviz -DCATKIN_DEVEL_PREFIX=/Users/adityabhat/Downloads/devel -DCMAKE_INSTALL_PREFIX=/opt/ros/jade -DCMAKE_BUILD_TYPE=Release -DPYTHON_LIBRARY=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib -DPYTHON_INCLUDE_DIR=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/include/python2.7[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/rqt_rviz[0m'[0m
+[36m-- [0mThe C compiler identification is AppleClang 7.0.2.7000181
+[0m[36m-- [0mThe CXX compiler identification is AppleClang 7.0.2.7000181
+[0m[36m-- [0mCheck for working C compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+[0m[0m[36m-- [0mCheck for working C compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
+[0m[0m[36m-- [0mDetecting C compiler ABI info
+[0m[36m-- [0mDetecting C compiler ABI info - done
+[0m[36m-- [0mDetecting C compile features
+[0m[36m-- [0mDetecting C compile features - done
+[0m[36m-- [0mCheck for working CXX compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+[0m[0m[36m-- [0mCheck for working CXX compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -- works
+[0m[0m[36m-- [0mDetecting CXX compiler ABI info
+[0m[36m-- [0mDetecting CXX compiler ABI info - done
+[0m[36m-- [0mDetecting CXX compile features
+[0m[36m-- [0mDetecting CXX compile features - done
+[0m[36m-- [0mBoost version:[33m 1.60.0
+[0m[0m[36m-- [0mFound the following Boost libraries:[33m
+[0m[0m[36m-- [0m  program_options
+[0m[36m-- [0mUsing CATKIN_DEVEL_PREFIX:[33m /Users/adityabhat/Downloads/devel
+[0m[0m[36m-- [0mUsing CMAKE_PREFIX_PATH:[33m /opt/ros/jade
+[0m[0m[36m-- [0mThis workspace overlays:[33m /opt/ros/jade
+[0m[0m[36m-- [0mFound PythonInterp:[33m /usr/bin/python (found version "2.7.10") 
+[0m[0m[36m-- [0mUsing PYTHON_EXECUTABLE:[33m /usr/bin/python
+[0m[0m[36m-- [0mUsing default Python package layout
+[0m[36m-- [0mFound PY_em:[33m /usr/local/lib/python2.7/site-packages/em.pyc  
+[0m[0m[36m-- [0mUsing empy:[33m /usr/local/lib/python2.7/site-packages/em.pyc
+[0m[0m[36m-- [0mUsing CATKIN_ENABLE_TESTING:[33m ON
+[0m[0m[36m-- [0mCall enable_testing()
+[0m[36m-- [0mUsing CATKIN_TEST_RESULTS_DIR:[33m /Users/adityabhat/Downloads/build/rqt_rviz/test_results
+[0m[0m[36m-- [0mFound gtest:[33m gtests will be built
+[0m[0m[33m[1mCMake Warning[0m at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+[0m  nosetests not found, Python tests can not be run (try installing package
+[0m  'python-nose')
+[0m[36m[4mCall Stack (most recent call first):[0m
+[0m  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+[0m  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+[0m  CMakeLists.txt:9 (find_package)
+[0m
+[0m[36m-- [0mcatkin 0.6.16
+[0m[36m-- [0mUsing these message generators:[33m gencpp;geneus;genlisp;genpy
+[0m[0m[36m-- [0mLooking for Q_WS_X11
+[0m[36m-- [0mLooking for Q_WS_X11 - not found
+[0m[36m-- [0mLooking for Q_WS_WIN
+[0m[36m-- [0mLooking for Q_WS_WIN - not found
+[0m[36m-- [0mLooking for Q_WS_QWS
+[0m[36m-- [0mLooking for Q_WS_QWS - not found
+[0m[36m-- [0mLooking for Q_WS_MAC
+[0m[36m-- [0mLooking for Q_WS_MAC - found
+[0m[36m-- [0mLooking for QT_MAC_USE_COCOA
+[0m[36m-- [0mLooking for QT_MAC_USE_COCOA - found
+[0m[36m-- [0mFound Qt4:[33m /usr/local/bin/qmake (found version "4.8.7") 
+[0m[0m[36m-- [0mChecking to see if CXX compiler accepts flag -Wl,--version-script,"/Users/adityabhat/Downloads/build/rqt_rviz/class_loader_hide_library_symbols__rqt_rviz.script"
+[0m[36m-- [0mChecking to see if CXX compiler accepts flag -Wl,--version-script,"/Users/adityabhat/Downloads/build/rqt_rviz/class_loader_hide_library_symbols__rqt_rviz.script" - no
+[0m[36m-- [0mConfiguring done
+[0m[33m[1mCMake Warning[0m (dev):
+[0m  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+[0m  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+[0m  set the policy and suppress this warning.
+[0m
+[0m  MACOSX_RPATH is not specified for the following targets:
+[0m
+[0m   rqt_rviz
+[0m
+[0mThis warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0m[36m-- [0mGenerating done
+[0m[33m[1mCMake Warning[0m:
+[0m  Manually-specified variables were not used by the project:
+[0m
+[0m    PYTHON_INCLUDE_DIR
+[0m    PYTHON_LIBRARY
+[0m
+[0m
+[0m[36m-- [0mBuild files have been written to:[33m /Users/adityabhat/Downloads/build/rqt_rviz
+[0m[0m[[36mrqt_rviz[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/rqt_rviz/build_env.sh /usr/local/bin/cmake /Users/adityabhat/Downloads/src/rqt_robot_plugins/rqt_rviz -DCATKIN_DEVEL_PREFIX=/Users/adityabhat/Downloads/devel -DCMAKE_INSTALL_PREFIX=/opt/ros/jade -DCMAKE_BUILD_TYPE=Release -DPYTHON_LIBRARY=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib -DPYTHON_INCLUDE_DIR=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/include/python2.7[0m' finished with return code '[1m0[0m'[0m
+[[36mrqt_rviz[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/rqt_rviz/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/rqt_rviz[0m'[0m
+[ 25%] [34m[1mGenerating include/rqt_rviz/moc_rviz.cxx[0m
+[35m[1mScanning dependencies of target rqt_rviz[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rqt_rviz.dir/src/rqt_rviz/rviz.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/rqt_rviz.dir/include/rqt_rviz/moc_rviz.cxx.o[0m
+In file included from /Users/adityabhat/Downloads/src/rqt_robot_plugins/rqt_rviz/src/rqt_rviz/rviz.cpp:33:
+In file included from /usr/local/include/OGRE/OgreLogManager.h:32:
+In file included from /usr/local/Cellar/ogre/1.7.4/include/OGRE/OgrePrerequisites.h:315:
+In file included from /usr/local/Cellar/ogre/1.7.4/include/OGRE/OgreStdHeaders.h:47:
+[1m/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ext/hash_map:212:5: [0m[0;1;35mwarning: [0m[1mUse of the header <ext/hash_map> is deprecated.  Migrate to <unordered_map> [-W#warnings][0m
+#   warning Use of the header <ext/hash_map> is deprecated.  Migrate to <unordered_map>
+[0;1;32m    ^
+[0mIn file included from /Users/adityabhat/Downloads/src/rqt_robot_plugins/rqt_rviz/src/rqt_rviz/rviz.cpp:33:
+In file included from /usr/local/include/OGRE/OgreLogManager.h:32:
+In file included from /usr/local/Cellar/ogre/1.7.4/include/OGRE/OgrePrerequisites.h:315:
+In file included from /usr/local/Cellar/ogre/1.7.4/include/OGRE/OgreStdHeaders.h:48:
+[1m/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ext/hash_set:205:5: [0m[0;1;35mwarning: [0m[1mUse of the header <ext/hash_set> is deprecated.  Migrate to <unordered_set> [-W#warnings][0m
+#   warning Use of the header <ext/hash_set> is deprecated.  Migrate to <unordered_set>
+[0;1;32m    ^
+[0mIn file included from /Users/adityabhat/Downloads/build/rqt_rviz/include/rqt_rviz/moc_rviz.cxx:9:
+In file included from /Users/adityabhat/Downloads/build/rqt_rviz/include/rqt_rviz/../../../../src/rqt_robot_plugins/rqt_rviz/include/rqt_rviz/rviz.h:38:
+In file included from /usr/local/include/OGRE/OgreLog.h:32:
+In file included from /usr/local/Cellar/ogre/1.7.4/include/OGRE/OgrePrerequisites.h:315:
+In file included from /usr/local/Cellar/ogre/1.7.4/include/OGRE/OgreStdHeaders.h:47:
+[1m/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ext/hash_map:212:5: [0m[0;1;35mwarning: [0m[1mUse of the header <ext/hash_map> is deprecated.  Migrate to <unordered_map> [-W#warnings][0m
+#   warning Use of the header <ext/hash_map> is deprecated.  Migrate to <unordered_map>
+[0;1;32m    ^
+[0mIn file included from /Users/adityabhat/Downloads/build/rqt_rviz/include/rqt_rviz/moc_rviz.cxx:9:
+In file included from /Users/adityabhat/Downloads/build/rqt_rviz/include/rqt_rviz/../../../../src/rqt_robot_plugins/rqt_rviz/include/rqt_rviz/rviz.h:38:
+In file included from /usr/local/include/OGRE/OgreLog.h:32:
+In file included from /usr/local/Cellar/ogre/1.7.4/include/OGRE/OgrePrerequisites.h:315:
+In file included from /usr/local/Cellar/ogre/1.7.4/include/OGRE/OgreStdHeaders.h:48:
+[1m/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ext/hash_set:205:5: [0m[0;1;35mwarning: [0m[1mUse of the header <ext/hash_set> is deprecated.  Migrate to <unordered_set> [-W#warnings][0m
+#   warning Use of the header <ext/hash_set> is deprecated.  Migrate to <unordered_set>
+[0;1;32m    ^
+[0m2 warnings generated.
+2 warnings generated.
+[100%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/librqt_rviz.dylib[0m
+[100%] Built target rqt_rviz
+[[36mrqt_rviz[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/rqt_rviz/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mrqt_rviz[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/rqt_rviz/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/rqt_rviz[0m'[0m
+[100%] Built target rqt_rviz
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Installing: /opt/ros/jade/lib/pkgconfig/rqt_rviz.pc
+-- Installing: /opt/ros/jade/share/rqt_rviz/cmake/rqt_rvizConfig.cmake
+-- Installing: /opt/ros/jade/share/rqt_rviz/cmake/rqt_rvizConfig-version.cmake
+-- Installing: /opt/ros/jade/share/rqt_rviz/package.xml
++ cd /Users/adityabhat/Downloads/src/rqt_robot_plugins/rqt_rviz
++ /usr/bin/env PYTHONPATH=/opt/ros/jade/lib/python2.7/site-packages:/Users/adityabhat/Downloads/build/rqt_rviz/lib/python2.7/site-packages:/opt/ros/jade/lib/python2.7/site-packages CATKIN_BINARY_DIR=/Users/adityabhat/Downloads/build/rqt_rviz /usr/bin/python /Users/adityabhat/Downloads/src/rqt_robot_plugins/rqt_rviz/setup.py build --build-base /Users/adityabhat/Downloads/build/rqt_rviz install --prefix=/opt/ros/jade --install-scripts=/opt/ros/jade/bin
+running build
+running build_py
+package init file 'src/rqt_rviz/__init__.py' not found (or not a regular file)
+package init file 'src/rqt_rviz/__init__.py' not found (or not a regular file)
+running install
+running install_lib
+warning: install_lib: '/Users/adityabhat/Downloads/build/rqt_rviz/lib' does not exist -- no Python modules to install
+
+running install_egg_info
+Writing /opt/ros/jade/lib/python2.7/site-packages/rqt_rviz-0.4.3-py2.7.egg-info
+-- Installing: /opt/ros/jade/share/rqt_rviz/plugin.xml
+-- Installing: /opt/ros/jade/lib/librqt_rviz.dylib
+-- Installing: /opt/ros/jade/lib/rqt_rviz/rqt_rviz
+-- Installing: /opt/ros/jade/include/rqt_rviz
+-- Installing: /opt/ros/jade/include/rqt_rviz/rviz.h
+[[36mrqt_rviz[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/rqt_rviz/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

@@ -1,0 +1,122 @@
+[[36mcatkin[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/catkin/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/catkin[0m'[0m
+[[36mcatkin[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/catkin/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mcatkin[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/catkin/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/catkin[0m'[0m
+[[36mcatkin[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/catkin/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mcatkin[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/catkin/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/catkin[0m'[0m
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/etc/catkin/profile.d/05.catkin_make.bash
+-- Up-to-date: /opt/ros/jade/etc/catkin/profile.d/05.catkin_make_isolated.bash
+-- Up-to-date: /opt/ros/jade/lib/pkgconfig/catkin.pc
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/catkinConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/package.xml
+-- Up-to-date: /opt/ros/jade/share/catkin/LICENSE
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/all.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/assert.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/atomic_configure_file.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/catkin_add_env_hooks.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/catkin_destinations.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/catkin_download.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/catkin_generate_environment.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/catkin_install_python.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/catkin_libraries.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/catkin_metapackage.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/catkin_package.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/catkin_package_xml.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/catkin_python_setup.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/catkin_workspace.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/debug_message.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/em
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/em/order_packages.cmake.em
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/em/pkg.pc.em
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/em_expand.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/empy.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/env-hooks
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/env-hooks/05.catkin_make.bash
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/env-hooks/05.catkin_make_isolated.bash
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/find_program_required.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/interrogate_setup_dot_py.py
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/legacy.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/list_append_deduplicate.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/list_append_unique.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/list_insert_in_workspace_order.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/order_paths.py
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/parse_package_xml.py
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/platform
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/platform/lsb.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/platform/ubuntu.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/platform/windows.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/python.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/safe_execute_process.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/shell.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/stamp.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/string_starts_with.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/__init__.py.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/_setup_util.py.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/cfg-extras.context.py.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/Doxyfile.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/env-hook.context.py.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/env.bat.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/env.sh.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/generate_cached_setup.py.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/order_packages.context.py.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/pkg.context.pc.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/pkgConfig-version.cmake.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/pkgConfig.cmake.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/python_distutils_install.bat.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/python_distutils_install.sh.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/relay.py.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/rosinstall.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/safe_execute_install.cmake.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/script.bash.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/script.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/script.py.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/script.sh.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/setup.bash.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/setup.bat.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/setup.sh.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/templates/setup.zsh.in
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/test
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/test/catkin_download_test_data.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/test/download_checkmd5.py
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/test/gtest.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/test/remove_test_results.py
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/test/run_tests.py
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/test/tests.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/tools
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/tools/bz2.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/tools/doxygen.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/tools/libraries.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/tools/rt.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/tools/threads.cmake
+-- Up-to-date: /opt/ros/jade/share/catkin/cmake/toplevel.cmake
++ cd /Users/adityabhat/Downloads/src/catkin
++ /usr/bin/env PYTHONPATH=/opt/ros/jade/lib/python2.7/site-packages:/Users/adityabhat/Downloads/build/catkin/lib/python2.7/site-packages:/opt/ros/jade/lib/python2.7/site-packages CATKIN_BINARY_DIR=/Users/adityabhat/Downloads/build/catkin /usr/bin/python /Users/adityabhat/Downloads/src/catkin/setup.py build --build-base /Users/adityabhat/Downloads/build/catkin install --prefix=/opt/ros/jade --install-scripts=/opt/ros/jade/bin
+running build
+running build_py
+running build_scripts
+running install
+running install_lib
+running install_scripts
+changing mode of /opt/ros/jade/bin/catkin_find to 755
+changing mode of /opt/ros/jade/bin/catkin_init_workspace to 755
+changing mode of /opt/ros/jade/bin/catkin_make to 755
+changing mode of /opt/ros/jade/bin/catkin_make_isolated to 755
+changing mode of /opt/ros/jade/bin/catkin_package_version to 755
+changing mode of /opt/ros/jade/bin/catkin_prepare_release to 755
+changing mode of /opt/ros/jade/bin/catkin_test_results to 755
+changing mode of /opt/ros/jade/bin/catkin_topological_order to 755
+running install_egg_info
+Removing /opt/ros/jade/lib/python2.7/site-packages/catkin-0.6.16-py2.7.egg-info
+Writing /opt/ros/jade/lib/python2.7/site-packages/catkin-0.6.16-py2.7.egg-info
+[[36mcatkin[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/catkin/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: opencv_apps
+Description: Description of opencv_apps
+Version: 1.11.11
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib 
+Requires: 

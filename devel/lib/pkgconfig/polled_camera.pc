@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: polled_camera
+Description: Description of polled_camera
+Version: 1.11.10
+Cflags: -I/Users/adityabhat/Downloads/devel/include -I/Users/adityabhat/Downloads/src/image_common/polled_camera/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -lpolled_camera
+Requires: roscpp sensor_msgs

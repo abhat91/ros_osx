@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: angles
+Description: Description of angles
+Version: 1.9.10
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib 
+Requires: 

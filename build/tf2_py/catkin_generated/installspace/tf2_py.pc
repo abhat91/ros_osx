@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: tf2_py
+Description: Description of tf2_py
+Version: 0.5.12
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: rospy tf2

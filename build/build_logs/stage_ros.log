@@ -1,0 +1,218 @@
+[[36mstage_ros[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/stage_ros/build_env.sh /usr/local/bin/cmake /Users/adityabhat/Downloads/src/stage_ros -DCATKIN_DEVEL_PREFIX=/Users/adityabhat/Downloads/devel -DCMAKE_INSTALL_PREFIX=/opt/ros/jade -DCMAKE_BUILD_TYPE=Release -DPYTHON_LIBRARY=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib -DPYTHON_INCLUDE_DIR=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/include/python2.7[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/stage_ros[0m'[0m
+[36m-- [0mThe C compiler identification is AppleClang 7.0.2.7000181
+[0m[36m-- [0mThe CXX compiler identification is AppleClang 7.0.2.7000181
+[0m[36m-- [0mCheck for working C compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+[0m[0m[36m-- [0mCheck for working C compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
+[0m[0m[36m-- [0mDetecting C compiler ABI info
+[0m[36m-- [0mDetecting C compiler ABI info - done
+[0m[36m-- [0mDetecting C compile features
+[0m[36m-- [0mDetecting C compile features - done
+[0m[36m-- [0mCheck for working CXX compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+[0m[0m[36m-- [0mCheck for working CXX compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -- works
+[0m[0m[36m-- [0mDetecting CXX compiler ABI info
+[0m[36m-- [0mDetecting CXX compiler ABI info - done
+[0m[36m-- [0mDetecting CXX compile features
+[0m[36m-- [0mDetecting CXX compile features - done
+[0m[36m-- [0mUsing CATKIN_DEVEL_PREFIX:[33m /Users/adityabhat/Downloads/devel
+[0m[0m[36m-- [0mUsing CMAKE_PREFIX_PATH:[33m /opt/ros/jade
+[0m[0m[36m-- [0mThis workspace overlays:[33m /opt/ros/jade
+[0m[0m[36m-- [0mFound PythonInterp:[33m /usr/bin/python (found version "2.7.10") 
+[0m[0m[36m-- [0mUsing PYTHON_EXECUTABLE:[33m /usr/bin/python
+[0m[0m[36m-- [0mUsing default Python package layout
+[0m[36m-- [0mFound PY_em:[33m /usr/local/lib/python2.7/site-packages/em.pyc  
+[0m[0m[36m-- [0mUsing empy:[33m /usr/local/lib/python2.7/site-packages/em.pyc
+[0m[0m[36m-- [0mUsing CATKIN_ENABLE_TESTING:[33m ON
+[0m[0m[36m-- [0mCall enable_testing()
+[0m[36m-- [0mUsing CATKIN_TEST_RESULTS_DIR:[33m /Users/adityabhat/Downloads/build/stage_ros/test_results
+[0m[0m[36m-- [0mFound gtest:[33m gtests will be built
+[0m[0m[33m[1mCMake Warning[0m at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+[0m  nosetests not found, Python tests can not be run (try installing package
+[0m  'python-nose')
+[0m[36m[4mCall Stack (most recent call first):[0m
+[0m  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+[0m  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+[0m  CMakeLists.txt:4 (find_package)
+[0m
+[0m
+[0m[36m-- [0mcatkin 0.6.16
+[0m[36m-- [0mUsing these message generators:[33m gencpp;geneus;genlisp;genpy
+[0m[0m[36m-- [0mBoost version:[33m 1.60.0
+[0m[0m[36m-- [0mFound the following Boost libraries:[33m
+[0m[0m[36m-- [0m  system
+[0m[36m-- [0m  thread
+[0m[36m-- [0m  chrono
+[0m[36m-- [0m  date_time
+[0m[36m-- [0m  atomic
+[0m[36m-- [0mConfiguring done
+[0m[36m-- [0mGenerating done
+[0m[33m[1mCMake Warning[0m:
+[0m  Manually-specified variables were not used by the project:
+[0m
+[0m    PYTHON_INCLUDE_DIR
+[0m    PYTHON_LIBRARY
+[0m
+[0m
+[0m[36m-- [0mBuild files have been written to:[33m /Users/adityabhat/Downloads/build/stage_ros
+[0m[0m[[36mstage_ros[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/stage_ros/build_env.sh /usr/local/bin/cmake /Users/adityabhat/Downloads/src/stage_ros -DCATKIN_DEVEL_PREFIX=/Users/adityabhat/Downloads/devel -DCMAKE_INSTALL_PREFIX=/opt/ros/jade -DCMAKE_BUILD_TYPE=Release -DPYTHON_LIBRARY=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib -DPYTHON_INCLUDE_DIR=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/include/python2.7[0m' finished with return code '[1m0[0m'[0m
+[[36mstage_ros[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/stage_ros/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/stage_ros[0m'[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[  0%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[  0%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[  0%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[  0%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[  0%] Built target tf_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[  0%] Built target tf_generate_messages_lisp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[  0%] Built target std_srvs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[  0%] Built target std_srvs_generate_messages_eus
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[  0%] Built target tf_generate_messages_cpp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[  0%] Built target std_srvs_generate_messages_py
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[  0%] Built target nav_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[  0%] Built target std_srvs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[  0%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[  0%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[  0%] Built target nav_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[  0%] Built target tf_generate_messages_eus
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[  0%] Built target nav_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[  0%] Built target nav_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target stageros[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/stageros.dir/src/stageros.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/stage_ros/stageros[0m
+[100%] Built target stageros
+[[36mstage_ros[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/stage_ros/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mstage_ros[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/stage_ros/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/stage_ros[0m'[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_lisp
+[100%] Built target stageros
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Up-to-date: /opt/ros/jade/_setup_util.py
+-- Up-to-date: /opt/ros/jade/env.sh
+-- Up-to-date: /opt/ros/jade/setup.bash
+-- Up-to-date: /opt/ros/jade/setup.sh
+-- Up-to-date: /opt/ros/jade/setup.zsh
+-- Up-to-date: /opt/ros/jade/.rosinstall
+-- Installing: /opt/ros/jade/lib/pkgconfig/stage_ros.pc
+-- Installing: /opt/ros/jade/share/stage_ros/cmake/stage_rosConfig.cmake
+-- Installing: /opt/ros/jade/share/stage_ros/cmake/stage_rosConfig-version.cmake
+-- Installing: /opt/ros/jade/share/stage_ros/package.xml
+-- Installing: /opt/ros/jade/lib/stage_ros/upgrade-world.sh
+-- Installing: /opt/ros/jade/lib/stage_ros/stageros
+-- Installing: /opt/ros/jade/share/stage_ros/rviz
+-- Installing: /opt/ros/jade/share/stage_ros/rviz/stage.rviz
+-- Installing: /opt/ros/jade/share/stage_ros/world
+-- Installing: /opt/ros/jade/share/stage_ros/world/willow-erratic.world
+-- Installing: /opt/ros/jade/share/stage_ros/world/willow-four-erratics-multisensor.world
+-- Installing: /opt/ros/jade/share/stage_ros/world/willow-four-erratics.world
+-- Installing: /opt/ros/jade/share/stage_ros/world/willow-full.pgm
+[[36mstage_ros[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/stage_ros/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

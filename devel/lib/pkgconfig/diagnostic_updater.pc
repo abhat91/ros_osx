@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: diagnostic_updater
+Description: Description of diagnostic_updater
+Version: 1.8.7
+Cflags: -I/Users/adityabhat/Downloads/src/diagnostics/diagnostic_updater/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: diagnostic_msgs roscpp std_msgs

@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: laser_assembler
+Description: Description of laser_assembler
+Version: 1.7.3
+Cflags: -I/Users/adityabhat/Downloads/devel/include -I/Users/adityabhat/Downloads/src/laser_assembler/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: tf sensor_msgs message_filters roscpp laser_geometry filters message_runtime

@@ -1,0 +1,118 @@
+[[36moctomap[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/octomap/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/octomap[0m'[0m
+[[36moctomap[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/octomap/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36moctomap[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/octomap/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/octomap[0m'[0m
+[  5%] Built target octomath-static
+[ 10%] Built target octomath
+[ 25%] Built target octomap-static
+[ 39%] Built target octomap
+[ 42%] Built target octree2pointcloud
+[ 44%] Built target intersection_example
+[ 47%] Built target normals_example
+[ 50%] Built target simple_example
+[ 52%] Built target convert_octree
+[ 55%] Built target edit_octree
+[ 57%] Built target bt2vrml
+[ 60%] Built target binvox2bt
+[ 63%] Built target log2graph
+[ 65%] Built target compare_octrees
+[ 68%] Built target eval_octree_accuracy
+[ 71%] Built target graph2tree
+[ 73%] Built target test_changedkeys
+[ 76%] Built target test_pruning
+[ 78%] Built target color_tree_histogram
+[ 81%] Built target test_color_tree
+[ 84%] Built target unit_tests
+[ 86%] Built target test_io
+[ 89%] Built target test_lut
+[ 92%] Built target test_iterators
+[ 94%] Built target test_scans
+[ 97%] Built target test_mapcollection
+[100%] Built target test_raycasting
+[[36moctomap[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/octomap/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36moctomap[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/octomap/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/octomap[0m'[0m
+[  5%] Built target octomath-static
+[ 10%] Built target octomath
+[ 25%] Built target octomap
+[ 27%] Built target octree2pointcloud
+[ 30%] Built target intersection_example
+[ 32%] Built target normals_example
+[ 35%] Built target simple_example
+[ 38%] Built target convert_octree
+[ 40%] Built target edit_octree
+[ 43%] Built target bt2vrml
+[ 46%] Built target binvox2bt
+[ 48%] Built target log2graph
+[ 51%] Built target compare_octrees
+[ 65%] Built target octomap-static
+[ 68%] Built target eval_octree_accuracy
+[ 71%] Built target graph2tree
+[ 73%] Built target test_changedkeys
+[ 76%] Built target test_pruning
+[ 78%] Built target color_tree_histogram
+[ 81%] Built target test_color_tree
+[ 84%] Built target unit_tests
+[ 86%] Built target test_io
+[ 89%] Built target test_lut
+[ 92%] Built target test_iterators
+[ 94%] Built target test_scans
+[ 97%] Built target test_mapcollection
+[100%] Built target test_raycasting
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Up-to-date: /opt/ros/jade/include/octomap/AbstractOccupancyOcTree.h
+-- Up-to-date: /opt/ros/jade/include/octomap/AbstractOcTree.h
+-- Up-to-date: /opt/ros/jade/include/octomap/ColorOcTree.h
+-- Up-to-date: /opt/ros/jade/include/octomap/CountingOcTree.h
+-- Up-to-date: /opt/ros/jade/include/octomap/MapCollection.h
+-- Up-to-date: /opt/ros/jade/include/octomap/MapNode.h
+-- Up-to-date: /opt/ros/jade/include/octomap/MCTables.h
+-- Up-to-date: /opt/ros/jade/include/octomap/OccupancyOcTreeBase.h
+-- Up-to-date: /opt/ros/jade/include/octomap/octomap.h
+-- Up-to-date: /opt/ros/jade/include/octomap/octomap_deprecated.h
+-- Up-to-date: /opt/ros/jade/include/octomap/octomap_timing.h
+-- Up-to-date: /opt/ros/jade/include/octomap/octomap_types.h
+-- Up-to-date: /opt/ros/jade/include/octomap/octomap_utils.h
+-- Up-to-date: /opt/ros/jade/include/octomap/OcTree.h
+-- Up-to-date: /opt/ros/jade/include/octomap/OcTreeBase.h
+-- Up-to-date: /opt/ros/jade/include/octomap/OcTreeBaseImpl.h
+-- Up-to-date: /opt/ros/jade/include/octomap/OcTreeBaseSE.h
+-- Up-to-date: /opt/ros/jade/include/octomap/OcTreeDataNode.h
+-- Up-to-date: /opt/ros/jade/include/octomap/OcTreeKey.h
+-- Up-to-date: /opt/ros/jade/include/octomap/OcTreeLUT.h
+-- Up-to-date: /opt/ros/jade/include/octomap/OcTreeLUTdefs.h
+-- Up-to-date: /opt/ros/jade/include/octomap/OcTreeNode.h
+-- Up-to-date: /opt/ros/jade/include/octomap/OcTreeStamped.h
+-- Up-to-date: /opt/ros/jade/include/octomap/Pointcloud.h
+-- Up-to-date: /opt/ros/jade/include/octomap/ScanGraph.h
+-- Up-to-date: /opt/ros/jade/include/octomap/MapCollection.hxx
+-- Up-to-date: /opt/ros/jade/include/octomap/MapNode.hxx
+-- Up-to-date: /opt/ros/jade/include/octomap/OccupancyOcTreeBase.hxx
+-- Up-to-date: /opt/ros/jade/include/octomap/OcTreeBaseImpl.hxx
+-- Up-to-date: /opt/ros/jade/include/octomap/OcTreeBaseSE.hxx
+-- Up-to-date: /opt/ros/jade/include/octomap/OcTreeDataNode.hxx
+-- Up-to-date: /opt/ros/jade/include/octomap/OcTreeIterator.hxx
+-- Up-to-date: /opt/ros/jade/include/octomap/math/Pose6D.h
+-- Up-to-date: /opt/ros/jade/include/octomap/math/Quaternion.h
+-- Up-to-date: /opt/ros/jade/include/octomap/math/Utils.h
+-- Up-to-date: /opt/ros/jade/include/octomap/math/Vector3.h
+-- Up-to-date: /opt/ros/jade/share/octomap/package.xml
+-- Up-to-date: /opt/ros/jade/share/octomap/octomap-config.cmake
+-- Up-to-date: /opt/ros/jade/share/octomap/octomap-config-version.cmake
+-- Up-to-date: /opt/ros/jade/lib/pkgconfig/octomap.pc
+-- Installing: /opt/ros/jade/lib/liboctomath.1.7.0.dylib
+-- Up-to-date: /opt/ros/jade/lib/liboctomath.1.7.dylib
+-- Up-to-date: /opt/ros/jade/lib/liboctomath.dylib
+-- Installing: /opt/ros/jade/lib/liboctomath.a
+-- Installing: /opt/ros/jade/lib/liboctomap.1.7.0.dylib
+-- Up-to-date: /opt/ros/jade/lib/liboctomap.1.7.dylib
+-- Up-to-date: /opt/ros/jade/lib/liboctomap.dylib
+-- Installing: /opt/ros/jade/lib/liboctomap.a
+-- Installing: /opt/ros/jade/bin/graph2tree
+-- Installing: /opt/ros/jade/bin/log2graph
+-- Installing: /opt/ros/jade/bin/binvox2bt
+-- Installing: /opt/ros/jade/bin/bt2vrml
+-- Installing: /opt/ros/jade/bin/edit_octree
+-- Installing: /opt/ros/jade/bin/convert_octree
+-- Installing: /opt/ros/jade/bin/eval_octree_accuracy
+-- Installing: /opt/ros/jade/bin/compare_octrees
+[[36moctomap[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/octomap/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

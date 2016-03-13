@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "laser_filters")
+set(laser_filters_MAINTAINER "Jon Binney <jbinney@willowgarage.com>")
+set(laser_filters_DEPRECATED "")
+set(laser_filters_VERSION "1.8.0")
+set(laser_filters_BUILD_DEPENDS "cmake_modules" "eigen" "sensor_msgs" "roscpp" "tf" "filters" "message_filters" "laser_geometry" "pluginlib" "rostest" "angles")
+set(laser_filters_RUN_DEPENDS "cmake_modules" "eigen" "sensor_msgs" "roscpp" "tf" "filters" "message_filters" "laser_geometry" "pluginlib" "angles")
+set(laser_filters_BUILDTOOL_DEPENDS "catkin")

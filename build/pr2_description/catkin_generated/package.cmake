@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "pr2_description")
+set(pr2_description_MAINTAINER "Devon Ash <dash@clearpathrobotics.com>")
+set(pr2_description_DEPRECATED "")
+set(pr2_description_VERSION "1.11.9")
+set(pr2_description_BUILD_DEPENDS "convex_decomposition" "ivcon")
+set(pr2_description_RUN_DEPENDS "xacro")
+set(pr2_description_BUILDTOOL_DEPENDS "catkin")

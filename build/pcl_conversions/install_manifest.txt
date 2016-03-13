@@ -1,0 +1,11 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/pcl_conversions.pc
+/opt/ros/jade/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake
+/opt/ros/jade/share/pcl_conversions/cmake/pcl_conversionsConfig-version.cmake
+/opt/ros/jade/share/pcl_conversions/package.xml
+/opt/ros/jade/include/pcl_conversions/pcl_conversions.h

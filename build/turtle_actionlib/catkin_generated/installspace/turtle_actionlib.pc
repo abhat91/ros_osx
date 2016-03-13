@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: turtle_actionlib
+Description: Description of turtle_actionlib
+Version: 0.1.8
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib 
+Requires: 

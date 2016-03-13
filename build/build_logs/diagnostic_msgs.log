@@ -1,0 +1,125 @@
+[[36mdiagnostic_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/diagnostic_msgs/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/diagnostic_msgs[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/diagnostic_msgs/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:4 (find_package)
+
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- diagnostic_msgs: 3 messages, 1 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/diagnostic_msgs
+[[36mdiagnostic_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/diagnostic_msgs/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mdiagnostic_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/diagnostic_msgs/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/diagnostic_msgs[0m'[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _diagnostic_msgs_generate_messages_check_deps_DiagnosticStatus
+[  0%] Built target _diagnostic_msgs_generate_messages_check_deps_KeyValue
+[  0%] Built target _diagnostic_msgs_generate_messages_check_deps_DiagnosticArray
+[  0%] Built target _diagnostic_msgs_generate_messages_check_deps_SelfTest
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[ 21%] Built target diagnostic_msgs_generate_messages_cpp
+[ 52%] Built target diagnostic_msgs_generate_messages_py
+[ 73%] Built target diagnostic_msgs_generate_messages_lisp
+[100%] Built target diagnostic_msgs_generate_messages_eus
+[100%] Built target diagnostic_msgs_generate_messages
+[[36mdiagnostic_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/diagnostic_msgs/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mdiagnostic_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/diagnostic_msgs/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/diagnostic_msgs[0m'[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _diagnostic_msgs_generate_messages_check_deps_DiagnosticStatus
+[  0%] Built target _diagnostic_msgs_generate_messages_check_deps_KeyValue
+[  0%] Built target _diagnostic_msgs_generate_messages_check_deps_DiagnosticArray
+[  0%] Built target _diagnostic_msgs_generate_messages_check_deps_SelfTest
+[ 21%] Built target diagnostic_msgs_generate_messages_cpp
+[ 21%] Built target std_msgs_generate_messages_py
+[ 52%] Built target diagnostic_msgs_generate_messages_py
+[ 52%] Built target std_msgs_generate_messages_lisp
+[ 73%] Built target diagnostic_msgs_generate_messages_lisp
+[ 73%] Built target std_msgs_generate_messages_eus
+[100%] Built target diagnostic_msgs_generate_messages_eus
+[100%] Built target diagnostic_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Up-to-date: /opt/ros/jade/env.sh
+-- Up-to-date: /opt/ros/jade/setup.bash
+-- Up-to-date: /opt/ros/jade/setup.sh
+-- Up-to-date: /opt/ros/jade/setup.zsh
+-- Up-to-date: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/share/diagnostic_msgs/msg/DiagnosticArray.msg
+-- Up-to-date: /opt/ros/jade/share/diagnostic_msgs/msg/DiagnosticStatus.msg
+-- Up-to-date: /opt/ros/jade/share/diagnostic_msgs/msg/KeyValue.msg
+-- Up-to-date: /opt/ros/jade/share/diagnostic_msgs/srv/SelfTest.srv
+-- Up-to-date: /opt/ros/jade/share/diagnostic_msgs/cmake/diagnostic_msgs-msg-paths.cmake
+-- Up-to-date: /opt/ros/jade/include/diagnostic_msgs
+-- Up-to-date: /opt/ros/jade/include/diagnostic_msgs/DiagnosticArray.h
+-- Up-to-date: /opt/ros/jade/include/diagnostic_msgs/DiagnosticStatus.h
+-- Up-to-date: /opt/ros/jade/include/diagnostic_msgs/KeyValue.h
+-- Up-to-date: /opt/ros/jade/include/diagnostic_msgs/SelfTest.h
+-- Up-to-date: /opt/ros/jade/include/diagnostic_msgs/SelfTestRequest.h
+-- Up-to-date: /opt/ros/jade/include/diagnostic_msgs/SelfTestResponse.h
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/diagnostic_msgs
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/diagnostic_msgs/manifest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/diagnostic_msgs/msg
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/diagnostic_msgs/msg/DiagnosticArray.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/diagnostic_msgs/msg/DiagnosticStatus.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/diagnostic_msgs/msg/KeyValue.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/diagnostic_msgs/srv
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/diagnostic_msgs/srv/SelfTest.l
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/diagnostic_msgs
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/diagnostic_msgs/msg
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/diagnostic_msgs/msg/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/diagnostic_msgs/msg/_package_DiagnosticArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/diagnostic_msgs/msg/_package_DiagnosticStatus.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/diagnostic_msgs/msg/_package_KeyValue.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/diagnostic_msgs/msg/diagnostic_msgs-msg.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticStatus.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/diagnostic_msgs/msg/KeyValue.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/diagnostic_msgs/srv
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/diagnostic_msgs/srv/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/diagnostic_msgs/srv/_package_SelfTest.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/diagnostic_msgs/srv/diagnostic_msgs-srv.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/diagnostic_msgs/srv/SelfTest.lisp
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/diagnostic_msgs ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/diagnostic_msgs/msg ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/diagnostic_msgs/srv ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/diagnostic_msgs
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/diagnostic_msgs/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/diagnostic_msgs/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/diagnostic_msgs/msg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/diagnostic_msgs/msg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/diagnostic_msgs/msg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/diagnostic_msgs/msg/_DiagnosticArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/diagnostic_msgs/msg/_DiagnosticArray.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/diagnostic_msgs/msg/_DiagnosticStatus.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/diagnostic_msgs/msg/_DiagnosticStatus.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/diagnostic_msgs/msg/_KeyValue.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/diagnostic_msgs/msg/_KeyValue.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/diagnostic_msgs/srv
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/diagnostic_msgs/srv/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/diagnostic_msgs/srv/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/diagnostic_msgs/srv/_SelfTest.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/diagnostic_msgs/srv/_SelfTest.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/diagnostic_msgs.pc
+-- Up-to-date: /opt/ros/jade/share/diagnostic_msgs/cmake/diagnostic_msgs-msg-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/diagnostic_msgs/cmake/diagnostic_msgsConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/diagnostic_msgs/cmake/diagnostic_msgsConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/diagnostic_msgs/package.xml
+[[36mdiagnostic_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/diagnostic_msgs/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

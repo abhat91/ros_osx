@@ -1,0 +1,18 @@
+[[36mrosbag_migration_rule[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/rosbag_migration_rule/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/rosbag_migration_rule[0m'[0m
+[[36mrosbag_migration_rule[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/rosbag_migration_rule/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mrosbag_migration_rule[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/rosbag_migration_rule/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/rosbag_migration_rule[0m'[0m
+[[36mrosbag_migration_rule[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/rosbag_migration_rule/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mrosbag_migration_rule[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/rosbag_migration_rule/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/rosbag_migration_rule[0m'[0m
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Up-to-date: /opt/ros/jade/_setup_util.py
+-- Up-to-date: /opt/ros/jade/env.sh
+-- Up-to-date: /opt/ros/jade/setup.bash
+-- Up-to-date: /opt/ros/jade/setup.sh
+-- Up-to-date: /opt/ros/jade/setup.zsh
+-- Up-to-date: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/lib/pkgconfig/rosbag_migration_rule.pc
+-- Up-to-date: /opt/ros/jade/share/rosbag_migration_rule/cmake/rosbag_migration_ruleConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/rosbag_migration_rule/cmake/rosbag_migration_ruleConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/rosbag_migration_rule/package.xml
+[[36mrosbag_migration_rule[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/rosbag_migration_rule/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

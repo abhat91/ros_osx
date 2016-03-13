@@ -1,0 +1,64 @@
+Performing C++ SOURCE FILE Test HAVE_STL_CONTAINER_INCOMPLETE_TYPES failed with the following output:
+Change Dir: /Users/adityabhat/Downloads/build/orocos_kdl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ad2a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2ad2a.dir/build.make CMakeFiles/cmTC_2ad2a.dir/build
+Building CXX object CMakeFiles/cmTC_2ad2a.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -DHAVE_STL_CONTAINER_INCOMPLETE_TYPES -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_2ad2a.dir/src.cxx.o -c /Users/adityabhat/Downloads/build/orocos_kdl/CMakeFiles/CMakeTmp/src.cxx
+In file included from /Users/adityabhat/Downloads/build/orocos_kdl/CMakeFiles/CMakeTmp/src.cxx:2:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:439:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm:627:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/utility:259:9: error: field has incomplete type 'TreeElement'
+    _T2 second;
+        ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/map:629:16: note: in instantiation of template class 'std::__1::pair<const std::__1::basic_string<char>, TreeElement>' requested here
+    value_type __cc;
+               ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tree:595:16: note: in instantiation of template class 'std::__1::__value_type<std::__1::basic_string<char>, TreeElement>' requested here
+    value_type __value_;
+               ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tree:686:22: note: in instantiation of template class 'std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char>, TreeElement>, void *>' requested here
+    typedef typename __node::base                                 __node_base;
+                     ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/map:715:19: note: in instantiation of template class 'std::__1::__tree_const_iterator<std::__1::__value_type<std::__1::basic_string<char>, TreeElement>, std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char>, TreeElement>, void *> *, long>' requested here
+    _TreeIterator __i_;
+                  ^
+/Users/adityabhat/Downloads/build/orocos_kdl/CMakeFiles/CMakeTmp/src.cxx:15:40: note: in instantiation of template class 'std::__1::__map_const_iterator<std::__1::__tree_const_iterator<std::__1::__value_type<std::__1::basic_string<char>, TreeElement>, std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char>, TreeElement>, void *> *, long> >' requested here
+            SegmentMap::const_iterator parent;
+                                       ^
+/Users/adityabhat/Downloads/build/orocos_kdl/CMakeFiles/CMakeTmp/src.cxx:9:15: note: definition of 'TreeElement' is not complete until the closing '}'
+        class TreeElement
+              ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_2ad2a.dir/src.cxx.o] Error 1
+make: *** [cmTC_2ad2a/fast] Error 2
+
+Source file was:
+
+        #include <string>
+        #include <map>
+        #include <vector>
+
+        class TreeElement;
+        typedef std::map<std::string, TreeElement> SegmentMap;
+
+        class TreeElement
+        {
+            TreeElement(const std::string& name): number(0) {}
+
+        public:
+            int number;
+            SegmentMap::const_iterator parent;
+            std::vector<SegmentMap::const_iterator> children;
+
+            static TreeElement Root(std::string& name)
+            {
+                return TreeElement(name);
+            }
+        };
+
+        int main()
+        {
+            return 0;
+        }
+        

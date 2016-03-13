@@ -1,0 +1,62 @@
+[[36mnodelet_topic_tools[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/nodelet_topic_tools/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/nodelet_topic_tools[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/nodelet_topic_tools/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:4 (find_package)
+
+
+-- catkin 0.6.16
+-- Boost version: 1.60.0
+-- Found the following Boost libraries:
+--   thread
+--   chrono
+--   system
+--   date_time
+--   atomic
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/nodelet_topic_tools
+[[36mnodelet_topic_tools[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/nodelet_topic_tools/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mnodelet_topic_tools[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/nodelet_topic_tools/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/nodelet_topic_tools[0m'[0m
+[100%] Built target nodelet_topic_tools_gencfg
+[[36mnodelet_topic_tools[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/nodelet_topic_tools/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mnodelet_topic_tools[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/nodelet_topic_tools/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/nodelet_topic_tools[0m'[0m
+[100%] Built target nodelet_topic_tools_gencfg
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/include/nodelet_topic_tools/NodeletThrottleConfig.h
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nodelet_topic_tools/__init__.py
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/nodelet_topic_tools/cfg ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nodelet_topic_tools/cfg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nodelet_topic_tools/cfg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nodelet_topic_tools/cfg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nodelet_topic_tools/cfg/NodeletThrottleConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nodelet_topic_tools/cfg/NodeletThrottleConfig.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/nodelet_topic_tools.pc
+-- Up-to-date: /opt/ros/jade/share/nodelet_topic_tools/cmake/nodelet_topic_toolsConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/nodelet_topic_tools/cmake/nodelet_topic_toolsConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/nodelet_topic_tools/package.xml
+-- Up-to-date: /opt/ros/jade/include/nodelet_topic_tools
+-- Up-to-date: /opt/ros/jade/include/nodelet_topic_tools/nodelet_demux.h
+-- Up-to-date: /opt/ros/jade/include/nodelet_topic_tools/nodelet_mux.h
+-- Up-to-date: /opt/ros/jade/include/nodelet_topic_tools/nodelet_throttle.h
+[[36mnodelet_topic_tools[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/nodelet_topic_tools/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

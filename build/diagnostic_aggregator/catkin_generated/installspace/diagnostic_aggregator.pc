@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: diagnostic_aggregator
+Description: Description of diagnostic_aggregator
+Version: 1.8.7
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib -ldiagnostic_aggregator
+Requires: diagnostic_msgs pluginlib roscpp rospy xmlrpcpp

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rqt_topic")
+set(rqt_topic_MAINTAINER "Dorian Scholz <scholz@sim.tu-darmstadt.de>")
+set(rqt_topic_DEPRECATED "")
+set(rqt_topic_VERSION "0.3.13")
+set(rqt_topic_BUILD_DEPENDS )
+set(rqt_topic_RUN_DEPENDS "python-rospkg" "rostopic" "rqt_gui" "rqt_gui_py" "std_msgs")
+set(rqt_topic_BUILDTOOL_DEPENDS "catkin")

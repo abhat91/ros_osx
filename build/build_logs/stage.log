@@ -1,0 +1,137 @@
+[[36mstage[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/stage/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/stage[0m'[0m
+[[36mstage[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/stage/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mstage[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/stage/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/stage[0m'[0m
+[ 56%] Built target stage
+[ 60%] Built target stagebinary
+[ 63%] Built target fasr
+[ 67%] Built target pioneer_flocking
+[ 70%] Built target dynamic
+[ 74%] Built target lasernoise
+[ 82%] Built target rasterize
+[ 82%] Built target fasr2
+[ 86%] Built target wander
+[ 89%] Built target source
+[ 93%] Built target sink
+[ 96%] Built target expand_pioneer
+[100%] Built target expand_swarm
+[[36mstage[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/stage/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mstage[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/stage/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/stage[0m'[0m
+[ 56%] Built target stage
+[ 60%] Built target stagebinary
+[ 63%] Built target fasr
+[ 67%] Built target pioneer_flocking
+[ 70%] Built target dynamic
+[ 74%] Built target lasernoise
+[ 79%] Built target fasr2
+[ 82%] Built target rasterize
+[ 86%] Built target wander
+[ 89%] Built target source
+[ 93%] Built target sink
+[ 96%] Built target expand_pioneer
+[100%] Built target expand_swarm
+[36mInstall the project...[0m
+-- Install configuration: "RELEASE"
+-- Up-to-date: /opt/ros/jade/lib/pkgconfig/stage.pc
+-- Up-to-date: /opt/ros/jade/share/stage/package.xml
+-- Up-to-date: /opt/ros/jade/lib/cmake/Stage/stage-config.cmake
+-- Up-to-date: /opt/ros/jade/lib/cmake/Stage/stage-config-version.cmake
+-- Installing: /opt/ros/jade/bin/stage
+-- Installing: /opt/ros/jade/lib/libstage.4.1.1.dylib
+-- Up-to-date: /opt/ros/jade/lib/libstage.dylib
+-- Up-to-date: /opt/ros/jade/include/Stage-4.1/stage.hh
+-- Installing: /opt/ros/jade/lib/Stage-4.1/fasr.so
+-- Installing: /opt/ros/jade/lib/Stage-4.1/sink.so
+-- Installing: /opt/ros/jade/lib/Stage-4.1/source.so
+-- Installing: /opt/ros/jade/lib/Stage-4.1/wander.so
+-- Installing: /opt/ros/jade/lib/Stage-4.1/pioneer_flocking.so
+-- Installing: /opt/ros/jade/lib/Stage-4.1/rasterize.so
+-- Installing: /opt/ros/jade/lib/Stage-4.1/lasernoise.so
+-- Installing: /opt/ros/jade/lib/Stage-4.1/dynamic.so
+-- Installing: /opt/ros/jade/lib/Stage-4.1/fasr2.so
+-- Up-to-date: /opt/ros/jade/share/stage/assets/blue.png
+-- Up-to-date: /opt/ros/jade/share/stage/assets/death.png
+-- Up-to-date: /opt/ros/jade/share/stage/assets/green.png
+-- Up-to-date: /opt/ros/jade/share/stage/assets/logo.png
+-- Up-to-date: /opt/ros/jade/share/stage/assets/mains.png
+-- Up-to-date: /opt/ros/jade/share/stage/assets/mainspower.png
+-- Up-to-date: /opt/ros/jade/share/stage/assets/question_mark.png
+-- Up-to-date: /opt/ros/jade/share/stage/assets/red.png
+-- Up-to-date: /opt/ros/jade/share/stage/assets/stagelogo.png
+-- Up-to-date: /opt/ros/jade/share/stage/assets/stall.png
+-- Up-to-date: /opt/ros/jade/share/stage/assets/rgb.txt
+-- Up-to-date: /opt/ros/jade/share/stage/rgb.txt
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/amcl-sonar.cfg
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/autolab.cfg
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/everything.cfg
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/lsp_test.cfg
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/mbicp.cfg
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/nd.cfg
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/simple.cfg
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/test.cfg
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/uoa_robotics_lab.cfg
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/vfh.cfg
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/wavefront-remote.cfg
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/wavefront.cfg
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/wifi.cfg
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/autolab.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/everything.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/fasr.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/fasr2.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/fasr_plan.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/large.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/lsp_test.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/mbicp.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/pioneer_flocking.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/pioneer_walle.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/sensor_noise_module_demo.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/SFU.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/simple.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/uoa_robotics_lab.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/wifi.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/beacons.inc
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/chatterbox.inc
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/hokuyo.inc
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/irobot.inc
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/map.inc
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/objects.inc
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/pantilt.inc
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/pioneer.inc
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/sick.inc
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/ubot.inc
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/uoa_robotics_lab_models.inc
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/walle.inc
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/cfggen.sh
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/test.sh
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/worldgen.sh
+-- Installing: /opt/ros/jade/lib/Stage-4.1/expand_swarm.so
+-- Installing: /opt/ros/jade/lib/Stage-4.1/expand_pioneer.so
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/bitmaps/889_05.png
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/bitmaps/autolab.png
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/bitmaps/cave.png
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/bitmaps/cave_compact.png
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/bitmaps/frieburg.png
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/bitmaps/ghost.png
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/bitmaps/hospital.png
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/bitmaps/hospital_section.png
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/bitmaps/human_outline.png
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/bitmaps/mbicp.png
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/bitmaps/rink.png
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/bitmaps/sal2.png
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/bitmaps/SFU_1200x615.png
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/bitmaps/simple_rooms.png
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/bitmaps/space_invader.png
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/bitmaps/SRI-AIC-kwing.png
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/bitmaps/submarine.png
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/bitmaps/submarine_small.png
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/bitmaps/table.png
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/bitmaps/uoa_robotics_lab.png
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/wifi/commando.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/wifi/hosp_wifi.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/wifi/hosp_wifi_5.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/wifi/wifi.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/wifi/wifi_itu.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/wifi/wifi_logdistance.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/wifi/wifi_ray.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/wifi/wifi_simple.world
+-- Up-to-date: /opt/ros/jade/share/stage/worlds/wifi/map.inc
+[[36mstage[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/stage/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

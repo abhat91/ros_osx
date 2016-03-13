@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: convex_decomposition
+Description: Description of convex_decomposition
+Version: 0.1.10
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: 

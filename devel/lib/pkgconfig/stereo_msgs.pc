@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: stereo_msgs
+Description: Description of stereo_msgs
+Version: 1.12.3
+Cflags: -I/Users/adityabhat/Downloads/devel/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: message_runtime sensor_msgs std_msgs

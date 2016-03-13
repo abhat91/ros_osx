@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: laser_geometry
+Description: Description of laser_geometry
+Version: 1.6.4
+Cflags: -I/Users/adityabhat/Downloads/src/laser_geometry/include -I/usr/local/include -I/usr/local/Cellar/eigen/3.2.8/include/eigen3
+Libs: -L/Users/adityabhat/Downloads/devel/lib -llaser_geometry -l:/usr/local/lib/libboost_system-mt.dylib -l:/usr/local/lib/libboost_thread-mt.dylib -l:/usr/local/lib/libboost_chrono-mt.dylib -l:/usr/local/lib/libboost_date_time-mt.dylib -l:/usr/local/lib/libboost_atomic-mt.dylib
+Requires: 

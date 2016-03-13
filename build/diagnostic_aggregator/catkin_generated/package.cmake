@@ -1,0 +1,8 @@
+set(_CATKIN_CURRENT_PACKAGE "diagnostic_aggregator")
+set(diagnostic_aggregator_VERSION "1.8.7")
+set(diagnostic_aggregator_MAINTAINER "Austin Hendrix <namniart@gmail.com>, Brice Rebsamen <brice.rebsamen@gmail.com>")
+set(diagnostic_aggregator_BUILD_DEPENDS "diagnostic_msgs" "pluginlib" "roscpp" "rospy" "rostest" "xmlrpcpp")
+set(diagnostic_aggregator_RUN_DEPENDS "diagnostic_msgs" "pluginlib" "roscpp" "rospy" "xmlrpcpp")
+set(diagnostic_aggregator_DEPRECATED "")
+set(diagnostic_aggregator_BUILDTOOL_DEPENDS "catkin")
+set(diagnostic_aggregator_BUILDTOOL_DEPENDS_catkin_VERSION_GTE "0.5.68")

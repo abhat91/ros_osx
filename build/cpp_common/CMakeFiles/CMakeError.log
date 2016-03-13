@@ -1,0 +1,20 @@
+Performing C++ SOURCE FILE Test HAVE_CXXABI_H failed with the following output:
+Change Dir: /Users/adityabhat/Downloads/build/cpp_common/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07974/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_07974.dir/build.make CMakeFiles/cmTC_07974.dir/build
+Building CXX object CMakeFiles/cmTC_07974.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -DHAVE_CXXABI_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_07974.dir/src.cxx.o -c /Users/adityabhat/Downloads/build/cpp_common/CMakeFiles/CMakeTmp/src.cxx
+/Users/adityabhat/Downloads/build/cpp_common/CMakeFiles/CMakeTmp/src.cxx:2:9: error: C++ requires a type specifier for all declarations
+intmain(intargc,char**argv){}
+        ^
+/Users/adityabhat/Downloads/build/cpp_common/CMakeFiles/CMakeTmp/src.cxx:2:1: error: C++ requires a type specifier for all declarations
+intmain(intargc,char**argv){}
+^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_07974.dir/src.cxx.o] Error 1
+make: *** [cmTC_07974/fast] Error 2
+
+Source file was:
+#include<cxxabi.h>
+intmain(intargc,char**argv){}

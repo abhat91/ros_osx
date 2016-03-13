@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rviz_plugin_tutorials")
+set(rviz_plugin_tutorials_MAINTAINER "William Woodall <william@osrfoundation.org>")
+set(rviz_plugin_tutorials_DEPRECATED "")
+set(rviz_plugin_tutorials_VERSION "0.9.2")
+set(rviz_plugin_tutorials_BUILD_DEPENDS "rviz")
+set(rviz_plugin_tutorials_RUN_DEPENDS "rviz")
+set(rviz_plugin_tutorials_BUILDTOOL_DEPENDS "catkin")

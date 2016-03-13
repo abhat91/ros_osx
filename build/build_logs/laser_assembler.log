@@ -1,0 +1,217 @@
+[[36mlaser_assembler[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/laser_assembler/build_env.sh /usr/local/bin/cmake /Users/adityabhat/Downloads/src/laser_assembler -DCATKIN_DEVEL_PREFIX=/Users/adityabhat/Downloads/devel -DCMAKE_INSTALL_PREFIX=/opt/ros/jade -DCMAKE_BUILD_TYPE=Release -DPYTHON_LIBRARY=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib -DPYTHON_INCLUDE_DIR=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/include/python2.7[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/laser_assembler[0m'[0m
+[36m-- [0mThe C compiler identification is AppleClang 7.0.2.7000181
+[0m[36m-- [0mThe CXX compiler identification is AppleClang 7.0.2.7000181
+[0m[36m-- [0mCheck for working C compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+[0m[0m[36m-- [0mCheck for working C compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
+[0m[0m[36m-- [0mDetecting C compiler ABI info
+[0m[36m-- [0mDetecting C compiler ABI info - done
+[0m[36m-- [0mDetecting C compile features
+[0m[36m-- [0mDetecting C compile features - done
+[0m[36m-- [0mCheck for working CXX compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+[0m[0m[36m-- [0mCheck for working CXX compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -- works
+[0m[0m[36m-- [0mDetecting CXX compiler ABI info
+[0m[36m-- [0mDetecting CXX compiler ABI info - done
+[0m[36m-- [0mDetecting CXX compile features
+[0m[36m-- [0mDetecting CXX compile features - done
+[0m[36m-- [0mUsing CATKIN_DEVEL_PREFIX:[33m /Users/adityabhat/Downloads/devel
+[0m[0m[36m-- [0mUsing CMAKE_PREFIX_PATH:[33m /opt/ros/jade
+[0m[0m[36m-- [0mThis workspace overlays:[33m /opt/ros/jade
+[0m[0m[36m-- [0mFound PythonInterp:[33m /usr/bin/python (found version "2.7.10") 
+[0m[0m[36m-- [0mUsing PYTHON_EXECUTABLE:[33m /usr/bin/python
+[0m[0m[36m-- [0mUsing default Python package layout
+[0m[36m-- [0mFound PY_em:[33m /usr/local/lib/python2.7/site-packages/em.pyc  
+[0m[0m[36m-- [0mUsing empy:[33m /usr/local/lib/python2.7/site-packages/em.pyc
+[0m[0m[36m-- [0mUsing CATKIN_ENABLE_TESTING:[33m ON
+[0m[0m[36m-- [0mCall enable_testing()
+[0m[36m-- [0mUsing CATKIN_TEST_RESULTS_DIR:[33m /Users/adityabhat/Downloads/build/laser_assembler/test_results
+[0m[0m[36m-- [0mFound gtest:[33m gtests will be built
+[0m[0m[33m[1mCMake Warning[0m at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+[0m  nosetests not found, Python tests can not be run (try installing package
+[0m  'python-nose')
+[0m[36m[4mCall Stack (most recent call first):[0m
+[0m  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+[0m  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+[0m  CMakeLists.txt:11 (find_package)
+[0m
+[0m
+[0m[36m-- [0mcatkin 0.6.16
+[0m[36m-- [0mUsing these message generators:[33m gencpp;geneus;genlisp;genpy
+[0m[0m[36m-- [0mBoost version:[33m 1.60.0
+[0m[0m[36m-- [0mFound the following Boost libraries:[33m
+[0m[0m[36m-- [0m  system
+[0m[36m-- [0m  signals
+[0m[36m-- [0mlaser_assembler:[33m 0 messages, 2 services
+[0m[0m[36m-- [0mConfiguring done
+[0m[36m-- [0mGenerating done
+[0m[33m[1mCMake Warning[0m:
+[0m  Manually-specified variables were not used by the project:
+[0m
+[0m    PYTHON_INCLUDE_DIR
+[0m    PYTHON_LIBRARY
+[0m
+[0m
+[0m[36m-- [0mBuild files have been written to:[33m /Users/adityabhat/Downloads/build/laser_assembler
+[0m[0m[[36mlaser_assembler[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/laser_assembler/build_env.sh /usr/local/bin/cmake /Users/adityabhat/Downloads/src/laser_assembler -DCATKIN_DEVEL_PREFIX=/Users/adityabhat/Downloads/devel -DCMAKE_INSTALL_PREFIX=/opt/ros/jade -DCMAKE_BUILD_TYPE=Release -DPYTHON_LIBRARY=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib -DPYTHON_INCLUDE_DIR=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/include/python2.7[0m' finished with return code '[1m0[0m'[0m
+[[36mlaser_assembler[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/laser_assembler/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/laser_assembler[0m'[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target _laser_assembler_generate_messages_check_deps_AssembleScans[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target _laser_assembler_generate_messages_check_deps_AssembleScans2[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target _laser_assembler_generate_messages_check_deps_AssembleScans
+[  0%] Built target _laser_assembler_generate_messages_check_deps_AssembleScans2
+[35m[1mScanning dependencies of target laser_assembler_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target laser_assembler_generate_messages_eus[0m
+[35m[1mScanning dependencies of target laser_assembler_generate_messages_py[0m
+[35m[1mScanning dependencies of target laser_assembler_generate_messages_lisp[0m
+[  3%] [34m[1mGenerating EusLisp code from laser_assembler/AssembleScans.srv[0m
+[ 11%] [34m[1mGenerating Python code from SRV laser_assembler/AssembleScans[0m
+[ 11%] [34m[1mGenerating C++ code from laser_assembler/AssembleScans.srv[0m
+[ 15%] [34m[1mGenerating Lisp code from laser_assembler/AssembleScans.srv[0m
+[ 19%] [34m[1mGenerating Lisp code from laser_assembler/AssembleScans2.srv[0m
+[ 23%] [34m[1mGenerating Python code from SRV laser_assembler/AssembleScans2[0m
+[ 26%] [34m[1mGenerating EusLisp code from laser_assembler/AssembleScans2.srv[0m
+[ 26%] Built target laser_assembler_generate_messages_lisp
+[ 30%] [34m[1mGenerating C++ code from laser_assembler/AssembleScans2.srv[0m
+[ 34%] [34m[1mGenerating Python srv __init__.py for laser_assembler[0m
+[ 38%] [34m[1mGenerating EusLisp manifest code for laser_assembler[0m
+[ 38%] Built target laser_assembler_generate_messages_py
+[ 38%] Built target laser_assembler_generate_messages_cpp
+[35m[1mScanning dependencies of target laser_assembler_gencpp[0m
+[ 38%] Built target laser_assembler_gencpp
+[35m[1mScanning dependencies of target dummy_scan_producer[0m
+[35m[1mScanning dependencies of target periodic_snapshotter[0m
+[35m[1mScanning dependencies of target point_cloud2_assembler[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/periodic_snapshotter.dir/examples/periodic_snapshotter.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/dummy_scan_producer.dir/test/dummy_scan_producer.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/point_cloud2_assembler.dir/src/point_cloud2_assembler.cpp.o[0m
+[ 53%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/laser_assembler/periodic_snapshotter[0m
+[ 53%] Built target periodic_snapshotter
+[35m[1mScanning dependencies of target point_cloud_assembler_srv[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/point_cloud_assembler_srv.dir/src/point_cloud_assembler_srv.cpp.o[0m
+[ 61%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/laser_assembler/dummy_scan_producer[0m
+[ 61%] Built target dummy_scan_producer
+[35m[1mScanning dependencies of target merge_clouds[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/merge_clouds.dir/src/merge_clouds.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/laser_assembler/point_cloud2_assembler[0m
+[ 69%] Built target point_cloud2_assembler
+[35m[1mScanning dependencies of target laser_scan_assembler_srv[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/laser_scan_assembler_srv.dir/src/laser_scan_assembler_srv.cpp.o[0m
+[ 73%] Built target laser_assembler_generate_messages_eus
+[35m[1mScanning dependencies of target laser_scan_assembler[0m
+[ 76%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/laser_assembler/point_cloud_assembler_srv[0m
+[ 76%] Built target point_cloud_assembler_srv
+[35m[1mScanning dependencies of target point_cloud_assembler[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/laser_scan_assembler.dir/src/laser_scan_assembler.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/point_cloud_assembler.dir/src/point_cloud_assembler.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/laser_assembler/merge_clouds[0m
+[ 88%] Built target merge_clouds
+[35m[1mScanning dependencies of target laser_assembler_generate_messages[0m
+[ 88%] Built target laser_assembler_generate_messages
+[ 92%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/laser_assembler/point_cloud_assembler[0m
+[ 92%] Built target point_cloud_assembler
+[ 96%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/laser_assembler/laser_scan_assembler_srv[0m
+[ 96%] Built target laser_scan_assembler_srv
+[100%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/laser_assembler/laser_scan_assembler[0m
+[100%] Built target laser_scan_assembler
+[[36mlaser_assembler[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/laser_assembler/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mlaser_assembler[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/laser_assembler/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/laser_assembler[0m'[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _laser_assembler_generate_messages_check_deps_AssembleScans
+[  0%] Built target _laser_assembler_generate_messages_check_deps_AssembleScans2
+[  7%] Built target laser_assembler_generate_messages_cpp
+[  7%] Built target laser_assembler_gencpp
+[ 15%] Built target dummy_scan_producer
+[ 23%] Built target periodic_snapshotter
+[ 30%] Built target point_cloud2_assembler
+[ 38%] Built target point_cloud_assembler_srv
+[ 38%] Built target std_msgs_generate_messages_py
+[ 38%] Built target sensor_msgs_generate_messages_py
+[ 50%] Built target laser_assembler_generate_messages_py
+[ 50%] Built target std_msgs_generate_messages_eus
+[ 50%] Built target sensor_msgs_generate_messages_eus
+[ 61%] Built target laser_assembler_generate_messages_eus
+[ 61%] Built target std_msgs_generate_messages_lisp
+[ 61%] Built target sensor_msgs_generate_messages_lisp
+[ 69%] Built target laser_assembler_generate_messages_lisp
+[ 69%] Built target laser_assembler_generate_messages
+[ 76%] Built target merge_clouds
+[ 84%] Built target laser_scan_assembler_srv
+[ 92%] Built target laser_scan_assembler
+[100%] Built target point_cloud_assembler
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Installing: /opt/ros/jade/share/laser_assembler/srv/AssembleScans.srv
+-- Installing: /opt/ros/jade/share/laser_assembler/srv/AssembleScans2.srv
+-- Installing: /opt/ros/jade/share/laser_assembler/cmake/laser_assembler-msg-paths.cmake
+-- Installing: /opt/ros/jade/include/laser_assembler
+-- Installing: /opt/ros/jade/include/laser_assembler/AssembleScans.h
+-- Installing: /opt/ros/jade/include/laser_assembler/AssembleScans2.h
+-- Installing: /opt/ros/jade/include/laser_assembler/AssembleScans2Request.h
+-- Installing: /opt/ros/jade/include/laser_assembler/AssembleScans2Response.h
+-- Installing: /opt/ros/jade/include/laser_assembler/AssembleScansRequest.h
+-- Installing: /opt/ros/jade/include/laser_assembler/AssembleScansResponse.h
+-- Installing: /opt/ros/jade/share/roseus/ros/laser_assembler
+-- Installing: /opt/ros/jade/share/roseus/ros/laser_assembler/manifest.l
+-- Installing: /opt/ros/jade/share/roseus/ros/laser_assembler/srv
+-- Installing: /opt/ros/jade/share/roseus/ros/laser_assembler/srv/AssembleScans.l
+-- Installing: /opt/ros/jade/share/roseus/ros/laser_assembler/srv/AssembleScans2.l
+-- Installing: /opt/ros/jade/share/common-lisp/ros/laser_assembler
+-- Installing: /opt/ros/jade/share/common-lisp/ros/laser_assembler/srv
+-- Installing: /opt/ros/jade/share/common-lisp/ros/laser_assembler/srv/_package.lisp
+-- Installing: /opt/ros/jade/share/common-lisp/ros/laser_assembler/srv/_package_AssembleScans.lisp
+-- Installing: /opt/ros/jade/share/common-lisp/ros/laser_assembler/srv/_package_AssembleScans2.lisp
+-- Installing: /opt/ros/jade/share/common-lisp/ros/laser_assembler/srv/AssembleScans.lisp
+-- Installing: /opt/ros/jade/share/common-lisp/ros/laser_assembler/srv/AssembleScans2.lisp
+-- Installing: /opt/ros/jade/share/common-lisp/ros/laser_assembler/srv/laser_assembler-srv.asd
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/laser_assembler ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/laser_assembler/__init__.py ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/laser_assembler/srv ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/laser_assembler/srv/_AssembleScans.py ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/laser_assembler/srv/_AssembleScans2.py ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/laser_assembler/srv/__init__.py ...
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/laser_assembler
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/laser_assembler/__init__.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/laser_assembler/__init__.pyc
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/laser_assembler/srv
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/laser_assembler/srv/__init__.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/laser_assembler/srv/__init__.pyc
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/laser_assembler/srv/_AssembleScans.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/laser_assembler/srv/_AssembleScans.pyc
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/laser_assembler/srv/_AssembleScans2.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/laser_assembler/srv/_AssembleScans2.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/laser_assembler.pc
+-- Installing: /opt/ros/jade/share/laser_assembler/cmake/laser_assembler-msg-extras.cmake
+-- Installing: /opt/ros/jade/share/laser_assembler/cmake/laser_assemblerConfig.cmake
+-- Installing: /opt/ros/jade/share/laser_assembler/cmake/laser_assemblerConfig-version.cmake
+-- Installing: /opt/ros/jade/share/laser_assembler/package.xml
+-- Installing: /opt/ros/jade/lib/laser_assembler/laser_scan_assembler_srv
+-- Installing: /opt/ros/jade/lib/laser_assembler/laser_scan_assembler
+-- Installing: /opt/ros/jade/lib/laser_assembler/merge_clouds
+-- Installing: /opt/ros/jade/lib/laser_assembler/point_cloud_assembler_srv
+-- Installing: /opt/ros/jade/lib/laser_assembler/point_cloud_assembler
+-- Installing: /opt/ros/jade/lib/laser_assembler/point_cloud2_assembler
+-- Up-to-date: /opt/ros/jade/include/laser_assembler
+-- Installing: /opt/ros/jade/include/laser_assembler/base_assembler.h
+-- Installing: /opt/ros/jade/include/laser_assembler/base_assembler_srv.h
+[[36mlaser_assembler[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/laser_assembler/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

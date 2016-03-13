@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: interactive_markers
+Description: Description of interactive_markers
+Version: 1.11.1
+Cflags: -I/Users/adityabhat/Downloads/src/interactive_markers/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -linteractive_markers
+Requires: roscpp rosconsole rospy tf visualization_msgs

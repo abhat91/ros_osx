@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "interactive_marker_tutorials")
+set(interactive_marker_tutorials_MAINTAINER "William Woodall <william@osrfoundation.org>")
+set(interactive_marker_tutorials_DEPRECATED "")
+set(interactive_marker_tutorials_VERSION "0.9.2")
+set(interactive_marker_tutorials_BUILD_DEPENDS "roscpp" "interactive_markers" "visualization_msgs" "tf")
+set(interactive_marker_tutorials_RUN_DEPENDS "roscpp" "interactive_markers" "visualization_msgs" "tf")
+set(interactive_marker_tutorials_BUILDTOOL_DEPENDS "catkin")

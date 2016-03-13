@@ -1,0 +1,2 @@
+/opt/ros/jade/lib/python2.7/site-packages/PyKDL.so
+/opt/ros/jade/share/python_orocos_kdl/package.xml

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "geometry_tutorials")
+set(geometry_tutorials_MAINTAINER "William Woodall <william@osrfoundation.org>")
+set(geometry_tutorials_DEPRECATED "")
+set(geometry_tutorials_VERSION "0.2.2")
+set(geometry_tutorials_BUILD_DEPENDS )
+set(geometry_tutorials_RUN_DEPENDS "turtle_tf" "turtle_tf2")
+set(geometry_tutorials_BUILDTOOL_DEPENDS "catkin")

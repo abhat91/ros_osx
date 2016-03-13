@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: bondcpp
+Description: Description of bondcpp
+Version: 1.7.16
+Cflags: -I/opt/ros/jade/include -I/usr/local/include
+Libs: -L/opt/ros/jade/lib -lbondcpp
+Requires: bond roscpp smclib

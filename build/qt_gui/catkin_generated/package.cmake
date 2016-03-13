@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "qt_gui")
+set(qt_gui_MAINTAINER "Dirk Thomas <dthomas@osrfoundation.org>")
+set(qt_gui_DEPRECATED "")
+set(qt_gui_VERSION "0.2.29")
+set(qt_gui_BUILD_DEPENDS "qt4-qmake" "python-qt-bindings")
+set(qt_gui_RUN_DEPENDS "python_qt_binding" "python-rospkg" "tango-icon-theme")
+set(qt_gui_BUILDTOOL_DEPENDS "catkin")

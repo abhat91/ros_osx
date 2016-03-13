@@ -1,0 +1,13 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/rqt_graph.pc
+/opt/ros/jade/share/rqt_graph/cmake/rqt_graphConfig.cmake
+/opt/ros/jade/share/rqt_graph/cmake/rqt_graphConfig-version.cmake
+/opt/ros/jade/share/rqt_graph/package.xml
+/opt/ros/jade/share/rqt_graph/plugin.xml
+/opt/ros/jade/share/rqt_graph/resource/RosGraph.ui
+/opt/ros/jade/lib/rqt_graph/rqt_graph

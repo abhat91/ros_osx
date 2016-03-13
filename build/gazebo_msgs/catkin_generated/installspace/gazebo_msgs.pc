@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: gazebo_msgs
+Description: Description of gazebo_msgs
+Version: 2.5.2
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib 
+Requires: message_runtime std_msgs trajectory_msgs geometry_msgs sensor_msgs std_srvs message_generation

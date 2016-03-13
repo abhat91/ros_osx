@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: roslz4
+Description: Description of roslz4
+Version: 1.11.16
+Cflags: -I/Users/adityabhat/Downloads/src/ros_comm/roslz4/include -I/usr/local/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -lroslz4 -l:/usr/local/lib/liblz4.dylib
+Requires: 

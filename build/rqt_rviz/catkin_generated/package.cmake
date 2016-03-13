@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rqt_rviz")
+set(rqt_rviz_MAINTAINER "Aaron Blasdel <ablasdel@gmail.com>")
+set(rqt_rviz_DEPRECATED "")
+set(rqt_rviz_VERSION "0.4.3")
+set(rqt_rviz_BUILD_DEPENDS "boost" "pluginlib" "rqt_gui" "rqt_gui_cpp" "rviz")
+set(rqt_rviz_RUN_DEPENDS "boost" "pluginlib" "rqt_gui" "rqt_gui_cpp" "rviz")
+set(rqt_rviz_BUILDTOOL_DEPENDS "catkin")

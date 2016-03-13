@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: eigen_stl_containers
+Description: Description of eigen_stl_containers
+Version: 0.1.4
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib 
+Requires: 

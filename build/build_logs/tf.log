@@ -1,0 +1,206 @@
+[[36mtf[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/tf/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/tf[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/tf/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:4 (find_package)
+
+-- catkin 0.6.16
+-- Boost version: 1.60.0
+-- Found the following Boost libraries:
+--   thread
+--   signals
+--   system
+--   chrono
+--   date_time
+--   atomic
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- tf: 1 messages, 1 services
+-- skipping nosetests(test/testPython.py) in project 'tf'
+-- Configuring done
+CMake Warning (dev):
+  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  MACOSX_RPATH is not specified for the following targets:
+
+   pytf_py
+   tf
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/tf
+[[36mtf[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/tf/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mtf[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/tf/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/tf[0m'[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target _tf_generate_messages_check_deps_FrameGraph
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _tf_generate_messages_check_deps_tfMessage
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  5%] Built target tf_generate_messages_cpp
+[ 16%] Built target tf_generate_messages_lisp
+[ 18%] Built target tf_generate_messages_eus
+[ 29%] Built target tf_generate_messages_py
+[ 29%] Built target tf_gencpp
+[ 29%] Built target tf_generate_messages
+[ 56%] Built target pytf_py
+[ 56%] Built target tf
+[ 62%] Built target testBroadcaster
+[ 67%] Built target testListener
+[ 78%] Built target transform_listener_unittest
+[ 78%] Built target tf_monitor
+[ 83%] Built target static_transform_publisher
+[ 89%] Built target tf_change_notifier
+[ 94%] Built target tf_echo
+[100%] Built target tf_empty_listener
+[[36mtf[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/tf/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mtf[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/tf/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/tf[0m'[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _tf_generate_messages_check_deps_FrameGraph
+[  0%] Built target _tf_generate_messages_check_deps_tfMessage
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  5%] Built target tf_generate_messages_cpp
+[  5%] Built target tf_gencpp
+[ 18%] Built target pytf_py
+[ 32%] Built target tf
+[ 37%] Built target testBroadcaster
+[ 43%] Built target testListener
+[ 48%] Built target tf_monitor
+[ 54%] Built target transform_listener_unittest
+[ 59%] Built target tf_echo
+[ 64%] Built target tf_empty_listener
+[ 70%] Built target tf_change_notifier
+[ 75%] Built target static_transform_publisher
+[ 75%] Built target std_msgs_generate_messages_eus
+[ 75%] Built target geometry_msgs_generate_messages_eus
+[ 75%] Built target sensor_msgs_generate_messages_eus
+[ 83%] Built target tf_generate_messages_eus
+[ 83%] Built target std_msgs_generate_messages_lisp
+[ 83%] Built target geometry_msgs_generate_messages_lisp
+[ 83%] Built target sensor_msgs_generate_messages_lisp
+[ 89%] Built target tf_generate_messages_lisp
+[ 89%] Built target geometry_msgs_generate_messages_py
+[ 89%] Built target sensor_msgs_generate_messages_py
+[ 89%] Built target std_msgs_generate_messages_py
+[100%] Built target tf_generate_messages_py
+[100%] Built target tf_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
++ cd /Users/adityabhat/Downloads/src/geometry/tf
++ /usr/bin/env PYTHONPATH=/opt/ros/jade/lib/python2.7/site-packages:/Users/adityabhat/Downloads/build/tf/lib/python2.7/site-packages:/opt/ros/jade/lib/python2.7/site-packages CATKIN_BINARY_DIR=/Users/adityabhat/Downloads/build/tf /usr/bin/python /Users/adityabhat/Downloads/src/geometry/tf/setup.py build --build-base /Users/adityabhat/Downloads/build/tf install --prefix=/opt/ros/jade --install-scripts=/opt/ros/jade/bin
+running build
+running build_py
+running build_scripts
+running install
+running install_lib
+running install_scripts
+changing mode of /opt/ros/jade/bin/tf_remap to 775
+changing mode of /opt/ros/jade/bin/view_frames to 775
+running install_egg_info
+Removing /opt/ros/jade/lib/python2.7/site-packages/tf-1.11.7-py2.7.egg-info
+Writing /opt/ros/jade/lib/python2.7/site-packages/tf-1.11.7-py2.7.egg-info
+-- Up-to-date: /opt/ros/jade/share/tf/msg/tfMessage.msg
+-- Up-to-date: /opt/ros/jade/share/tf/srv/FrameGraph.srv
+-- Up-to-date: /opt/ros/jade/share/tf/cmake/tf-msg-paths.cmake
+-- Up-to-date: /opt/ros/jade/include/tf
+-- Up-to-date: /opt/ros/jade/include/tf/FrameGraph.h
+-- Up-to-date: /opt/ros/jade/include/tf/FrameGraphRequest.h
+-- Up-to-date: /opt/ros/jade/include/tf/FrameGraphResponse.h
+-- Up-to-date: /opt/ros/jade/include/tf/tfMessage.h
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/tf
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/tf/manifest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/tf/msg
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/tf/msg/tfMessage.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/tf/srv
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/tf/srv/FrameGraph.l
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/tf
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/tf/msg
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/tf/msg/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/tf/msg/_package_tfMessage.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/tf/msg/tf-msg.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/tf/msg/tfMessage.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/tf/srv
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/tf/srv/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/tf/srv/_package_FrameGraph.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/tf/srv/FrameGraph.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/tf/srv/tf-srv.asd
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/tf ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/tf/msg ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/tf/srv ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/tf
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/tf/_tf.so
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/tf/msg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/tf/msg/_tfMessage.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/tf/msg/_tfMessage.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/tf/srv
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/tf/srv/_FrameGraph.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/tf/srv/_FrameGraph.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/tf
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/tf/msg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/tf/msg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/tf/msg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/tf/srv
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/tf/srv/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/tf/srv/__init__.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/tf.pc
+-- Up-to-date: /opt/ros/jade/share/tf/cmake/tf-msg-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/tf/cmake/tfConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/tf/cmake/tfConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/tf/package.xml
+-- Up-to-date: /opt/ros/jade/include/tf
+-- Up-to-date: /opt/ros/jade/include/tf/exceptions.h
+-- Up-to-date: /opt/ros/jade/include/tf/LinearMath
+-- Up-to-date: /opt/ros/jade/include/tf/LinearMath/Matrix3x3.h
+-- Up-to-date: /opt/ros/jade/include/tf/LinearMath/MinMax.h
+-- Up-to-date: /opt/ros/jade/include/tf/LinearMath/QuadWord.h
+-- Up-to-date: /opt/ros/jade/include/tf/LinearMath/Quaternion.h
+-- Up-to-date: /opt/ros/jade/include/tf/LinearMath/Scalar.h
+-- Up-to-date: /opt/ros/jade/include/tf/LinearMath/Transform.h
+-- Up-to-date: /opt/ros/jade/include/tf/LinearMath/Vector3.h
+-- Up-to-date: /opt/ros/jade/include/tf/message_filter.h
+-- Up-to-date: /opt/ros/jade/include/tf/tf.h
+-- Up-to-date: /opt/ros/jade/include/tf/time_cache.h
+-- Up-to-date: /opt/ros/jade/include/tf/transform_broadcaster.h
+-- Up-to-date: /opt/ros/jade/include/tf/transform_datatypes.h
+-- Up-to-date: /opt/ros/jade/include/tf/transform_listener.h
+-- Installing: /opt/ros/jade/lib/libtf.dylib
+-- Installing: /opt/ros/jade/lib/tf/tf_echo
+-- Installing: /opt/ros/jade/lib/tf/tf_empty_listener
+-- Installing: /opt/ros/jade/lib/tf/tf_change_notifier
+-- Installing: /opt/ros/jade/lib/tf/tf_monitor
+-- Installing: /opt/ros/jade/lib/tf/static_transform_publisher
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/tf/_tf.so
+-- Up-to-date: /opt/ros/jade/lib/tf/bullet_migration_sed.py
+-- Up-to-date: /opt/ros/jade/lib/tf/tf_remap
+-- Up-to-date: /opt/ros/jade/lib/tf/view_frames
+[[36mtf[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/tf/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

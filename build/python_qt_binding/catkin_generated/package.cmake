@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "python_qt_binding")
+set(python_qt_binding_MAINTAINER "Dirk Thomas <dthomas@osrfoundation.org>")
+set(python_qt_binding_DEPRECATED "")
+set(python_qt_binding_VERSION "0.2.17")
+set(python_qt_binding_BUILD_DEPENDS "rosbuild" "qt4-qmake" "python-qt-bindings")
+set(python_qt_binding_RUN_DEPENDS "python-qt-bindings")
+set(python_qt_binding_BUILDTOOL_DEPENDS "catkin")

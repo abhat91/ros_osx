@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: resource_retriever
+Description: Description of resource_retriever
+Version: 1.11.6
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib -lresource_retriever
+Requires: 

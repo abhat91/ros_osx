@@ -1,0 +1,160 @@
+[[36mroscpp_tutorials[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/roscpp_tutorials/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/roscpp_tutorials[0m'[0m
+-- Boost version: 1.60.0
+-- Found the following Boost libraries:
+--   date_time
+--   thread
+--   chrono
+--   system
+--   atomic
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/roscpp_tutorials/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:5 (find_package)
+
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- roscpp_tutorials: 0 messages, 1 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/roscpp_tutorials
+[[36mroscpp_tutorials[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/roscpp_tutorials/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mroscpp_tutorials[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/roscpp_tutorials/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/roscpp_tutorials[0m'[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  4%] Built target time_api_sleep
+[  4%] Built target _roscpp_tutorials_generate_messages_check_deps_TwoInts
+[  6%] Built target roscpp_tutorials_generate_messages_cpp
+[  8%] Built target roscpp_tutorials_generate_messages_lisp
+[ 13%] Built target roscpp_tutorials_generate_messages_eus
+[ 17%] Built target roscpp_tutorials_generate_messages_py
+[ 17%] Built target roscpp_tutorials_gencpp
+[ 17%] Built target roscpp_tutorials_generate_messages
+[ 21%] Built target listener_class
+[ 26%] Built target node_handle_namespaces
+[ 30%] Built target timers
+[ 34%] Built target parameters
+[ 39%] Built target babbler
+[ 47%] Built target add_two_ints_server_class
+[ 47%] Built target listener_with_tracked_object
+[ 52%] Built target listener_threaded_spin
+[ 56%] Built target add_two_ints_server
+[ 60%] Built target talker
+[ 69%] Built target add_two_ints_client
+[ 69%] Built target listener_with_userdata
+[ 73%] Built target listener
+[ 78%] Built target listener_multiple
+[ 82%] Built target anonymous_listener
+[ 86%] Built target custom_callback_processing
+[ 91%] Built target listener_async_spin
+[100%] Built target listener_unreliable
+[100%] Built target notify_connect
+[[36mroscpp_tutorials[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/roscpp_tutorials/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mroscpp_tutorials[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/roscpp_tutorials/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/roscpp_tutorials[0m'[0m
+[  4%] Built target time_api_sleep
+[  4%] Built target std_msgs_generate_messages_cpp
+[  4%] Built target _roscpp_tutorials_generate_messages_check_deps_TwoInts
+[  6%] Built target roscpp_tutorials_generate_messages_cpp
+[  6%] Built target roscpp_tutorials_gencpp
+[ 10%] Built target parameters
+[ 15%] Built target timers
+[ 19%] Built target node_handle_namespaces
+[ 23%] Built target listener_class
+[ 28%] Built target listener_with_tracked_object
+[ 32%] Built target babbler
+[ 36%] Built target listener_threaded_spin
+[ 41%] Built target add_two_ints_server_class
+[ 45%] Built target add_two_ints_server
+[ 50%] Built target add_two_ints_client
+[ 54%] Built target talker
+[ 58%] Built target listener_with_userdata
+[ 63%] Built target listener
+[ 63%] Built target std_msgs_generate_messages_eus
+[ 67%] Built target roscpp_tutorials_generate_messages_eus
+[ 67%] Built target std_msgs_generate_messages_lisp
+[ 69%] Built target roscpp_tutorials_generate_messages_lisp
+[ 69%] Built target std_msgs_generate_messages_py
+[ 73%] Built target roscpp_tutorials_generate_messages_py
+[ 73%] Built target roscpp_tutorials_generate_messages
+[ 78%] Built target listener_async_spin
+[ 82%] Built target listener_multiple
+[ 86%] Built target anonymous_listener
+[ 91%] Built target custom_callback_processing
+[ 95%] Built target listener_unreliable
+[100%] Built target notify_connect
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/share/roscpp_tutorials/srv/TwoInts.srv
+-- Up-to-date: /opt/ros/jade/share/roscpp_tutorials/cmake/roscpp_tutorials-msg-paths.cmake
+-- Up-to-date: /opt/ros/jade/include/roscpp_tutorials
+-- Up-to-date: /opt/ros/jade/include/roscpp_tutorials/TwoInts.h
+-- Up-to-date: /opt/ros/jade/include/roscpp_tutorials/TwoIntsRequest.h
+-- Up-to-date: /opt/ros/jade/include/roscpp_tutorials/TwoIntsResponse.h
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/roscpp_tutorials
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/roscpp_tutorials/manifest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/roscpp_tutorials/srv
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/roscpp_tutorials/srv/TwoInts.l
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/roscpp_tutorials
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/roscpp_tutorials/srv
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/roscpp_tutorials/srv/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/roscpp_tutorials/srv/_package_TwoInts.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/roscpp_tutorials/srv/roscpp_tutorials-srv.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/roscpp_tutorials/srv/TwoInts.lisp
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/roscpp_tutorials ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/roscpp_tutorials/srv ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp_tutorials
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp_tutorials/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp_tutorials/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp_tutorials/srv
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp_tutorials/srv/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp_tutorials/srv/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp_tutorials/srv/_TwoInts.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp_tutorials/srv/_TwoInts.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/roscpp_tutorials.pc
+-- Up-to-date: /opt/ros/jade/share/roscpp_tutorials/cmake/roscpp_tutorials-msg-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/roscpp_tutorials/cmake/roscpp_tutorialsConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/roscpp_tutorials/cmake/roscpp_tutorialsConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/roscpp_tutorials/package.xml
+-- Installing: /opt/ros/jade/lib/roscpp_tutorials/listener
+-- Installing: /opt/ros/jade/lib/roscpp_tutorials/notify_connect
+-- Installing: /opt/ros/jade/lib/roscpp_tutorials/talker
+-- Installing: /opt/ros/jade/lib/roscpp_tutorials/babbler
+-- Installing: /opt/ros/jade/lib/roscpp_tutorials/add_two_ints_client
+-- Installing: /opt/ros/jade/lib/roscpp_tutorials/add_two_ints_server
+-- Installing: /opt/ros/jade/lib/roscpp_tutorials/add_two_ints_server_class
+-- Installing: /opt/ros/jade/lib/roscpp_tutorials/anonymous_listener
+-- Installing: /opt/ros/jade/lib/roscpp_tutorials/listener_with_userdata
+-- Installing: /opt/ros/jade/lib/roscpp_tutorials/listener_multiple
+-- Installing: /opt/ros/jade/lib/roscpp_tutorials/listener_threaded_spin
+-- Installing: /opt/ros/jade/lib/roscpp_tutorials/listener_async_spin
+-- Installing: /opt/ros/jade/lib/roscpp_tutorials/listener_with_tracked_object
+-- Installing: /opt/ros/jade/lib/roscpp_tutorials/listener_unreliable
+-- Installing: /opt/ros/jade/lib/roscpp_tutorials/listener_class
+-- Installing: /opt/ros/jade/lib/roscpp_tutorials/node_handle_namespaces
+-- Installing: /opt/ros/jade/lib/roscpp_tutorials/custom_callback_processing
+-- Installing: /opt/ros/jade/lib/roscpp_tutorials/timers
+-- Installing: /opt/ros/jade/lib/roscpp_tutorials/parameters
+-- Installing: /opt/ros/jade/lib/roscpp_tutorials/time_api_sleep
+-- Up-to-date: /opt/ros/jade/share/roscpp_tutorials/launch/talker_listener.launch
+[[36mroscpp_tutorials[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/roscpp_tutorials/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

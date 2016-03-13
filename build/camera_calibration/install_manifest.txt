@@ -1,0 +1,13 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/camera_calibration.pc
+/opt/ros/jade/share/camera_calibration/cmake/camera_calibrationConfig.cmake
+/opt/ros/jade/share/camera_calibration/cmake/camera_calibrationConfig-version.cmake
+/opt/ros/jade/share/camera_calibration/package.xml
+/opt/ros/jade/lib/camera_calibration/cameracalibrator.py
+/opt/ros/jade/lib/camera_calibration/cameracheck.py
+/opt/ros/jade/lib/camera_calibration/tarfile_calibration.py

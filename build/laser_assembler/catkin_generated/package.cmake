@@ -1,0 +1,8 @@
+set(_CATKIN_CURRENT_PACKAGE "laser_assembler")
+set(laser_assembler_VERSION "1.7.3")
+set(laser_assembler_MAINTAINER "David Gossow <dgossoe@willowgarage.com>")
+set(laser_assembler_BUILD_DEPENDS "message_generation" "sensor_msgs" "message_filters" "tf" "roscpp" "rostest" "filters" "laser_geometry" "pluginlib")
+set(laser_assembler_RUN_DEPENDS "message_runtime" "sensor_msgs" "message_filters" "roscpp" "tf" "filters" "laser_geometry" "pluginlib")
+set(laser_assembler_DEPRECATED "")
+set(laser_assembler_BUILDTOOL_DEPENDS "catkin")
+set(laser_assembler_BUILDTOOL_DEPENDS_catkin_VERSION_GTE "0.5.68")

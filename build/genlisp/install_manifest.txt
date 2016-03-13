@@ -1,0 +1,16 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/genlisp.pc
+/opt/ros/jade/share/genlisp/cmake/genlisp-extras.cmake
+/opt/ros/jade/share/genlisp/cmake/genlispConfig.cmake
+/opt/ros/jade/share/genlisp/cmake/genlispConfig-version.cmake
+/opt/ros/jade/share/genlisp/package.xml
+/opt/ros/jade/etc/ros/genmsg/genlisp
+/opt/ros/jade/share/common-lisp/rospack_nosubdirs
+/opt/ros/jade/share/genlisp/msg.lisp.template
+/opt/ros/jade/share/genlisp/srv.lisp.template
+/opt/ros/jade/lib/genlisp/gen_lisp.py

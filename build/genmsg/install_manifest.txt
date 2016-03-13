@@ -1,0 +1,17 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/genmsg.pc
+/opt/ros/jade/share/genmsg/cmake/genmsg-extras.cmake
+/opt/ros/jade/share/genmsg/cmake/genmsgConfig.cmake
+/opt/ros/jade/share/genmsg/cmake/genmsgConfig-version.cmake
+/opt/ros/jade/share/genmsg/package.xml
+/opt/ros/jade/share/genmsg/cmake/pkg-genmsg.cmake.em
+/opt/ros/jade/share/genmsg/cmake/pkg-genmsg.context.in
+/opt/ros/jade/share/genmsg/cmake/pkg-msg-extras.cmake.in
+/opt/ros/jade/share/genmsg/cmake/pkg-msg-paths.cmake.develspace.in
+/opt/ros/jade/share/genmsg/cmake/pkg-msg-paths.cmake.installspace.in
+/opt/ros/jade/lib/genmsg/genmsg_check_deps.py

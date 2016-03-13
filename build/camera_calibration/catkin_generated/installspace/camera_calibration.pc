@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: camera_calibration
+Description: Description of camera_calibration
+Version: 1.12.15
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: gencpp
+Description: Description of gencpp
+Version: 0.5.3
+Cflags: 
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: genmsg

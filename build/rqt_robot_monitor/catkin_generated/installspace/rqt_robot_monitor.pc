@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: rqt_robot_monitor
+Description: Description of rqt_robot_monitor
+Version: 0.4.3
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: 

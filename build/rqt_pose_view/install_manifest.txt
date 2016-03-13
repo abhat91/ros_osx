@@ -1,0 +1,13 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/rqt_pose_view.pc
+/opt/ros/jade/share/rqt_pose_view/cmake/rqt_pose_viewConfig.cmake
+/opt/ros/jade/share/rqt_pose_view/cmake/rqt_pose_viewConfig-version.cmake
+/opt/ros/jade/share/rqt_pose_view/package.xml
+/opt/ros/jade/share/rqt_pose_view/plugin.xml
+/opt/ros/jade/share/rqt_pose_view/resource/PoseViewWidget.ui
+/opt/ros/jade/lib/rqt_pose_view/rqt_pose_view

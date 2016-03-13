@@ -1,0 +1,51 @@
+[[36mqt_gui_cpp[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/qt_gui_cpp/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/qt_gui_cpp[0m'[0m
+[[36mqt_gui_cpp[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/qt_gui_cpp/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mqt_gui_cpp[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/qt_gui_cpp/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/qt_gui_cpp[0m'[0m
+[ 78%] Built target qt_gui_cpp
+[ 85%] [34m[1mCompiling generated code for qt_gui_cpp_sip Python bindings...[0m
+[ 92%] [34m[1mMeta target for qt_gui_cpp_sip Python bindings...[0m
+[100%] Built target libqt_gui_cpp_sip
+[[36mqt_gui_cpp[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/qt_gui_cpp/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mqt_gui_cpp[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/qt_gui_cpp/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/qt_gui_cpp[0m'[0m
+[ 78%] Built target qt_gui_cpp
+[ 85%] [34m[1mCompiling generated code for qt_gui_cpp_sip Python bindings...[0m
+[ 92%] [34m[1mMeta target for qt_gui_cpp_sip Python bindings...[0m
+[100%] Built target libqt_gui_cpp_sip
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/lib/pkgconfig/qt_gui_cpp.pc
+-- Up-to-date: /opt/ros/jade/share/qt_gui_cpp/cmake/qt_gui_cppConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/qt_gui_cpp/cmake/qt_gui_cppConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/qt_gui_cpp/package.xml
++ cd /Users/adityabhat/Downloads/src/qt_gui_core/qt_gui_cpp
++ /usr/bin/env PYTHONPATH=/opt/ros/jade/lib/python2.7/site-packages:/Users/adityabhat/Downloads/build/qt_gui_cpp/lib/python2.7/site-packages:/opt/ros/jade/lib/python2.7/site-packages CATKIN_BINARY_DIR=/Users/adityabhat/Downloads/build/qt_gui_cpp /usr/bin/python /Users/adityabhat/Downloads/src/qt_gui_core/qt_gui_cpp/setup.py build --build-base /Users/adityabhat/Downloads/build/qt_gui_cpp install --prefix=/opt/ros/jade --install-scripts=/opt/ros/jade/bin
+running build
+running build_py
+running install
+running install_lib
+running install_egg_info
+Removing /opt/ros/jade/lib/python2.7/site-packages/qt_gui_cpp-0.2.29-py2.7.egg-info
+Writing /opt/ros/jade/lib/python2.7/site-packages/qt_gui_cpp-0.2.29-py2.7.egg-info
+-- Up-to-date: /opt/ros/jade/include/qt_gui_cpp
+-- Up-to-date: /opt/ros/jade/include/qt_gui_cpp/composite_plugin_provider.h
+-- Up-to-date: /opt/ros/jade/include/qt_gui_cpp/generic_proxy.h
+-- Up-to-date: /opt/ros/jade/include/qt_gui_cpp/plugin.h
+-- Up-to-date: /opt/ros/jade/include/qt_gui_cpp/plugin_bridge.h
+-- Up-to-date: /opt/ros/jade/include/qt_gui_cpp/plugin_context.h
+-- Up-to-date: /opt/ros/jade/include/qt_gui_cpp/plugin_descriptor.h
+-- Up-to-date: /opt/ros/jade/include/qt_gui_cpp/plugin_provider.h
+-- Up-to-date: /opt/ros/jade/include/qt_gui_cpp/recursive_plugin_provider.h
+-- Up-to-date: /opt/ros/jade/include/qt_gui_cpp/ros_pluginlib_plugin_provider.h
+-- Up-to-date: /opt/ros/jade/include/qt_gui_cpp/ros_pluginlib_plugin_provider_for_plugin_providers.h
+-- Up-to-date: /opt/ros/jade/include/qt_gui_cpp/ros_pluginlib_plugin_provider_for_plugins.h
+-- Up-to-date: /opt/ros/jade/include/qt_gui_cpp/settings.h
+-- Up-to-date: /opt/ros/jade/share/qt_gui_cpp/plugin.xml
+-- Installing: /opt/ros/jade/lib/libqt_gui_cpp.dylib
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/qt_gui_cpp/libqt_gui_cpp_sip.so
+[[36mqt_gui_cpp[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/qt_gui_cpp/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

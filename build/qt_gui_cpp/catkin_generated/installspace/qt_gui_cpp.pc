@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: qt_gui_cpp
+Description: Description of qt_gui_cpp
+Version: 0.2.29
+Cflags: -I/opt/ros/jade/include -I/usr/local/include
+Libs: -L/opt/ros/jade/lib -lqt_gui_cpp -l:/usr/local/lib/libboost_filesystem-mt.dylib -l:/usr/local/lib/libboost_system-mt.dylib
+Requires: pluginlib

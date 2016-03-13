@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "convex_decomposition")
+set(convex_decomposition_MAINTAINER "Bryce Vondervoort <bvondervoort@clearpathrobotics.com>")
+set(convex_decomposition_DEPRECATED "")
+set(convex_decomposition_VERSION "0.1.10")
+set(convex_decomposition_BUILD_DEPENDS "unzip")
+set(convex_decomposition_RUN_DEPENDS "unzip")
+set(convex_decomposition_BUILDTOOL_DEPENDS "catkin")

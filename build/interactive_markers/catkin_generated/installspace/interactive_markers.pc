@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: interactive_markers
+Description: Description of interactive_markers
+Version: 1.11.1
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib -linteractive_markers
+Requires: roscpp rosconsole rospy tf visualization_msgs

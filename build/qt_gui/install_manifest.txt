@@ -1,0 +1,13 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/qt_gui.pc
+/opt/ros/jade/share/qt_gui/cmake/qt_guiConfig.cmake
+/opt/ros/jade/share/qt_gui/cmake/qt_guiConfig-version.cmake
+/opt/ros/jade/share/qt_gui/package.xml
+/opt/ros/jade/share/qt_gui/resource/dock_widget_title_bar.ui
+/opt/ros/jade/share/qt_gui/resource/perspective_create.ui
+/opt/ros/jade/share/qt_gui/resource/ros_org_vertical.png

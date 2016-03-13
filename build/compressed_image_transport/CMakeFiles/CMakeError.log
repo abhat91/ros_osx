@@ -1,0 +1,17 @@
+Determining if the CXX compiler accepts the flag -Wl,--version-script,"/Users/adityabhat/Downloads/build/compressed_image_transport/class_loader_hide_library_symbols__compressed_image_transport.script" failed with the following output:
+Change Dir: /Users/adityabhat/Downloads/build/compressed_image_transport/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5671a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5671a.dir/build.make CMakeFiles/cmTC_5671a.dir/build
+Building CXX object CMakeFiles/cmTC_5671a.dir/DummyCXXFile.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,--version-script,"/Users/adityabhat/Downloads/build/compressed_image_transport/class_loader_hide_library_symbols__compressed_image_transport.script" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_5671a.dir/DummyCXXFile.cxx.o -c /usr/local/Cellar/cmake/3.5.0/share/cmake/Modules/DummyCXXFile.cxx
+clang: warning: -Wl,--version-script,/Users/adityabhat/Downloads/build/compressed_image_transport/class_loader_hide_library_symbols__compressed_image_transport.script: 'linker' input unused
+Linking CXX executable cmTC_5671a
+/usr/local/Cellar/cmake/3.5.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5671a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,--version-script,"/Users/adityabhat/Downloads/build/compressed_image_transport/class_loader_hide_library_symbols__compressed_image_transport.script" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5671a.dir/DummyCXXFile.cxx.o  -o cmTC_5671a  
+ld: unknown option: --version-script
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_5671a] Error 1
+make: *** [cmTC_5671a/fast] Error 2
+
+

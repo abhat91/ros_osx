@@ -1,0 +1,134 @@
+[[36mtheora_image_transport[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/theora_image_transport/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/theora_image_transport[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/theora_image_transport/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:5 (find_package)
+
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- theora_image_transport: 1 messages, 0 services
+-- Configuring done
+CMake Warning (dev):
+  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  MACOSX_RPATH is not specified for the following targets:
+
+   theora_image_transport
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/theora_image_transport
+[[36mtheora_image_transport[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/theora_image_transport/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mtheora_image_transport[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/theora_image_transport/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/theora_image_transport[0m'[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _theora_image_transport_generate_messages_check_deps_Packet
+[ 14%] Built target theora_image_transport_gencfg
+[ 14%] Built target std_msgs_generate_messages_eus
+[ 14%] Built target std_msgs_generate_messages_lisp
+[ 14%] Built target std_msgs_generate_messages_py
+[ 21%] Built target theora_image_transport_generate_messages_cpp
+[ 35%] Built target theora_image_transport_generate_messages_eus
+[ 42%] Built target theora_image_transport_generate_messages_lisp
+[ 57%] Built target theora_image_transport_generate_messages_py
+[ 57%] Built target theora_image_transport_gencpp
+[ 57%] Built target theora_image_transport_generate_messages
+[ 85%] Built target theora_image_transport
+[100%] Built target ogg_saver
+[[36mtheora_image_transport[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/theora_image_transport/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mtheora_image_transport[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/theora_image_transport/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/theora_image_transport[0m'[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _theora_image_transport_generate_messages_check_deps_Packet
+[  7%] Built target theora_image_transport_generate_messages_cpp
+[  7%] Built target theora_image_transport_gencpp
+[ 21%] Built target ogg_saver
+[ 35%] Built target theora_image_transport_gencfg
+[ 35%] Built target std_msgs_generate_messages_eus
+[ 50%] Built target theora_image_transport_generate_messages_eus
+[ 50%] Built target std_msgs_generate_messages_lisp
+[ 57%] Built target theora_image_transport_generate_messages_lisp
+[ 57%] Built target std_msgs_generate_messages_py
+[ 71%] Built target theora_image_transport_generate_messages_py
+[ 71%] Built target theora_image_transport_generate_messages
+[100%] Built target theora_image_transport
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/share/theora_image_transport/msg/Packet.msg
+-- Up-to-date: /opt/ros/jade/share/theora_image_transport/cmake/theora_image_transport-msg-paths.cmake
+-- Up-to-date: /opt/ros/jade/include/theora_image_transport
+-- Up-to-date: /opt/ros/jade/include/theora_image_transport/Packet.h
+-- Up-to-date: /opt/ros/jade/include/theora_image_transport/TheoraPublisherConfig.h
+-- Up-to-date: /opt/ros/jade/include/theora_image_transport/TheoraSubscriberConfig.h
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/theora_image_transport
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/theora_image_transport/manifest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/theora_image_transport/msg
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/theora_image_transport/msg/Packet.l
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/theora_image_transport
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/theora_image_transport/msg
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/theora_image_transport/msg/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/theora_image_transport/msg/_package_Packet.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/theora_image_transport/msg/Packet.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/theora_image_transport/msg/theora_image_transport-msg.asd
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/theora_image_transport ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/theora_image_transport/cfg ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/theora_image_transport/msg ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport/cfg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport/cfg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport/cfg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport/cfg/TheoraPublisherConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport/cfg/TheoraPublisherConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport/cfg/TheoraSubscriberConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport/cfg/TheoraSubscriberConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport/msg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport/msg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport/msg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport/msg/_Packet.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport/msg/_Packet.pyc
+-- Up-to-date: /opt/ros/jade/include/theora_image_transport/TheoraPublisherConfig.h
+-- Up-to-date: /opt/ros/jade/include/theora_image_transport/TheoraSubscriberConfig.h
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport/__init__.py
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/theora_image_transport/cfg ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport/cfg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport/cfg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport/cfg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport/cfg/TheoraPublisherConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport/cfg/TheoraPublisherConfig.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport/cfg/TheoraSubscriberConfig.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/theora_image_transport/cfg/TheoraSubscriberConfig.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/theora_image_transport.pc
+-- Up-to-date: /opt/ros/jade/share/theora_image_transport/cmake/theora_image_transport-msg-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/theora_image_transport/cmake/theora_image_transportConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/theora_image_transport/cmake/theora_image_transportConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/theora_image_transport/package.xml
+-- Installing: /opt/ros/jade/lib/libtheora_image_transport.dylib
+-- Installing: /opt/ros/jade/lib/theora_image_transport/ogg_saver
+-- Up-to-date: /opt/ros/jade/include/theora_image_transport
+-- Up-to-date: /opt/ros/jade/include/theora_image_transport/theora_publisher.h
+-- Up-to-date: /opt/ros/jade/include/theora_image_transport/theora_subscriber.h
+-- Up-to-date: /opt/ros/jade/share/theora_image_transport/theora_plugins.xml
+[[36mtheora_image_transport[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/theora_image_transport/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

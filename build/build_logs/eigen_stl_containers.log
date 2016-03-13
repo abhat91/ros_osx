@@ -1,0 +1,23 @@
+[[36meigen_stl_containers[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/eigen_stl_containers/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/eigen_stl_containers[0m'[0m
+[[36meigen_stl_containers[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/eigen_stl_containers/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36meigen_stl_containers[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/eigen_stl_containers/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/eigen_stl_containers[0m'[0m
+[[36meigen_stl_containers[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/eigen_stl_containers/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36meigen_stl_containers[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/eigen_stl_containers/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/eigen_stl_containers[0m'[0m
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/lib/pkgconfig/eigen_stl_containers.pc
+-- Up-to-date: /opt/ros/jade/share/eigen_stl_containers/cmake/eigen_stl_containersConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/eigen_stl_containers/cmake/eigen_stl_containersConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/eigen_stl_containers/package.xml
+-- Up-to-date: /opt/ros/jade/include
+-- Up-to-date: /opt/ros/jade/include/eigen_stl_containers
+-- Up-to-date: /opt/ros/jade/include/eigen_stl_containers/eigen_stl_containers.h
+-- Up-to-date: /opt/ros/jade/include/eigen_stl_containers/eigen_stl_map_container.h
+-- Up-to-date: /opt/ros/jade/include/eigen_stl_containers/eigen_stl_vector_container.h
+[[36meigen_stl_containers[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/eigen_stl_containers/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

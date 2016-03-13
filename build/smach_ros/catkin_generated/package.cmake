@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "smach_ros")
+set(smach_ros_MAINTAINER "Jonathan Bohren <jbo@jhu.edu>")
+set(smach_ros_DEPRECATED "")
+set(smach_ros_VERSION "2.0.0")
+set(smach_ros_BUILD_DEPENDS "rostest")
+set(smach_ros_RUN_DEPENDS "rospy" "rostopic" "std_msgs" "std_srvs" "actionlib" "actionlib_msgs" "smach" "smach_msgs")
+set(smach_ros_BUILDTOOL_DEPENDS "catkin")

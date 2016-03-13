@@ -1,0 +1,32 @@
+[[36mgeometric_shapes[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/geometric_shapes/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/geometric_shapes[0m'[0m
+[[36mgeometric_shapes[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/geometric_shapes/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mgeometric_shapes[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/geometric_shapes/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/geometric_shapes[0m'[0m
+[100%] Built target geometric_shapes
+[[36mgeometric_shapes[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/geometric_shapes/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mgeometric_shapes[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/geometric_shapes/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/geometric_shapes[0m'[0m
+[100%] Built target geometric_shapes
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/lib/pkgconfig/geometric_shapes.pc
+-- Up-to-date: /opt/ros/jade/share/geometric_shapes/cmake/geometric_shapesConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/geometric_shapes/cmake/geometric_shapesConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/geometric_shapes/package.xml
+-- Installing: /opt/ros/jade/lib/libgeometric_shapes.dylib
+-- Up-to-date: /opt/ros/jade/include
+-- Up-to-date: /opt/ros/jade/include/geometric_shapes
+-- Up-to-date: /opt/ros/jade/include/geometric_shapes/bodies.h
+-- Up-to-date: /opt/ros/jade/include/geometric_shapes/body_operations.h
+-- Up-to-date: /opt/ros/jade/include/geometric_shapes/mesh_operations.h
+-- Up-to-date: /opt/ros/jade/include/geometric_shapes/shape_extents.h
+-- Up-to-date: /opt/ros/jade/include/geometric_shapes/shape_messages.h
+-- Up-to-date: /opt/ros/jade/include/geometric_shapes/shape_operations.h
+-- Up-to-date: /opt/ros/jade/include/geometric_shapes/shape_to_marker.h
+-- Up-to-date: /opt/ros/jade/include/geometric_shapes/shapes.h
+-- Up-to-date: /opt/ros/jade/include/geometric_shapes/solid_primitive_dims.h
+[[36mgeometric_shapes[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/geometric_shapes/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

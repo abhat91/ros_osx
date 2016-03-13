@@ -1,0 +1,123 @@
+[[36mtf2[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/tf2/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/tf2[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/tf2/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:5 (find_package)
+
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- Boost version: 1.60.0
+-- Found the following Boost libraries:
+--   signals
+--   system
+--   thread
+--   chrono
+--   date_time
+--   atomic
+-- Configuring done
+CMake Warning (dev) at CMakeLists.txt:47 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "tf2_msgs_gencpp" of target "test_simple" does not
+  exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+CMake Warning (dev) at CMakeLists.txt:43 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "tf2_msgs_gencpp" of target
+  "test_static_cache_unittest" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+CMake Warning (dev) at CMakeLists.txt:22 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "tf2_msgs_gencpp" of target "tf2" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:52 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "tf2_msgs_gencpp" of target "tests" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:39 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "tf2_msgs_gencpp" of target "test_cache_unittest"
+  does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+CMake Warning (dev):
+  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  MACOSX_RPATH is not specified for the following targets:
+
+   tf2
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/tf2
+[[36mtf2[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/tf2/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mtf2[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/tf2/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/tf2[0m'[0m
+[100%] Built target tf2
+[[36mtf2[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/tf2/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mtf2[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/tf2/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/tf2[0m'[0m
+[100%] Built target tf2
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Installing: /opt/ros/jade/lib/pkgconfig/tf2.pc
+-- Up-to-date: /opt/ros/jade/share/tf2/cmake/tf2Config.cmake
+-- Up-to-date: /opt/ros/jade/share/tf2/cmake/tf2Config-version.cmake
+-- Up-to-date: /opt/ros/jade/share/tf2/package.xml
+-- Installing: /opt/ros/jade/lib/libtf2.dylib
+-- Up-to-date: /opt/ros/jade/include/tf2
+-- Up-to-date: /opt/ros/jade/include/tf2/buffer_core.h
+-- Up-to-date: /opt/ros/jade/include/tf2/convert.h
+-- Up-to-date: /opt/ros/jade/include/tf2/exceptions.h
+-- Up-to-date: /opt/ros/jade/include/tf2/impl
+-- Up-to-date: /opt/ros/jade/include/tf2/impl/convert.h
+-- Up-to-date: /opt/ros/jade/include/tf2/impl/utils.h
+-- Up-to-date: /opt/ros/jade/include/tf2/LinearMath
+-- Up-to-date: /opt/ros/jade/include/tf2/LinearMath/Matrix3x3.h
+-- Up-to-date: /opt/ros/jade/include/tf2/LinearMath/MinMax.h
+-- Up-to-date: /opt/ros/jade/include/tf2/LinearMath/QuadWord.h
+-- Up-to-date: /opt/ros/jade/include/tf2/LinearMath/Quaternion.h
+-- Up-to-date: /opt/ros/jade/include/tf2/LinearMath/Scalar.h
+-- Up-to-date: /opt/ros/jade/include/tf2/LinearMath/Transform.h
+-- Up-to-date: /opt/ros/jade/include/tf2/LinearMath/Vector3.h
+-- Up-to-date: /opt/ros/jade/include/tf2/time_cache.h
+-- Up-to-date: /opt/ros/jade/include/tf2/transform_datatypes.h
+-- Up-to-date: /opt/ros/jade/include/tf2/transform_storage.h
+-- Up-to-date: /opt/ros/jade/include/tf2/utils.h
+[[36mtf2[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/tf2/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

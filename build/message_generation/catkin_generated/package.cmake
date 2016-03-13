@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "message_generation")
+set(message_generation_MAINTAINER "Dirk Thomas <dthomas@osrfoundation.org>")
+set(message_generation_DEPRECATED "")
+set(message_generation_VERSION "0.3.0")
+set(message_generation_BUILD_DEPENDS )
+set(message_generation_RUN_DEPENDS "gencpp" "geneus" "genlisp" "genmsg" "genpy")
+set(message_generation_BUILDTOOL_DEPENDS "catkin")

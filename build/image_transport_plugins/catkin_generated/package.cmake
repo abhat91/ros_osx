@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "image_transport_plugins")
+set(image_transport_plugins_MAINTAINER "David Gossow <dgossow@willowgarage.com>")
+set(image_transport_plugins_DEPRECATED "")
+set(image_transport_plugins_VERSION "1.9.3")
+set(image_transport_plugins_BUILD_DEPENDS )
+set(image_transport_plugins_RUN_DEPENDS "compressed_depth_image_transport" "compressed_image_transport" "theora_image_transport")
+set(image_transport_plugins_BUILDTOOL_DEPENDS "catkin")

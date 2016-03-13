@@ -1,0 +1,110 @@
+[[36mdriver_base[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/driver_base/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/driver_base[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/driver_base/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:6 (find_package)
+
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- Boost version: 1.60.0
+-- driver_base: 3 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/driver_base
+[[36mdriver_base[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/driver_base/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mdriver_base[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/driver_base/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/driver_base[0m'[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _driver_base_generate_messages_check_deps_ConfigString
+[  0%] Built target _driver_base_generate_messages_check_deps_ConfigValue
+[  0%] Built target _driver_base_generate_messages_check_deps_SensorLevels
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[ 28%] Built target driver_base_generate_messages_eus
+[ 50%] Built target driver_base_generate_messages_lisp
+[ 78%] Built target driver_base_generate_messages_py
+[100%] Built target driver_base_generate_messages_cpp
+[100%] Built target driver_base_generate_messages
+[[36mdriver_base[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/driver_base/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mdriver_base[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/driver_base/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/driver_base[0m'[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _driver_base_generate_messages_check_deps_ConfigString
+[  0%] Built target _driver_base_generate_messages_check_deps_ConfigValue
+[  0%] Built target _driver_base_generate_messages_check_deps_SensorLevels
+[ 28%] Built target driver_base_generate_messages_eus
+[ 28%] Built target std_msgs_generate_messages_lisp
+[ 50%] Built target driver_base_generate_messages_lisp
+[ 50%] Built target std_msgs_generate_messages_py
+[ 78%] Built target driver_base_generate_messages_py
+[ 78%] Built target std_msgs_generate_messages_cpp
+[100%] Built target driver_base_generate_messages_cpp
+[100%] Built target driver_base_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/share/driver_base/msg/ConfigString.msg
+-- Up-to-date: /opt/ros/jade/share/driver_base/msg/ConfigValue.msg
+-- Up-to-date: /opt/ros/jade/share/driver_base/msg/SensorLevels.msg
+-- Up-to-date: /opt/ros/jade/share/driver_base/cmake/driver_base-msg-paths.cmake
+-- Up-to-date: /opt/ros/jade/include/driver_base
+-- Up-to-date: /opt/ros/jade/include/driver_base/ConfigString.h
+-- Up-to-date: /opt/ros/jade/include/driver_base/ConfigValue.h
+-- Up-to-date: /opt/ros/jade/include/driver_base/SensorLevels.h
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/driver_base
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/driver_base/manifest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/driver_base/msg
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/driver_base/msg/ConfigString.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/driver_base/msg/ConfigValue.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/driver_base/msg/SensorLevels.l
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/driver_base
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/driver_base/msg
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/driver_base/msg/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/driver_base/msg/_package_ConfigString.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/driver_base/msg/_package_ConfigValue.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/driver_base/msg/_package_SensorLevels.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/driver_base/msg/ConfigString.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/driver_base/msg/ConfigValue.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/driver_base/msg/driver_base-msg.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/driver_base/msg/SensorLevels.lisp
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/driver_base ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/driver_base/msg ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/driver_base
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/driver_base/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/driver_base/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/driver_base/msg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/driver_base/msg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/driver_base/msg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/driver_base/msg/_ConfigString.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/driver_base/msg/_ConfigString.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/driver_base/msg/_ConfigValue.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/driver_base/msg/_ConfigValue.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/driver_base/msg/_SensorLevels.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/driver_base/msg/_SensorLevels.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/driver_base.pc
+-- Up-to-date: /opt/ros/jade/share/driver_base/cmake/driver_base-msg-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/driver_base/cmake/driver_baseConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/driver_base/cmake/driver_baseConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/driver_base/package.xml
+-- Up-to-date: /opt/ros/jade/include/driver_base
+-- Up-to-date: /opt/ros/jade/include/driver_base/driver.h
+-- Up-to-date: /opt/ros/jade/include/driver_base/driver_node.h
+[[36mdriver_base[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/driver_base/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

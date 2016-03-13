@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: urdf
+Description: Description of urdf
+Version: 1.11.10
+Cflags: -I/Users/adityabhat/Downloads/src/robot_model/urdf/include -I/usr/local/Cellar/urdfdom_headers/0.2.3/include -I/usr/local/Cellar/urdfdom/0.2.10/include -I/usr/local/Cellar/console_bridge/0.2.5/include -I/usr/local/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -lurdf -l:/usr/local/Cellar/urdfdom/0.2.10/lib/liburdfdom_sensor.dylib -l:/usr/local/Cellar/urdfdom/0.2.10/lib/liburdfdom_model_state.dylib -l:/usr/local/Cellar/urdfdom/0.2.10/lib/liburdfdom_model.dylib -l:/usr/local/Cellar/urdfdom/0.2.10/lib/liburdfdom_world.dylib -l:/usr/local/lib/libconsole_bridge.dylib -l:/usr/local/lib/libboost_thread-mt.dylib -l:/usr/local/lib/libboost_chrono-mt.dylib -l:/usr/local/lib/libboost_system-mt.dylib -l:/usr/local/lib/libboost_date_time-mt.dylib -l:/usr/local/lib/libboost_atomic-mt.dylib
+Requires: rosconsole_bridge roscpp

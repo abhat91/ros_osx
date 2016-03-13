@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rosbag_migration_rule")
+set(rosbag_migration_rule_MAINTAINER "Dirk Thomas <dthomas@osrfoundation.org>")
+set(rosbag_migration_rule_DEPRECATED "")
+set(rosbag_migration_rule_VERSION "1.0.0")
+set(rosbag_migration_rule_BUILD_DEPENDS )
+set(rosbag_migration_rule_RUN_DEPENDS )
+set(rosbag_migration_rule_BUILDTOOL_DEPENDS "catkin")

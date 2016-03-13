@@ -1,0 +1,104 @@
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: /Users/adityabhat/Downloads/build/rqt_image_view/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26f00/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_26f00.dir/build.make CMakeFiles/cmTC_26f00.dir/build
+Building CXX object CMakeFiles/cmTC_26f00.dir/CheckSymbolExists.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.7_2/include -F/usr/local/Cellar/qt/4.8.7_2/lib  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_26f00.dir/CheckSymbolExists.cxx.o -c /Users/adityabhat/Downloads/build/rqt_image_view/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/adityabhat/Downloads/build/rqt_image_view/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_X11'
+  return ((int*)(&Q_WS_X11))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_26f00.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTC_26f00/fast] Error 2
+
+File /Users/adityabhat/Downloads/build/rqt_image_view/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /Users/adityabhat/Downloads/build/rqt_image_view/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0b92/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a0b92.dir/build.make CMakeFiles/cmTC_a0b92.dir/build
+Building CXX object CMakeFiles/cmTC_a0b92.dir/CheckSymbolExists.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.7_2/include -F/usr/local/Cellar/qt/4.8.7_2/lib  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_a0b92.dir/CheckSymbolExists.cxx.o -c /Users/adityabhat/Downloads/build/rqt_image_view/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/adityabhat/Downloads/build/rqt_image_view/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_WIN'
+  return ((int*)(&Q_WS_WIN))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a0b92.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTC_a0b92/fast] Error 2
+
+File /Users/adityabhat/Downloads/build/rqt_image_view/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /Users/adityabhat/Downloads/build/rqt_image_view/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b5cf/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9b5cf.dir/build.make CMakeFiles/cmTC_9b5cf.dir/build
+Building CXX object CMakeFiles/cmTC_9b5cf.dir/CheckSymbolExists.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.7_2/include -F/usr/local/Cellar/qt/4.8.7_2/lib  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_9b5cf.dir/CheckSymbolExists.cxx.o -c /Users/adityabhat/Downloads/build/rqt_image_view/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/adityabhat/Downloads/build/rqt_image_view/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_QWS'
+  return ((int*)(&Q_WS_QWS))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_9b5cf.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTC_9b5cf/fast] Error 2
+
+File /Users/adityabhat/Downloads/build/rqt_image_view/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CXX compiler accepts the flag -Wl,--version-script,"/Users/adityabhat/Downloads/build/rqt_image_view/class_loader_hide_library_symbols__rqt_image_view.script" failed with the following output:
+Change Dir: /Users/adityabhat/Downloads/build/rqt_image_view/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53764/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_53764.dir/build.make CMakeFiles/cmTC_53764.dir/build
+Building CXX object CMakeFiles/cmTC_53764.dir/DummyCXXFile.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,--version-script,"/Users/adityabhat/Downloads/build/rqt_image_view/class_loader_hide_library_symbols__rqt_image_view.script" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_53764.dir/DummyCXXFile.cxx.o -c /usr/local/Cellar/cmake/3.5.0/share/cmake/Modules/DummyCXXFile.cxx
+clang: warning: -Wl,--version-script,/Users/adityabhat/Downloads/build/rqt_image_view/class_loader_hide_library_symbols__rqt_image_view.script: 'linker' input unused
+Linking CXX executable cmTC_53764
+/usr/local/Cellar/cmake/3.5.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53764.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,--version-script,"/Users/adityabhat/Downloads/build/rqt_image_view/class_loader_hide_library_symbols__rqt_image_view.script" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_53764.dir/DummyCXXFile.cxx.o  -o cmTC_53764  
+ld: unknown option: --version-script
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_53764] Error 1
+make: *** [cmTC_53764/fast] Error 2
+
+

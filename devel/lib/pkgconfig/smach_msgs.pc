@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: smach_msgs
+Description: Description of smach_msgs
+Version: 2.0.0
+Cflags: -I/Users/adityabhat/Downloads/devel/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: message_runtime

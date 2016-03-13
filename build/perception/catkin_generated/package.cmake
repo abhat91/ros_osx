@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "perception")
+set(perception_MAINTAINER "Dirk Thomas <dthomas@osrfoundation.org>")
+set(perception_DEPRECATED "")
+set(perception_VERSION "1.2.0")
+set(perception_BUILD_DEPENDS )
+set(perception_RUN_DEPENDS "ros_base" "image_common" "image_pipeline" "image_transport_plugins" "laser_pipeline" "perception_pcl" "vision_opencv")
+set(perception_BUILDTOOL_DEPENDS "catkin")

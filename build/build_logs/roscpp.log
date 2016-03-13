@@ -1,0 +1,227 @@
+[[36mroscpp[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/roscpp/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/roscpp[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/roscpp/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:4 (find_package)
+
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- Boost version: 1.60.0
+-- Found the following Boost libraries:
+--   signals
+--   filesystem
+--   system
+-- roscpp: 1 messages, 3 services
+-- Configuring done
+CMake Warning (dev) at CMakeLists.txt:119 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+  The dependency target "rosgraph_msgs_gencpp" of target "roscpp" does not
+  exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:119 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "std_msgs_gencpp" of target "roscpp" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev):
+  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+  MACOSX_RPATH is not specified for the following targets:
+
+   roscpp
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/roscpp
+[[36mroscpp[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/roscpp/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mroscpp[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/roscpp/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/roscpp[0m'[0m
+[  0%] Built target _roscpp_generate_messages_check_deps_Logger
+[  0%] Built target _roscpp_generate_messages_check_deps_GetLoggers
+[  0%] Built target _roscpp_generate_messages_check_deps_SetLoggerLevel
+[  0%] Built target _roscpp_generate_messages_check_deps_Empty
+[  5%] Built target roscpp_generate_messages_cpp
+[ 14%] Built target roscpp_generate_messages_py
+[ 20%] Built target roscpp_generate_messages_lisp
+[ 28%] Built target roscpp_generate_messages_eus
+[ 28%] Built target roscpp_gencpp
+[ 28%] Built target roscpp_generate_messages
+[100%] Built target roscpp
+[[36mroscpp[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/roscpp/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mroscpp[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/roscpp/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/roscpp[0m'[0m
+[  0%] Built target _roscpp_generate_messages_check_deps_Logger
+[  0%] Built target _roscpp_generate_messages_check_deps_GetLoggers
+[  0%] Built target _roscpp_generate_messages_check_deps_Empty
+[  0%] Built target _roscpp_generate_messages_check_deps_SetLoggerLevel
+[  5%] Built target roscpp_generate_messages_cpp
+[  5%] Built target roscpp_gencpp
+[ 77%] Built target roscpp
+[ 86%] Built target roscpp_generate_messages_py
+[ 92%] Built target roscpp_generate_messages_lisp
+[100%] Built target roscpp_generate_messages_eus
+[100%] Built target roscpp_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/share/roscpp/msg/Logger.msg
+-- Up-to-date: /opt/ros/jade/share/roscpp/srv/Empty.srv
+-- Up-to-date: /opt/ros/jade/share/roscpp/srv/GetLoggers.srv
+-- Up-to-date: /opt/ros/jade/share/roscpp/srv/SetLoggerLevel.srv
+-- Up-to-date: /opt/ros/jade/share/roscpp/cmake/roscpp-msg-paths.cmake
+-- Up-to-date: /opt/ros/jade/include/roscpp
+-- Up-to-date: /opt/ros/jade/include/roscpp/Empty.h
+-- Up-to-date: /opt/ros/jade/include/roscpp/EmptyRequest.h
+-- Up-to-date: /opt/ros/jade/include/roscpp/EmptyResponse.h
+-- Up-to-date: /opt/ros/jade/include/roscpp/GetLoggers.h
+-- Up-to-date: /opt/ros/jade/include/roscpp/GetLoggersRequest.h
+-- Up-to-date: /opt/ros/jade/include/roscpp/GetLoggersResponse.h
+-- Up-to-date: /opt/ros/jade/include/roscpp/Logger.h
+-- Up-to-date: /opt/ros/jade/include/roscpp/SetLoggerLevel.h
+-- Up-to-date: /opt/ros/jade/include/roscpp/SetLoggerLevelRequest.h
+-- Up-to-date: /opt/ros/jade/include/roscpp/SetLoggerLevelResponse.h
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/roscpp
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/roscpp/manifest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/roscpp/msg
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/roscpp/msg/Logger.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/roscpp/srv
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/roscpp/srv/Empty.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/roscpp/srv/GetLoggers.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/roscpp/srv/SetLoggerLevel.l
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/roscpp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/roscpp/msg
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/roscpp/msg/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/roscpp/msg/_package_Logger.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/roscpp/msg/Logger.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/roscpp/msg/roscpp-msg.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/roscpp/srv
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/roscpp/srv/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/roscpp/srv/_package_Empty.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/roscpp/srv/_package_GetLoggers.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/roscpp/srv/_package_SetLoggerLevel.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/roscpp/srv/Empty.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/roscpp/srv/GetLoggers.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/roscpp/srv/roscpp-srv.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/roscpp/srv/SetLoggerLevel.lisp
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/roscpp ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/roscpp/msg ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/roscpp/srv ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp/msg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp/msg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp/msg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp/msg/_Logger.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp/msg/_Logger.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp/srv
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp/srv/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp/srv/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp/srv/_Empty.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp/srv/_Empty.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp/srv/_GetLoggers.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp/srv/_GetLoggers.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp/srv/_SetLoggerLevel.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/roscpp/srv/_SetLoggerLevel.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/roscpp.pc
+-- Up-to-date: /opt/ros/jade/share/roscpp/cmake/roscpp-msg-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/roscpp/cmake/roscppConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/roscpp/cmake/roscppConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/roscpp/package.xml
+-- Installing: /opt/ros/jade/lib/libroscpp.dylib
+-- Up-to-date: /opt/ros/jade/include
+-- Up-to-date: /opt/ros/jade/include/ros
+-- Up-to-date: /opt/ros/jade/include/ros/advertise_options.h
+-- Up-to-date: /opt/ros/jade/include/ros/advertise_service_options.h
+-- Up-to-date: /opt/ros/jade/include/ros/callback_queue.h
+-- Up-to-date: /opt/ros/jade/include/ros/callback_queue_interface.h
+-- Up-to-date: /opt/ros/jade/include/ros/connection.h
+-- Up-to-date: /opt/ros/jade/include/ros/connection_manager.h
+-- Up-to-date: /opt/ros/jade/include/ros/exceptions.h
+-- Up-to-date: /opt/ros/jade/include/ros/file_log.h
+-- Up-to-date: /opt/ros/jade/include/ros/forwards.h
+-- Up-to-date: /opt/ros/jade/include/ros/init.h
+-- Up-to-date: /opt/ros/jade/include/ros/internal_timer_manager.h
+-- Up-to-date: /opt/ros/jade/include/ros/intraprocess_publisher_link.h
+-- Up-to-date: /opt/ros/jade/include/ros/intraprocess_subscriber_link.h
+-- Up-to-date: /opt/ros/jade/include/ros/io.h
+-- Up-to-date: /opt/ros/jade/include/ros/master.h
+-- Up-to-date: /opt/ros/jade/include/ros/message.h
+-- Up-to-date: /opt/ros/jade/include/ros/message_deserializer.h
+-- Up-to-date: /opt/ros/jade/include/ros/names.h
+-- Up-to-date: /opt/ros/jade/include/ros/network.h
+-- Up-to-date: /opt/ros/jade/include/ros/node_handle.h
+-- Up-to-date: /opt/ros/jade/include/ros/param.h
+-- Up-to-date: /opt/ros/jade/include/ros/parameter_adapter.h
+-- Up-to-date: /opt/ros/jade/include/ros/poll_manager.h
+-- Up-to-date: /opt/ros/jade/include/ros/poll_set.h
+-- Up-to-date: /opt/ros/jade/include/ros/publication.h
+-- Up-to-date: /opt/ros/jade/include/ros/publisher.h
+-- Up-to-date: /opt/ros/jade/include/ros/publisher_link.h
+-- Up-to-date: /opt/ros/jade/include/ros/ros.h
+-- Up-to-date: /opt/ros/jade/include/ros/rosout_appender.h
+-- Up-to-date: /opt/ros/jade/include/ros/service.h
+-- Up-to-date: /opt/ros/jade/include/ros/service_callback_helper.h
+-- Up-to-date: /opt/ros/jade/include/ros/service_client.h
+-- Up-to-date: /opt/ros/jade/include/ros/service_client_link.h
+-- Up-to-date: /opt/ros/jade/include/ros/service_client_options.h
+-- Up-to-date: /opt/ros/jade/include/ros/service_manager.h
+-- Up-to-date: /opt/ros/jade/include/ros/service_publication.h
+-- Up-to-date: /opt/ros/jade/include/ros/service_server.h
+-- Up-to-date: /opt/ros/jade/include/ros/service_server_link.h
+-- Up-to-date: /opt/ros/jade/include/ros/single_subscriber_publisher.h
+-- Up-to-date: /opt/ros/jade/include/ros/spinner.h
+-- Up-to-date: /opt/ros/jade/include/ros/statistics.h
+-- Up-to-date: /opt/ros/jade/include/ros/subscribe_options.h
+-- Up-to-date: /opt/ros/jade/include/ros/subscriber.h
+-- Up-to-date: /opt/ros/jade/include/ros/subscriber_link.h
+-- Up-to-date: /opt/ros/jade/include/ros/subscription.h
+-- Up-to-date: /opt/ros/jade/include/ros/subscription_callback_helper.h
+-- Up-to-date: /opt/ros/jade/include/ros/subscription_queue.h
+-- Up-to-date: /opt/ros/jade/include/ros/this_node.h
+-- Up-to-date: /opt/ros/jade/include/ros/timer.h
+-- Up-to-date: /opt/ros/jade/include/ros/timer_manager.h
+-- Up-to-date: /opt/ros/jade/include/ros/timer_options.h
+-- Up-to-date: /opt/ros/jade/include/ros/topic.h
+-- Up-to-date: /opt/ros/jade/include/ros/topic_manager.h
+-- Up-to-date: /opt/ros/jade/include/ros/transport
+-- Up-to-date: /opt/ros/jade/include/ros/transport/transport.h
+-- Up-to-date: /opt/ros/jade/include/ros/transport/transport_tcp.h
+-- Up-to-date: /opt/ros/jade/include/ros/transport/transport_udp.h
+-- Up-to-date: /opt/ros/jade/include/ros/transport_hints.h
+-- Up-to-date: /opt/ros/jade/include/ros/transport_publisher_link.h
+-- Up-to-date: /opt/ros/jade/include/ros/transport_subscriber_link.h
+-- Up-to-date: /opt/ros/jade/include/ros/wall_timer.h
+-- Up-to-date: /opt/ros/jade/include/ros/wall_timer_options.h
+-- Up-to-date: /opt/ros/jade/include/ros/xmlrpc_manager.h
+-- Up-to-date: /opt/ros/jade/include/ros/common.h
+-- Up-to-date: /opt/ros/jade/share/roscpp/rosbuild/roscpp.cmake
+-- Installing: /opt/ros/jade/share/roscpp/rosbuild/scripts/genmsg_cpp.py
+-- Installing: /opt/ros/jade/share/roscpp/rosbuild/scripts/gensrv_cpp.py
+-- Installing: /opt/ros/jade/share/roscpp/rosbuild/scripts/msg_gen.py
+[[36mroscpp[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/roscpp/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

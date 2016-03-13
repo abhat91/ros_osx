@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: rqt_nav_view
+Description: Description of rqt_nav_view
+Version: 0.4.3
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: 

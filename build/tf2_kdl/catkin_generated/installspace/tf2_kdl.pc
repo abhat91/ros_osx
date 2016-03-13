@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: tf2_kdl
+Description: Description of tf2_kdl
+Version: 0.5.12
+Cflags: -I/opt/ros/jade/include -I/Users/adityabhat/Downloads/src/roscpp_core/cpp_common/include -I/Users/adityabhat/Downloads/src/roscpp_core/roscpp_traits/include -I/Users/adityabhat/Downloads/src/roscpp_core/rostime/include -I/Users/adityabhat/Downloads/src/ros_comm/xmlrpcpp/include -I/Users/adityabhat/Downloads/src/std_msgs/include -I/Users/adityabhat/Downloads/src/roscpp_core/roscpp_serialization/include -I/Users/adityabhat/Downloads/src/ros_comm/rosconsole/include -I/Users/adityabhat/Downloads/src/ros_comm/roscpp/include -I/Users/adityabhat/Downloads/src/geometry_experimental/tf2_msgs/include -I/Users/adityabhat/Downloads/src/geometry_experimental/tf2/include -I/Users/adityabhat/Downloads/src/ros_comm/message_filters/include -I/Users/adityabhat/Downloads/src/actionlib/include -I/Users/adityabhat/Downloads/src/geometry_experimental/tf2_ros/include -I/usr/local/Cellar/console_bridge/0.2.5/include -I/usr/local/include -I/usr/local/Cellar/eigen/3.2.8/include/eigen3 -I/usr/local/include/eigen3
+Libs: -L/opt/ros/jade/lib -l:/opt/ros/jade/lib/liborocos-kdl.1.3.0.dylib
+Requires: 

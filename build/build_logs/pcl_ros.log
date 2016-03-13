@@ -1,0 +1,630 @@
+[[36mpcl_ros[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/pcl_ros/build_env.sh /usr/local/bin/cmake /Users/adityabhat/Downloads/src/perception_pcl/pcl_ros -DCATKIN_DEVEL_PREFIX=/Users/adityabhat/Downloads/devel -DCMAKE_INSTALL_PREFIX=/opt/ros/jade -DCMAKE_BUILD_TYPE=Release -DPYTHON_LIBRARY=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib -DPYTHON_INCLUDE_DIR=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/include/python2.7[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/pcl_ros[0m'[0m
+[36m-- [0mThe C compiler identification is AppleClang 7.0.2.7000181
+[0m[36m-- [0mThe CXX compiler identification is AppleClang 7.0.2.7000181
+[0m[36m-- [0mCheck for working C compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+[0m[0m[36m-- [0mCheck for working C compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
+[0m[0m[36m-- [0mDetecting C compiler ABI info
+[0m[36m-- [0mDetecting C compiler ABI info - done
+[0m[36m-- [0mDetecting C compile features
+[0m[36m-- [0mDetecting C compile features - done
+[0m[36m-- [0mCheck for working CXX compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+[0m[0m[36m-- [0mCheck for working CXX compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -- works
+[0m[0m[36m-- [0mDetecting CXX compiler ABI info
+[0m[36m-- [0mDetecting CXX compiler ABI info - done
+[0m[36m-- [0mDetecting CXX compile features
+[0m[36m-- [0mDetecting CXX compile features - done
+[0m[36m-- [0mLooking for pthread.h
+[0m[36m-- [0mLooking for pthread.h - found
+[0m[36m-- [0mLooking for pthread_create
+[0m[36m-- [0mLooking for pthread_create - found
+[0m[36m-- [0mFound Threads:[33m TRUE  
+[0m[0m[36m-- [0mBoost version:[33m 1.60.0
+[0m[0m[36m-- [0mFound the following Boost libraries:[33m
+[0m[0m[36m-- [0m  system
+[0m[36m-- [0m  filesystem
+[0m[36m-- [0m  thread
+[0m[36m-- [0m  chrono
+[0m[36m-- [0m  date_time
+[0m[36m-- [0m  atomic
+[0m[36m-- [0mFound PkgConfig:[33m /usr/local/bin/pkg-config (found version "0.29") 
+[0m[0m[36m-- [0mChecking for module 'eigen3'
+[0m[36m-- [0m  Found eigen3, version 3.2.8
+[0m[33m[1mCMake Warning[0m at /opt/ros/jade/share/cmake_modules/cmake/Modules/FindEigen.cmake:62 (message):
+[0m  The FindEigen.cmake Module in the cmake_modules package is deprecated.
+[0m
+[0m  Please use the FindEigen3.cmake Module provided with Eigen.  Change
+[0m  instances of find_package(Eigen) to find_package(Eigen3).  Check the
+[0m  FindEigen3.cmake Module for the resulting CMake variable names.
+[0m
+[0m[36m[4mCall Stack (most recent call first):[0m
+[0m  CMakeLists.txt:7 (find_package)
+[0m
+[0m
+[0m[36m-- [0mFound Eigen:[33m /usr/local/Cellar/eigen/3.2.8/include/eigen3  
+[0m[0m[36m-- [0mEigen found (include:[33m /usr/local/Cellar/eigen/3.2.8/include/eigen3)
+[0m[0m[36m-- [0mFound eigen:[33m /usr/local/Cellar/eigen/3.2.8/include/eigen3  
+[0m[0m[36m-- [0mBoost version:[33m 1.60.0
+[0m[0m[36m-- [0mFound the following Boost libraries:[33m
+[0m[0m[36m-- [0m  system
+[0m[36m-- [0m  filesystem
+[0m[36m-- [0m  thread
+[0m[36m-- [0m  date_time
+[0m[36m-- [0m  iostreams
+[0m[36m-- [0m  serialization
+[0m[36m-- [0m  chrono
+[0m[36m-- [0m  atomic
+[0m[36m-- [0m  regex
+[0m[36m-- [0mChecking for module 'libopenni'
+[0m[36m-- [0m  No package 'libopenni' found
+[0m[36m-- [0mCould NOT find openni (missing:[33m  OPENNI_LIBRARY OPENNI_INCLUDE_DIRS) 
+[0m[0m** WARNING ** io features related to openni will be disabled
+[0m[36m-- [0mChecking for module 'libopenni2'
+[0m[36m-- [0m  No package 'libopenni2' found
+[0m[36m-- [0mCould NOT find OpenNI2 (missing:[33m  OPENNI2_LIBRARY OPENNI2_INCLUDE_DIRS) 
+[0m[0m** WARNING ** io features related to openni2 will be disabled
+[0m[36m-- [0mCould NOT find ensenso (missing:[33m  ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[0m[0m** WARNING ** io features related to ensenso will be disabled
+[0m[36m-- [0mCould NOT find DAVIDSDK (missing:[33m  DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[0m[0m** WARNING ** io features related to davidSDK will be disabled
+[0m[36m-- [0mCould NOT find DSSDK (missing:[33m  _DSSDK_LIBRARIES) 
+[0m[0m** WARNING ** io features related to dssdk will be disabled
+[0m** WARNING ** io features related to pcap will be disabled
+[0m** WARNING ** io features related to png will be disabled
+[0m[36m-- [0mFound libusb-1.0:[33m /usr/local/include  
+[0m[0m** WARNING ** io features related to libusb-1.0 will be disabled
+[0m[36m-- [0mChecking for module 'flann'
+[0m[36m-- [0m  Found flann, version 1.8.4
+[0m[36m-- [0mFound Flann:[33m /usr/local/Cellar/flann/1.8.4_1/lib/libflann_cpp_s.a  
+[0m[0m[36m-- [0mChecking for module 'libopenni'
+[0m[36m-- [0m  No package 'libopenni' found
+[0m[36m-- [0mCould NOT find openni (missing:[33m  OPENNI_LIBRARY OPENNI_INCLUDE_DIRS) 
+[0m[0m** WARNING ** visualization features related to openni will be disabled
+[0m[36m-- [0mChecking for module 'libopenni2'
+[0m[36m-- [0m  No package 'libopenni2' found
+[0m[36m-- [0mCould NOT find OpenNI2 (missing:[33m  OPENNI2_LIBRARY OPENNI2_INCLUDE_DIRS) 
+[0m[0m** WARNING ** visualization features related to openni2 will be disabled
+[0m[36m-- [0mCould NOT find ensenso (missing:[33m  ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[0m[0m** WARNING ** visualization features related to ensenso will be disabled
+[0m[36m-- [0mCould NOT find DAVIDSDK (missing:[33m  DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[0m[0m** WARNING ** visualization features related to davidSDK will be disabled
+[0m[36m-- [0mCould NOT find DSSDK (missing:[33m  _DSSDK_LIBRARIES) 
+[0m[0m** WARNING ** visualization features related to dssdk will be disabled
+[0m[36m-- [0mCould NOT find RSSDK (missing:[33m  _RSSDK_LIBRARIES) 
+[0m[0m** WARNING ** visualization features related to rssdk will be disabled
+[0m[36m-- [0mFound qhull:[33m /usr/local/lib/libqhull_p.dylib  
+[0m[0m[36m-- [0mFound OpenGL:[33m /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework  
+[0m[0m[36m-- [0mFound Glew:[33m /usr/local/lib/libGLEW.dylib
+[0m[0m[36m-- [0mlooking for PCL_COMMON
+[0m[36m-- [0mFound PCL_COMMON:[33m /usr/local/lib/libpcl_common.dylib  
+[0m[0m[36m-- [0mlooking for PCL_OCTREE
+[0m[36m-- [0mFound PCL_OCTREE:[33m /usr/local/lib/libpcl_octree.dylib  
+[0m[0m[36m-- [0mlooking for PCL_IO
+[0m[36m-- [0mFound PCL_IO:[33m /usr/local/lib/libpcl_io.dylib  
+[0m[0m[36m-- [0mlooking for PCL_KDTREE
+[0m[36m-- [0mFound PCL_KDTREE:[33m /usr/local/lib/libpcl_kdtree.dylib  
+[0m[0m[36m-- [0mlooking for PCL_SEARCH
+[0m[36m-- [0mFound PCL_SEARCH:[33m /usr/local/lib/libpcl_search.dylib  
+[0m[0m[36m-- [0mlooking for PCL_SAMPLE_CONSENSUS
+[0m[36m-- [0mFound PCL_SAMPLE_CONSENSUS:[33m /usr/local/lib/libpcl_sample_consensus.dylib  
+[0m[0m[36m-- [0mlooking for PCL_FILTERS
+[0m[36m-- [0mFound PCL_FILTERS:[33m /usr/local/lib/libpcl_filters.dylib  
+[0m[0m[36m-- [0mlooking for PCL_2D
+[0m[36m-- [0mFound PCL_2D:[33m /usr/local/include/pcl-1.8  
+[0m[0m[36m-- [0mlooking for PCL_GEOMETRY
+[0m[36m-- [0mFound PCL_GEOMETRY:[33m /usr/local/include/pcl-1.8  
+[0m[0m[36m-- [0mlooking for PCL_FEATURES
+[0m[36m-- [0mFound PCL_FEATURES:[33m /usr/local/lib/libpcl_features.dylib  
+[0m[0m[36m-- [0mlooking for PCL_ML
+[0m[36m-- [0mFound PCL_ML:[33m /usr/local/lib/libpcl_ml.dylib  
+[0m[0m[36m-- [0mlooking for PCL_SEGMENTATION
+[0m[36m-- [0mFound PCL_SEGMENTATION:[33m /usr/local/lib/libpcl_segmentation.dylib  
+[0m[0m[36m-- [0mlooking for PCL_VISUALIZATION
+[0m[36m-- [0mFound PCL_VISUALIZATION:[33m /usr/local/lib/libpcl_visualization.dylib  
+[0m[0m[36m-- [0mlooking for PCL_SURFACE
+[0m[36m-- [0mFound PCL_SURFACE:[33m /usr/local/lib/libpcl_surface.dylib  
+[0m[0m[36m-- [0mlooking for PCL_REGISTRATION
+[0m[36m-- [0mFound PCL_REGISTRATION:[33m /usr/local/lib/libpcl_registration.dylib  
+[0m[0m[36m-- [0mlooking for PCL_KEYPOINTS
+[0m[36m-- [0mFound PCL_KEYPOINTS:[33m /usr/local/lib/libpcl_keypoints.dylib  
+[0m[0m[36m-- [0mlooking for PCL_TRACKING
+[0m[36m-- [0mFound PCL_TRACKING:[33m /usr/local/lib/libpcl_tracking.dylib  
+[0m[0m[36m-- [0mlooking for PCL_RECOGNITION
+[0m[36m-- [0mFound PCL_RECOGNITION:[33m /usr/local/lib/libpcl_recognition.dylib  
+[0m[0m[36m-- [0mlooking for PCL_STEREO
+[0m[36m-- [0mFound PCL_STEREO:[33m /usr/local/lib/libpcl_stereo.dylib  
+[0m[0m[36m-- [0mlooking for PCL_OUTOFCORE
+[0m[36m-- [0mFound PCL_OUTOFCORE:[33m /usr/local/lib/libpcl_outofcore.dylib  
+[0m[0m[36m-- [0mlooking for PCL_PEOPLE
+[0m[36m-- [0mFound PCL_PEOPLE:[33m /usr/local/lib/libpcl_people.dylib  
+[0m[0m[36m-- [0mlooking for PCL_SIMULATION
+[0m[36m-- [0mFound PCL_SIMULATION:[33m /usr/local/lib/libpcl_simulation.dylib  
+[0m[0m[36m-- [0mFound PCL:[33m /usr/local/lib/libboost_system-mt.dylib;/usr/local/lib/libboost_filesystem-mt.dylib;/usr/local/lib/libboost_thread-mt.dylib;/usr/local/lib/libboost_date_time-mt.dylib;/usr/local/lib/libboost_iostreams-mt.dylib;/usr/local/lib/libboost_serialization-mt.dylib;/usr/local/lib/libboost_chrono-mt.dylib;/usr/local/lib/libboost_atomic-mt.dylib;/usr/local/lib/libboost_regex-mt.dylib;optimized;/usr/local/lib/libpcl_common.dylib;debug;/usr/local/lib/libpcl_common.dylib;optimized;/usr/local/lib/libpcl_octree.dylib;debug;/usr/local/lib/libpcl_octree.dylib;vtkalglib;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;vtkfreetype;/usr/lib/libz.dylib;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/libexpat.dylib;vtkDomainsChemistryOpenGL2;vtkRenderingOpenGL2;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/local/lib/libjpeg.dylib;/usr/local/lib/libpng.dylib;/usr/local/lib/libtiff.dylib;vtkglew;vtkexoIIc;vtkNetCDF;vtkNetCDF_cxx;/usr/local/lib/libhdf5.dylib;/usr/local/lib/libsz.dylib;/usr/lib/libdl.dylib;/usr/lib/libm.dylib;/usr/local/lib/libhdf5_hl.dylib;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelImaging;vtkFiltersProgrammable;vtkFiltersPython;/System/Library/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersSelection;vtkFiltersSMP;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGeovisCore;vtkInfovisLayout;vtkInteractionStyle;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkViewsCore;vtkproj4;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInfovisBoostGraphAlgorithms;vtkInteractionImage;vtkIOAMR;vtkIOEnSight;vtkIOExodus;vtkIOExport;vtkRenderingLabel;vtkIOImport;vtkIOInfovis;/usr/lib/libxml2.dylib;vtkIOLSDyna;vtkIOMINC;vtkIOMovie;vtkoggtheora;vtkIONetCDF;vtkIOParallel;vtkjsoncpp;vtkIOParallelXML;vtkIOPLY;vtkIOSQL;vtksqlite;vtkIOVideo;vtkRenderingContextOpenGL2;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLOD;vtkRenderingVolumeOpenGL2;vtkViewsContext2D;vtkViewsInfovis;optimized;/usr/local/lib/libpcl_io.dylib;debug;/usr/local/lib/libpcl_io.dylib;optimized;/usr/local/Cellar/flann/1.8.4_1/lib/libflann_cpp_s.a;debug;/usr/local/Cellar/flann/1.8.4_1/lib/libflann_cpp_s.a;optimized;/usr/local/lib/libpcl_kdtree.dylib;debug;/usr/local/lib/libpcl_kdtree.dylib;optimized;/usr/local/lib/libpcl_search.dylib;debug;/usr/local/lib/libpcl_search.dylib;optimized;/usr/local/lib/libpcl_sample_consensus.dylib;debug;/usr/local/lib/libpcl_sample_consensus.dylib;optimized;/usr/local/lib/libpcl_filters.dylib;debug;/usr/local/lib/libpcl_filters.dylib;optimized;/usr/local/lib/libpcl_features.dylib;debug;/usr/local/lib/libpcl_features.dylib;optimized;/usr/local/lib/libpcl_ml.dylib;debug;/usr/local/lib/libpcl_ml.dylib;optimized;/usr/local/lib/libpcl_segmentation.dylib;debug;/usr/local/lib/libpcl_segmentation.dylib;optimized;/usr/local/lib/libpcl_visualization.dylib;debug;/usr/local/lib/libpcl_visualization.dylib;optimized;/usr/local/lib/libqhull_p.dylib;debug;/usr/local/lib/libqhull_p.dylib;optimized;/usr/local/lib/libpcl_surface.dylib;debug;/usr/local/lib/libpcl_surface.dylib;optimized;/usr/local/lib/libpcl_registration.dylib;debug;/usr/local/lib/libpcl_registration.dylib;optimized;/usr/local/lib/libpcl_keypoints.dylib;debug;/usr/local/lib/libpcl_keypoints.dylib;optimized;/usr/local/lib/libpcl_tracking.dylib;debug;/usr/local/lib/libpcl_tracking.dylib;optimized;/usr/local/lib/libpcl_recognition.dylib;debug;/usr/local/lib/libpcl_recognition.dylib;optimized;/usr/local/lib/libpcl_stereo.dylib;debug;/usr/local/lib/libpcl_stereo.dylib;optimized;/usr/local/lib/libpcl_outofcore.dylib;debug;/usr/local/lib/libpcl_outofcore.dylib;optimized;/usr/local/lib/libpcl_people.dylib;debug;/usr/local/lib/libpcl_people.dylib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework;/usr/local/lib/libGLEW.dylib;optimized;/usr/local/lib/libpcl_simulation.dylib;debug;/usr/local/lib/libpcl_simulation.dylib;/usr/local/lib/libboost_system-mt.dylib;/usr/local/lib/libboost_filesystem-mt.dylib;/usr/local/lib/libboost_thread-mt.dylib;/usr/local/lib/libboost_date_time-mt.dylib;/usr/local/lib/libboost_iostreams-mt.dylib;/usr/local/lib/libboost_serialization-mt.dylib;/usr/local/lib/libboost_chrono-mt.dylib;/usr/local/lib/libboost_atomic-mt.dylib;/usr/local/lib/libboost_regex-mt.dylib;optimized;/usr/local/lib/libqhull_p.dylib;debug;/usr/local/lib/libqhull_p.dylib;optimized;/usr/local/Cellar/flann/1.8.4_1/lib/libflann_cpp_s.a;debug;/usr/local/Cellar/flann/1.8.4_1/lib/libflann_cpp_s.a;vtkalglib;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;vtkfreetype;/usr/lib/libz.dylib;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/libexpat.dylib;vtkDomainsChemistryOpenGL2;vtkRenderingOpenGL2;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/local/lib/libjpeg.dylib;/usr/local/lib/libpng.dylib;/usr/local/lib/libtiff.dylib;vtkglew;vtkexoIIc;vtkNetCDF;vtkNetCDF_cxx;/usr/local/lib/libhdf5.dylib;/usr/local/lib/libsz.dylib;/usr/lib/libdl.dylib;/usr/lib/libm.dylib;/usr/local/lib/libhdf5_hl.dylib;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelImaging;vtkFiltersProgrammable;vtkFiltersPython;/System/Library/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersSelection;vtkFiltersSMP;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGeovisCore;vtkInfovisLayout;vtkInteractionStyle;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkViewsCore;vtkproj4;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInfovisBoostGraphAlgorithms;vtkInteractionImage;vtkIOAMR;vtkIOEnSight;vtkIOExodus;vtkIOExport;vtkRenderingLabel;vtkIOImport;vtkIOInfovis;/usr/lib/libxml2.dylib;vtkIOLSDyna;vtkIOMINC;vtkIOMovie;vtkoggtheora;vtkIONetCDF;vtkIOParallel;vtkjsoncpp;vtkIOParallelXML;vtkIOPLY;vtkIOSQL;vtksqlite;vtkIOVideo;vtkRenderingContextOpenGL2;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLOD;vtkRenderingVolumeOpenGL2;vtkViewsContext2D;vtkViewsInfovis  
+[0m[0m[36m-- [0mUsing CATKIN_DEVEL_PREFIX:[33m /Users/adityabhat/Downloads/devel
+[0m[0m[36m-- [0mUsing CMAKE_PREFIX_PATH:[33m /opt/ros/jade
+[0m[0m[36m-- [0mThis workspace overlays:[33m /opt/ros/jade
+[0m[0m[36m-- [0mFound PythonInterp:[33m /usr/bin/python (found version "2.7.10") 
+[0m[0m[36m-- [0mUsing PYTHON_EXECUTABLE:[33m /usr/bin/python
+[0m[0m[36m-- [0mUsing default Python package layout
+[0m[36m-- [0mFound PY_em:[33m /usr/local/lib/python2.7/site-packages/em.pyc  
+[0m[0m[36m-- [0mUsing empy:[33m /usr/local/lib/python2.7/site-packages/em.pyc
+[0m[0m[36m-- [0mUsing CATKIN_ENABLE_TESTING:[33m ON
+[0m[0m[36m-- [0mCall enable_testing()
+[0m[36m-- [0mUsing CATKIN_TEST_RESULTS_DIR:[33m /Users/adityabhat/Downloads/build/pcl_ros/test_results
+[0m[0m[36m-- [0mFound gtest:[33m gtests will be built
+[0m[0m[33m[1mCMake Warning[0m at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+[0m  nosetests not found, Python tests can not be run (try installing package
+[0m  'python-nose')
+[0m[36m[4mCall Stack (most recent call first):[0m
+[0m  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+[0m  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+[0m  CMakeLists.txt:11 (find_package)
+[0m
+[0m
+[0m[36m-- [0mcatkin 0.6.16
+[0m[36m-- [0mUsing these message generators:[33m gencpp;geneus;genlisp;genpy
+[0m[0m[36m-- [0mChecking to see if CXX compiler accepts flag -Wl,--version-script,"/Users/adityabhat/Downloads/build/pcl_ros/class_loader_hide_library_symbols__pcl_ros_io.script"
+[0m[36m-- [0mChecking to see if CXX compiler accepts flag -Wl,--version-script,"/Users/adityabhat/Downloads/build/pcl_ros/class_loader_hide_library_symbols__pcl_ros_io.script" - no
+[0m[36m-- [0mConfiguring done
+[0m[33m[1mCMake Warning[0m (dev) at CMakeLists.txt:80 (add_dependencies):
+[0m  Policy CMP0046 is not set: Error on non-existent dependency in
+[0m  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+[0m  Use the cmake_policy command to set the policy and suppress this warning.
+[0m
+[0m  The dependency target "pcl_ros_generate_messages_cpp" of target
+[0m  "pcl_ros_tf" does not exist.
+[0mThis warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0m[33m[1mCMake Warning[0m (dev):
+[0m  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+[0m  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+[0m  set the policy and suppress this warning.
+[0m
+[0m  MACOSX_RPATH is not specified for the following targets:
+[0m
+[0m   pcl_ros_features
+[0m   pcl_ros_filters
+[0m   pcl_ros_io
+[0m   pcl_ros_segmentation
+[0m   pcl_ros_surface
+[0m   pcl_ros_tf
+[0m
+[0mThis warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0m[36m-- [0mGenerating done
+[0m[33m[1mCMake Warning[0m:
+[0m  Manually-specified variables were not used by the project:
+[0m
+[0m    PYTHON_INCLUDE_DIR
+[0m    PYTHON_LIBRARY
+[0m
+[0m
+[0m[36m-- [0mBuild files have been written to:[33m /Users/adityabhat/Downloads/build/pcl_ros
+[0m[0m[[36mpcl_ros[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/pcl_ros/build_env.sh /usr/local/bin/cmake /Users/adityabhat/Downloads/src/perception_pcl/pcl_ros -DCATKIN_DEVEL_PREFIX=/Users/adityabhat/Downloads/devel -DCMAKE_INSTALL_PREFIX=/opt/ros/jade -DCMAKE_BUILD_TYPE=Release -DPYTHON_LIBRARY=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib -DPYTHON_INCLUDE_DIR=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/include/python2.7[0m' finished with return code '[1m0[0m'[0m
+[[36mpcl_ros[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/pcl_ros/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/pcl_ros[0m'[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target convert_pointcloud_to_image[0m
+[35m[1mScanning dependencies of target pointcloud_to_pcd[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[  0%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[  0%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[  0%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[  0%] Built target tf_generate_messages_cpp
+[35m[1mScanning dependencies of target topic_tools_generate_messages_py[0m
+[  0%] Built target topic_tools_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[  0%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target topic_tools_generate_messages_cpp[0m
+[  0%] Built target topic_tools_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target nodelet_topic_tools_gencfg[0m
+[  0%] Built target nodelet_topic_tools_gencfg
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[  0%] Built target tf_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target nodelet_generate_messages_py[0m
+[  0%] Built target nodelet_generate_messages_py
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[  0%] Built target pcl_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target bond_generate_messages_py[0m
+[  0%] Built target bond_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[  0%] Built target dynamic_reconfigure_gencfg
+[35m[1mScanning dependencies of target bond_generate_messages_lisp[0m
+[  0%] Built target bond_generate_messages_lisp
+[35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[  0%] Built target tf_generate_messages_eus
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[35m[1mScanning dependencies of target bond_generate_messages_cpp[0m
+[  0%] Built target bond_generate_messages_cpp
+[35m[1mScanning dependencies of target bond_generate_messages_eus[0m
+[  0%] Built target bond_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[  0%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target nodelet_generate_messages_lisp[0m
+[  0%] Built target nodelet_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[  0%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target nodelet_generate_messages_cpp[0m
+[  0%] Built target nodelet_generate_messages_cpp
+[35m[1mScanning dependencies of target topic_tools_generate_messages_lisp[0m
+[  0%] Built target topic_tools_generate_messages_lisp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[  0%] Built target pcl_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target nodelet_generate_messages_eus[0m
+[  0%] Built target nodelet_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[  0%] Built target tf_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[35m[1mScanning dependencies of target topic_tools_generate_messages_eus[0m
+[  0%] Built target topic_tools_generate_messages_eus
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[35m[1mScanning dependencies of target pcd_to_pointcloud[0m
+[  1%] [32mBuilding CXX object CMakeFiles/convert_pointcloud_to_image.dir/tools/convert_pointcloud_to_image.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/pointcloud_to_pcd.dir/tools/pointcloud_to_pcd.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/pcd_to_pointcloud.dir/tools/pcd_to_pointcloud.cpp.o[0m
+[  6%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/pcl_ros/pcd_to_pointcloud[0m
+[  7%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/pcl_ros/pointcloud_to_pcd[0m
+[  9%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/pcl_ros/convert_pointcloud_to_image[0m
+[  9%] Built target pointcloud_to_pcd
+[  9%] Built target convert_pointcloud_to_image
+[  9%] Built target pcd_to_pointcloud
+[35m[1mScanning dependencies of target pcl_ros_gencfg[0m
+[35m[1mScanning dependencies of target convert_pcd_to_image[0m
+[ 11%] [34m[1mGenerating dynamic reconfigure files from cfg/EuclideanClusterExtraction.cfg: /Users/adityabhat/Downloads/devel/include/pcl_ros/EuclideanClusterExtractionConfig.h /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/EuclideanClusterExtractionConfig.py[0m
+[ 12%] [34m[1mGenerating dynamic reconfigure files from cfg/ExtractIndices.cfg: /Users/adityabhat/Downloads/devel/include/pcl_ros/ExtractIndicesConfig.h /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/ExtractIndicesConfig.py[0m
+Generating reconfiguration files for EuclideanClusterExtraction in pcl_ros
+Generating reconfiguration files for ExtractIndices in pcl_ros
+Wrote header file in /Users/adityabhat/Downloads/devel/include/pcl_ros/ExtractIndicesConfig.h
+Wrote header file in /Users/adityabhat/Downloads/devel/include/pcl_ros/EuclideanClusterExtractionConfig.h
+[ 14%] [34m[1mGenerating dynamic reconfigure files from cfg/ExtractPolygonalPrismData.cfg: /Users/adityabhat/Downloads/devel/include/pcl_ros/ExtractPolygonalPrismDataConfig.h /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/ExtractPolygonalPrismDataConfig.py[0m
+[ 15%] [34m[1mGenerating dynamic reconfigure files from cfg/Feature.cfg: /Users/adityabhat/Downloads/devel/include/pcl_ros/FeatureConfig.h /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/FeatureConfig.py[0m
+Generating reconfiguration files for Feature in pcl_ros
+Generating reconfiguration files for ExtractPolygonalPrismData in pcl_ros
+Wrote header file in /Users/adityabhat/Downloads/devel/include/pcl_ros/FeatureConfig.h
+Wrote header file in /Users/adityabhat/Downloads/devel/include/pcl_ros/ExtractPolygonalPrismDataConfig.h
+[ 17%] [34m[1mGenerating dynamic reconfigure files from cfg/Filter.cfg: /Users/adityabhat/Downloads/devel/include/pcl_ros/FilterConfig.h /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/FilterConfig.py[0m
+[ 19%] [34m[1mGenerating dynamic reconfigure files from cfg/MLS.cfg: /Users/adityabhat/Downloads/devel/include/pcl_ros/MLSConfig.h /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/MLSConfig.py[0m
+Generating reconfiguration files for MLS in pcl_ros
+Wrote header file in /Users/adityabhat/Downloads/devel/include/pcl_ros/MLSConfig.h
+Generating reconfiguration files for Filter in pcl_ros
+[ 20%] [34m[1mGenerating dynamic reconfigure files from cfg/SACSegmentation.cfg: /Users/adityabhat/Downloads/devel/include/pcl_ros/SACSegmentationConfig.h /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/SACSegmentationConfig.py[0m
+Wrote header file in /Users/adityabhat/Downloads/devel/include/pcl_ros/FilterConfig.h
+[ 22%] [34m[1mGenerating dynamic reconfigure files from cfg/SACSegmentationFromNormals.cfg: /Users/adityabhat/Downloads/devel/include/pcl_ros/SACSegmentationFromNormalsConfig.h /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/SACSegmentationFromNormalsConfig.py[0m
+Generating reconfiguration files for SACSegmentation in pcl_ros
+Generating reconfiguration files for SACSegmentationFromNormals in pcl_ros
+Wrote header file in /Users/adityabhat/Downloads/devel/include/pcl_ros/SACSegmentationConfig.h
+Wrote header file in /Users/adityabhat/Downloads/devel/include/pcl_ros/SACSegmentationFromNormalsConfig.h
+[ 23%] [34m[1mGenerating dynamic reconfigure files from cfg/SegmentDifferences.cfg: /Users/adityabhat/Downloads/devel/include/pcl_ros/SegmentDifferencesConfig.h /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/SegmentDifferencesConfig.py[0m
+[ 25%] [34m[1mGenerating dynamic reconfigure files from cfg/StatisticalOutlierRemoval.cfg: /Users/adityabhat/Downloads/devel/include/pcl_ros/StatisticalOutlierRemovalConfig.h /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/StatisticalOutlierRemovalConfig.py[0m
+Generating reconfiguration files for SegmentDifferences in pcl_ros
+Wrote header file in /Users/adityabhat/Downloads/devel/include/pcl_ros/SegmentDifferencesConfig.h
+Generating reconfiguration files for StatisticalOutlierRemoval in pcl_ros
+[ 26%] [34m[1mGenerating dynamic reconfigure files from cfg/RadiusOutlierRemoval.cfg: /Users/adityabhat/Downloads/devel/include/pcl_ros/RadiusOutlierRemovalConfig.h /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/RadiusOutlierRemovalConfig.py[0m
+Wrote header file in /Users/adityabhat/Downloads/devel/include/pcl_ros/StatisticalOutlierRemovalConfig.h
+[ 28%] [34m[1mGenerating dynamic reconfigure files from cfg/VoxelGrid.cfg: /Users/adityabhat/Downloads/devel/include/pcl_ros/VoxelGridConfig.h /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/VoxelGridConfig.py[0m
+Generating reconfiguration files for RadiusOutlierRemoval in pcl_ros
+Wrote header file in /Users/adityabhat/Downloads/devel/include/pcl_ros/RadiusOutlierRemovalConfig.h
+[ 30%] [34m[1mGenerating dynamic reconfigure files from cfg/CropBox.cfg: /Users/adityabhat/Downloads/devel/include/pcl_ros/CropBoxConfig.h /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/CropBoxConfig.py[0m
+Generating reconfiguration files for VoxelGrid in pcl_ros
+Wrote header file in /Users/adityabhat/Downloads/devel/include/pcl_ros/VoxelGridConfig.h
+Generating reconfiguration files for CropBox in pcl_ros
+Wrote header file in /Users/adityabhat/Downloads/devel/include/pcl_ros/CropBoxConfig.h
+[ 30%] Built target pcl_ros_gencfg
+[35m[1mScanning dependencies of target pcl_ros_features[0m
+[35m[1mScanning dependencies of target pcl_ros_tf[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/convert_pcd_to_image.dir/tools/convert_pcd_to_image.cpp.o[0m
+[35m[1mScanning dependencies of target pcl_ros_surface[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/pcl_ros_tf.dir/src/transforms.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/pcl_ros_surface.dir/src/pcl_ros/surface/surface.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/pcl_ros_surface.dir/src/pcl_ros/surface/convex_hull.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/feature.cpp.o[0m
+[ 39%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/pcl_ros/convert_pcd_to_image[0m
+[ 39%] Built target convert_pcd_to_image
+[ 41%] [32mBuilding CXX object CMakeFiles/pcl_ros_surface.dir/src/pcl_ros/surface/moving_least_squares.cpp.o[0m
+[ 42%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libpcl_ros_tf.dylib[0m
+[ 42%] Built target pcl_ros_tf
+[ 44%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/boundary.cpp.o[0m
+[35m[1mScanning dependencies of target pcl_ros_io[0m
+[ 46%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libpcl_ros_surface.dylib[0m
+[ 46%] Built target pcl_ros_surface
+[35m[1mScanning dependencies of target bag_to_pcd[0m
+[35m[1mScanning dependencies of target pcl_ros_segmentation[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/bag_to_pcd.dir/tools/bag_to_pcd.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/pcl_ros_io.dir/src/pcl_ros/io/bag_io.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pcl_ros_segmentation.dir/src/pcl_ros/segmentation/extract_clusters.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/fpfh.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/pcl_ros_io.dir/src/pcl_ros/io/concatenate_data.cpp.o[0m
+[ 55%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/pcl_ros/bag_to_pcd[0m
+[ 55%] Built target bag_to_pcd
+[ 57%] [32mBuilding CXX object CMakeFiles/pcl_ros_segmentation.dir/src/pcl_ros/segmentation/extract_polygonal_prism_data.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/fpfh_omp.cpp.o[0m
+[35m[1mScanning dependencies of target pcl_ros_filters[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/pcl_ros_io.dir/src/pcl_ros/io/concatenate_fields.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/extract_indices.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/pcl_ros_segmentation.dir/src/pcl_ros/segmentation/sac_segmentation.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/pcl_ros_io.dir/src/pcl_ros/io/io.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/shot.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/filter.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/pcl_ros_io.dir/src/pcl_ros/io/pcd_io.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/shot_omp.cpp.o[0m
+[ 73%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libpcl_ros_io.dylib[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/pcl_ros_segmentation.dir/src/pcl_ros/segmentation/segment_differences.cpp.o[0m
+[ 74%] Built target pcl_ros_io
+[ 76%] [32mBuilding CXX object CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/passthrough.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/pcl_ros_segmentation.dir/src/pcl_ros/segmentation/segmentation.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/moment_invariants.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/project_inliers.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/normal_3d.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/radius_outlier_removal.cpp.o[0m
+[ 85%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libpcl_ros_segmentation.dylib[0m
+[ 85%] Built target pcl_ros_segmentation
+[ 87%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/normal_3d_omp.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/statistical_outlier_removal.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/pfh.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/voxel_grid.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/principal_curvatures.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/crop_box.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/vfh.cpp.o[0m
+[ 98%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libpcl_ros_features.dylib[0m
+[100%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libpcl_ros_filters.dylib[0m
+[100%] Built target pcl_ros_filters
+[100%] Built target pcl_ros_features
+[[36mpcl_ros[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/pcl_ros/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mpcl_ros[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/pcl_ros/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/pcl_ros[0m'[0m
+[  3%] Built target convert_pointcloud_to_image
+[  6%] Built target pointcloud_to_pcd
+[  6%] Built target geometry_msgs_generate_messages_py
+[  6%] Built target tf2_msgs_generate_messages_py
+[  6%] Built target tf2_msgs_generate_messages_lisp
+[  6%] Built target tf2_msgs_generate_messages_eus
+[  6%] Built target tf2_msgs_generate_messages_cpp
+[  6%] Built target actionlib_msgs_generate_messages_eus
+[  6%] Built target actionlib_msgs_generate_messages_lisp
+[  6%] Built target actionlib_msgs_generate_messages_cpp
+[  6%] Built target actionlib_generate_messages_eus
+[  6%] Built target tf_generate_messages_cpp
+[  6%] Built target topic_tools_generate_messages_py
+[  6%] Built target actionlib_generate_messages_py
+[  6%] Built target dynamic_reconfigure_generate_messages_py
+[  6%] Built target geometry_msgs_generate_messages_eus
+[  6%] Built target actionlib_msgs_generate_messages_py
+[  6%] Built target geometry_msgs_generate_messages_lisp
+[  6%] Built target sensor_msgs_generate_messages_py
+[  6%] Built target topic_tools_generate_messages_cpp
+[  6%] Built target sensor_msgs_generate_messages_lisp
+[  6%] Built target pcl_msgs_generate_messages_lisp
+[  6%] Built target nodelet_topic_tools_gencfg
+[  6%] Built target tf_generate_messages_lisp
+[  6%] Built target rosgraph_msgs_generate_messages_eus
+[  6%] Built target sensor_msgs_generate_messages_cpp
+[  6%] Built target rosgraph_msgs_generate_messages_cpp
+[  6%] Built target roscpp_generate_messages_py
+[  6%] Built target geometry_msgs_generate_messages_cpp
+[  6%] Built target roscpp_generate_messages_lisp
+[  6%] Built target nodelet_generate_messages_py
+[  6%] Built target pcl_msgs_generate_messages_eus
+[  6%] Built target roscpp_generate_messages_cpp
+[  6%] Built target bond_generate_messages_py
+[  6%] Built target dynamic_reconfigure_gencfg
+[  6%] Built target bond_generate_messages_lisp
+[  6%] Built target tf_generate_messages_eus
+[  6%] Built target dynamic_reconfigure_generate_messages_lisp
+[  6%] Built target bond_generate_messages_cpp
+[  6%] Built target bond_generate_messages_eus
+[  6%] Built target rosgraph_msgs_generate_messages_lisp
+[  6%] Built target actionlib_generate_messages_cpp
+[  6%] Built target std_msgs_generate_messages_cpp
+[  6%] Built target nodelet_generate_messages_lisp
+[  6%] Built target actionlib_generate_messages_lisp
+[  6%] Built target roscpp_generate_messages_eus
+[  6%] Built target nodelet_generate_messages_cpp
+[  6%] Built target topic_tools_generate_messages_lisp
+[  6%] Built target pcl_msgs_generate_messages_py
+[  6%] Built target std_msgs_generate_messages_lisp
+[  6%] Built target nodelet_generate_messages_eus
+[  6%] Built target std_msgs_generate_messages_py
+[  6%] Built target std_msgs_generate_messages_eus
+[  6%] Built target tf_generate_messages_py
+[  6%] Built target sensor_msgs_generate_messages_eus
+[  6%] Built target pcl_msgs_generate_messages_cpp
+[  6%] Built target rosgraph_msgs_generate_messages_py
+[  6%] Built target dynamic_reconfigure_generate_messages_eus
+[  6%] Built target topic_tools_generate_messages_eus
+[  6%] Built target dynamic_reconfigure_generate_messages_cpp
+[  9%] Built target pcl_ros_tf
+[ 19%] Built target pcl_ros_io
+[ 22%] Built target pcd_to_pointcloud
+[ 42%] Built target pcl_ros_gencfg
+[ 63%] Built target pcl_ros_features
+[ 66%] Built target bag_to_pcd
+[ 76%] Built target pcl_ros_segmentation
+[ 79%] Built target convert_pcd_to_image
+[ 93%] Built target pcl_ros_filters
+[100%] Built target pcl_ros_surface
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Installing: /opt/ros/jade/include/pcl_ros/EuclideanClusterExtractionConfig.h
+-- Installing: /opt/ros/jade/include/pcl_ros/ExtractIndicesConfig.h
+-- Installing: /opt/ros/jade/include/pcl_ros/ExtractPolygonalPrismDataConfig.h
+-- Installing: /opt/ros/jade/include/pcl_ros/FeatureConfig.h
+-- Installing: /opt/ros/jade/include/pcl_ros/FilterConfig.h
+-- Installing: /opt/ros/jade/include/pcl_ros/MLSConfig.h
+-- Installing: /opt/ros/jade/include/pcl_ros/SACSegmentationConfig.h
+-- Installing: /opt/ros/jade/include/pcl_ros/SACSegmentationFromNormalsConfig.h
+-- Installing: /opt/ros/jade/include/pcl_ros/SegmentDifferencesConfig.h
+-- Installing: /opt/ros/jade/include/pcl_ros/StatisticalOutlierRemovalConfig.h
+-- Installing: /opt/ros/jade/include/pcl_ros/RadiusOutlierRemovalConfig.h
+-- Installing: /opt/ros/jade/include/pcl_ros/VoxelGridConfig.h
+-- Installing: /opt/ros/jade/include/pcl_ros/CropBoxConfig.h
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/__init__.py
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/CropBoxConfig.py ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/EuclideanClusterExtractionConfig.py ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/ExtractIndicesConfig.py ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/ExtractPolygonalPrismDataConfig.py ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/FeatureConfig.py ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/FilterConfig.py ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/MLSConfig.py ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/RadiusOutlierRemovalConfig.py ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/SACSegmentationConfig.py ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/SACSegmentationFromNormalsConfig.py ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/SegmentDifferencesConfig.py ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/StatisticalOutlierRemovalConfig.py ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/VoxelGridConfig.py ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_ros/cfg/__init__.py ...
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/__init__.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/__init__.pyc
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/CropBoxConfig.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/CropBoxConfig.pyc
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/EuclideanClusterExtractionConfig.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/EuclideanClusterExtractionConfig.pyc
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/ExtractIndicesConfig.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/ExtractIndicesConfig.pyc
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/ExtractPolygonalPrismDataConfig.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/ExtractPolygonalPrismDataConfig.pyc
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/FeatureConfig.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/FeatureConfig.pyc
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/FilterConfig.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/FilterConfig.pyc
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/MLSConfig.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/MLSConfig.pyc
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/RadiusOutlierRemovalConfig.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/RadiusOutlierRemovalConfig.pyc
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/SACSegmentationConfig.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/SACSegmentationConfig.pyc
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/SACSegmentationFromNormalsConfig.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/SACSegmentationFromNormalsConfig.pyc
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/SegmentDifferencesConfig.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/SegmentDifferencesConfig.pyc
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/StatisticalOutlierRemovalConfig.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/StatisticalOutlierRemovalConfig.pyc
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/VoxelGridConfig.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/pcl_ros/cfg/VoxelGridConfig.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/pcl_ros.pc
+-- Installing: /opt/ros/jade/share/pcl_ros/cmake/pcl_rosConfig.cmake
+-- Installing: /opt/ros/jade/share/pcl_ros/cmake/pcl_rosConfig-version.cmake
+-- Installing: /opt/ros/jade/share/pcl_ros/package.xml
+-- Up-to-date: /opt/ros/jade/include/pcl_ros
+-- Installing: /opt/ros/jade/include/pcl_ros/features
+-- Installing: /opt/ros/jade/include/pcl_ros/features/boundary.h
+-- Installing: /opt/ros/jade/include/pcl_ros/features/feature.h
+-- Installing: /opt/ros/jade/include/pcl_ros/features/fpfh.h
+-- Installing: /opt/ros/jade/include/pcl_ros/features/fpfh_omp.h
+-- Installing: /opt/ros/jade/include/pcl_ros/features/moment_invariants.h
+-- Installing: /opt/ros/jade/include/pcl_ros/features/normal_3d.h
+-- Installing: /opt/ros/jade/include/pcl_ros/features/normal_3d_omp.h
+-- Installing: /opt/ros/jade/include/pcl_ros/features/normal_3d_tbb.h
+-- Installing: /opt/ros/jade/include/pcl_ros/features/pfh.h
+-- Installing: /opt/ros/jade/include/pcl_ros/features/principal_curvatures.h
+-- Installing: /opt/ros/jade/include/pcl_ros/features/shot.h
+-- Installing: /opt/ros/jade/include/pcl_ros/features/shot_omp.h
+-- Installing: /opt/ros/jade/include/pcl_ros/features/vfh.h
+-- Installing: /opt/ros/jade/include/pcl_ros/filters
+-- Installing: /opt/ros/jade/include/pcl_ros/filters/crop_box.h
+-- Installing: /opt/ros/jade/include/pcl_ros/filters/extract_indices.h
+-- Installing: /opt/ros/jade/include/pcl_ros/filters/filter.h
+-- Installing: /opt/ros/jade/include/pcl_ros/filters/passthrough.h
+-- Installing: /opt/ros/jade/include/pcl_ros/filters/project_inliers.h
+-- Installing: /opt/ros/jade/include/pcl_ros/filters/radius_outlier_removal.h
+-- Installing: /opt/ros/jade/include/pcl_ros/filters/statistical_outlier_removal.h
+-- Installing: /opt/ros/jade/include/pcl_ros/filters/voxel_grid.h
+-- Installing: /opt/ros/jade/include/pcl_ros/impl
+-- Installing: /opt/ros/jade/include/pcl_ros/impl/transforms.hpp
+-- Installing: /opt/ros/jade/include/pcl_ros/io
+-- Installing: /opt/ros/jade/include/pcl_ros/io/bag_io.h
+-- Installing: /opt/ros/jade/include/pcl_ros/io/concatenate_data.h
+-- Installing: /opt/ros/jade/include/pcl_ros/io/concatenate_fields.h
+-- Installing: /opt/ros/jade/include/pcl_ros/io/pcd_io.h
+-- Installing: /opt/ros/jade/include/pcl_ros/pcl_nodelet.h
+-- Installing: /opt/ros/jade/include/pcl_ros/point_cloud.h
+-- Installing: /opt/ros/jade/include/pcl_ros/publisher.h
+-- Installing: /opt/ros/jade/include/pcl_ros/segmentation
+-- Installing: /opt/ros/jade/include/pcl_ros/segmentation/extract_clusters.h
+-- Installing: /opt/ros/jade/include/pcl_ros/segmentation/extract_polygonal_prism_data.h
+-- Installing: /opt/ros/jade/include/pcl_ros/segmentation/sac_segmentation.h
+-- Installing: /opt/ros/jade/include/pcl_ros/segmentation/segment_differences.h
+-- Installing: /opt/ros/jade/include/pcl_ros/surface
+-- Installing: /opt/ros/jade/include/pcl_ros/surface/convex_hull.h
+-- Installing: /opt/ros/jade/include/pcl_ros/surface/moving_least_squares.h
+-- Installing: /opt/ros/jade/include/pcl_ros/transforms.h
+-- Installing: /opt/ros/jade/lib/libpcl_ros_tf.dylib
+-- Installing: /opt/ros/jade/lib/libpcl_ros_io.dylib
+-- Installing: /opt/ros/jade/lib/libpcl_ros_features.dylib
+-- Installing: /opt/ros/jade/lib/libpcl_ros_filters.dylib
+-- Installing: /opt/ros/jade/lib/libpcl_ros_surface.dylib
+-- Installing: /opt/ros/jade/lib/libpcl_ros_segmentation.dylib
+-- Installing: /opt/ros/jade/lib/pcl_ros/pcd_to_pointcloud
+-- Installing: /opt/ros/jade/lib/pcl_ros/pointcloud_to_pcd
+-- Installing: /opt/ros/jade/lib/pcl_ros/bag_to_pcd
+-- Installing: /opt/ros/jade/lib/pcl_ros/convert_pcd_to_image
+-- Installing: /opt/ros/jade/lib/pcl_ros/convert_pointcloud_to_image
+-- Installing: /opt/ros/jade/share/pcl_ros/pcl_nodelets.xml
+[[36mpcl_ros[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/pcl_ros/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

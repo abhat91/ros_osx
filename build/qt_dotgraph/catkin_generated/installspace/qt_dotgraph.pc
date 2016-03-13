@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: qt_dotgraph
+Description: Description of qt_dotgraph
+Version: 0.2.29
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: 

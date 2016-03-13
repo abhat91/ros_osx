@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "theora_image_transport")
+set(theora_image_transport_MAINTAINER "Julius Kammerl <jkammerl@willowgarage.com>")
+set(theora_image_transport_DEPRECATED "")
+set(theora_image_transport_VERSION "1.9.3")
+set(theora_image_transport_BUILD_DEPENDS "cv_bridge" "dynamic_reconfigure" "image_transport" "libogg" "libtheora" "message_generation" "pluginlib" "rosbag" "std_msgs")
+set(theora_image_transport_RUN_DEPENDS "cv_bridge" "dynamic_reconfigure" "image_transport" "libogg" "libtheora" "message_runtime" "pluginlib" "rosbag" "std_msgs")
+set(theora_image_transport_BUILDTOOL_DEPENDS "catkin")

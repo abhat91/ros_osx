@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: roscpp_traits
+Description: Description of roscpp_traits
+Version: 0.5.6
+Cflags: -I/Users/adityabhat/Downloads/src/roscpp_core/roscpp_traits/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: cpp_common rostime

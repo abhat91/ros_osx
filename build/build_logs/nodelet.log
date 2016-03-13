@@ -1,0 +1,136 @@
+[[36mnodelet[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/nodelet/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/nodelet[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/nodelet/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:5 (find_package)
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- Boost version: 1.60.0
+-- nodelet: 0 messages, 3 services
+-- Configuring done
+CMake Warning (dev):
+  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  MACOSX_RPATH is not specified for the following targets:
+
+   nodeletlib
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/nodelet
+[[36mnodelet[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/nodelet/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mnodelet[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/nodelet/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/nodelet[0m'[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _nodelet_generate_messages_check_deps_NodeletLoad
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _nodelet_generate_messages_check_deps_NodeletUnload
+[  0%] Built target _nodelet_generate_messages_check_deps_NodeletList
+[ 47%] Built target nodelet_generate_messages_lisp
+[ 47%] Built target nodelet_generate_messages_cpp
+[ 47%] Built target nodelet_generate_messages_py
+[ 66%] Built target nodelet_generate_messages_eus
+[ 66%] Built target nodelet_generate_messages
+[ 90%] Built target nodeletlib
+[100%] Built target nodelet
+[[36mnodelet[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/nodelet/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mnodelet[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/nodelet/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/nodelet[0m'[0m
+[  0%] Built target _nodelet_generate_messages_check_deps_NodeletLoad
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _nodelet_generate_messages_check_deps_NodeletUnload
+[  0%] Built target _nodelet_generate_messages_check_deps_NodeletList
+[ 14%] Built target nodelet_generate_messages_cpp
+[ 14%] Built target std_msgs_generate_messages_lisp
+[ 28%] Built target nodelet_generate_messages_lisp
+[ 28%] Built target std_msgs_generate_messages_py
+[ 47%] Built target nodelet_generate_messages_py
+[ 47%] Built target std_msgs_generate_messages_eus
+[ 66%] Built target nodelet_generate_messages_eus
+[ 90%] Built target nodeletlib
+[ 90%] Built target nodelet_generate_messages
+[100%] Built target nodelet
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/share/nodelet/srv/NodeletList.srv
+-- Up-to-date: /opt/ros/jade/share/nodelet/srv/NodeletLoad.srv
+-- Up-to-date: /opt/ros/jade/share/nodelet/srv/NodeletUnload.srv
+-- Up-to-date: /opt/ros/jade/share/nodelet/cmake/nodelet-msg-paths.cmake
+-- Up-to-date: /opt/ros/jade/include/nodelet
+-- Up-to-date: /opt/ros/jade/include/nodelet/NodeletList.h
+-- Up-to-date: /opt/ros/jade/include/nodelet/NodeletListRequest.h
+-- Up-to-date: /opt/ros/jade/include/nodelet/NodeletListResponse.h
+-- Up-to-date: /opt/ros/jade/include/nodelet/NodeletLoad.h
+-- Up-to-date: /opt/ros/jade/include/nodelet/NodeletLoadRequest.h
+-- Up-to-date: /opt/ros/jade/include/nodelet/NodeletLoadResponse.h
+-- Up-to-date: /opt/ros/jade/include/nodelet/NodeletUnload.h
+-- Up-to-date: /opt/ros/jade/include/nodelet/NodeletUnloadRequest.h
+-- Up-to-date: /opt/ros/jade/include/nodelet/NodeletUnloadResponse.h
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nodelet
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nodelet/manifest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nodelet/srv
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nodelet/srv/NodeletList.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nodelet/srv/NodeletLoad.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/nodelet/srv/NodeletUnload.l
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nodelet
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nodelet/srv
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nodelet/srv/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nodelet/srv/_package_NodeletList.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nodelet/srv/_package_NodeletLoad.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nodelet/srv/_package_NodeletUnload.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nodelet/srv/nodelet-srv.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nodelet/srv/NodeletList.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nodelet/srv/NodeletLoad.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/nodelet/srv/NodeletUnload.lisp
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/nodelet ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/nodelet/srv ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nodelet
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nodelet/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nodelet/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nodelet/srv
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nodelet/srv/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nodelet/srv/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nodelet/srv/_NodeletList.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nodelet/srv/_NodeletList.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nodelet/srv/_NodeletLoad.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nodelet/srv/_NodeletLoad.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nodelet/srv/_NodeletUnload.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/nodelet/srv/_NodeletUnload.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/nodelet.pc
+-- Up-to-date: /opt/ros/jade/share/nodelet/cmake/nodelet-msg-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/nodelet/cmake/nodeletConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/nodelet/cmake/nodeletConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/nodelet/package.xml
+-- Up-to-date: /opt/ros/jade/include/nodelet
+-- Up-to-date: /opt/ros/jade/include/nodelet/detail
+-- Up-to-date: /opt/ros/jade/include/nodelet/detail/callback_queue.h
+-- Up-to-date: /opt/ros/jade/include/nodelet/detail/callback_queue_manager.h
+-- Up-to-date: /opt/ros/jade/include/nodelet/exception.h
+-- Up-to-date: /opt/ros/jade/include/nodelet/loader.h
+-- Up-to-date: /opt/ros/jade/include/nodelet/nodelet.h
+-- Installing: /opt/ros/jade/lib/libnodeletlib.dylib
+-- Installing: /opt/ros/jade/lib/nodelet/nodelet
+[[36mnodelet[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/nodelet/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

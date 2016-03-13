@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: rqt_image_view
+Description: Description of rqt_image_view
+Version: 0.3.13
+Cflags: -I/Users/adityabhat/Downloads/src/rqt_common_plugins/rqt_image_view/include -I/Users/adityabhat/Downloads/build/rqt_image_view
+Libs: -L/Users/adityabhat/Downloads/devel/lib -lrqt_image_view
+Requires: rqt_gui rqt_gui_cpp image_transport sensor_msgs cv_bridge

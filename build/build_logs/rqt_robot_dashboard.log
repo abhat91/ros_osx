@@ -1,0 +1,106 @@
+[[36mrqt_robot_dashboard[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/rqt_robot_dashboard/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/rqt_robot_dashboard[0m'[0m
+[[36mrqt_robot_dashboard[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/rqt_robot_dashboard/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mrqt_robot_dashboard[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/rqt_robot_dashboard/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/rqt_robot_dashboard[0m'[0m
+[[36mrqt_robot_dashboard[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/rqt_robot_dashboard/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mrqt_robot_dashboard[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/rqt_robot_dashboard/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/rqt_robot_dashboard[0m'[0m
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/lib/pkgconfig/rqt_robot_dashboard.pc
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/cmake/rqt_robot_dashboardConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/cmake/rqt_robot_dashboardConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/package.xml
++ cd /Users/adityabhat/Downloads/src/rqt_robot_plugins/rqt_robot_dashboard
++ /usr/bin/env PYTHONPATH=/opt/ros/jade/lib/python2.7/site-packages:/Users/adityabhat/Downloads/build/rqt_robot_dashboard/lib/python2.7/site-packages:/opt/ros/jade/lib/python2.7/site-packages CATKIN_BINARY_DIR=/Users/adityabhat/Downloads/build/rqt_robot_dashboard /usr/bin/python /Users/adityabhat/Downloads/src/rqt_robot_plugins/rqt_robot_dashboard/setup.py build --build-base /Users/adityabhat/Downloads/build/rqt_robot_dashboard install --prefix=/opt/ros/jade --install-scripts=/opt/ros/jade/bin
+running build
+running build_py
+running install
+running install_lib
+running install_egg_info
+Removing /opt/ros/jade/lib/python2.7/site-packages/rqt_robot_dashboard-0.4.3-py2.7.egg-info
+Writing /opt/ros/jade/lib/python2.7/site-packages/rqt_robot_dashboard-0.4.3-py2.7.egg-info
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/bg-green.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/bg-grey.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/bg-light_grey.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/bg-lt-grey.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/bg-orange.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/bg-red.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/bg-yellow.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-battery-0.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-battery-100-green.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-battery-100.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-battery-20.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-battery-40.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-battery-60-green.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-battery-60.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-battery-80-green.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-battery-80.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-battery-charge-0.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-battery-charge-100-green.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-battery-charge-100.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-battery-charge-20.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-battery-charge-40.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-battery-charge-60-green.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-battery-charge-60.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-battery-charge-80-green.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-battery-charge-80.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-breaker.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-breaker1.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-breaker2.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-breaker3.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-console.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-diagnostics.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-led.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-missing-icon.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-motors.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-navigation.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-runstop-off.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-runstop-on.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-sensor.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-steering-wheel.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-wireless-runstop-off.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-wireless-runstop-on.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ic-wrench.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/battery-0.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/battery-100.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/battery-20.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/battery-40.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/battery-60.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/battery-80.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/battery-charge-0.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/battery-charge-100.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/battery-charge-20.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/battery-charge-40.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/battery-charge-60.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/battery-charge-80.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/check-overlay.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/console-click.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/console.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/diagnostics-click.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/diagnostics.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/err-overlay.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/mode-click.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/mode.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/nav-click.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/nav.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/play-overlay.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/stale-overlay.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/stop-overlay.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/nonsvg/warn-overlay.png
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ol-check-badge.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ol-click.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ol-err-badge.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ol-play-badge.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ol-shine.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ol-stale-badge.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ol-stale_overlay.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ol-stop-badge.svg
+-- Up-to-date: /opt/ros/jade/share/rqt_robot_dashboard/images/ol-warn-badge.svg
+[[36mrqt_robot_dashboard[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/rqt_robot_dashboard/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

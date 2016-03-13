@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: rospack
+Description: Description of rospack
+Version: 2.2.5
+Cflags: -I/Users/adityabhat/Downloads/src/rospack/include -I/usr/local/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -lrospack -l:/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib -l:/usr/local/lib/libboost_filesystem-mt.dylib -l:/usr/local/lib/libboost_program_options-mt.dylib -l:/usr/local/lib/libboost_system-mt.dylib -l:/usr/local/lib/libtinyxml.dylib
+Requires: 

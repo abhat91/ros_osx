@@ -1,0 +1,25 @@
+[[36meigen_conversions[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/eigen_conversions/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/eigen_conversions[0m'[0m
+[[36meigen_conversions[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/eigen_conversions/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36meigen_conversions[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/eigen_conversions/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/eigen_conversions[0m'[0m
+[ 33%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libeigen_conversions.dylib[0m
+[100%] Built target eigen_conversions
+[[36meigen_conversions[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/eigen_conversions/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36meigen_conversions[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/eigen_conversions/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/eigen_conversions[0m'[0m
+[100%] Built target eigen_conversions
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/lib/pkgconfig/eigen_conversions.pc
+-- Up-to-date: /opt/ros/jade/share/eigen_conversions/cmake/eigen_conversionsConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/eigen_conversions/cmake/eigen_conversionsConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/eigen_conversions/package.xml
+-- Up-to-date: /opt/ros/jade/include/eigen_conversions
+-- Up-to-date: /opt/ros/jade/include/eigen_conversions/eigen_kdl.h
+-- Up-to-date: /opt/ros/jade/include/eigen_conversions/eigen_msg.h
+-- Installing: /opt/ros/jade/lib/libeigen_conversions.dylib
+[[36meigen_conversions[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/eigen_conversions/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

@@ -1,0 +1,13 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/rqt_runtime_monitor.pc
+/opt/ros/jade/share/rqt_runtime_monitor/cmake/rqt_runtime_monitorConfig.cmake
+/opt/ros/jade/share/rqt_runtime_monitor/cmake/rqt_runtime_monitorConfig-version.cmake
+/opt/ros/jade/share/rqt_runtime_monitor/package.xml
+/opt/ros/jade/share/rqt_runtime_monitor/plugin.xml
+/opt/ros/jade/share/rqt_runtime_monitor/resource/runtime_monitor_widget.ui
+/opt/ros/jade/lib/rqt_runtime_monitor/rqt_runtime_monitor

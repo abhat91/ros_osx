@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+535f13d25650dc61f72c924d3db6cab8 CMakeFiles/clean_test_results
+c8298901c0e1de717be968e2ec0be511 CMakeFiles/clean_test_results_diagnostic_common_diagnostics

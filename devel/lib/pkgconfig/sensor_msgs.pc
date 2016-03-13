@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: sensor_msgs
+Description: Description of sensor_msgs
+Version: 1.12.3
+Cflags: -I/Users/adityabhat/Downloads/devel/include -I/Users/adityabhat/Downloads/src/common_msgs/sensor_msgs/include -I/usr/local/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: geometry_msgs message_runtime std_msgs

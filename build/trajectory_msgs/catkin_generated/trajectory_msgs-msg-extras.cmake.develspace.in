@@ -1,0 +1,2 @@
+set(trajectory_msgs_MESSAGE_FILES "/Users/adityabhat/Downloads/src/common_msgs/trajectory_msgs/msg/JointTrajectory.msg;/Users/adityabhat/Downloads/src/common_msgs/trajectory_msgs/msg/JointTrajectoryPoint.msg;/Users/adityabhat/Downloads/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectory.msg;/Users/adityabhat/Downloads/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg")
+set(trajectory_msgs_SERVICE_FILES "")

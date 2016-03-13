@@ -1,0 +1,13 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/eigen_conversions.pc
+/opt/ros/jade/share/eigen_conversions/cmake/eigen_conversionsConfig.cmake
+/opt/ros/jade/share/eigen_conversions/cmake/eigen_conversionsConfig-version.cmake
+/opt/ros/jade/share/eigen_conversions/package.xml
+/opt/ros/jade/include/eigen_conversions/eigen_kdl.h
+/opt/ros/jade/include/eigen_conversions/eigen_msg.h
+/opt/ros/jade/lib/libeigen_conversions.dylib

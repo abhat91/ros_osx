@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "stage_ros")
+set(stage_ros_MAINTAINER "William Woodall <william@osrfoundation.org>")
+set(stage_ros_DEPRECATED "")
+set(stage_ros_VERSION "1.7.5")
+set(stage_ros_BUILD_DEPENDS "boost" "geometry_msgs" "nav_msgs" "roscpp" "rostest" "sensor_msgs" "stage" "std_msgs" "std_srvs" "tf")
+set(stage_ros_RUN_DEPENDS "boost" "geometry_msgs" "nav_msgs" "roscpp" "sensor_msgs" "stage" "std_msgs" "std_srvs" "tf")
+set(stage_ros_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,17 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/rostime.pc
+/opt/ros/jade/share/rostime/cmake/rostimeConfig.cmake
+/opt/ros/jade/share/rostime/cmake/rostimeConfig-version.cmake
+/opt/ros/jade/share/rostime/package.xml
+/opt/ros/jade/lib/librostime.dylib
+/opt/ros/jade/include/ros/duration.h
+/opt/ros/jade/include/ros/impl/duration.h
+/opt/ros/jade/include/ros/impl/time.h
+/opt/ros/jade/include/ros/rate.h
+/opt/ros/jade/include/ros/rostime_decl.h
+/opt/ros/jade/include/ros/time.h

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "diagnostic_common_diagnostics")
+set(diagnostic_common_diagnostics_MAINTAINER "Austin Hendrix <namniart@gmail.com>, Brice Rebsamen <brice.rebsamen@gmail.com>")
+set(diagnostic_common_diagnostics_DEPRECATED "")
+set(diagnostic_common_diagnostics_VERSION "1.8.7")
+set(diagnostic_common_diagnostics_BUILD_DEPENDS "rospy" "diagnostic_updater")
+set(diagnostic_common_diagnostics_RUN_DEPENDS "diagnostic_updater" "hddtemp" "rospy" "tf")
+set(diagnostic_common_diagnostics_BUILDTOOL_DEPENDS "catkin")

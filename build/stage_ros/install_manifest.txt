@@ -1,0 +1,17 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/stage_ros.pc
+/opt/ros/jade/share/stage_ros/cmake/stage_rosConfig.cmake
+/opt/ros/jade/share/stage_ros/cmake/stage_rosConfig-version.cmake
+/opt/ros/jade/share/stage_ros/package.xml
+/opt/ros/jade/lib/stage_ros/upgrade-world.sh
+/opt/ros/jade/lib/stage_ros/stageros
+/opt/ros/jade/share/stage_ros/rviz/stage.rviz
+/opt/ros/jade/share/stage_ros/world/willow-erratic.world
+/opt/ros/jade/share/stage_ros/world/willow-four-erratics-multisensor.world
+/opt/ros/jade/share/stage_ros/world/willow-four-erratics.world
+/opt/ros/jade/share/stage_ros/world/willow-full.pgm

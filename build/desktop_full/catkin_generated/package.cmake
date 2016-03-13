@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "desktop_full")
+set(desktop_full_MAINTAINER "Dirk Thomas <dthomas@osrfoundation.org>")
+set(desktop_full_DEPRECATED "")
+set(desktop_full_VERSION "1.2.0")
+set(desktop_full_BUILD_DEPENDS )
+set(desktop_full_RUN_DEPENDS "desktop" "perception" "simulators")
+set(desktop_full_BUILDTOOL_DEPENDS "catkin")

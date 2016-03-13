@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: visualization_marker_tutorials
+Description: Description of visualization_marker_tutorials
+Version: 0.9.2
+Cflags: 
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: roscpp visualization_msgs

@@ -1,0 +1,61 @@
+[[36mpython_qt_binding[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/python_qt_binding/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/python_qt_binding[0m'[0m
+[[36mpython_qt_binding[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/python_qt_binding/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mpython_qt_binding[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/python_qt_binding/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/python_qt_binding[0m'[0m
+[[36mpython_qt_binding[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/python_qt_binding/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mpython_qt_binding[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/python_qt_binding/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/python_qt_binding[0m'[0m
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/lib/pkgconfig/python_qt_binding.pc
+-- Up-to-date: /opt/ros/jade/share/python_qt_binding/cmake/python_qt_binding-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/python_qt_binding/cmake/python_qt_bindingConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/python_qt_binding/cmake/python_qt_bindingConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/python_qt_binding/package.xml
++ cd /Users/adityabhat/Downloads/src/python_qt_binding
++ /usr/bin/env PYTHONPATH=/opt/ros/jade/lib/python2.7/site-packages:/Users/adityabhat/Downloads/build/python_qt_binding/lib/python2.7/site-packages:/opt/ros/jade/lib/python2.7/site-packages CATKIN_BINARY_DIR=/Users/adityabhat/Downloads/build/python_qt_binding /usr/bin/python /Users/adityabhat/Downloads/src/python_qt_binding/setup.py build --build-base /Users/adityabhat/Downloads/build/python_qt_binding install --prefix=/opt/ros/jade --install-scripts=/opt/ros/jade/bin
+running build
+running build_py
+running install
+running bdist_egg
+running egg_info
+writing src/python_qt_binding.egg-info/PKG-INFO
+writing top-level names to src/python_qt_binding.egg-info/top_level.txt
+writing dependency_links to src/python_qt_binding.egg-info/dependency_links.txt
+reading manifest file 'src/python_qt_binding.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'src/python_qt_binding.egg-info/SOURCES.txt'
+installing library code to /Users/adityabhat/Downloads/build/python_qt_binding/bdist.macosx-10.11-intel/egg
+running install_lib
+creating /Users/adityabhat/Downloads/build/python_qt_binding/bdist.macosx-10.11-intel/egg
+creating /Users/adityabhat/Downloads/build/python_qt_binding/bdist.macosx-10.11-intel/egg/python_qt_binding
+copying /Users/adityabhat/Downloads/build/python_qt_binding/lib/python_qt_binding/__init__.py -> /Users/adityabhat/Downloads/build/python_qt_binding/bdist.macosx-10.11-intel/egg/python_qt_binding
+copying /Users/adityabhat/Downloads/build/python_qt_binding/lib/python_qt_binding/binding_helper.py -> /Users/adityabhat/Downloads/build/python_qt_binding/bdist.macosx-10.11-intel/egg/python_qt_binding
+copying /Users/adityabhat/Downloads/build/python_qt_binding/lib/python_qt_binding/QtBindingHelper.py -> /Users/adityabhat/Downloads/build/python_qt_binding/bdist.macosx-10.11-intel/egg/python_qt_binding
+byte-compiling /Users/adityabhat/Downloads/build/python_qt_binding/bdist.macosx-10.11-intel/egg/python_qt_binding/__init__.py to __init__.pyc
+byte-compiling /Users/adityabhat/Downloads/build/python_qt_binding/bdist.macosx-10.11-intel/egg/python_qt_binding/binding_helper.py to binding_helper.pyc
+byte-compiling /Users/adityabhat/Downloads/build/python_qt_binding/bdist.macosx-10.11-intel/egg/python_qt_binding/QtBindingHelper.py to QtBindingHelper.pyc
+creating /Users/adityabhat/Downloads/build/python_qt_binding/bdist.macosx-10.11-intel/egg/EGG-INFO
+copying src/python_qt_binding.egg-info/PKG-INFO -> /Users/adityabhat/Downloads/build/python_qt_binding/bdist.macosx-10.11-intel/egg/EGG-INFO
+copying src/python_qt_binding.egg-info/SOURCES.txt -> /Users/adityabhat/Downloads/build/python_qt_binding/bdist.macosx-10.11-intel/egg/EGG-INFO
+copying src/python_qt_binding.egg-info/dependency_links.txt -> /Users/adityabhat/Downloads/build/python_qt_binding/bdist.macosx-10.11-intel/egg/EGG-INFO
+copying src/python_qt_binding.egg-info/top_level.txt -> /Users/adityabhat/Downloads/build/python_qt_binding/bdist.macosx-10.11-intel/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating 'dist/python_qt_binding-0.2.17-py2.7.egg' and adding '/Users/adityabhat/Downloads/build/python_qt_binding/bdist.macosx-10.11-intel/egg' to it
+removing '/Users/adityabhat/Downloads/build/python_qt_binding/bdist.macosx-10.11-intel/egg' (and everything under it)
+Processing python_qt_binding-0.2.17-py2.7.egg
+Removing /opt/ros/jade/lib/python2.7/site-packages/python_qt_binding-0.2.17-py2.7.egg
+Copying python_qt_binding-0.2.17-py2.7.egg to /opt/ros/jade/lib/python2.7/site-packages
+python-qt-binding 0.2.17 is already the active version in easy-install.pth
+
+Installed /opt/ros/jade/lib/python2.7/site-packages/python_qt_binding-0.2.17-py2.7.egg
+Processing dependencies for python-qt-binding==0.2.17
+Finished processing dependencies for python-qt-binding==0.2.17
+-- Up-to-date: /opt/ros/jade/share/python_qt_binding/cmake/shiboken_helper.cmake
+-- Up-to-date: /opt/ros/jade/share/python_qt_binding/cmake/sip_configure.py
+-- Up-to-date: /opt/ros/jade/share/python_qt_binding/cmake/sip_helper.cmake
+[[36mpython_qt_binding[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/python_qt_binding/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

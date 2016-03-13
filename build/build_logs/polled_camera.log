@@ -1,0 +1,119 @@
+[[36mpolled_camera[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/polled_camera/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/polled_camera[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/polled_camera/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:5 (find_package)
+
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- polled_camera: 0 messages, 1 services
+-- Configuring done
+CMake Warning (dev):
+  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  MACOSX_RPATH is not specified for the following targets:
+
+   polled_camera
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/polled_camera
+[[36mpolled_camera[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/polled_camera/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mpolled_camera[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/polled_camera/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/polled_camera[0m'[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _polled_camera_generate_messages_check_deps_GetPolledImage
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[ 10%] Built target polled_camera_generate_messages_cpp
+[ 30%] Built target polled_camera_generate_messages_py
+[ 40%] Built target polled_camera_generate_messages_lisp
+[ 60%] Built target polled_camera_generate_messages_eus
+[ 60%] Built target polled_camera_gencpp
+[ 60%] Built target polled_camera_generate_messages
+[ 80%] Built target polled_camera
+[100%] Built target poller
+[[36mpolled_camera[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/polled_camera/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mpolled_camera[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/polled_camera/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/polled_camera[0m'[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _polled_camera_generate_messages_check_deps_GetPolledImage
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[ 10%] Built target polled_camera_generate_messages_cpp
+[ 10%] Built target polled_camera_gencpp
+[ 30%] Built target polled_camera
+[ 50%] Built target poller
+[ 50%] Built target sensor_msgs_generate_messages_py
+[ 50%] Built target std_msgs_generate_messages_py
+[ 70%] Built target polled_camera_generate_messages_py
+[ 70%] Built target sensor_msgs_generate_messages_lisp
+[ 70%] Built target std_msgs_generate_messages_lisp
+[ 80%] Built target polled_camera_generate_messages_lisp
+[ 80%] Built target sensor_msgs_generate_messages_eus
+[ 80%] Built target std_msgs_generate_messages_eus
+[100%] Built target polled_camera_generate_messages_eus
+[100%] Built target polled_camera_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/share/polled_camera/srv/GetPolledImage.srv
+-- Up-to-date: /opt/ros/jade/share/polled_camera/cmake/polled_camera-msg-paths.cmake
+-- Up-to-date: /opt/ros/jade/include/polled_camera
+-- Up-to-date: /opt/ros/jade/include/polled_camera/GetPolledImage.h
+-- Up-to-date: /opt/ros/jade/include/polled_camera/GetPolledImageRequest.h
+-- Up-to-date: /opt/ros/jade/include/polled_camera/GetPolledImageResponse.h
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/polled_camera
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/polled_camera/manifest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/polled_camera/srv
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/polled_camera/srv/GetPolledImage.l
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/polled_camera
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/polled_camera/srv
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/polled_camera/srv/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/polled_camera/srv/_package_GetPolledImage.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/polled_camera/srv/GetPolledImage.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/polled_camera/srv/polled_camera-srv.asd
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/polled_camera ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/polled_camera/srv ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/polled_camera
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/polled_camera/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/polled_camera/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/polled_camera/srv
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/polled_camera/srv/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/polled_camera/srv/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/polled_camera/srv/_GetPolledImage.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/polled_camera/srv/_GetPolledImage.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/polled_camera.pc
+-- Up-to-date: /opt/ros/jade/share/polled_camera/cmake/polled_camera-msg-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/polled_camera/cmake/polled_cameraConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/polled_camera/cmake/polled_cameraConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/polled_camera/package.xml
+-- Installing: /opt/ros/jade/lib/libpolled_camera.dylib
+-- Up-to-date: /opt/ros/jade/include/polled_camera
+-- Up-to-date: /opt/ros/jade/include/polled_camera/publication_server.h
+-- Installing: /opt/ros/jade/lib/polled_camera/poller
+[[36mpolled_camera[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/polled_camera/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

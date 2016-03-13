@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: random_numbers
+Description: Description of random_numbers
+Version: 0.3.0
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib -lrandom_numbers
+Requires: 

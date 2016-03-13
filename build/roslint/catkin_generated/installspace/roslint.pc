@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: roslint
+Description: Description of roslint
+Version: 0.10.0
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: 

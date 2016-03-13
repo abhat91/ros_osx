@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: roslz4
+Description: Description of roslz4
+Version: 1.11.16
+Cflags: -I/opt/ros/jade/include -I/usr/local/include
+Libs: -L/opt/ros/jade/lib -lroslz4 -l:/usr/local/lib/liblz4.dylib
+Requires: 

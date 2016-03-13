@@ -1,0 +1,12 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/visualization_marker_tutorials.pc
+/opt/ros/jade/share/visualization_marker_tutorials/cmake/visualization_marker_tutorialsConfig.cmake
+/opt/ros/jade/share/visualization_marker_tutorials/cmake/visualization_marker_tutorialsConfig-version.cmake
+/opt/ros/jade/share/visualization_marker_tutorials/package.xml
+/opt/ros/jade/lib/visualization_marker_tutorials/basic_shapes
+/opt/ros/jade/lib/visualization_marker_tutorials/points_and_lines

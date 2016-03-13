@@ -1,0 +1,28 @@
+[[36mmk[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/mk/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/mk[0m'[0m
+[[36mmk[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/mk/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mmk[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/mk/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/mk[0m'[0m
+[[36mmk[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/mk/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mmk[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/mk/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/mk[0m'[0m
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/lib/pkgconfig/mk.pc
+-- Up-to-date: /opt/ros/jade/share/mk/cmake/mkConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/mk/cmake/mkConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/mk/package.xml
+-- Up-to-date: /opt/ros/jade/share/mk/buildtest.mk
+-- Up-to-date: /opt/ros/jade/share/mk/bzr_checkout.mk
+-- Up-to-date: /opt/ros/jade/share/mk/cmake.mk
+-- Up-to-date: /opt/ros/jade/share/mk/cmake_stack.mk
+-- Up-to-date: /opt/ros/jade/share/mk/download_unpack_build.mk
+-- Up-to-date: /opt/ros/jade/share/mk/eclipse.awk
+-- Up-to-date: /opt/ros/jade/share/mk/git_checkout.mk
+-- Up-to-date: /opt/ros/jade/share/mk/hg_checkout.mk
+-- Up-to-date: /opt/ros/jade/share/mk/make_pydev_project.py
+-- Up-to-date: /opt/ros/jade/share/mk/svn_checkout.mk
+[[36mmk[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/mk/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

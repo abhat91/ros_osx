@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: image_view
+Description: Description of image_view
+Version: 1.12.15
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib 
+Requires: dynamic_reconfigure

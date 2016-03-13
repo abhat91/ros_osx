@@ -1,0 +1,359 @@
+[[36msensor_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/sensor_msgs/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/sensor_msgs[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/sensor_msgs/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:4 (find_package)
+
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- Boost version: 1.60.0
+-- sensor_msgs: 26 messages, 1 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/sensor_msgs
+[[36msensor_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/sensor_msgs/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36msensor_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/sensor_msgs/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/sensor_msgs[0m'[0m
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_Range
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_MultiEchoLaserScan
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_LaserScan
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_Joy
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_PointCloud
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_MultiDOFJointState
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_FluidPressure
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_ChannelFloat32
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_PointField
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_JoyFeedback
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_SetCameraInfo
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_CompressedImage
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_MagneticField
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_NavSatFix
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_RelativeHumidity
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_Imu
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_Temperature
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_PointCloud2
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_JointState
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_LaserEcho
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_NavSatStatus
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_TimeReference
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_JoyFeedbackArray
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_Image
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_RegionOfInterest
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_Illuminance
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_CameraInfo
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[ 25%] Built target sensor_msgs_generate_messages_eus
+[ 48%] Built target sensor_msgs_generate_messages_cpp
+[ 75%] Built target sensor_msgs_generate_messages_py
+[100%] Built target sensor_msgs_generate_messages_lisp
+[100%] Built target sensor_msgs_generate_messages
+[[36msensor_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/sensor_msgs/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36msensor_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/sensor_msgs/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/sensor_msgs[0m'[0m
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_Range
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_MultiEchoLaserScan
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_LaserScan
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_Joy
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_PointCloud
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_MultiDOFJointState
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_FluidPressure
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_ChannelFloat32
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_PointField
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_JoyFeedback
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_SetCameraInfo
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_CompressedImage
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_MagneticField
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_NavSatFix
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_RelativeHumidity
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_Imu
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_Temperature
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_PointCloud2
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_JointState
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_LaserEcho
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_NavSatStatus
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_TimeReference
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_JoyFeedbackArray
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_Image
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_RegionOfInterest
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_Illuminance
+[  0%] Built target _sensor_msgs_generate_messages_check_deps_CameraInfo
+[ 25%] Built target sensor_msgs_generate_messages_eus
+[ 25%] Built target geometry_msgs_generate_messages_cpp
+[ 25%] Built target std_msgs_generate_messages_cpp
+[ 48%] Built target sensor_msgs_generate_messages_cpp
+[ 48%] Built target std_msgs_generate_messages_py
+[ 48%] Built target geometry_msgs_generate_messages_py
+[ 75%] Built target sensor_msgs_generate_messages_py
+[ 75%] Built target geometry_msgs_generate_messages_lisp
+[ 75%] Built target std_msgs_generate_messages_lisp
+[100%] Built target sensor_msgs_generate_messages_lisp
+[100%] Built target sensor_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
++ cd /Users/adityabhat/Downloads/src/common_msgs/sensor_msgs
++ /usr/bin/env PYTHONPATH=/opt/ros/jade/lib/python2.7/site-packages:/Users/adityabhat/Downloads/build/sensor_msgs/lib/python2.7/site-packages:/opt/ros/jade/lib/python2.7/site-packages CATKIN_BINARY_DIR=/Users/adityabhat/Downloads/build/sensor_msgs /usr/bin/python /Users/adityabhat/Downloads/src/common_msgs/sensor_msgs/setup.py build --build-base /Users/adityabhat/Downloads/build/sensor_msgs install --prefix=/opt/ros/jade --install-scripts=/opt/ros/jade/bin
+running build
+running build_py
+running install
+running install_lib
+running install_egg_info
+Removing /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs-1.12.3-py2.7.egg-info
+Writing /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs-1.12.3-py2.7.egg-info
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/CameraInfo.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/ChannelFloat32.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/CompressedImage.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/FluidPressure.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/Illuminance.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/Image.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/Imu.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/JointState.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/Joy.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/JoyFeedback.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/JoyFeedbackArray.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/LaserEcho.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/LaserScan.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/MagneticField.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/MultiDOFJointState.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/MultiEchoLaserScan.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/NavSatFix.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/NavSatStatus.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/PointCloud.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/PointCloud2.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/PointField.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/Range.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/RegionOfInterest.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/RelativeHumidity.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/Temperature.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/msg/TimeReference.msg
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/srv/SetCameraInfo.srv
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/cmake/sensor_msgs-msg-paths.cmake
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/CameraInfo.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/ChannelFloat32.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/CompressedImage.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/FluidPressure.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/Illuminance.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/Image.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/Imu.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/JointState.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/Joy.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/JoyFeedback.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/JoyFeedbackArray.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/LaserEcho.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/LaserScan.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/MagneticField.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/MultiDOFJointState.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/MultiEchoLaserScan.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/NavSatFix.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/NavSatStatus.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/PointCloud.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/PointCloud2.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/PointField.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/Range.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/RegionOfInterest.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/RelativeHumidity.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/SetCameraInfo.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/SetCameraInfoRequest.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/SetCameraInfoResponse.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/Temperature.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/TimeReference.h
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/manifest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/CameraInfo.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/ChannelFloat32.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/CompressedImage.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/FluidPressure.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/Illuminance.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/Image.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/Imu.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/JointState.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/Joy.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/JoyFeedback.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/JoyFeedbackArray.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/LaserEcho.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/LaserScan.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/MagneticField.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/MultiDOFJointState.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/MultiEchoLaserScan.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/NavSatFix.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/NavSatStatus.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/PointCloud.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/PointCloud2.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/PointField.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/Range.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/RegionOfInterest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/RelativeHumidity.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/Temperature.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/msg/TimeReference.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/srv
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/sensor_msgs/srv/SetCameraInfo.l
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_CameraInfo.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_ChannelFloat32.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_CompressedImage.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_FluidPressure.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_Illuminance.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_Image.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_Imu.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_JointState.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_Joy.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_JoyFeedback.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_JoyFeedbackArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_LaserEcho.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_LaserScan.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_MagneticField.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_MultiDOFJointState.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_MultiEchoLaserScan.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_NavSatFix.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_NavSatStatus.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_PointCloud.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_PointCloud2.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_PointField.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_Range.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_RegionOfInterest.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_RelativeHumidity.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_Temperature.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/_package_TimeReference.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/CameraInfo.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/ChannelFloat32.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/CompressedImage.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/FluidPressure.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/Illuminance.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/Image.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/Imu.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/JointState.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/Joy.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/JoyFeedback.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/JoyFeedbackArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/LaserEcho.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/LaserScan.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/MagneticField.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/MultiDOFJointState.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/MultiEchoLaserScan.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/NavSatFix.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/NavSatStatus.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/PointCloud.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/PointCloud2.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/PointField.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/Range.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/RegionOfInterest.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/RelativeHumidity.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/sensor_msgs-msg.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/Temperature.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/msg/TimeReference.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/srv
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/srv/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/srv/_package_SetCameraInfo.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/srv/sensor_msgs-srv.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/sensor_msgs/srv/SetCameraInfo.lisp
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/sensor_msgs ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/sensor_msgs/msg ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/sensor_msgs/srv ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_CameraInfo.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_CameraInfo.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_ChannelFloat32.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_ChannelFloat32.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_CompressedImage.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_CompressedImage.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_FluidPressure.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_FluidPressure.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_Illuminance.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_Illuminance.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_Image.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_Image.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_Imu.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_Imu.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_JointState.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_JointState.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_Joy.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_Joy.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_JoyFeedback.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_JoyFeedback.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_JoyFeedbackArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_JoyFeedbackArray.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_LaserEcho.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_LaserEcho.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_LaserScan.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_LaserScan.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_MagneticField.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_MagneticField.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_MultiDOFJointState.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_MultiDOFJointState.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_MultiEchoLaserScan.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_MultiEchoLaserScan.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_NavSatFix.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_NavSatFix.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_NavSatStatus.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_NavSatStatus.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_PointCloud.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_PointCloud.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_PointCloud2.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_PointCloud2.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_PointField.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_PointField.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_Range.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_Range.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_RegionOfInterest.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_RegionOfInterest.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_RelativeHumidity.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_RelativeHumidity.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_Temperature.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_Temperature.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_TimeReference.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/_TimeReference.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/srv
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/srv/_SetCameraInfo.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/srv/_SetCameraInfo.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/msg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/srv
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/srv/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/sensor_msgs/srv/__init__.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/sensor_msgs.pc
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/cmake/sensor_msgs-msg-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/cmake/sensor_msgsConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/sensor_msgs/package.xml
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/distortion_models.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/fill_image.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/image_encodings.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/impl
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/impl/point_cloud2_iterator.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/point_cloud2_iterator.h
+-- Up-to-date: /opt/ros/jade/include/sensor_msgs/point_cloud_conversion.h
+[[36msensor_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/sensor_msgs/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

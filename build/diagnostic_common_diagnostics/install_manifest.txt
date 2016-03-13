@@ -1,0 +1,14 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/diagnostic_common_diagnostics.pc
+/opt/ros/jade/share/diagnostic_common_diagnostics/cmake/diagnostic_common_diagnosticsConfig.cmake
+/opt/ros/jade/share/diagnostic_common_diagnostics/cmake/diagnostic_common_diagnosticsConfig-version.cmake
+/opt/ros/jade/share/diagnostic_common_diagnostics/package.xml
+/opt/ros/jade/lib/diagnostic_common_diagnostics/hd_monitor.py
+/opt/ros/jade/lib/diagnostic_common_diagnostics/ntp_monitor.py
+/opt/ros/jade/lib/diagnostic_common_diagnostics/sensors_monitor.py
+/opt/ros/jade/lib/diagnostic_common_diagnostics/tf_monitor.py

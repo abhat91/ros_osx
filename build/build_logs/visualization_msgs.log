@@ -1,0 +1,176 @@
+[[36mvisualization_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/visualization_msgs/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/visualization_msgs[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/visualization_msgs/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:4 (find_package)
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- visualization_msgs: 10 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/visualization_msgs
+[[36mvisualization_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/visualization_msgs/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mvisualization_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/visualization_msgs/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/visualization_msgs[0m'[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target _visualization_msgs_generate_messages_check_deps_InteractiveMarker
+[  0%] Built target _visualization_msgs_generate_messages_check_deps_MarkerArray
+[  0%] Built target _visualization_msgs_generate_messages_check_deps_InteractiveMarkerInit
+[  0%] Built target _visualization_msgs_generate_messages_check_deps_InteractiveMarkerControl
+[  0%] Built target _visualization_msgs_generate_messages_check_deps_InteractiveMarkerFeedback
+[  0%] Built target _visualization_msgs_generate_messages_check_deps_ImageMarker
+[  0%] Built target _visualization_msgs_generate_messages_check_deps_MenuEntry
+[  0%] Built target _visualization_msgs_generate_messages_check_deps_InteractiveMarkerPose
+[  0%] Built target _visualization_msgs_generate_messages_check_deps_InteractiveMarkerUpdate
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target _visualization_msgs_generate_messages_check_deps_Marker
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[ 23%] Built target visualization_msgs_generate_messages_cpp
+[ 50%] Built target visualization_msgs_generate_messages_py
+[ 73%] Built target visualization_msgs_generate_messages_lisp
+[100%] Built target visualization_msgs_generate_messages_eus
+[100%] Built target visualization_msgs_generate_messages
+[[36mvisualization_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/visualization_msgs/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mvisualization_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/visualization_msgs/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/visualization_msgs[0m'[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target _visualization_msgs_generate_messages_check_deps_InteractiveMarker
+[  0%] Built target _visualization_msgs_generate_messages_check_deps_MarkerArray
+[  0%] Built target _visualization_msgs_generate_messages_check_deps_InteractiveMarkerInit
+[  0%] Built target _visualization_msgs_generate_messages_check_deps_InteractiveMarkerControl
+[  0%] Built target _visualization_msgs_generate_messages_check_deps_InteractiveMarkerFeedback
+[  0%] Built target _visualization_msgs_generate_messages_check_deps_ImageMarker
+[  0%] Built target _visualization_msgs_generate_messages_check_deps_MenuEntry
+[  0%] Built target _visualization_msgs_generate_messages_check_deps_InteractiveMarkerPose
+[  0%] Built target _visualization_msgs_generate_messages_check_deps_InteractiveMarkerUpdate
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _visualization_msgs_generate_messages_check_deps_Marker
+[ 23%] Built target visualization_msgs_generate_messages_cpp
+[ 23%] Built target std_msgs_generate_messages_py
+[ 23%] Built target geometry_msgs_generate_messages_py
+[ 50%] Built target visualization_msgs_generate_messages_py
+[ 50%] Built target std_msgs_generate_messages_lisp
+[ 50%] Built target geometry_msgs_generate_messages_lisp
+[ 73%] Built target visualization_msgs_generate_messages_lisp
+[ 73%] Built target geometry_msgs_generate_messages_eus
+[ 73%] Built target std_msgs_generate_messages_eus
+[100%] Built target visualization_msgs_generate_messages_eus
+[100%] Built target visualization_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/share/visualization_msgs/msg/ImageMarker.msg
+-- Up-to-date: /opt/ros/jade/share/visualization_msgs/msg/InteractiveMarker.msg
+-- Up-to-date: /opt/ros/jade/share/visualization_msgs/msg/InteractiveMarkerControl.msg
+-- Up-to-date: /opt/ros/jade/share/visualization_msgs/msg/InteractiveMarkerFeedback.msg
+-- Up-to-date: /opt/ros/jade/share/visualization_msgs/msg/InteractiveMarkerInit.msg
+-- Up-to-date: /opt/ros/jade/share/visualization_msgs/msg/InteractiveMarkerPose.msg
+-- Up-to-date: /opt/ros/jade/share/visualization_msgs/msg/InteractiveMarkerUpdate.msg
+-- Up-to-date: /opt/ros/jade/share/visualization_msgs/msg/MarkerArray.msg
+-- Up-to-date: /opt/ros/jade/share/visualization_msgs/msg/Marker.msg
+-- Up-to-date: /opt/ros/jade/share/visualization_msgs/msg/MenuEntry.msg
+-- Up-to-date: /opt/ros/jade/share/visualization_msgs/cmake/visualization_msgs-msg-paths.cmake
+-- Up-to-date: /opt/ros/jade/include/visualization_msgs
+-- Up-to-date: /opt/ros/jade/include/visualization_msgs/ImageMarker.h
+-- Up-to-date: /opt/ros/jade/include/visualization_msgs/InteractiveMarker.h
+-- Up-to-date: /opt/ros/jade/include/visualization_msgs/InteractiveMarkerControl.h
+-- Up-to-date: /opt/ros/jade/include/visualization_msgs/InteractiveMarkerFeedback.h
+-- Up-to-date: /opt/ros/jade/include/visualization_msgs/InteractiveMarkerInit.h
+-- Up-to-date: /opt/ros/jade/include/visualization_msgs/InteractiveMarkerPose.h
+-- Up-to-date: /opt/ros/jade/include/visualization_msgs/InteractiveMarkerUpdate.h
+-- Up-to-date: /opt/ros/jade/include/visualization_msgs/Marker.h
+-- Up-to-date: /opt/ros/jade/include/visualization_msgs/MarkerArray.h
+-- Up-to-date: /opt/ros/jade/include/visualization_msgs/MenuEntry.h
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/visualization_msgs
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/visualization_msgs/manifest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/visualization_msgs/msg
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/visualization_msgs/msg/ImageMarker.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/visualization_msgs/msg/InteractiveMarker.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/visualization_msgs/msg/InteractiveMarkerControl.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/visualization_msgs/msg/InteractiveMarkerFeedback.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/visualization_msgs/msg/InteractiveMarkerInit.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/visualization_msgs/msg/InteractiveMarkerPose.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/visualization_msgs/msg/InteractiveMarkerUpdate.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/visualization_msgs/msg/Marker.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/visualization_msgs/msg/MarkerArray.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/visualization_msgs/msg/MenuEntry.l
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg/_package_ImageMarker.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg/_package_InteractiveMarker.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg/_package_InteractiveMarkerControl.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg/_package_InteractiveMarkerFeedback.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg/_package_InteractiveMarkerInit.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg/_package_InteractiveMarkerPose.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg/_package_InteractiveMarkerUpdate.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg/_package_Marker.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg/_package_MarkerArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg/_package_MenuEntry.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg/ImageMarker.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg/InteractiveMarker.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg/InteractiveMarkerControl.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg/InteractiveMarkerFeedback.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg/InteractiveMarkerInit.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg/InteractiveMarkerPose.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg/InteractiveMarkerUpdate.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg/Marker.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg/MarkerArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg/MenuEntry.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/visualization_msgs/msg/visualization_msgs-msg.asd
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/visualization_msgs ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/visualization_msgs/msg ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg/_ImageMarker.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg/_ImageMarker.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg/_InteractiveMarker.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg/_InteractiveMarker.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg/_InteractiveMarkerControl.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg/_InteractiveMarkerControl.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg/_InteractiveMarkerFeedback.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg/_InteractiveMarkerFeedback.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg/_InteractiveMarkerInit.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg/_InteractiveMarkerInit.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg/_InteractiveMarkerPose.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg/_InteractiveMarkerPose.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg/_InteractiveMarkerUpdate.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg/_InteractiveMarkerUpdate.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg/_Marker.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg/_Marker.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg/_MarkerArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg/_MarkerArray.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg/_MenuEntry.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/visualization_msgs/msg/_MenuEntry.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/visualization_msgs.pc
+-- Up-to-date: /opt/ros/jade/share/visualization_msgs/cmake/visualization_msgs-msg-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/visualization_msgs/cmake/visualization_msgsConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/visualization_msgs/cmake/visualization_msgsConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/visualization_msgs/package.xml
+[[36mvisualization_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/visualization_msgs/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

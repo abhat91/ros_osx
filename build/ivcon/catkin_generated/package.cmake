@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ivcon")
+set(ivcon_MAINTAINER "Devon Ash <dash@clearpathrobotics.com>")
+set(ivcon_DEPRECATED "")
+set(ivcon_VERSION "0.1.5")
+set(ivcon_BUILD_DEPENDS )
+set(ivcon_RUN_DEPENDS )
+set(ivcon_BUILDTOOL_DEPENDS "catkin")

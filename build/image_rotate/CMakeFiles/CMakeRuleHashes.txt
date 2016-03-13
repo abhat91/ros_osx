@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+44fcffd4dea28a2e56d81d09f4cb3556 /Users/adityabhat/Downloads/devel/include/image_rotate/ImageRotateConfig.h
+225c1226e7aa3922f8caebae029d98e6 CMakeFiles/clean_test_results
+00d48bb7a621a594b983a14326dfd74e CMakeFiles/clean_test_results_image_rotate
+f26a0c4580d99445b2c31eea7ab4889e CMakeFiles/image_rotate_gencfg

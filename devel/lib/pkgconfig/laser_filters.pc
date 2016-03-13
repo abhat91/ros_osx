@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: laser_filters
+Description: Description of laser_filters
+Version: 1.8.0
+Cflags: -I/Users/adityabhat/Downloads/src/laser_filters/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -lpointcloud_filters -llaser_scan_filters
+Requires: cmake_modules sensor_msgs roscpp tf filters message_filters laser_geometry pluginlib angles

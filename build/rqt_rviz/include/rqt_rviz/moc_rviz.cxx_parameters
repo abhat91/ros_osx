@@ -1,0 +1,12 @@
+-I/usr/local/include
+-I/usr/local/Cellar/qt/4.8.7_2/include
+-F/usr/local/Cellar/qt/4.8.7_2/lib
+-I/usr/local/Cellar/qt/4.8.7_2/include/QtGui
+-I/usr/local/Cellar/qt/4.8.7_2/lib/QtCore.framework/Headers
+-DROS_PACKAGE_NAME="rqt_rviz"
+-D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
+-DQT_GUI_LIB
+-DQT_CORE_LIB
+-o
+/Users/adityabhat/Downloads/build/rqt_rviz/include/rqt_rviz/moc_rviz.cxx
+/Users/adityabhat/Downloads/src/rqt_robot_plugins/rqt_rviz/include/rqt_rviz/rviz.h

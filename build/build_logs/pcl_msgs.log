@@ -1,0 +1,123 @@
+[[36mpcl_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/pcl_msgs/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/pcl_msgs[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/pcl_msgs/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:5 (find_package)
+
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- pcl_msgs: 4 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/pcl_msgs
+[[36mpcl_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/pcl_msgs/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mpcl_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/pcl_msgs/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/pcl_msgs[0m'[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target _pcl_msgs_generate_messages_check_deps_ModelCoefficients
+[  0%] Built target _pcl_msgs_generate_messages_check_deps_PolygonMesh
+[  0%] Built target _pcl_msgs_generate_messages_check_deps_PointIndices
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _pcl_msgs_generate_messages_check_deps_Vertices
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_py
+[ 22%] Built target pcl_msgs_generate_messages_cpp
+[ 61%] Built target pcl_msgs_generate_messages_lisp
+[ 72%] Built target pcl_msgs_generate_messages_eus
+[100%] Built target pcl_msgs_generate_messages_py
+[100%] Built target pcl_msgs_generate_messages
+[[36mpcl_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/pcl_msgs/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mpcl_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/pcl_msgs/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/pcl_msgs[0m'[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _pcl_msgs_generate_messages_check_deps_ModelCoefficients
+[  0%] Built target _pcl_msgs_generate_messages_check_deps_PointIndices
+[  0%] Built target _pcl_msgs_generate_messages_check_deps_PolygonMesh
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target _pcl_msgs_generate_messages_check_deps_Vertices
+[ 22%] Built target pcl_msgs_generate_messages_cpp
+[ 22%] Built target std_msgs_generate_messages_lisp
+[ 22%] Built target sensor_msgs_generate_messages_lisp
+[ 44%] Built target pcl_msgs_generate_messages_lisp
+[ 44%] Built target std_msgs_generate_messages_eus
+[ 44%] Built target sensor_msgs_generate_messages_eus
+[ 72%] Built target pcl_msgs_generate_messages_eus
+[ 72%] Built target sensor_msgs_generate_messages_py
+[ 72%] Built target std_msgs_generate_messages_py
+[100%] Built target pcl_msgs_generate_messages_py
+[100%] Built target pcl_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/share/pcl_msgs/msg/ModelCoefficients.msg
+-- Up-to-date: /opt/ros/jade/share/pcl_msgs/msg/PointIndices.msg
+-- Up-to-date: /opt/ros/jade/share/pcl_msgs/msg/PolygonMesh.msg
+-- Up-to-date: /opt/ros/jade/share/pcl_msgs/msg/Vertices.msg
+-- Up-to-date: /opt/ros/jade/share/pcl_msgs/cmake/pcl_msgs-msg-paths.cmake
+-- Up-to-date: /opt/ros/jade/include/pcl_msgs
+-- Up-to-date: /opt/ros/jade/include/pcl_msgs/ModelCoefficients.h
+-- Up-to-date: /opt/ros/jade/include/pcl_msgs/PointIndices.h
+-- Up-to-date: /opt/ros/jade/include/pcl_msgs/PolygonMesh.h
+-- Up-to-date: /opt/ros/jade/include/pcl_msgs/Vertices.h
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/pcl_msgs
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/pcl_msgs/manifest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/pcl_msgs/msg
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/pcl_msgs/msg/ModelCoefficients.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/pcl_msgs/msg/PointIndices.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/pcl_msgs/msg/PolygonMesh.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/pcl_msgs/msg/Vertices.l
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/pcl_msgs
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/pcl_msgs/msg
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/pcl_msgs/msg/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/pcl_msgs/msg/_package_ModelCoefficients.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/pcl_msgs/msg/_package_PointIndices.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/pcl_msgs/msg/_package_PolygonMesh.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/pcl_msgs/msg/_package_Vertices.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/pcl_msgs/msg/ModelCoefficients.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/pcl_msgs/msg/pcl_msgs-msg.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/pcl_msgs/msg/PointIndices.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/pcl_msgs/msg/PolygonMesh.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/pcl_msgs/msg/Vertices.lisp
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_msgs ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/pcl_msgs/msg ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/pcl_msgs
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/pcl_msgs/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/pcl_msgs/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/pcl_msgs/msg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/pcl_msgs/msg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/pcl_msgs/msg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/pcl_msgs/msg/_ModelCoefficients.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/pcl_msgs/msg/_ModelCoefficients.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/pcl_msgs/msg/_PointIndices.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/pcl_msgs/msg/_PointIndices.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/pcl_msgs/msg/_PolygonMesh.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/pcl_msgs/msg/_PolygonMesh.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/pcl_msgs/msg/_Vertices.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/pcl_msgs/msg/_Vertices.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/pcl_msgs.pc
+-- Up-to-date: /opt/ros/jade/share/pcl_msgs/cmake/pcl_msgs-msg-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/pcl_msgs/cmake/pcl_msgsConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/pcl_msgs/cmake/pcl_msgsConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/pcl_msgs/package.xml
+[[36mpcl_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/pcl_msgs/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

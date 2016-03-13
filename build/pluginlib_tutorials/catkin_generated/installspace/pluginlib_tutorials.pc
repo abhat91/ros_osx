@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: pluginlib_tutorials
+Description: Description of pluginlib_tutorials
+Version: 0.1.8
+Cflags: -I/opt/ros/jade/include -I/usr/local/include
+Libs: -L/opt/ros/jade/lib -lpluginlib_tutorials
+Requires: pluginlib roscpp

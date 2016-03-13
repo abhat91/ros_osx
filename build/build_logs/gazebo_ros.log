@@ -1,0 +1,178 @@
+[[36mgazebo_ros[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/gazebo_ros/build_env.sh /usr/local/bin/cmake /Users/adityabhat/Downloads/src/gazebo_ros_pkgs/gazebo_ros -DCATKIN_DEVEL_PREFIX=/Users/adityabhat/Downloads/devel -DCMAKE_INSTALL_PREFIX=/opt/ros/jade -DCMAKE_BUILD_TYPE=Release -DPYTHON_LIBRARY=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib -DPYTHON_INCLUDE_DIR=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/include/python2.7[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/gazebo_ros[0m'[0m
+[36m-- [0mUsing CATKIN_DEVEL_PREFIX:[33m /Users/adityabhat/Downloads/devel
+[0m[0m[36m-- [0mUsing CMAKE_PREFIX_PATH:[33m /opt/ros/jade
+[0m[0m[36m-- [0mThis workspace overlays:[33m /opt/ros/jade
+[0m[0m[36m-- [0mUsing PYTHON_EXECUTABLE:[33m /usr/bin/python
+[0m[0m[36m-- [0mUsing default Python package layout
+[0m[36m-- [0mUsing empy:[33m /usr/local/lib/python2.7/site-packages/em.pyc
+[0m[0m[36m-- [0mUsing CATKIN_ENABLE_TESTING:[33m ON
+[0m[0m[36m-- [0mCall enable_testing()
+[0m[36m-- [0mUsing CATKIN_TEST_RESULTS_DIR:[33m /Users/adityabhat/Downloads/build/gazebo_ros/test_results
+[0m[0m[36m-- [0mFound gtest:[33m gtests will be built
+[0m[0m[33m[1mCMake Warning[0m at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+[0m  nosetests not found, Python tests can not be run (try installing package
+[0m  'python-nose')
+[0m[36m[4mCall Stack (most recent call first):[0m
+[0m  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+[0m  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+[0m  CMakeLists.txt:4 (find_package)
+[0m
+[0m
+[0m[36m-- [0mcatkin 0.6.16
+[0m[36m-- [0mUsing these message generators:[33m gencpp;geneus;genlisp;genpy
+[0m[0m[36m-- [0mBoost version:[33m 1.60.0
+[0m[0m[36m-- [0mFound the following Boost libraries:[33m
+[0m[0m[36m-- [0m  thread
+[0m[36m-- [0m  signals
+[0m[36m-- [0m  system
+[0m[36m-- [0m  filesystem
+[0m[36m-- [0m  program_options
+[0m[36m-- [0m  regex
+[0m[36m-- [0m  iostreams
+[0m[36m-- [0m  date_time
+[0m[36m-- [0m  chrono
+[0m[36m-- [0m  atomic
+[0m[36m-- [0mFound Threads:[33m TRUE  
+[0m[0m[36m-- [0mFound Protobuf:[33m /usr/local/lib/libprotobuf.dylib  
+[0m[0m[36m-- [0mBoost version:[33m 1.60.0
+[0m[0m[36m-- [0mLooking for OGRE...
+[0m[36m-- [0mOGRE_PREFIX_WATCH changed.
+[0m[36m-- [0mChecking for module 'OGRE'
+[0m[36m-- [0m  Found OGRE, version 1.7.4
+[0m[36m-- [0mFound Ogre Cthugha (1.7.4)
+[0m[36m-- [0mFound OGRE:[33m optimized;/usr/local/Cellar/ogre/1.7.4/lib/libOgreMain.dylib;debug;/usr/local/Cellar/ogre/1.7.4/lib/libOgreMain.dylib
+[0m[0m[36m-- [0mLooking for OGRE_Paging...
+[0m[36m-- [0mFound OGRE_Paging:[33m optimized;/usr/local/Cellar/ogre/1.7.4/lib/libOgrePaging.dylib;debug;/usr/local/lib/libOgrePaging.dylib
+[0m[0m[36m-- [0mLooking for OGRE_Terrain...
+[0m[36m-- [0mFound OGRE_Terrain:[33m optimized;/usr/local/Cellar/ogre/1.7.4/lib/libOgreTerrain.dylib;debug;/usr/local/lib/libOgreTerrain.dylib
+[0m[0m[36m-- [0mLooking for OGRE_Property...
+[0m[36m-- [0mFound OGRE_Property:[33m optimized;/usr/local/Cellar/ogre/1.7.4/lib/libOgreProperty.dylib;debug;/usr/local/lib/libOgreProperty.dylib
+[0m[0m[36m-- [0mLooking for OGRE_RTShaderSystem...
+[0m[36m-- [0mFound OGRE_RTShaderSystem:[33m optimized;/usr/local/Cellar/ogre/1.7.4/lib/libOgreRTShaderSystem.dylib;debug;/usr/local/lib/libOgreRTShaderSystem.dylib
+[0m[0m[36m-- [0mBoost version:[33m 1.60.0
+[0m[0m[36m-- [0mFound the following Boost libraries:[33m
+[0m[0m[36m-- [0m  thread
+[0m[36m-- [0m  chrono
+[0m[36m-- [0m  system
+[0m[36m-- [0m  date_time
+[0m[36m-- [0m  atomic
+[0m[36m-- [0mFound TinyXML:[33m /usr/local/lib/libtinyxml.dylib  
+[0m[0m[36m-- [0mConfiguring done
+[0m[33m[1mCMake Warning[0m (dev) at CMakeLists.txt:80 (add_dependencies):
+[0m  Policy CMP0046 is not set: Error on non-existent dependency in
+[0m  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+[0m  Use the cmake_policy command to set the policy and suppress this warning.
+[0m
+[0m  The dependency target "gazebo_msgs_gencpp" of target
+[0m  "gazebo_ros_paths_plugin" does not exist.
+[0mThis warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0m[33m[1mCMake Warning[0m (dev) at CMakeLists.txt:74 (add_dependencies):
+[0m  Policy CMP0046 is not set: Error on non-existent dependency in
+[0m  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+[0m  Use the cmake_policy command to set the policy and suppress this warning.
+[0m
+[0m  The dependency target "gazebo_msgs_gencpp" of target
+[0m  "gazebo_ros_api_plugin" does not exist.
+[0mThis warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0m[33m[1mCMake Warning[0m (dev):
+[0m  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+[0m  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+[0m  set the policy and suppress this warning.
+[0m
+[0m  MACOSX_RPATH is not specified for the following targets:
+[0m
+[0m   gazebo_ros_api_plugin
+[0m   gazebo_ros_paths_plugin
+[0m
+[0mThis warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0m[36m-- [0mGenerating done
+[0m[36m-- [0mBuild files have been written to:[33m /Users/adityabhat/Downloads/build/gazebo_ros
+[0m[0m[[36mgazebo_ros[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/gazebo_ros/build_env.sh /usr/local/bin/cmake /Users/adityabhat/Downloads/src/gazebo_ros_pkgs/gazebo_ros -DCATKIN_DEVEL_PREFIX=/Users/adityabhat/Downloads/devel -DCMAKE_INSTALL_PREFIX=/opt/ros/jade -DCMAKE_BUILD_TYPE=Release -DPYTHON_LIBRARY=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib -DPYTHON_INCLUDE_DIR=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/include/python2.7[0m' finished with return code '[1m0[0m'[0m
+[[36mgazebo_ros[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/gazebo_ros/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/gazebo_ros[0m'[0m
+[35m[1mScanning dependencies of target gazebo_ros_gencfg[0m
+[ 20%] [34m[1mGenerating dynamic reconfigure files from cfg/Physics.cfg: /Users/adityabhat/Downloads/devel/include/gazebo_ros/PhysicsConfig.h /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/gazebo_ros/cfg/PhysicsConfig.py[0m
+Generating reconfiguration files for Physics in gazebo_ros
+Wrote header file in /Users/adityabhat/Downloads/devel/include/gazebo_ros/PhysicsConfig.h
+[ 20%] Built target gazebo_ros_gencfg
+[35m[1mScanning dependencies of target gazebo_ros_paths_plugin[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/gazebo_ros_paths_plugin.dir/src/gazebo_ros_paths_plugin.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_paths_plugin.dylib[0m
+[ 60%] Built target gazebo_ros_paths_plugin
+[35m[1mScanning dependencies of target gazebo_ros_api_plugin[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/gazebo_ros_api_plugin.dir/src/gazebo_ros_api_plugin.cpp.o[0m
+[1m/Users/adityabhat/Downloads/src/gazebo_ros_pkgs/gazebo_ros/src/gazebo_ros_api_plugin.cpp:225:100: [0m[0;1;35mwarning: [0m[1m'spawnGazeboModel' is deprecated [-Wdeprecated-declarations][0m
+                                                                  boost::bind(&GazeboRosApiPlugin::spawnGazeboModel,this,_1,_2),
+[0;1;32m                                                                                                   ^
+[0m[1m/Users/adityabhat/Downloads/src/gazebo_ros_pkgs/gazebo_ros/src/gazebo_ros_api_plugin.h:145:23: [0m[0;1;30mnote: [0m'spawnGazeboModel' has been explicitly marked deprecated here[0m
+  ROS_DEPRECATED bool spawnGazeboModel(gazebo_msgs::SpawnModel::Request &req,gazebo_msgs::SpawnModel::Response &res);
+[0;1;32m                      ^
+[0m[1m/Users/adityabhat/Downloads/src/gazebo_ros_pkgs/gazebo_ros/src/gazebo_ros_api_plugin.cpp:597:1: [0m[0;1;35mwarning: [0m[1mcontrol reaches end of non-void function [-Wreturn-type][0m
+}
+[0;1;32m^
+[0m2 warnings generated.
+[100%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_api_plugin.dylib[0m
+[100%] Built target gazebo_ros_api_plugin
+[[36mgazebo_ros[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/gazebo_ros/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mgazebo_ros[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/gazebo_ros/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/gazebo_ros[0m'[0m
+[ 20%] Built target gazebo_ros_gencfg
+[ 60%] Built target gazebo_ros_paths_plugin
+[100%] Built target gazebo_ros_api_plugin
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
++ cd /Users/adityabhat/Downloads/src/gazebo_ros_pkgs/gazebo_ros
++ /usr/bin/env PYTHONPATH=/opt/ros/jade/lib/python2.7/site-packages:/Users/adityabhat/Downloads/build/gazebo_ros/lib/python2.7/site-packages:/opt/ros/jade/lib/python2.7/site-packages CATKIN_BINARY_DIR=/Users/adityabhat/Downloads/build/gazebo_ros /usr/bin/python /Users/adityabhat/Downloads/src/gazebo_ros_pkgs/gazebo_ros/setup.py build --build-base /Users/adityabhat/Downloads/build/gazebo_ros install --prefix=/opt/ros/jade --install-scripts=/opt/ros/jade/bin
+running build
+running build_py
+creating /Users/adityabhat/Downloads/build/gazebo_ros/lib
+creating /Users/adityabhat/Downloads/build/gazebo_ros/lib/gazebo_ros
+copying src/gazebo_ros/__init__.py -> /Users/adityabhat/Downloads/build/gazebo_ros/lib/gazebo_ros
+copying src/gazebo_ros/gazebo_interface.py -> /Users/adityabhat/Downloads/build/gazebo_ros/lib/gazebo_ros
+running install
+running install_lib
+creating /opt/ros/jade/lib/python2.7/site-packages/gazebo_ros
+copying /Users/adityabhat/Downloads/build/gazebo_ros/lib/gazebo_ros/__init__.py -> /opt/ros/jade/lib/python2.7/site-packages/gazebo_ros
+copying /Users/adityabhat/Downloads/build/gazebo_ros/lib/gazebo_ros/gazebo_interface.py -> /opt/ros/jade/lib/python2.7/site-packages/gazebo_ros
+byte-compiling /opt/ros/jade/lib/python2.7/site-packages/gazebo_ros/__init__.py to __init__.pyc
+byte-compiling /opt/ros/jade/lib/python2.7/site-packages/gazebo_ros/gazebo_interface.py to gazebo_interface.pyc
+running install_egg_info
+Writing /opt/ros/jade/lib/python2.7/site-packages/gazebo_ros-2.5.2-py2.7.egg-info
+-- Installing: /opt/ros/jade/include/gazebo_ros/PhysicsConfig.h
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/gazebo_ros/cfg ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/gazebo_ros/cfg/PhysicsConfig.py ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/gazebo_ros/cfg/__init__.py ...
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/gazebo_ros/cfg
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/gazebo_ros/cfg/__init__.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/gazebo_ros/cfg/__init__.pyc
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/gazebo_ros/cfg/PhysicsConfig.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/gazebo_ros/cfg/PhysicsConfig.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/gazebo_ros.pc
+-- Installing: /opt/ros/jade/share/gazebo_ros/cmake/gazebo_rosConfig.cmake
+-- Installing: /opt/ros/jade/share/gazebo_ros/cmake/gazebo_rosConfig-version.cmake
+-- Installing: /opt/ros/jade/share/gazebo_ros/package.xml
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_api_plugin.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_paths_plugin.dylib
+-- Installing: /opt/ros/jade/lib/gazebo_ros/gazebo
+-- Installing: /opt/ros/jade/lib/gazebo_ros/debug
+-- Installing: /opt/ros/jade/lib/gazebo_ros/gzclient
+-- Installing: /opt/ros/jade/lib/gazebo_ros/gzserver
+-- Installing: /opt/ros/jade/lib/gazebo_ros/gdbrun
+-- Installing: /opt/ros/jade/lib/gazebo_ros/perf
+-- Installing: /opt/ros/jade/lib/gazebo_ros/spawn_model
+-- Installing: /opt/ros/jade/share/gazebo_ros/launch
+-- Installing: /opt/ros/jade/share/gazebo_ros/launch/elevator_world.launch
+-- Installing: /opt/ros/jade/share/gazebo_ros/launch/empty_world.launch
+-- Installing: /opt/ros/jade/share/gazebo_ros/launch/mud_world.launch
+-- Installing: /opt/ros/jade/share/gazebo_ros/launch/range_world.launch
+-- Installing: /opt/ros/jade/share/gazebo_ros/launch/rubble_world.launch
+-- Installing: /opt/ros/jade/share/gazebo_ros/launch/shapes_world.launch
+-- Installing: /opt/ros/jade/share/gazebo_ros/launch/willowgarage_world.launch
+[[36mgazebo_ros[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/gazebo_ros/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

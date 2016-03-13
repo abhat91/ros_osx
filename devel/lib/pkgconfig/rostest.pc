@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: rostest
+Description: Description of rostest
+Version: 1.11.16
+Cflags: -I/Users/adityabhat/Downloads/src/ros_comm/rostest/include -I/usr/local/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -l:/usr/local/lib/libboost_system-mt.dylib -l:/usr/local/lib/libboost_thread-mt.dylib -l:/usr/local/lib/libboost_chrono-mt.dylib -l:/usr/local/lib/libboost_date_time-mt.dylib -l:/usr/local/lib/libboost_atomic-mt.dylib
+Requires: 

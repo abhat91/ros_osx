@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: angles
+Description: Description of angles
+Version: 1.9.10
+Cflags: -I/Users/adityabhat/Downloads/src/angles/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib 
+Requires: 

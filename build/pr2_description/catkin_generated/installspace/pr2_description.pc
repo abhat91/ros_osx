@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: pr2_description
+Description: Description of pr2_description
+Version: 1.11.9
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: xacro

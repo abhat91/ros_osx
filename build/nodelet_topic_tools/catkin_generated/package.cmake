@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "nodelet_topic_tools")
+set(nodelet_topic_tools_MAINTAINER "Esteve Fernandez <esteve@osrfoundation.org>")
+set(nodelet_topic_tools_DEPRECATED "")
+set(nodelet_topic_tools_VERSION "1.9.3")
+set(nodelet_topic_tools_BUILD_DEPENDS "boost" "dynamic_reconfigure")
+set(nodelet_topic_tools_RUN_DEPENDS "boost" "dynamic_reconfigure" "message_filters" "nodelet" "pluginlib" "roscpp")
+set(nodelet_topic_tools_BUILDTOOL_DEPENDS "catkin")

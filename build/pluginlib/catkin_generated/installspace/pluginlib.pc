@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: pluginlib
+Description: Description of pluginlib
+Version: 1.10.1
+Cflags: -I/opt/ros/jade/include -I/usr/local/include
+Libs: -L/opt/ros/jade/lib -l:/usr/local/lib/libboost_filesystem-mt.dylib -l:/usr/local/lib/libboost_system-mt.dylib -l:/usr/local/lib/libtinyxml.dylib
+Requires: class_loader rosconsole roslib

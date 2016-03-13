@@ -1,0 +1,14 @@
+/Users/adityabhat/Downloads/build/image_transport_plugins/CMakeFiles/test.dir
+/Users/adityabhat/Downloads/build/image_transport_plugins/CMakeFiles/install/local.dir
+/Users/adityabhat/Downloads/build/image_transport_plugins/CMakeFiles/edit_cache.dir
+/Users/adityabhat/Downloads/build/image_transport_plugins/CMakeFiles/rebuild_cache.dir
+/Users/adityabhat/Downloads/build/image_transport_plugins/CMakeFiles/install.dir
+/Users/adityabhat/Downloads/build/image_transport_plugins/CMakeFiles/install/strip.dir
+/Users/adityabhat/Downloads/build/image_transport_plugins/CMakeFiles/_catkin_empty_exported_target.dir
+/Users/adityabhat/Downloads/build/image_transport_plugins/CMakeFiles/list_install_components.dir
+/Users/adityabhat/Downloads/build/image_transport_plugins/CMakeFiles/doxygen.dir
+/Users/adityabhat/Downloads/build/image_transport_plugins/CMakeFiles/clean_test_results_image_transport_plugins.dir
+/Users/adityabhat/Downloads/build/image_transport_plugins/CMakeFiles/tests.dir
+/Users/adityabhat/Downloads/build/image_transport_plugins/CMakeFiles/clean_test_results.dir
+/Users/adityabhat/Downloads/build/image_transport_plugins/CMakeFiles/run_tests.dir
+/Users/adityabhat/Downloads/build/image_transport_plugins/CMakeFiles/download_extra_data.dir

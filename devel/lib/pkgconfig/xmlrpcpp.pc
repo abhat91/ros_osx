@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: xmlrpcpp
+Description: Description of xmlrpcpp
+Version: 1.11.16
+Cflags: -I/Users/adityabhat/Downloads/src/ros_comm/xmlrpcpp/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -lxmlrpcpp
+Requires: cpp_common

@@ -1,0 +1,815 @@
+[[36mgazebo_plugins[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/gazebo_plugins/build_env.sh /usr/local/bin/cmake /Users/adityabhat/Downloads/src/gazebo_ros_pkgs/gazebo_plugins -DCATKIN_DEVEL_PREFIX=/Users/adityabhat/Downloads/devel -DCMAKE_INSTALL_PREFIX=/opt/ros/jade -DCMAKE_BUILD_TYPE=Release -DPYTHON_LIBRARY=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib -DPYTHON_INCLUDE_DIR=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/include/python2.7[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/gazebo_plugins[0m'[0m
+[36m-- [0mThe C compiler identification is AppleClang 7.0.2.7000181
+[0m[36m-- [0mThe CXX compiler identification is AppleClang 7.0.2.7000181
+[0m[36m-- [0mCheck for working C compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+[0m[0m[36m-- [0mCheck for working C compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
+[0m[0m[36m-- [0mDetecting C compiler ABI info
+[0m[36m-- [0mDetecting C compiler ABI info - done
+[0m[36m-- [0mDetecting C compile features
+[0m[36m-- [0mDetecting C compile features - done
+[0m[36m-- [0mCheck for working CXX compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+[0m[0m[36m-- [0mCheck for working CXX compiler:[33m /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -- works
+[0m[0m[36m-- [0mDetecting CXX compiler ABI info
+[0m[36m-- [0mDetecting CXX compiler ABI info - done
+[0m[36m-- [0mDetecting CXX compile features
+[0m[36m-- [0mDetecting CXX compile features - done
+[0m[36m-- [0mUsing CATKIN_DEVEL_PREFIX:[33m /Users/adityabhat/Downloads/devel
+[0m[0m[36m-- [0mUsing CMAKE_PREFIX_PATH:[33m /opt/ros/jade
+[0m[0m[36m-- [0mThis workspace overlays:[33m /opt/ros/jade
+[0m[0m[36m-- [0mFound PythonInterp:[33m /usr/bin/python (found version "2.7.10") 
+[0m[0m[36m-- [0mUsing PYTHON_EXECUTABLE:[33m /usr/bin/python
+[0m[0m[36m-- [0mUsing default Python package layout
+[0m[36m-- [0mFound PY_em:[33m /usr/local/lib/python2.7/site-packages/em.pyc  
+[0m[0m[36m-- [0mUsing empy:[33m /usr/local/lib/python2.7/site-packages/em.pyc
+[0m[0m[36m-- [0mUsing CATKIN_ENABLE_TESTING:[33m ON
+[0m[0m[36m-- [0mCall enable_testing()
+[0m[36m-- [0mUsing CATKIN_TEST_RESULTS_DIR:[33m /Users/adityabhat/Downloads/build/gazebo_plugins/test_results
+[0m[0m[36m-- [0mFound gtest:[33m gtests will be built
+[0m[0m[33m[1mCMake Warning[0m at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+[0m  nosetests not found, Python tests can not be run (try installing package
+[0m  'python-nose')
+[0m[36m[4mCall Stack (most recent call first):[0m
+[0m  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+[0m  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+[0m  CMakeLists.txt:4 (find_package)
+[0m
+[0m
+[0m[36m-- [0mcatkin 0.6.16
+[0m[36m-- [0mUsing these message generators:[33m gencpp;geneus;genlisp;genpy
+[0m[0m[36m-- [0mFound PkgConfig:[33m /usr/local/bin/pkg-config (found version "0.29") 
+[0m[0m[36m-- [0mChecking for module 'libxml-2.0'
+[0m[36m-- [0m  Found libxml-2.0, version 2.9.2
+[0m[36m-- [0mChecking for module 'OGRE'
+[0m[36m-- [0m  Found OGRE, version 1.7.4
+[0m[36m-- [0mChecking for module 'OGRE-Terrain'
+[0m[36m-- [0m  Found OGRE-Terrain, version 1.7.4
+[0m[36m-- [0mChecking for module 'OGRE-Paging'
+[0m[36m-- [0m  Found OGRE-Paging, version 1.7.4
+[0m[36m-- [0mBoost version:[33m 1.60.0
+[0m[0m[36m-- [0mFound the following Boost libraries:[33m
+[0m[0m[36m-- [0m  thread
+[0m[36m-- [0m  signals
+[0m[36m-- [0m  system
+[0m[36m-- [0m  filesystem
+[0m[36m-- [0m  program_options
+[0m[36m-- [0m  regex
+[0m[36m-- [0m  iostreams
+[0m[36m-- [0m  date_time
+[0m[36m-- [0m  chrono
+[0m[36m-- [0m  atomic
+[0m[36m-- [0mFound Threads:[33m TRUE  
+[0m[0m[36m-- [0mFound Protobuf:[33m /usr/local/lib/libprotobuf.dylib  
+[0m[0m[36m-- [0mBoost version:[33m 1.60.0
+[0m[0m[36m-- [0mBoost version:[33m 1.60.0
+[0m[0m[36m-- [0mFound the following Boost libraries:[33m
+[0m[0m[36m-- [0m  thread
+[0m[36m-- [0m  chrono
+[0m[36m-- [0m  system
+[0m[36m-- [0m  date_time
+[0m[36m-- [0m  atomic
+[0m[36m-- [0mConfiguring done
+[0m[33m[1mCMake Warning[0m (dev) at CMakeLists.txt:239 (add_dependencies):
+[0m  Policy CMP0046 is not set: Error on non-existent dependency in
+[0m  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+[0m  Use the cmake_policy command to set the policy and suppress this warning.
+[0m
+[0m  The dependency target "gazebo_msgs_gencpp" of target
+[0m  "gazebo_ros_joint_pose_trajectory" does not exist.
+[0mThis warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0m[33m[1mCMake Warning[0m (dev) at CMakeLists.txt:228 (add_dependencies):
+[0m  Policy CMP0046 is not set: Error on non-existent dependency in
+[0m  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+[0m  Use the cmake_policy command to set the policy and suppress this warning.
+[0m
+[0m  The dependency target "gazebo_msgs_gencpp" of target
+[0m  "gazebo_ros_joint_trajectory" does not exist.
+[0mThis warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0m[33m[1mCMake Warning[0m (dev) at CMakeLists.txt:214 (add_dependencies):
+[0m  Policy CMP0046 is not set: Error on non-existent dependency in
+[0m  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+[0m  Use the cmake_policy command to set the policy and suppress this warning.
+[0m
+[0m  The dependency target "gazebo_msgs_gencpp" of target "gazebo_ros_bumper"
+[0m  does not exist.
+[0mThis warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0m[33m[1mCMake Warning[0m (dev) at CMakeLists.txt:235 (add_dependencies):
+[0m  Policy CMP0046 is not set: Error on non-existent dependency in
+[0m  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+[0m  Use the cmake_policy command to set the policy and suppress this warning.
+[0m
+[0m  The dependency target "gazebo_msgs_gencpp" of target
+[0m  "gazebo_ros_joint_state_publisher" does not exist.
+[0mThis warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0m[33m[1mCMake Warning[0m (dev):
+[0m  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+[0m  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+[0m  set the policy and suppress this warning.
+[0m
+[0m  MACOSX_RPATH is not specified for the following targets:
+[0m
+[0m   MultiCameraPlugin
+[0m   gazebo_ros_block_laser
+[0m   gazebo_ros_bumper
+[0m   gazebo_ros_camera
+[0m   gazebo_ros_camera_utils
+[0m   gazebo_ros_depth_camera
+[0m   gazebo_ros_diff_drive
+[0m   gazebo_ros_elevator
+[0m   gazebo_ros_f3d
+[0m   gazebo_ros_force
+[0m   gazebo_ros_ft_sensor
+[0m   gazebo_ros_gpu_laser
+[0m   gazebo_ros_hand_of_god
+[0m   gazebo_ros_imu
+[0m   gazebo_ros_joint_pose_trajectory
+[0m   gazebo_ros_joint_state_publisher
+[0m   gazebo_ros_joint_trajectory
+[0m   gazebo_ros_laser
+[0m   gazebo_ros_multicamera
+[0m   gazebo_ros_openni_kinect
+[0m   gazebo_ros_p3d
+[0m   gazebo_ros_planar_move
+[0m   gazebo_ros_projector
+[0m   gazebo_ros_prosilica
+[0m   gazebo_ros_range
+[0m   gazebo_ros_skid_steer_drive
+[0m   gazebo_ros_template
+[0m   gazebo_ros_tricycle_drive
+[0m   gazebo_ros_utils
+[0m   gazebo_ros_video
+[0m   vision_reconfigure
+[0m
+[0mThis warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0m[36m-- [0mGenerating done
+[0m[33m[1mCMake Warning[0m:
+[0m  Manually-specified variables were not used by the project:
+[0m
+[0m    PYTHON_INCLUDE_DIR
+[0m    PYTHON_LIBRARY
+[0m
+[0m
+[0m[36m-- [0mBuild files have been written to:[33m /Users/adityabhat/Downloads/build/gazebo_plugins
+[0m[0m[[36mgazebo_plugins[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/gazebo_plugins/build_env.sh /usr/local/bin/cmake /Users/adityabhat/Downloads/src/gazebo_ros_pkgs/gazebo_plugins -DCATKIN_DEVEL_PREFIX=/Users/adityabhat/Downloads/devel -DCMAKE_INSTALL_PREFIX=/opt/ros/jade -DCMAKE_BUILD_TYPE=Release -DPYTHON_LIBRARY=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib -DPYTHON_INCLUDE_DIR=/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/include/python2.7[0m' finished with return code '[1m0[0m'[0m
+[[36mgazebo_plugins[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/gazebo_plugins/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/gazebo_plugins[0m'[0m
+[35m[1mScanning dependencies of target gazebo_ros_template[0m
+[  1%] [32mBuilding CXX object CMakeFiles/gazebo_ros_template.dir/src/gazebo_ros_template.cpp.o[0m
+[  2%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_template.dylib[0m
+[  2%] Built target gazebo_ros_template
+[35m[1mScanning dependencies of target gazebo_ros_planar_move[0m
+[  4%] [32mBuilding CXX object CMakeFiles/gazebo_ros_planar_move.dir/src/gazebo_ros_planar_move.cpp.o[0m
+[35m[1mScanning dependencies of target gazebo_ros_video[0m
+[  5%] [32mBuilding CXX object CMakeFiles/gazebo_ros_video.dir/src/gazebo_ros_video.cpp.o[0m
+[35m[1mScanning dependencies of target gazebo_ros_utils[0m
+[  6%] [32mBuilding CXX object CMakeFiles/gazebo_ros_utils.dir/src/gazebo_ros_utils.cpp.o[0m
+[  8%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_planar_move.dylib[0m
+[  8%] Built target gazebo_ros_planar_move
+[35m[1mScanning dependencies of target gazebo_ros_joint_pose_trajectory[0m
+[  9%] [32mBuilding CXX object CMakeFiles/gazebo_ros_joint_pose_trajectory.dir/src/gazebo_ros_joint_pose_trajectory.cpp.o[0m
+[35m[1mScanning dependencies of target gazebo_ros_joint_trajectory[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/gazebo_ros_joint_trajectory.dir/src/gazebo_ros_joint_trajectory.cpp.o[0m
+[ 12%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_utils.dylib[0m
+[ 12%] Built target gazebo_ros_utils
+[35m[1mScanning dependencies of target gazebo_ros_force[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/gazebo_ros_force.dir/src/gazebo_ros_force.cpp.o[0m
+[ 15%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_joint_pose_trajectory.dylib[0m
+[ 15%] Built target gazebo_ros_joint_pose_trajectory
+[35m[1mScanning dependencies of target gazebo_ros_projector[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/gazebo_ros_projector.dir/src/gazebo_ros_projector.cpp.o[0m
+[ 18%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_joint_trajectory.dylib[0m
+[ 18%] Built target gazebo_ros_joint_trajectory
+[35m[1mScanning dependencies of target gazebo_ros_imu[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/gazebo_ros_imu.dir/src/gazebo_ros_imu.cpp.o[0m
+[ 20%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_video.dylib[0m
+[ 20%] Built target gazebo_ros_video
+[35m[1mScanning dependencies of target gazebo_ros_p3d[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/gazebo_ros_p3d.dir/src/gazebo_ros_p3d.cpp.o[0m
+[ 23%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_force.dylib[0m
+[ 23%] Built target gazebo_ros_force
+[35m[1mScanning dependencies of target gazebo_ros_block_laser[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/gazebo_ros_block_laser.dir/src/gazebo_ros_block_laser.cpp.o[0m
+[ 26%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_imu.dylib[0m
+[ 26%] Built target gazebo_ros_imu
+[35m[1mScanning dependencies of target gazebo_ros_laser[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/gazebo_ros_laser.dir/src/gazebo_ros_laser.cpp.o[0m
+[ 29%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_p3d.dylib[0m
+[ 29%] Built target gazebo_ros_p3d
+[35m[1mScanning dependencies of target gazebo_ros_gpu_laser[0m
+[ 30%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_projector.dylib[0m
+[ 30%] Built target gazebo_ros_projector
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[ 30%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target gazebo_msgs_generate_messages_eus[0m
+[ 30%] Built target gazebo_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[ 30%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[ 30%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target gazebo_msgs_generate_messages_lisp[0m
+[ 30%] Built target gazebo_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_cpp[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/gazebo_ros_gpu_laser.dir/src/gazebo_ros_gpu_laser.cpp.o[0m
+[ 31%] Built target trajectory_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target nodelet_generate_messages_eus[0m
+[ 31%] Built target nodelet_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[ 31%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target bond_generate_messages_lisp[0m
+[ 31%] Built target bond_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[ 31%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_py[0m
+[ 31%] Built target diagnostic_msgs_generate_messages_py
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_eus[0m
+[ 31%] Built target diagnostic_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[ 31%] Built target dynamic_reconfigure_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[ 31%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_cpp[0m
+[ 31%] Built target diagnostic_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target polled_camera_generate_messages_py[0m
+[ 31%] Built target polled_camera_generate_messages_py
+[35m[1mScanning dependencies of target polled_camera_generate_messages_lisp[0m
+[ 31%] Built target polled_camera_generate_messages_lisp
+[35m[1mScanning dependencies of target polled_camera_generate_messages_eus[0m
+[ 31%] Built target polled_camera_generate_messages_eus
+[35m[1mScanning dependencies of target polled_camera_generate_messages_cpp[0m
+[ 31%] Built target polled_camera_generate_messages_cpp
+[35m[1mScanning dependencies of target driver_base_generate_messages_py[0m
+[ 31%] Built target driver_base_generate_messages_py
+[35m[1mScanning dependencies of target driver_base_generate_messages_lisp[0m
+[ 31%] Built target driver_base_generate_messages_lisp
+[35m[1mScanning dependencies of target driver_base_generate_messages_eus[0m
+[ 31%] Built target driver_base_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[ 31%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target gazebo_msgs_generate_messages_cpp[0m
+[ 31%] Built target gazebo_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[ 31%] Built target std_srvs_generate_messages_cpp
+[35m[1mScanning dependencies of target driver_base_generate_messages_cpp[0m
+[ 31%] Built target driver_base_generate_messages_cpp
+[35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[ 31%] Built target dynamic_reconfigure_gencfg
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_eus[0m
+[ 31%] Built target trajectory_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[ 31%] Built target dynamic_reconfigure_generate_messages_eus
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[ 31%] Built target dynamic_reconfigure_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[ 31%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[ 31%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[ 31%] Built target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[ 31%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[ 31%] Built target tf_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[ 31%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_lisp[0m
+[ 31%] Built target diagnostic_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[ 31%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[ 31%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[ 31%] Built target nav_msgs_generate_messages_py
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[ 31%] Built target nav_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target bond_generate_messages_eus[0m
+[ 31%] Built target bond_generate_messages_eus
+[35m[1mScanning dependencies of target gazebo_msgs_generate_messages_py[0m
+[ 31%] Built target gazebo_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[ 31%] Built target tf_generate_messages_eus
+[35m[1mScanning dependencies of target bond_generate_messages_cpp[0m
+[ 31%] Built target bond_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[ 31%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_lisp[0m
+[ 31%] Built target trajectory_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[ 31%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[ 31%] Built target std_srvs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[ 31%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[ 31%] Built target nav_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target nodelet_generate_messages_cpp[0m
+[ 31%] Built target nodelet_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[ 31%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[ 31%] Built target nav_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[ 31%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[ 31%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[ 31%] Built target dynamic_reconfigure_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[ 31%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[ 31%] Built target std_srvs_generate_messages_lisp
+[35m[1mScanning dependencies of target bond_generate_messages_py[0m
+[ 31%] Built target bond_generate_messages_py
+[35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[ 31%] Built target std_srvs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[ 31%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[ 31%] Built target tf_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[ 31%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[ 31%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target nodelet_generate_messages_py[0m
+[ 31%] Built target nodelet_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[ 31%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[ 31%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[ 31%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[ 31%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[ 31%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[ 31%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target nodelet_generate_messages_lisp[0m
+[ 31%] Built target nodelet_generate_messages_lisp
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_py[0m
+[ 31%] Built target trajectory_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[ 31%] Built target tf_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[ 31%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[ 31%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target MultiCameraPlugin[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/MultiCameraPlugin.dir/src/MultiCameraPlugin.cpp.o[0m
+[ 34%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_block_laser.dylib[0m
+[ 34%] Built target gazebo_ros_block_laser
+[35m[1mScanning dependencies of target gazebo_ros_range[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/gazebo_ros_range.dir/src/gazebo_ros_range.cpp.o[0m
+[ 37%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_laser.dylib[0m
+[ 37%] Built target gazebo_ros_laser
+[35m[1mScanning dependencies of target gazebo_ros_diff_drive[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/gazebo_ros_diff_drive.dir/src/gazebo_ros_diff_drive.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_gpu_laser.dylib[0m
+[ 40%] Built target gazebo_ros_gpu_laser
+[35m[1mScanning dependencies of target gazebo_ros_f3d[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/gazebo_ros_f3d.dir/src/gazebo_ros_f3d.cpp.o[0m
+[ 43%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_range.dylib[0m
+[ 43%] Built target gazebo_ros_range
+[35m[1mScanning dependencies of target gazebo_ros_hand_of_god[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/gazebo_ros_hand_of_god.dir/src/gazebo_ros_hand_of_god.cpp.o[0m
+[ 45%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libMultiCameraPlugin.dylib[0m
+[ 45%] Built target MultiCameraPlugin
+[35m[1mScanning dependencies of target gazebo_ros_bumper[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/gazebo_ros_bumper.dir/src/gazebo_ros_bumper.cpp.o[0m
+[ 48%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_f3d.dylib[0m
+[ 48%] Built target gazebo_ros_f3d
+[35m[1mScanning dependencies of target gazebo_ros_ft_sensor[0m
+[ 50%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_diff_drive.dylib[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/gazebo_ros_ft_sensor.dir/src/gazebo_ros_ft_sensor.cpp.o[0m
+[ 51%] Built target gazebo_ros_diff_drive
+[35m[1mScanning dependencies of target pub_joint_trajectory_test[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/pub_joint_trajectory_test.dir/test/pub_joint_trajectory_test.cpp.o[0m
+[ 54%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_hand_of_god.dylib[0m
+[ 54%] Built target gazebo_ros_hand_of_god
+[35m[1mScanning dependencies of target gazebo_ros_joint_state_publisher[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/gazebo_ros_joint_state_publisher.dir/src/gazebo_ros_joint_state_publisher.cpp.o[0m
+[ 56%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/gazebo_plugins/pub_joint_trajectory_test[0m
+[ 56%] Built target pub_joint_trajectory_test
+[35m[1mScanning dependencies of target gazebo_ros_skid_steer_drive[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/gazebo_ros_skid_steer_drive.dir/src/gazebo_ros_skid_steer_drive.cpp.o[0m
+[ 59%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_bumper.dylib[0m
+[ 59%] Built target gazebo_ros_bumper
+[35m[1mScanning dependencies of target gazebo_ros_tricycle_drive[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/gazebo_ros_tricycle_drive.dir/src/gazebo_ros_tricycle_drive.cpp.o[0m
+[ 62%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_ft_sensor.dylib[0m
+[ 62%] Built target gazebo_ros_ft_sensor
+[35m[1mScanning dependencies of target gazebo_plugins_gencfg[0m
+[ 63%] [34m[1mGenerating dynamic reconfigure files from cfg/CameraSynchronizer.cfg: /Users/adityabhat/Downloads/devel/include/gazebo_plugins/CameraSynchronizerConfig.h /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/gazebo_plugins/cfg/CameraSynchronizerConfig.py[0m
+Generating reconfiguration files for CameraSynchronizer in gazebo_plugins
+Wrote header file in /Users/adityabhat/Downloads/devel/include/gazebo_plugins/CameraSynchronizerConfig.h
+[ 65%] [34m[1mGenerating dynamic reconfigure files from cfg/GazeboRosCamera.cfg: /Users/adityabhat/Downloads/devel/include/gazebo_plugins/GazeboRosCameraConfig.h /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/gazebo_plugins/cfg/GazeboRosCameraConfig.py[0m
+Generating reconfiguration files for GazeboRosCamera in gazebo_plugins
+Wrote header file in /Users/adityabhat/Downloads/devel/include/gazebo_plugins/GazeboRosCameraConfig.h
+[ 66%] [34m[1mGenerating dynamic reconfigure files from cfg/GazeboRosOpenniKinect.cfg: /Users/adityabhat/Downloads/devel/include/gazebo_plugins/GazeboRosOpenniKinectConfig.h /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/gazebo_plugins/cfg/GazeboRosOpenniKinectConfig.py[0m
+Generating reconfiguration files for GazeboRosOpenniKinect in gazebo_plugins
+Wrote header file in /Users/adityabhat/Downloads/devel/include/gazebo_plugins/GazeboRosOpenniKinectConfig.h
+[ 68%] [34m[1mGenerating dynamic reconfigure files from cfg/Hokuyo.cfg: /Users/adityabhat/Downloads/devel/include/gazebo_plugins/HokuyoConfig.h /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/gazebo_plugins/cfg/HokuyoConfig.py[0m
+Generating reconfiguration files for Hokuyo in gazebo_plugins
+Wrote header file in /Users/adityabhat/Downloads/devel/include/gazebo_plugins/HokuyoConfig.h
+[ 68%] Built target gazebo_plugins_gencfg
+[35m[1mScanning dependencies of target gazebo_ros_camera_utils[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/gazebo_ros_camera_utils.dir/src/gazebo_ros_camera_utils.cpp.o[0m
+[ 70%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_joint_state_publisher.dylib[0m
+[ 70%] Built target gazebo_ros_joint_state_publisher
+[35m[1mScanning dependencies of target vision_reconfigure[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/vision_reconfigure.dir/src/vision_reconfigure.cpp.o[0m
+[ 73%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_skid_steer_drive.dylib[0m
+[ 73%] Built target gazebo_ros_skid_steer_drive
+[35m[1mScanning dependencies of target gazebo_ros_elevator[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/gazebo_ros_elevator.dir/src/gazebo_ros_elevator.cpp.o[0m
+[ 76%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_tricycle_drive.dylib[0m
+[ 76%] Built target gazebo_ros_tricycle_drive
+[35m[1mScanning dependencies of target hokuyo_node[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/hokuyo_node.dir/src/hokuyo_node.cpp.o[0m
+[ 79%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libvision_reconfigure.dylib[0m
+[ 79%] Built target vision_reconfigure
+[35m[1mScanning dependencies of target camera_synchronizer[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/camera_synchronizer.dir/src/camera_synchronizer.cpp.o[0m
+[ 81%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_elevator.dylib[0m
+[ 81%] Built target gazebo_ros_elevator
+[ 83%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/gazebo_plugins/hokuyo_node[0m
+[1m/Users/adityabhat/Downloads/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_camera_utils.cpp:323:28: [0m[0;1;35mwarning: [0m[1maddress of 'this->camera_queue_' will always evaluate to 'true' [-Wpointer-bool-conversion][0m
+    ros::VoidPtr(), &this->camera_queue_);
+[0;1;32m                     ~~~~~~^~~~~~~~~~~~~
+[0m[ 83%] Built target hokuyo_node
+[ 84%] [32m[1mLinking CXX executable /Users/adityabhat/Downloads/devel/lib/gazebo_plugins/camera_synchronizer[0m
+[ 84%] Built target camera_synchronizer
+1 warning generated.
+[ 86%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_camera_utils.dylib[0m
+[ 86%] Built target gazebo_ros_camera_utils
+[35m[1mScanning dependencies of target gazebo_ros_openni_kinect[0m
+[35m[1mScanning dependencies of target gazebo_ros_camera[0m
+[35m[1mScanning dependencies of target gazebo_ros_prosilica[0m
+[35m[1mScanning dependencies of target gazebo_ros_multicamera[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/gazebo_ros_camera.dir/src/gazebo_ros_camera.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/gazebo_ros_multicamera.dir/src/gazebo_ros_multicamera.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/gazebo_ros_openni_kinect.dir/src/gazebo_ros_openni_kinect.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/gazebo_ros_prosilica.dir/src/gazebo_ros_prosilica.cpp.o[0m
+[ 93%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_camera.dylib[0m
+[ 94%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_multicamera.dylib[0m
+[ 94%] Built target gazebo_ros_camera
+[ 94%] Built target gazebo_ros_multicamera
+[35m[1mScanning dependencies of target gazebo_ros_depth_camera[0m
+[ 95%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_prosilica.dylib[0m
+[ 95%] Built target gazebo_ros_prosilica
+[ 97%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_openni_kinect.dylib[0m
+[ 97%] Built target gazebo_ros_openni_kinect
+[ 98%] [32mBuilding CXX object CMakeFiles/gazebo_ros_depth_camera.dir/src/gazebo_ros_depth_camera.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /Users/adityabhat/Downloads/devel/lib/libgazebo_ros_depth_camera.dylib[0m
+[100%] Built target gazebo_ros_depth_camera
+[[36mgazebo_plugins[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/gazebo_plugins/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mgazebo_plugins[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/gazebo_plugins/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/gazebo_plugins[0m'[0m
+[  2%] Built target gazebo_ros_template
+[  5%] Built target gazebo_ros_planar_move
+[  8%] Built target gazebo_ros_video
+[ 11%] Built target gazebo_ros_utils
+[ 13%] Built target gazebo_ros_tricycle_drive
+[ 16%] Built target gazebo_ros_joint_pose_trajectory
+[ 19%] Built target gazebo_ros_joint_trajectory
+[ 22%] Built target gazebo_ros_force
+[ 25%] Built target gazebo_ros_projector
+[ 27%] Built target gazebo_ros_imu
+[ 30%] Built target gazebo_ros_p3d
+[ 33%] Built target gazebo_ros_block_laser
+[ 36%] Built target gazebo_ros_laser
+[ 38%] Built target gazebo_ros_gpu_laser
+[ 38%] Built target sensor_msgs_generate_messages_lisp
+[ 38%] Built target gazebo_msgs_generate_messages_eus
+[ 38%] Built target sensor_msgs_generate_messages_cpp
+[ 38%] Built target actionlib_generate_messages_cpp
+[ 38%] Built target gazebo_msgs_generate_messages_lisp
+[ 38%] Built target trajectory_msgs_generate_messages_cpp
+[ 38%] Built target nodelet_generate_messages_eus
+[ 38%] Built target tf2_msgs_generate_messages_py
+[ 38%] Built target bond_generate_messages_lisp
+[ 38%] Built target rosgraph_msgs_generate_messages_lisp
+[ 38%] Built target diagnostic_msgs_generate_messages_py
+[ 38%] Built target diagnostic_msgs_generate_messages_eus
+[ 38%] Built target dynamic_reconfigure_generate_messages_py
+[ 38%] Built target geometry_msgs_generate_messages_lisp
+[ 38%] Built target diagnostic_msgs_generate_messages_cpp
+[ 38%] Built target polled_camera_generate_messages_py
+[ 38%] Built target polled_camera_generate_messages_lisp
+[ 38%] Built target polled_camera_generate_messages_eus
+[ 38%] Built target polled_camera_generate_messages_cpp
+[ 38%] Built target driver_base_generate_messages_py
+[ 38%] Built target driver_base_generate_messages_lisp
+[ 38%] Built target driver_base_generate_messages_eus
+[ 38%] Built target geometry_msgs_generate_messages_py
+[ 38%] Built target gazebo_msgs_generate_messages_cpp
+[ 38%] Built target std_srvs_generate_messages_cpp
+[ 38%] Built target driver_base_generate_messages_cpp
+[ 38%] Built target dynamic_reconfigure_gencfg
+[ 38%] Built target trajectory_msgs_generate_messages_eus
+[ 38%] Built target dynamic_reconfigure_generate_messages_eus
+[ 38%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 38%] Built target tf2_msgs_generate_messages_lisp
+[ 38%] Built target tf2_msgs_generate_messages_eus
+[ 38%] Built target tf2_msgs_generate_messages_cpp
+[ 38%] Built target actionlib_generate_messages_eus
+[ 38%] Built target tf_generate_messages_cpp
+[ 38%] Built target actionlib_msgs_generate_messages_eus
+[ 38%] Built target diagnostic_msgs_generate_messages_lisp
+[ 38%] Built target actionlib_msgs_generate_messages_lisp
+[ 38%] Built target actionlib_msgs_generate_messages_cpp
+[ 38%] Built target nav_msgs_generate_messages_py
+[ 38%] Built target nav_msgs_generate_messages_eus
+[ 38%] Built target bond_generate_messages_eus
+[ 38%] Built target gazebo_msgs_generate_messages_py
+[ 38%] Built target tf_generate_messages_eus
+[ 38%] Built target bond_generate_messages_cpp
+[ 38%] Built target std_msgs_generate_messages_py
+[ 38%] Built target trajectory_msgs_generate_messages_lisp
+[ 38%] Built target rosgraph_msgs_generate_messages_py
+[ 38%] Built target std_srvs_generate_messages_eus
+[ 38%] Built target roscpp_generate_messages_py
+[ 38%] Built target nav_msgs_generate_messages_cpp
+[ 38%] Built target nodelet_generate_messages_cpp
+[ 38%] Built target actionlib_generate_messages_lisp
+[ 38%] Built target nav_msgs_generate_messages_lisp
+[ 38%] Built target roscpp_generate_messages_eus
+[ 38%] Built target roscpp_generate_messages_cpp
+[ 38%] Built target dynamic_reconfigure_generate_messages_lisp
+[ 38%] Built target rosgraph_msgs_generate_messages_eus
+[ 38%] Built target std_srvs_generate_messages_lisp
+[ 38%] Built target bond_generate_messages_py
+[ 38%] Built target std_srvs_generate_messages_py
+[ 38%] Built target geometry_msgs_generate_messages_cpp
+[ 38%] Built target tf_generate_messages_py
+[ 38%] Built target std_msgs_generate_messages_cpp
+[ 38%] Built target sensor_msgs_generate_messages_eus
+[ 38%] Built target nodelet_generate_messages_py
+[ 38%] Built target actionlib_msgs_generate_messages_py
+[ 38%] Built target sensor_msgs_generate_messages_py
+[ 38%] Built target actionlib_generate_messages_py
+[ 38%] Built target geometry_msgs_generate_messages_eus
+[ 38%] Built target roscpp_generate_messages_lisp
+[ 38%] Built target std_msgs_generate_messages_eus
+[ 38%] Built target nodelet_generate_messages_lisp
+[ 38%] Built target trajectory_msgs_generate_messages_py
+[ 38%] Built target tf_generate_messages_lisp
+[ 38%] Built target rosgraph_msgs_generate_messages_cpp
+[ 38%] Built target std_msgs_generate_messages_lisp
+[ 44%] Built target gazebo_plugins_gencfg
+[ 47%] Built target gazebo_ros_camera_utils
+[ 50%] Built target gazebo_ros_prosilica
+[ 52%] Built target MultiCameraPlugin
+[ 55%] Built target gazebo_ros_multicamera
+[ 58%] Built target gazebo_ros_camera
+[ 61%] Built target vision_reconfigure
+[ 63%] Built target camera_synchronizer
+[ 66%] Built target gazebo_ros_openni_kinect
+[ 69%] Built target gazebo_ros_range
+[ 72%] Built target gazebo_ros_diff_drive
+[ 75%] Built target gazebo_ros_f3d
+[ 77%] Built target gazebo_ros_hand_of_god
+[ 80%] Built target gazebo_ros_bumper
+[ 83%] Built target gazebo_ros_elevator
+[ 86%] Built target gazebo_ros_ft_sensor
+[ 88%] Built target hokuyo_node
+[ 91%] Built target pub_joint_trajectory_test
+[ 94%] Built target gazebo_ros_depth_camera
+[ 97%] Built target gazebo_ros_joint_state_publisher
+[100%] Built target gazebo_ros_skid_steer_drive
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Up-to-date: /opt/ros/jade/_setup_util.py
+-- Up-to-date: /opt/ros/jade/env.sh
+-- Up-to-date: /opt/ros/jade/setup.bash
+-- Up-to-date: /opt/ros/jade/setup.sh
+-- Up-to-date: /opt/ros/jade/setup.zsh
+-- Up-to-date: /opt/ros/jade/.rosinstall
++ cd /Users/adityabhat/Downloads/src/gazebo_ros_pkgs/gazebo_plugins
++ /usr/bin/env PYTHONPATH=/opt/ros/jade/lib/python2.7/site-packages:/Users/adityabhat/Downloads/build/gazebo_plugins/lib/python2.7/site-packages:/opt/ros/jade/lib/python2.7/site-packages CATKIN_BINARY_DIR=/Users/adityabhat/Downloads/build/gazebo_plugins /usr/bin/python /Users/adityabhat/Downloads/src/gazebo_ros_pkgs/gazebo_plugins/setup.py build --build-base /Users/adityabhat/Downloads/build/gazebo_plugins install --prefix=/opt/ros/jade --install-scripts=/opt/ros/jade/bin
+running build
+running build_py
+creating /Users/adityabhat/Downloads/build/gazebo_plugins/lib
+creating /Users/adityabhat/Downloads/build/gazebo_plugins/lib/gazebo_plugins
+copying src/gazebo_plugins/__init__.py -> /Users/adityabhat/Downloads/build/gazebo_plugins/lib/gazebo_plugins
+copying src/gazebo_plugins/gazebo_plugins_interface.py -> /Users/adityabhat/Downloads/build/gazebo_plugins/lib/gazebo_plugins
+running install
+running install_lib
+creating /opt/ros/jade/lib/python2.7/site-packages/gazebo_plugins
+copying /Users/adityabhat/Downloads/build/gazebo_plugins/lib/gazebo_plugins/__init__.py -> /opt/ros/jade/lib/python2.7/site-packages/gazebo_plugins
+copying /Users/adityabhat/Downloads/build/gazebo_plugins/lib/gazebo_plugins/gazebo_plugins_interface.py -> /opt/ros/jade/lib/python2.7/site-packages/gazebo_plugins
+byte-compiling /opt/ros/jade/lib/python2.7/site-packages/gazebo_plugins/__init__.py to __init__.pyc
+byte-compiling /opt/ros/jade/lib/python2.7/site-packages/gazebo_plugins/gazebo_plugins_interface.py to gazebo_plugins_interface.pyc
+running install_egg_info
+Writing /opt/ros/jade/lib/python2.7/site-packages/gazebo_plugins-2.5.2-py2.7.egg-info
+-- Installing: /opt/ros/jade/include/gazebo_plugins/CameraSynchronizerConfig.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/GazeboRosCameraConfig.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/GazeboRosOpenniKinectConfig.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/HokuyoConfig.h
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/gazebo_plugins/cfg ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/gazebo_plugins/cfg/CameraSynchronizerConfig.py ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/gazebo_plugins/cfg/GazeboRosCameraConfig.py ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/gazebo_plugins/cfg/GazeboRosOpenniKinectConfig.py ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/gazebo_plugins/cfg/HokuyoConfig.py ...
+Compiling /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/gazebo_plugins/cfg/__init__.py ...
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/gazebo_plugins/cfg
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/gazebo_plugins/cfg/__init__.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/gazebo_plugins/cfg/__init__.pyc
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/gazebo_plugins/cfg/CameraSynchronizerConfig.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/gazebo_plugins/cfg/CameraSynchronizerConfig.pyc
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/gazebo_plugins/cfg/GazeboRosCameraConfig.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/gazebo_plugins/cfg/GazeboRosCameraConfig.pyc
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/gazebo_plugins/cfg/GazeboRosOpenniKinectConfig.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/gazebo_plugins/cfg/GazeboRosOpenniKinectConfig.pyc
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/gazebo_plugins/cfg/HokuyoConfig.py
+-- Installing: /opt/ros/jade/lib/python2.7/site-packages/gazebo_plugins/cfg/HokuyoConfig.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/gazebo_plugins.pc
+-- Installing: /opt/ros/jade/share/gazebo_plugins/cmake/gazebo_pluginsConfig.cmake
+-- Installing: /opt/ros/jade/share/gazebo_plugins/cmake/gazebo_pluginsConfig-version.cmake
+-- Installing: /opt/ros/jade/share/gazebo_plugins/package.xml
+-- Up-to-date: /opt/ros/jade/lib/pkgconfig/gazebo_plugins.pc
+-- Up-to-date: /opt/ros/jade/share/gazebo_plugins/cmake/gazebo_pluginsConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/gazebo_plugins/cmake/gazebo_pluginsConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/gazebo_plugins/package.xml
+-- Installing: /opt/ros/jade/lib/gazebo_plugins/hokuyo_node
+-- Installing: /opt/ros/jade/lib/libvision_reconfigure.dylib
+-- Installing: /opt/ros/jade/lib/gazebo_plugins/camera_synchronizer
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_utils.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_camera_utils.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_camera.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_multicamera.dylib
+-- Installing: /opt/ros/jade/lib/libMultiCameraPlugin.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_depth_camera.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_openni_kinect.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_openni_kinect.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_laser.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_block_laser.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_p3d.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_imu.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_f3d.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_ft_sensor.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_bumper.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_hand_of_god.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_template.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_projector.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_prosilica.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_force.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_joint_trajectory.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_joint_state_publisher.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_joint_pose_trajectory.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_diff_drive.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_tricycle_drive.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_skid_steer_drive.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_video.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_planar_move.dylib
+-- Installing: /opt/ros/jade/lib/gazebo_plugins/pub_joint_trajectory_test
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_gpu_laser.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_range.dylib
+-- Installing: /opt/ros/jade/lib/libgazebo_ros_elevator.dylib
+-- Up-to-date: /opt/ros/jade/include
+-- Up-to-date: /opt/ros/jade/include/gazebo_plugins
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_block_laser.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_bumper.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_camera.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_camera_utils.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_depth_camera.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_diff_drive.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_elevator.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_f3d.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_force.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_ft_sensor.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_gpu_laser.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_hand_of_god.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_imu.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_joint_pose_trajectory.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_joint_state_publisher.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_joint_trajectory.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_laser.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_multicamera.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_openni_kinect.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_p3d.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_planar_move.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_projector.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_prosilica.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_range.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_skid_steer_drive.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_template.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_tricycle_drive.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_utils.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/gazebo_ros_video.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/MultiCameraPlugin.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/PubQueue.h
+-- Installing: /opt/ros/jade/include/gazebo_plugins/vision_reconfigure.h
+-- Installing: /opt/ros/jade/lib/gazebo_plugins/set_wrench.py
+-- Installing: /opt/ros/jade/lib/gazebo_plugins/set_pose.py
+-- Installing: /opt/ros/jade/lib/gazebo_plugins/gazebo_model
+-- Installing: /opt/ros/jade/share/gazebo_plugins/Media
+-- Installing: /opt/ros/jade/share/gazebo_plugins/Media/models
+-- Installing: /opt/ros/jade/share/gazebo_plugins/Media/models/chair
+-- Installing: /opt/ros/jade/share/gazebo_plugins/Media/models/chair/doc.kml
+-- Installing: /opt/ros/jade/share/gazebo_plugins/Media/models/chair/images
+-- Installing: /opt/ros/jade/share/gazebo_plugins/Media/models/chair/images/texture0.jpg
+-- Installing: /opt/ros/jade/share/gazebo_plugins/Media/models/chair/images/texture1.jpg
+-- Installing: /opt/ros/jade/share/gazebo_plugins/Media/models/chair/models
+-- Installing: /opt/ros/jade/share/gazebo_plugins/Media/models/chair/models/Chair.dae
+-- Installing: /opt/ros/jade/share/gazebo_plugins/Media/models/chair/models/Chair.stl
+-- Installing: /opt/ros/jade/share/gazebo_plugins/Media/models/chair/textures.txt
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/bumper_test
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/bumper_test/gazebo_ros_bumper.world
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/bumper_test/test_bumper.launch
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/bumper_test/test_bumper.py
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/config
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/config/example_models.yaml
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/launch
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/launch/multi_robot_scenario.launch
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/launch/pioneer3dx.gazebo.launch
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/launch/pioneer3dx.rviz
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/launch/pioneer3dx.urdf.launch
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/meshes
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/meshes/laser
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/meshes/laser/hokuyo.dae
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/back_rim.stl
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/back_sonar.stl
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/center_hubcap.stl
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/center_wheel.stl
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/chassis.stl
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/Coordinates
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/front_rim.stl
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/front_sonar.stl
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/left_hubcap.stl
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/left_wheel.stl
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/right_hubcap.stl
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/right_wheel.stl
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/swivel.stl
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/meshes/p3dx/top.stl
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/xacro
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/xacro/camera
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/xacro/camera/camera.xacro
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/xacro/laser
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/xacro/laser/hokuyo.xacro
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/xacro/laser/hokuyo_gpu.xacro
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/xacro/materials.xacro
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/xacro/p3dx
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/xacro/p3dx/battery_block.xacro
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/xacro/p3dx/inertia_tensors.xacro
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/xacro/p3dx/pioneer3dx.xacro
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/xacro/p3dx/pioneer3dx_body.xacro
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/xacro/p3dx/pioneer3dx_chassis.xacro
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/xacro/p3dx/pioneer3dx_plugins.xacro
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/xacro/p3dx/pioneer3dx_sonar.xacro
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/xacro/p3dx/pioneer3dx_swivel.xacro
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/multi_robot_scenario/xacro/p3dx/pioneer3dx_wheel.xacro
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/p3d_test
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/p3d_test/test_3_double_pendulums.launch
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/p3d_test/test_3_single_pendulums.launch
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/p3d_test/test_double_pendulum.launch
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/p3d_test/test_link_pose.py
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/p3d_test/test_single_pendulum.launch
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/p3d_test/worlds
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/p3d_test/worlds/3_double_pendulums.world
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/p3d_test/worlds/3_single_pendulums.world
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/p3d_test/worlds/double_pendulum.world
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/p3d_test/worlds/single_pendulum.world
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/pub_joint_trajectory_test.cpp
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/set_model_state_test
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/set_model_state_test/set_model_state_test.cpp
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/set_model_state_test/set_model_state_test.test
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/set_model_state_test/set_model_state_test_p2dx.world
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/spawn_test
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/spawn_test/parameter_server_test.launch
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/spawn_test/spawn_robots.sh
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/test_worlds
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/test_worlds/bumper_test.world
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/test_worlds/elevator.world
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/test_worlds/gazebo_ros_block_laser.world
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/test_worlds/gazebo_ros_camera.world
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/test_worlds/gazebo_ros_depth_camera.world
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/test_worlds/gazebo_ros_gpu_laser.world
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/test_worlds/gazebo_ros_laser.world
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/test_worlds/gazebo_ros_range.world
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/test_worlds/gazebo_ros_trimesh_collision.world
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/test_worlds/test_lasers.world
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/tricycle_drive
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/tricycle_drive/launch
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/tricycle_drive/launch/.directory
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/tricycle_drive/launch/tricycle.gazebo.launch
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/tricycle_drive/launch/tricycle.rviz
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/tricycle_drive/launch/tricycle.urdf.launch
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/tricycle_drive/launch/tricycle_drive_scenario.launch
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/tricycle_drive/launch/tricycle_rviz.launch
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/tricycle_drive/xacro
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/tricycle_drive/xacro/.directory
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/tricycle_drive/xacro/materials.xacro
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/tricycle_drive/xacro/tricycle
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/tricycle_drive/xacro/tricycle/inertia_tensors.xacro
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/tricycle_drive/xacro/tricycle/tricycle.xacro
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/tricycle_drive/xacro/tricycle/tricycle_body.xacro
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/tricycle_drive/xacro/tricycle/tricycle_chassis.xacro
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/tricycle_drive/xacro/tricycle/tricycle_plugins.xacro
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/tricycle_drive/xacro/tricycle/wheel.xacro
+-- Installing: /opt/ros/jade/share/gazebo_plugins/test/tricycle_drive/xacro/tricycle/wheel_actuated.xacro
+[[36mgazebo_plugins[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/gazebo_plugins/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "turtlesim")
+set(turtlesim_MAINTAINER "Dirk Thomas <dthomas@osrfoundation.org>")
+set(turtlesim_DEPRECATED "")
+set(turtlesim_VERSION "0.6.1")
+set(turtlesim_BUILD_DEPENDS "geometry_msgs" "libqt4-dev" "message_generation" "qt4-qmake" "rosconsole" "roscpp" "roscpp_serialization" "roslib" "rostime" "std_msgs" "std_srvs")
+set(turtlesim_RUN_DEPENDS "geometry_msgs" "libqt4" "message_runtime" "rosconsole" "roscpp" "roscpp_serialization" "roslib" "rostime" "std_msgs" "std_srvs")
+set(turtlesim_BUILDTOOL_DEPENDS "catkin")

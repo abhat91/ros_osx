@@ -1,0 +1,8 @@
+set(_CATKIN_CURRENT_PACKAGE "geometric_shapes")
+set(geometric_shapes_VERSION "0.4.4")
+set(geometric_shapes_MAINTAINER "Ioan Sucan <isucan@google.com>, Dave Coleman <dave@dav.ee>")
+set(geometric_shapes_BUILD_DEPENDS "assimp-dev" "boost" "cmake_modules" "eigen" "eigen_stl_containers" "libconsole-bridge-dev" "libqhull" "octomap" "pkg-config" "random_numbers" "resource_retriever" "shape_msgs" "visualization_msgs")
+set(geometric_shapes_RUN_DEPENDS "assimp" "boost" "eigen" "eigen_stl_containers" "libconsole-bridge-dev" "libqhull" "octomap" "random_numbers" "resource_retriever" "shape_msgs" "visualization_msgs")
+set(geometric_shapes_DEPRECATED "")
+set(geometric_shapes_BUILDTOOL_DEPENDS "catkin")
+set(geometric_shapes_BUILDTOOL_DEPENDS_catkin_VERSION_GTE "0.5.68")

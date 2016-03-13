@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "pcl_conversions")
+set(pcl_conversions_MAINTAINER "Paul Bovbel <paul@bovbel.com>, Bill Morris <bill@neautomation.com>")
+set(pcl_conversions_DEPRECATED "")
+set(pcl_conversions_VERSION "0.2.0")
+set(pcl_conversions_BUILD_DEPENDS "cmake_modules" "libpcl-all-dev" "pcl_msgs" "roscpp" "sensor_msgs" "std_msgs")
+set(pcl_conversions_RUN_DEPENDS "libpcl-all" "libpcl-all-dev" "pcl_msgs" "roscpp" "sensor_msgs" "std_msgs")
+set(pcl_conversions_BUILDTOOL_DEPENDS "catkin")

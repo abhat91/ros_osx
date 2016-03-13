@@ -1,0 +1,6 @@
+devel_space: /Users/adityabhat/Downloads/devel
+install: true
+install_space: /opt/ros/jade
+profile: default
+source_space: /Users/adityabhat/Downloads/src
+workspace: /Users/adityabhat/Downloads

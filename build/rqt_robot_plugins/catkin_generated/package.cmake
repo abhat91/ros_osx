@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rqt_robot_plugins")
+set(rqt_robot_plugins_MAINTAINER "Aaron Blasdel <ablasdel@gmail.com>, Dirk Thomas <dthomas@osrfoundation.org>")
+set(rqt_robot_plugins_DEPRECATED "")
+set(rqt_robot_plugins_VERSION "0.4.3")
+set(rqt_robot_plugins_BUILD_DEPENDS )
+set(rqt_robot_plugins_RUN_DEPENDS "rqt_moveit" "rqt_nav_view" "rqt_pose_view" "rqt_robot_dashboard" "rqt_robot_monitor" "rqt_robot_steering" "rqt_runtime_monitor" "rqt_rviz" "rqt_tf_tree")
+set(rqt_robot_plugins_BUILDTOOL_DEPENDS "catkin")

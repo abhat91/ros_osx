@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "urdf_tutorial")
+set(urdf_tutorial_MAINTAINER "David V. Lu!! <davidvlu@gmail.com>")
+set(urdf_tutorial_DEPRECATED "")
+set(urdf_tutorial_VERSION "0.2.4")
+set(urdf_tutorial_BUILD_DEPENDS "urdf")
+set(urdf_tutorial_RUN_DEPENDS "urdf" "joint_state_publisher" "pr2_description" "robot_state_publisher" "rviz" "xacro")
+set(urdf_tutorial_BUILDTOOL_DEPENDS "catkin")

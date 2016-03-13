@@ -1,0 +1,97 @@
+[[36mbond[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/bond/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/bond[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/bond/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:4 (find_package)
+
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- bond: 2 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/bond
+[[36mbond[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/bond/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mbond[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/bond/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/bond[0m'[0m
+[  0%] Built target _bond_generate_messages_check_deps_Constants
+[  0%] Built target _bond_generate_messages_check_deps_Status
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[ 20%] Built target bond_generate_messages_cpp
+[ 50%] Built target bond_generate_messages_py
+[ 70%] Built target bond_generate_messages_lisp
+[100%] Built target bond_generate_messages_eus
+[100%] Built target bond_generate_messages
+[[36mbond[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/bond/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mbond[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/bond/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/bond[0m'[0m
+[  0%] Built target _bond_generate_messages_check_deps_Constants
+[  0%] Built target _bond_generate_messages_check_deps_Status
+[  0%] Built target std_msgs_generate_messages_cpp
+[ 20%] Built target bond_generate_messages_cpp
+[ 20%] Built target std_msgs_generate_messages_py
+[ 50%] Built target bond_generate_messages_py
+[ 50%] Built target std_msgs_generate_messages_lisp
+[ 70%] Built target bond_generate_messages_lisp
+[ 70%] Built target std_msgs_generate_messages_eus
+[100%] Built target bond_generate_messages_eus
+[100%] Built target bond_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Up-to-date: /opt/ros/jade/env.sh
+-- Up-to-date: /opt/ros/jade/setup.bash
+-- Up-to-date: /opt/ros/jade/setup.sh
+-- Up-to-date: /opt/ros/jade/setup.zsh
+-- Up-to-date: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/share/bond/msg/Constants.msg
+-- Up-to-date: /opt/ros/jade/share/bond/msg/Status.msg
+-- Up-to-date: /opt/ros/jade/share/bond/cmake/bond-msg-paths.cmake
+-- Up-to-date: /opt/ros/jade/include/bond
+-- Up-to-date: /opt/ros/jade/include/bond/Constants.h
+-- Up-to-date: /opt/ros/jade/include/bond/Status.h
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/bond
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/bond/manifest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/bond/msg
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/bond/msg/Constants.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/bond/msg/Status.l
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/bond
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/bond/msg
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/bond/msg/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/bond/msg/_package_Constants.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/bond/msg/_package_Status.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/bond/msg/bond-msg.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/bond/msg/Constants.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/bond/msg/Status.lisp
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/bond ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/bond/msg ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/bond
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/bond/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/bond/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/bond/msg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/bond/msg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/bond/msg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/bond/msg/_Constants.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/bond/msg/_Constants.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/bond/msg/_Status.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/bond/msg/_Status.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/bond.pc
+-- Up-to-date: /opt/ros/jade/share/bond/cmake/bond-msg-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/bond/cmake/bondConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/bond/cmake/bondConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/bond/package.xml
+[[36mbond[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/bond/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

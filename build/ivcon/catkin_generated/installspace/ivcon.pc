@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: ivcon
+Description: Description of ivcon
+Version: 0.1.5
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: 

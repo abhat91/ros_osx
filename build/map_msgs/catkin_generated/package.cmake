@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "map_msgs")
+set(map_msgs_MAINTAINER "David V. Lu!! <davidvlu@gmail.com>, Michael Ferguson <mferguson@fetchrobotics.com>")
+set(map_msgs_DEPRECATED "")
+set(map_msgs_VERSION "1.13.0")
+set(map_msgs_BUILD_DEPENDS "message_generation" "std_msgs" "sensor_msgs" "nav_msgs")
+set(map_msgs_RUN_DEPENDS "message_runtime" "std_msgs" "sensor_msgs" "nav_msgs")
+set(map_msgs_BUILDTOOL_DEPENDS "catkin")

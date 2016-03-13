@@ -1,0 +1,87 @@
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: /Users/adityabhat/Downloads/build/qt_gui_cpp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6fd9c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6fd9c.dir/build.make CMakeFiles/cmTC_6fd9c.dir/build
+Building CXX object CMakeFiles/cmTC_6fd9c.dir/CheckSymbolExists.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.7_2/include -F/usr/local/Cellar/qt/4.8.7_2/lib  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_6fd9c.dir/CheckSymbolExists.cxx.o -c /Users/adityabhat/Downloads/build/qt_gui_cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/adityabhat/Downloads/build/qt_gui_cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_X11'
+  return ((int*)(&Q_WS_X11))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_6fd9c.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTC_6fd9c/fast] Error 2
+
+File /Users/adityabhat/Downloads/build/qt_gui_cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /Users/adityabhat/Downloads/build/qt_gui_cpp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_66a1e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_66a1e.dir/build.make CMakeFiles/cmTC_66a1e.dir/build
+Building CXX object CMakeFiles/cmTC_66a1e.dir/CheckSymbolExists.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.7_2/include -F/usr/local/Cellar/qt/4.8.7_2/lib  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_66a1e.dir/CheckSymbolExists.cxx.o -c /Users/adityabhat/Downloads/build/qt_gui_cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/adityabhat/Downloads/build/qt_gui_cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_WIN'
+  return ((int*)(&Q_WS_WIN))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_66a1e.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTC_66a1e/fast] Error 2
+
+File /Users/adityabhat/Downloads/build/qt_gui_cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /Users/adityabhat/Downloads/build/qt_gui_cpp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e481/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3e481.dir/build.make CMakeFiles/cmTC_3e481.dir/build
+Building CXX object CMakeFiles/cmTC_3e481.dir/CheckSymbolExists.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.7_2/include -F/usr/local/Cellar/qt/4.8.7_2/lib  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_3e481.dir/CheckSymbolExists.cxx.o -c /Users/adityabhat/Downloads/build/qt_gui_cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/adityabhat/Downloads/build/qt_gui_cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_QWS'
+  return ((int*)(&Q_WS_QWS))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_3e481.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTC_3e481/fast] Error 2
+
+File /Users/adityabhat/Downloads/build/qt_gui_cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

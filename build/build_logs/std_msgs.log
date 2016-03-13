@@ -1,0 +1,373 @@
+[[36mstd_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/std_msgs/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/std_msgs[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/std_msgs/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:4 (find_package)
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- std_msgs: 32 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/std_msgs
+[[36mstd_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/std_msgs/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mstd_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/std_msgs/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/std_msgs[0m'[0m
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int32
+[  0%] Built target _std_msgs_generate_messages_check_deps_Float32MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_Float64
+[  0%] Built target _std_msgs_generate_messages_check_deps_Float32
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt16MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt32MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int16
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt64MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_Byte
+[  0%] Built target _std_msgs_generate_messages_check_deps_ByteMultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_Float64MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int8MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt64
+[  0%] Built target _std_msgs_generate_messages_check_deps_MultiArrayDimension
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int16MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt8MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_String
+[  0%] Built target _std_msgs_generate_messages_check_deps_Char
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt32
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt8
+[  0%] Built target _std_msgs_generate_messages_check_deps_MultiArrayLayout
+[  0%] Built target _std_msgs_generate_messages_check_deps_Duration
+[  0%] Built target _std_msgs_generate_messages_check_deps_Time
+[  0%] Built target _std_msgs_generate_messages_check_deps_Header
+[  0%] Built target _std_msgs_generate_messages_check_deps_Bool
+[  0%] Built target _std_msgs_generate_messages_check_deps_Empty
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int32MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt16
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int8
+[  0%] Built target _std_msgs_generate_messages_check_deps_ColorRGBA
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int64
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int64MultiArray
+[ 26%] Built target std_msgs_generate_messages_py
+[ 50%] Built target std_msgs_generate_messages_lisp
+[ 74%] Built target std_msgs_generate_messages_cpp
+[100%] Built target std_msgs_generate_messages_eus
+[100%] Built target std_msgs_generate_messages
+[[36mstd_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/std_msgs/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mstd_msgs[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/std_msgs/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/std_msgs[0m'[0m
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int32
+[  0%] Built target _std_msgs_generate_messages_check_deps_Float32MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_Float64
+[  0%] Built target _std_msgs_generate_messages_check_deps_Float32
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt16MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt32MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt64MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int16
+[  0%] Built target _std_msgs_generate_messages_check_deps_Byte
+[  0%] Built target _std_msgs_generate_messages_check_deps_Float64MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_ByteMultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int8MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt64
+[  0%] Built target _std_msgs_generate_messages_check_deps_MultiArrayDimension
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int16MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt8MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_String
+[  0%] Built target _std_msgs_generate_messages_check_deps_Char
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt32
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt8
+[  0%] Built target _std_msgs_generate_messages_check_deps_MultiArrayLayout
+[  0%] Built target _std_msgs_generate_messages_check_deps_Duration
+[  0%] Built target _std_msgs_generate_messages_check_deps_Time
+[  0%] Built target _std_msgs_generate_messages_check_deps_Header
+[  0%] Built target _std_msgs_generate_messages_check_deps_Bool
+[  0%] Built target _std_msgs_generate_messages_check_deps_Empty
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int32MultiArray
+[  0%] Built target _std_msgs_generate_messages_check_deps_UInt16
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int8
+[  0%] Built target _std_msgs_generate_messages_check_deps_ColorRGBA
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int64
+[  0%] Built target _std_msgs_generate_messages_check_deps_Int64MultiArray
+[ 26%] Built target std_msgs_generate_messages_py
+[ 50%] Built target std_msgs_generate_messages_lisp
+[ 74%] Built target std_msgs_generate_messages_cpp
+[100%] Built target std_msgs_generate_messages_eus
+[100%] Built target std_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/Bool.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/Byte.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/ByteMultiArray.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/Char.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/ColorRGBA.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/Duration.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/Empty.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/Float32.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/Float32MultiArray.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/Float64.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/Float64MultiArray.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/Header.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/Int16.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/Int16MultiArray.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/Int32.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/Int32MultiArray.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/Int64.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/Int64MultiArray.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/Int8.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/Int8MultiArray.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/MultiArrayDimension.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/MultiArrayLayout.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/String.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/Time.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/UInt16.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/UInt16MultiArray.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/UInt32.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/UInt32MultiArray.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/UInt64.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/UInt64MultiArray.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/UInt8.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/msg/UInt8MultiArray.msg
+-- Up-to-date: /opt/ros/jade/share/std_msgs/cmake/std_msgs-msg-paths.cmake
+-- Up-to-date: /opt/ros/jade/include/std_msgs
+-- Up-to-date: /opt/ros/jade/include/std_msgs/Bool.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/Byte.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/ByteMultiArray.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/Char.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/ColorRGBA.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/Duration.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/Empty.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/Float32.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/Float32MultiArray.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/Float64.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/Float64MultiArray.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/Header.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/Int16.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/Int16MultiArray.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/Int32.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/Int32MultiArray.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/Int64.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/Int64MultiArray.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/Int8.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/Int8MultiArray.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/MultiArrayDimension.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/MultiArrayLayout.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/String.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/Time.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/UInt16.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/UInt16MultiArray.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/UInt32.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/UInt32MultiArray.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/UInt64.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/UInt64MultiArray.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/UInt8.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/UInt8MultiArray.h
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/manifest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/Bool.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/Byte.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/ByteMultiArray.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/Char.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/ColorRGBA.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/Duration.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/Empty.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/Float32.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/Float32MultiArray.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/Float64.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/Float64MultiArray.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/Header.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/Int16.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/Int16MultiArray.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/Int32.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/Int32MultiArray.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/Int64.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/Int64MultiArray.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/Int8.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/Int8MultiArray.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/MultiArrayDimension.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/MultiArrayLayout.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/String.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/Time.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/UInt16.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/UInt16MultiArray.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/UInt32.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/UInt32MultiArray.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/UInt64.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/UInt64MultiArray.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/UInt8.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/std_msgs/msg/UInt8MultiArray.l
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_Bool.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_Byte.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_ByteMultiArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_Char.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_ColorRGBA.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_Duration.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_Empty.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_Float32.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_Float32MultiArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_Float64.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_Float64MultiArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_Header.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_Int16.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_Int16MultiArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_Int32.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_Int32MultiArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_Int64.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_Int64MultiArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_Int8.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_Int8MultiArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_MultiArrayDimension.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_MultiArrayLayout.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_String.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_Time.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_UInt16.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_UInt16MultiArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_UInt32.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_UInt32MultiArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_UInt64.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_UInt64MultiArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_UInt8.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/_package_UInt8MultiArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/Bool.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/Byte.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/ByteMultiArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/Char.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/ColorRGBA.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/Duration.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/Empty.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/Float32.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/Float32MultiArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/Float64.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/Float64MultiArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/Header.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/Int16.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/Int16MultiArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/Int32.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/Int32MultiArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/Int64.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/Int64MultiArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/Int8.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/Int8MultiArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/MultiArrayDimension.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/MultiArrayLayout.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/std_msgs-msg.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/String.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/Time.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/UInt16.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/UInt16MultiArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/UInt32.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/UInt32MultiArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/UInt64.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/UInt64MultiArray.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/UInt8.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/std_msgs/msg/UInt8MultiArray.lisp
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/std_msgs ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/std_msgs/msg ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Bool.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Bool.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Byte.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Byte.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_ByteMultiArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_ByteMultiArray.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Char.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Char.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_ColorRGBA.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_ColorRGBA.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Duration.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Duration.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Empty.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Empty.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Float32.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Float32.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Float32MultiArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Float32MultiArray.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Float64.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Float64.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Float64MultiArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Float64MultiArray.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Header.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Header.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Int16.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Int16.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Int16MultiArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Int16MultiArray.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Int32.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Int32.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Int32MultiArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Int32MultiArray.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Int64.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Int64.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Int64MultiArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Int64MultiArray.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Int8.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Int8.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Int8MultiArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Int8MultiArray.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_MultiArrayDimension.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_MultiArrayDimension.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_MultiArrayLayout.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_MultiArrayLayout.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_String.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_String.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Time.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_Time.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_UInt16.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_UInt16.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_UInt16MultiArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_UInt16MultiArray.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_UInt32.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_UInt32.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_UInt32MultiArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_UInt32MultiArray.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_UInt64.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_UInt64.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_UInt64MultiArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_UInt64MultiArray.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_UInt8.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_UInt8.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_UInt8MultiArray.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/std_msgs/msg/_UInt8MultiArray.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/std_msgs.pc
+-- Up-to-date: /opt/ros/jade/share/std_msgs/cmake/std_msgs-msg-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/std_msgs/cmake/std_msgsConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/std_msgs/cmake/std_msgsConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/std_msgs/package.xml
+-- Up-to-date: /opt/ros/jade/include/std_msgs
+-- Up-to-date: /opt/ros/jade/include/std_msgs/builtin_bool.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/builtin_double.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/builtin_float.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/builtin_int16.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/builtin_int32.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/builtin_int64.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/builtin_int8.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/builtin_string.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/builtin_uint16.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/builtin_uint32.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/builtin_uint64.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/builtin_uint8.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/header_deprecated_def.h
+-- Up-to-date: /opt/ros/jade/include/std_msgs/trait_macros.h
+[[36mstd_msgs[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/std_msgs/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

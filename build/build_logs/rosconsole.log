@@ -1,0 +1,37 @@
+[[36mrosconsole[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/rosconsole/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/rosconsole[0m'[0m
+[[36mrosconsole[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/rosconsole/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mrosconsole[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/rosconsole/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/rosconsole[0m'[0m
+[ 33%] Built target rosconsole_backend_interface
+[ 66%] Built target rosconsole_print
+[100%] Built target rosconsole
+[[36mrosconsole[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/rosconsole/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mrosconsole[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/rosconsole/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/rosconsole[0m'[0m
+[ 33%] Built target rosconsole_backend_interface
+[ 66%] Built target rosconsole_print
+[100%] Built target rosconsole
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/lib/pkgconfig/rosconsole.pc
+-- Up-to-date: /opt/ros/jade/share/rosconsole/cmake/rosconsole-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/rosconsole/cmake/rosconsoleConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/rosconsole/cmake/rosconsoleConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/rosconsole/package.xml
+-- Installing: /opt/ros/jade/lib/librosconsole.dylib
+-- Installing: /opt/ros/jade/lib/librosconsole_print.dylib
+-- Installing: /opt/ros/jade/lib/librosconsole_backend_interface.dylib
+-- Up-to-date: /opt/ros/jade/share/ros/config/rosconsole.config
+-- Up-to-date: /opt/ros/jade/include
+-- Up-to-date: /opt/ros/jade/include/ros
+-- Up-to-date: /opt/ros/jade/include/ros/assert.h
+-- Up-to-date: /opt/ros/jade/include/ros/console.h
+-- Up-to-date: /opt/ros/jade/include/ros/console_backend.h
+-- Up-to-date: /opt/ros/jade/include/ros/static_assert.h
+-- Up-to-date: /opt/ros/jade/include/rosconsole
+-- Up-to-date: /opt/ros/jade/include/rosconsole/macros_generated.h
+[[36mrosconsole[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/rosconsole/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

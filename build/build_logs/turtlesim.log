@@ -1,0 +1,212 @@
+[[36mturtlesim[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/turtlesim/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/turtlesim[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/turtlesim/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:4 (find_package)
+
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- Boost version: 1.60.0
+-- Found the following Boost libraries:
+--   thread
+--   chrono
+--   system
+--   date_time
+--   atomic
+-- turtlesim: 2 messages, 5 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/turtlesim
+[[36mturtlesim[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/turtlesim/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mturtlesim[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/turtlesim/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/turtlesim[0m'[0m
+[  0%] Built target _turtlesim_generate_messages_check_deps_Pose
+[  0%] Built target _turtlesim_generate_messages_check_deps_SetPen
+[  0%] Built target _turtlesim_generate_messages_check_deps_Color
+[  0%] Built target _turtlesim_generate_messages_check_deps_Spawn
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target _turtlesim_generate_messages_check_deps_Kill
+[  0%] Built target _turtlesim_generate_messages_check_deps_TeleportAbsolute
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target _turtlesim_generate_messages_check_deps_TeleportRelative
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[ 16%] Built target turtlesim_generate_messages_cpp
+[ 34%] Built target turtlesim_generate_messages_eus
+[ 51%] Built target turtlesim_generate_messages_lisp
+[ 72%] Built target turtlesim_generate_messages_py
+[ 72%] Built target turtlesim_gencpp
+[ 72%] Built target turtlesim_generate_messages
+[ 81%] Built target draw_square
+[ 81%] Built target mimic
+[ 86%] Built target turtle_teleop_key
+[100%] Built target turtlesim_node
+[[36mturtlesim[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/turtlesim/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mturtlesim[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/turtlesim/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/turtlesim[0m'[0m
+[  0%] Built target _turtlesim_generate_messages_check_deps_Pose
+[  0%] Built target _turtlesim_generate_messages_check_deps_Spawn
+[  0%] Built target _turtlesim_generate_messages_check_deps_SetPen
+[  0%] Built target _turtlesim_generate_messages_check_deps_Color
+[  0%] Built target _turtlesim_generate_messages_check_deps_TeleportAbsolute
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _turtlesim_generate_messages_check_deps_Kill
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target _turtlesim_generate_messages_check_deps_TeleportRelative
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[ 16%] Built target turtlesim_generate_messages_cpp
+[ 16%] Built target turtlesim_gencpp
+[ 30%] Built target turtlesim_node
+[ 30%] Built target geometry_msgs_generate_messages_eus
+[ 30%] Built target std_srvs_generate_messages_eus
+[ 30%] Built target std_msgs_generate_messages_eus
+[ 48%] Built target turtlesim_generate_messages_eus
+[ 48%] Built target std_srvs_generate_messages_lisp
+[ 48%] Built target std_msgs_generate_messages_lisp
+[ 48%] Built target geometry_msgs_generate_messages_lisp
+[ 65%] Built target turtlesim_generate_messages_lisp
+[ 65%] Built target std_srvs_generate_messages_py
+[ 65%] Built target std_msgs_generate_messages_py
+[ 65%] Built target geometry_msgs_generate_messages_py
+[ 86%] Built target turtlesim_generate_messages_py
+[ 86%] Built target turtlesim_generate_messages
+[ 90%] Built target draw_square
+[ 95%] Built target turtle_teleop_key
+[100%] Built target mimic
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/share/turtlesim/msg/Color.msg
+-- Up-to-date: /opt/ros/jade/share/turtlesim/msg/Pose.msg
+-- Up-to-date: /opt/ros/jade/share/turtlesim/srv/Kill.srv
+-- Up-to-date: /opt/ros/jade/share/turtlesim/srv/SetPen.srv
+-- Up-to-date: /opt/ros/jade/share/turtlesim/srv/Spawn.srv
+-- Up-to-date: /opt/ros/jade/share/turtlesim/srv/TeleportAbsolute.srv
+-- Up-to-date: /opt/ros/jade/share/turtlesim/srv/TeleportRelative.srv
+-- Up-to-date: /opt/ros/jade/share/turtlesim/cmake/turtlesim-msg-paths.cmake
+-- Up-to-date: /opt/ros/jade/include/turtlesim
+-- Up-to-date: /opt/ros/jade/include/turtlesim/Color.h
+-- Up-to-date: /opt/ros/jade/include/turtlesim/Kill.h
+-- Up-to-date: /opt/ros/jade/include/turtlesim/KillRequest.h
+-- Up-to-date: /opt/ros/jade/include/turtlesim/KillResponse.h
+-- Up-to-date: /opt/ros/jade/include/turtlesim/Pose.h
+-- Up-to-date: /opt/ros/jade/include/turtlesim/SetPen.h
+-- Up-to-date: /opt/ros/jade/include/turtlesim/SetPenRequest.h
+-- Up-to-date: /opt/ros/jade/include/turtlesim/SetPenResponse.h
+-- Up-to-date: /opt/ros/jade/include/turtlesim/Spawn.h
+-- Up-to-date: /opt/ros/jade/include/turtlesim/SpawnRequest.h
+-- Up-to-date: /opt/ros/jade/include/turtlesim/SpawnResponse.h
+-- Up-to-date: /opt/ros/jade/include/turtlesim/TeleportAbsolute.h
+-- Up-to-date: /opt/ros/jade/include/turtlesim/TeleportAbsoluteRequest.h
+-- Up-to-date: /opt/ros/jade/include/turtlesim/TeleportAbsoluteResponse.h
+-- Up-to-date: /opt/ros/jade/include/turtlesim/TeleportRelative.h
+-- Up-to-date: /opt/ros/jade/include/turtlesim/TeleportRelativeRequest.h
+-- Up-to-date: /opt/ros/jade/include/turtlesim/TeleportRelativeResponse.h
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/turtlesim
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/turtlesim/manifest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/turtlesim/msg
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/turtlesim/msg/Color.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/turtlesim/msg/Pose.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/turtlesim/srv
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/turtlesim/srv/Kill.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/turtlesim/srv/SetPen.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/turtlesim/srv/Spawn.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/turtlesim/srv/TeleportAbsolute.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/turtlesim/srv/TeleportRelative.l
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtlesim
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtlesim/msg
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtlesim/msg/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtlesim/msg/_package_Color.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtlesim/msg/_package_Pose.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtlesim/msg/Color.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtlesim/msg/Pose.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtlesim/msg/turtlesim-msg.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtlesim/srv
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtlesim/srv/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtlesim/srv/_package_Kill.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtlesim/srv/_package_SetPen.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtlesim/srv/_package_Spawn.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtlesim/srv/_package_TeleportAbsolute.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtlesim/srv/_package_TeleportRelative.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtlesim/srv/Kill.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtlesim/srv/SetPen.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtlesim/srv/Spawn.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtlesim/srv/TeleportAbsolute.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtlesim/srv/TeleportRelative.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/turtlesim/srv/turtlesim-srv.asd
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/turtlesim ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/turtlesim/msg ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/turtlesim/srv ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim/msg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim/msg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim/msg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim/msg/_Color.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim/msg/_Color.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim/msg/_Pose.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim/msg/_Pose.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim/srv
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim/srv/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim/srv/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim/srv/_Kill.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim/srv/_Kill.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim/srv/_SetPen.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim/srv/_SetPen.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim/srv/_Spawn.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim/srv/_Spawn.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim/srv/_TeleportAbsolute.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim/srv/_TeleportAbsolute.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim/srv/_TeleportRelative.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/turtlesim/srv/_TeleportRelative.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/turtlesim.pc
+-- Up-to-date: /opt/ros/jade/share/turtlesim/cmake/turtlesim-msg-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/turtlesim/cmake/turtlesimConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/turtlesim/cmake/turtlesimConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/turtlesim/package.xml
+-- Installing: /opt/ros/jade/lib/turtlesim/turtlesim_node
+-- Installing: /opt/ros/jade/lib/turtlesim/turtle_teleop_key
+-- Installing: /opt/ros/jade/lib/turtlesim/draw_square
+-- Installing: /opt/ros/jade/lib/turtlesim/mimic
+-- Up-to-date: /opt/ros/jade/share/turtlesim/images
+-- Up-to-date: /opt/ros/jade/share/turtlesim/images/box-turtle.png
+-- Up-to-date: /opt/ros/jade/share/turtlesim/images/diamondback.png
+-- Up-to-date: /opt/ros/jade/share/turtlesim/images/electric.png
+-- Up-to-date: /opt/ros/jade/share/turtlesim/images/fuerte.png
+-- Up-to-date: /opt/ros/jade/share/turtlesim/images/groovy.png
+-- Up-to-date: /opt/ros/jade/share/turtlesim/images/hydro.png
+-- Up-to-date: /opt/ros/jade/share/turtlesim/images/hydro.svg
+-- Up-to-date: /opt/ros/jade/share/turtlesim/images/indigo.png
+-- Up-to-date: /opt/ros/jade/share/turtlesim/images/indigo.svg
+-- Up-to-date: /opt/ros/jade/share/turtlesim/images/jade.png
+-- Up-to-date: /opt/ros/jade/share/turtlesim/images/palette.png
+-- Up-to-date: /opt/ros/jade/share/turtlesim/images/robot-turtle.png
+-- Up-to-date: /opt/ros/jade/share/turtlesim/images/sea-turtle.png
+-- Up-to-date: /opt/ros/jade/share/turtlesim/images/turtle.png
+[[36mturtlesim[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/turtlesim/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

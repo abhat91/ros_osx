@@ -1,0 +1,8 @@
+prefix=/Users/adityabhat/Downloads/devel
+
+Name: bondcpp
+Description: Description of bondcpp
+Version: 1.7.16
+Cflags: -I/Users/adityabhat/Downloads/src/bond_core/bondcpp/include -I/usr/local/include
+Libs: -L/Users/adityabhat/Downloads/devel/lib -lbondcpp
+Requires: bond roscpp smclib

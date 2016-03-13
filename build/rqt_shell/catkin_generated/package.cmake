@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rqt_shell")
+set(rqt_shell_MAINTAINER "Dorian Scholz <scholz@sim.tu-darmstadt.de>")
+set(rqt_shell_DEPRECATED "")
+set(rqt_shell_VERSION "0.3.13")
+set(rqt_shell_BUILD_DEPENDS )
+set(rqt_shell_RUN_DEPENDS "python-rospkg" "qt_gui" "qt_gui_py_common" "rqt_gui" "rqt_gui_py")
+set(rqt_shell_BUILDTOOL_DEPENDS "catkin")

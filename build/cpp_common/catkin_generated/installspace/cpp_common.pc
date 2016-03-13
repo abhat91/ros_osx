@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: cpp_common
+Description: Description of cpp_common
+Version: 0.5.6
+Cflags: -I/opt/ros/jade/include -I/usr/local/include -I/usr/local/Cellar/console_bridge/0.2.5/include
+Libs: -L/opt/ros/jade/lib -lcpp_common -l:/usr/local/lib/libboost_system-mt.dylib -l:/usr/local/lib/libboost_thread-mt.dylib -l:/usr/local/lib/libboost_chrono-mt.dylib -l:/usr/local/lib/libboost_date_time-mt.dylib -l:/usr/local/lib/libboost_atomic-mt.dylib -l:/usr/local/lib/libconsole_bridge.dylib
+Requires: 

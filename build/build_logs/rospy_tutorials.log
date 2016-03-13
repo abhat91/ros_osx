@@ -1,0 +1,153 @@
+[[36mrospy_tutorials[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/rospy_tutorials/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/rospy_tutorials[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/rospy_tutorials/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:4 (find_package)
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- rospy_tutorials: 2 messages, 2 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/rospy_tutorials
+[[36mrospy_tutorials[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/rospy_tutorials/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mrospy_tutorials[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/rospy_tutorials/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/rospy_tutorials[0m'[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _rospy_tutorials_generate_messages_check_deps_BadTwoInts
+[  0%] Built target _rospy_tutorials_generate_messages_check_deps_Floats
+[  0%] Built target _rospy_tutorials_generate_messages_check_deps_HeaderString
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _rospy_tutorials_generate_messages_check_deps_AddTwoInts
+[ 36%] Built target rospy_tutorials_generate_messages_py
+[ 57%] Built target rospy_tutorials_generate_messages_eus
+[ 94%] Built target rospy_tutorials_generate_messages_lisp
+[100%] Built target rospy_tutorials_generate_messages_cpp
+[100%] Built target rospy_tutorials_generate_messages
+[[36mrospy_tutorials[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/rospy_tutorials/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mrospy_tutorials[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/rospy_tutorials/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/rospy_tutorials[0m'[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _rospy_tutorials_generate_messages_check_deps_HeaderString
+[  0%] Built target _rospy_tutorials_generate_messages_check_deps_BadTwoInts
+[  0%] Built target _rospy_tutorials_generate_messages_check_deps_Floats
+[  0%] Built target _rospy_tutorials_generate_messages_check_deps_AddTwoInts
+[ 21%] Built target rospy_tutorials_generate_messages_cpp
+[ 21%] Built target std_msgs_generate_messages_lisp
+[ 42%] Built target rospy_tutorials_generate_messages_lisp
+[ 42%] Built target std_msgs_generate_messages_py
+[ 73%] Built target rospy_tutorials_generate_messages_py
+[ 73%] Built target std_msgs_generate_messages_eus
+[100%] Built target rospy_tutorials_generate_messages_eus
+[100%] Built target rospy_tutorials_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Up-to-date: /opt/ros/jade/share/rospy_tutorials/msg/Floats.msg
+-- Up-to-date: /opt/ros/jade/share/rospy_tutorials/msg/HeaderString.msg
+-- Up-to-date: /opt/ros/jade/share/rospy_tutorials/srv/AddTwoInts.srv
+-- Up-to-date: /opt/ros/jade/share/rospy_tutorials/srv/BadTwoInts.srv
+-- Up-to-date: /opt/ros/jade/share/rospy_tutorials/cmake/rospy_tutorials-msg-paths.cmake
+-- Up-to-date: /opt/ros/jade/include/rospy_tutorials
+-- Up-to-date: /opt/ros/jade/include/rospy_tutorials/AddTwoInts.h
+-- Up-to-date: /opt/ros/jade/include/rospy_tutorials/AddTwoIntsRequest.h
+-- Up-to-date: /opt/ros/jade/include/rospy_tutorials/AddTwoIntsResponse.h
+-- Up-to-date: /opt/ros/jade/include/rospy_tutorials/BadTwoInts.h
+-- Up-to-date: /opt/ros/jade/include/rospy_tutorials/BadTwoIntsRequest.h
+-- Up-to-date: /opt/ros/jade/include/rospy_tutorials/BadTwoIntsResponse.h
+-- Up-to-date: /opt/ros/jade/include/rospy_tutorials/Floats.h
+-- Up-to-date: /opt/ros/jade/include/rospy_tutorials/HeaderString.h
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/rospy_tutorials
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/rospy_tutorials/manifest.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/rospy_tutorials/msg
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/rospy_tutorials/msg/Floats.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/rospy_tutorials/msg/HeaderString.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/rospy_tutorials/srv
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/rospy_tutorials/srv/AddTwoInts.l
+-- Up-to-date: /opt/ros/jade/share/roseus/ros/rospy_tutorials/srv/BadTwoInts.l
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/rospy_tutorials
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/rospy_tutorials/msg
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/rospy_tutorials/msg/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/rospy_tutorials/msg/_package_Floats.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/rospy_tutorials/msg/_package_HeaderString.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/rospy_tutorials/msg/Floats.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/rospy_tutorials/msg/HeaderString.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/rospy_tutorials/msg/rospy_tutorials-msg.asd
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/rospy_tutorials/srv
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/rospy_tutorials/srv/_package.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/rospy_tutorials/srv/_package_AddTwoInts.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/rospy_tutorials/srv/_package_BadTwoInts.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/rospy_tutorials/srv/AddTwoInts.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/rospy_tutorials/srv/BadTwoInts.lisp
+-- Up-to-date: /opt/ros/jade/share/common-lisp/ros/rospy_tutorials/srv/rospy_tutorials-srv.asd
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/rospy_tutorials ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/rospy_tutorials/msg ...
+Listing /Users/adityabhat/Downloads/devel/lib/python2.7/site-packages/rospy_tutorials/srv ...
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/rospy_tutorials
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/rospy_tutorials/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/rospy_tutorials/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/rospy_tutorials/msg
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/rospy_tutorials/msg/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/rospy_tutorials/msg/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/rospy_tutorials/msg/_Floats.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/rospy_tutorials/msg/_Floats.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/rospy_tutorials/msg/_HeaderString.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/rospy_tutorials/msg/_HeaderString.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/rospy_tutorials/srv
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/rospy_tutorials/srv/__init__.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/rospy_tutorials/srv/__init__.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/rospy_tutorials/srv/_AddTwoInts.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/rospy_tutorials/srv/_AddTwoInts.pyc
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/rospy_tutorials/srv/_BadTwoInts.py
+-- Up-to-date: /opt/ros/jade/lib/python2.7/site-packages/rospy_tutorials/srv/_BadTwoInts.pyc
+-- Installing: /opt/ros/jade/lib/pkgconfig/rospy_tutorials.pc
+-- Up-to-date: /opt/ros/jade/share/rospy_tutorials/cmake/rospy_tutorials-msg-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/rospy_tutorials/cmake/rospy_tutorialsConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/rospy_tutorials/cmake/rospy_tutorialsConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/rospy_tutorials/package.xml
+-- Installing: /opt/ros/jade/share/rospy_tutorials/001_talker_listener/listener
+-- Installing: /opt/ros/jade/share/rospy_tutorials/001_talker_listener/listener.py
+-- Installing: /opt/ros/jade/share/rospy_tutorials/001_talker_listener/talker
+-- Installing: /opt/ros/jade/share/rospy_tutorials/001_talker_listener/talker.py
+-- Up-to-date: /opt/ros/jade/share/rospy_tutorials/001_talker_listener/README
+-- Up-to-date: /opt/ros/jade/share/rospy_tutorials/001_talker_listener/talker_listener.launch
+-- Installing: /opt/ros/jade/share/rospy_tutorials/002_headers/listener_header.py
+-- Installing: /opt/ros/jade/share/rospy_tutorials/002_headers/talker_header.py
+-- Up-to-date: /opt/ros/jade/share/rospy_tutorials/002_headers/headers.launch
+-- Installing: /opt/ros/jade/share/rospy_tutorials/003_listener_with_user_data/listener_with_user_data.py
+-- Up-to-date: /opt/ros/jade/share/rospy_tutorials/003_listener_with_user_data/listener_with_user_data.launch
+-- Installing: /opt/ros/jade/share/rospy_tutorials/004_listener_subscribe_notify/listener_subscribe_notify.py
+-- Up-to-date: /opt/ros/jade/share/rospy_tutorials/004_listener_subscribe_notify/listener_subscribe_notify.launch
+-- Installing: /opt/ros/jade/share/rospy_tutorials/005_add_two_ints/add_two_ints_client
+-- Installing: /opt/ros/jade/share/rospy_tutorials/005_add_two_ints/add_two_ints_server
+-- Installing: /opt/ros/jade/share/rospy_tutorials/006_parameters/param_talker.py
+-- Up-to-date: /opt/ros/jade/share/rospy_tutorials/006_parameters/param_talker.launch
+-- Installing: /opt/ros/jade/share/rospy_tutorials/007_connection_header/client_connection_header.py
+-- Installing: /opt/ros/jade/share/rospy_tutorials/007_connection_header/listener_connection_header.py
+-- Installing: /opt/ros/jade/share/rospy_tutorials/007_connection_header/server_connection_header.py
+-- Installing: /opt/ros/jade/share/rospy_tutorials/007_connection_header/talker_connection_header.py
+-- Up-to-date: /opt/ros/jade/share/rospy_tutorials/007_connection_header/connection_header.launch
+-- Up-to-date: /opt/ros/jade/share/rospy_tutorials/007_connection_header/README
+-- Installing: /opt/ros/jade/share/rospy_tutorials/008_on_shutdown/publish_on_shutdown.py
+-- Up-to-date: /opt/ros/jade/share/rospy_tutorials/008_on_shutdown/on_shutdown.launch
+-- Installing: /opt/ros/jade/share/rospy_tutorials/009_advanced_publish/advanced_publish.py
+-- Up-to-date: /opt/ros/jade/share/rospy_tutorials/009_advanced_publish/advanced_publish.launch
+[[36mrospy_tutorials[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/rospy_tutorials/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

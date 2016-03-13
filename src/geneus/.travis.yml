@@ -1,0 +1,79 @@
+language:
+  - cpp
+  - python
+python:
+  - "2.7"
+compiler:
+  - gcc
+notifications:
+  email:
+    on_success: always
+    on_failure: always
+env:
+  - ROS_DISTRO=hydro
+script:
+  - export CI_SOURCE_PATH=$(pwd)
+  - export REPOSITORY_NAME=${PWD##*/}
+  - if [ ! "$ROS_PARALLEL_JOBS" ]; then export ROS_PARALLEL_JOBS="-j8 -l8";  fi
+  - echo "Testing branch $TRAVIS_BRANCH of $REPOSITORY_NAME"
+  - sudo sh -c 'echo "deb http://packages.ros.org/ros-shadow-fixed/ubuntu `lsb_release -cs` main" > /etc/apt/sources.list.d/ros-latest.list'
+  - wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq -y python-catkin-pkg python-rosdep python-wstool python-catkin-tools ros-$ROS_DISTRO-catkin
+  - sudo rosdep init
+  - rosdep update; while [ $? != 0 ]; do sleep 1; rosdep update; done
+  - mkdir -p ~/ros/ws_$REPOSITORY_NAME/src
+  - cd ~/ros/ws_$REPOSITORY_NAME/src
+  - ln -s $CI_SOURCE_PATH . # Link the repo we are testing to the new workspace
+  - git clone https://github.com/ros/std_msgs           std_msgs
+  - git clone https://github.com/ros/ros_comm           ros_comm        -b hydro-devel
+  - git clone https://github.com/ros/common_msgs        common_msgs     -b hydro-devel
+  - git clone https://github.com/ros/actionlib          actionlib       -b hydro-devel
+  - mv ros_comm/messages/ ros_comm/clients/ .
+  - rm -fr ros_comm # do not run test for ros_comm
+  - find actionlib  -name CMakeLists.txt  -exec sed -i 's@add_subdirectory(test)@#add_subdirectory(test)@' {} \;
+  - cd ..
+  - rosdep install -r -n --from-paths src --ignore-src --rosdistro $ROS_DISTRO -y
+  - source /opt/ros/$ROS_DISTRO/setup.bash
+  - catkin_make $ROS_PARALLEL_JOBS
+  # use latest catkin (including jobserver)
+  ### before_install: # Use this to prepare the system to install prerequisites or dependencies
+  ## to avoid stty error, until catkin_tools 2.0.x (http://stackoverflow.com/questions/27969057/cant-launch-catkin-build-from-jenkins-job)
+  - sudo apt-get install -q -qq -y python-setuptools python-catkin-pkg
+  - if [ ! -e /tmp/catkin_tools ]; then (cd /tmp/; git clone -q https://github.com/catkin/catkin_tools); fi
+  - (cd /tmp/catkin_tools; sudo python setup.py --quiet install)
+  ### https://github.com/ros/catkin/pull/705
+  - if [ ! -e /tmp/catkin ]; then (cd /tmp/; git clone -q https://github.com/ros/catkin); fi
+  - (cd /tmp/catkin; sudo python setup.py --quiet install)
+  # test for roseus
+  - sudo apt-get install -qq -y ros-hydro-roseus
+  - sudo dpkg -r --force-depends ros-hydro-geneus
+  # need to use latest test codes
+  - rm -fr devel build src/*
+  - cd src
+  - git clone http://github.com/jsk-ros-pkg/jsk_roseus /tmp/jsk_roseus
+  - cp -r /tmp/jsk_roseus/roseus ./
+  #- sudo wget https://raw.githubusercontent.com/k-okada/jsk_roseus/fix_generate_all/roseus/scripts/generate-all-msg-srv.sh -O /opt/ros/hydro/share/roseus/scripts/generate-all-msg-srv.sh
+  - ln -s $CI_SOURCE_PATH . # Link the repo we are testing to the new workspace
+  - cd ..
+  # check roseus
+  - source /opt/ros/$ROS_DISTRO/setup.bash
+  - catkin build
+  - source devel/setup.bash
+  - rostest roseus test-genmsg.catkin.test
+  - rostest roseus test-genmsg-oneworkspace.catkin.launch
+  # check pr2eus
+  - git clone http://github.com/jsk-ros-pkg/jsk_pr2eus src/jsk_pr2eus
+  - sudo apt-get -qq -f install
+  - rosdep install -r -n --from-paths src --ignore-src --rosdistro $ROS_DISTRO -y
+  - sudo dpkg -r --force-depends ros-hydro-geneus
+  - catkin clean -a
+  - source /opt/ros/$ROS_DISTRO/setup.bash
+  - catkin build
+  - source devel/setup.bash
+  - rostest pr2eus pr2-ri-test-simple.launch
+  - rostest pr2eus default-ri-test.launch
+  - rostest pr2eus pr2eus-test.launch
+after_failure:
+  - rostest -t roseus test-genmsg.catkin.test
+  - rostest -t roseus test-genmsg-oneworkspace.catkin.launch

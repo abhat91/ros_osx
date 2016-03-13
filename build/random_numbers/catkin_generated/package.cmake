@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "random_numbers")
+set(random_numbers_MAINTAINER "Ioan Sucan <isucan@willowgarage.com>")
+set(random_numbers_DEPRECATED "")
+set(random_numbers_VERSION "0.3.0")
+set(random_numbers_BUILD_DEPENDS "boost")
+set(random_numbers_RUN_DEPENDS "boost")
+set(random_numbers_BUILDTOOL_DEPENDS "catkin")

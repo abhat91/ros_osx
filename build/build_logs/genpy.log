@@ -1,0 +1,56 @@
+[[36mgenpy[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/genpy/build_env.sh /usr/bin/make cmake_check_build_system[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/genpy[0m'[0m
+-- Using CATKIN_DEVEL_PREFIX: /Users/adityabhat/Downloads/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/jade
+-- This workspace overlays: /opt/ros/jade
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using default Python package layout
+-- Using empy: /usr/local/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /Users/adityabhat/Downloads/build/genpy/test_results
+-- Found gtest: gtests will be built
+CMake Warning at /opt/ros/jade/share/catkin/cmake/test/nosetests.cmake:98 (message):
+  nosetests not found, Python tests can not be run (try installing package
+  'python-nose')
+Call Stack (most recent call first):
+  /opt/ros/jade/share/catkin/cmake/all.cmake:147 (include)
+  /opt/ros/jade/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:3 (find_package)
+
+
+-- catkin 0.6.16
+-- Using these message generators: gencpp;geneus;genlisp;genpy
+-- skipping nosetests(test) in project 'genpy'
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/adityabhat/Downloads/build/genpy
+[[36mgenpy[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/genpy/build_env.sh /usr/bin/make cmake_check_build_system[0m' finished with return code '[1m0[0m'[0m
+[[36mgenpy[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/genpy/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/genpy[0m'[0m
+[[36mgenpy[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/genpy/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m
+[[36mgenpy[0m] [1m[34m==>[0m '[1m/Users/adityabhat/Downloads/build/genpy/build_env.sh /usr/bin/make install[0m' [30m[1min[0m '[1m/Users/adityabhat/Downloads/build/genpy[0m'[0m
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Up-to-date: /opt/ros/jade/_setup_util.py
+-- Installing: /opt/ros/jade/env.sh
+-- Installing: /opt/ros/jade/setup.bash
+-- Installing: /opt/ros/jade/setup.sh
+-- Installing: /opt/ros/jade/setup.zsh
+-- Installing: /opt/ros/jade/.rosinstall
+-- Installing: /opt/ros/jade/lib/pkgconfig/genpy.pc
+-- Installing: /opt/ros/jade/share/genpy/cmake/genpy-extras.cmake
+-- Up-to-date: /opt/ros/jade/share/genpy/cmake/genpyConfig.cmake
+-- Up-to-date: /opt/ros/jade/share/genpy/cmake/genpyConfig-version.cmake
+-- Up-to-date: /opt/ros/jade/share/genpy/package.xml
+-- Installing: /opt/ros/jade/etc/ros/genmsg/genpy
++ cd /Users/adityabhat/Downloads/src/genpy
++ /usr/bin/env PYTHONPATH=/opt/ros/jade/lib/python2.7/site-packages:/Users/adityabhat/Downloads/build/genpy/lib/python2.7/site-packages:/opt/ros/jade/lib/python2.7/site-packages CATKIN_BINARY_DIR=/Users/adityabhat/Downloads/build/genpy /usr/bin/python /Users/adityabhat/Downloads/src/genpy/setup.py build --build-base /Users/adityabhat/Downloads/build/genpy install --prefix=/opt/ros/jade --install-scripts=/opt/ros/jade/bin
+running build
+running build_py
+running install
+running install_lib
+running install_egg_info
+Removing /opt/ros/jade/lib/python2.7/site-packages/genpy-0.5.7-py2.7.egg-info
+Writing /opt/ros/jade/lib/python2.7/site-packages/genpy-0.5.7-py2.7.egg-info
+-- Installing: /opt/ros/jade/lib/genpy/genmsg_py.py
+-- Installing: /opt/ros/jade/lib/genpy/gensrv_py.py
+[[36mgenpy[0m] [32m<==[0m '[1m/Users/adityabhat/Downloads/build/genpy/build_env.sh /usr/bin/make install[0m' finished with return code '[1m0[0m'[0m

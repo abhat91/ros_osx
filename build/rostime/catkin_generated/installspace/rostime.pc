@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: rostime
+Description: Description of rostime
+Version: 0.5.6
+Cflags: -I/opt/ros/jade/include -I/usr/local/include
+Libs: -L/opt/ros/jade/lib -lrostime -l:/usr/local/lib/libboost_date_time-mt.dylib -l:/usr/local/lib/libboost_system-mt.dylib -l:/usr/local/lib/libboost_thread-mt.dylib -l:/usr/local/lib/libboost_chrono-mt.dylib -l:/usr/local/lib/libboost_atomic-mt.dylib
+Requires: cpp_common

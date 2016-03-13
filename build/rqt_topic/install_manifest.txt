@@ -1,0 +1,13 @@
+/opt/ros/jade/_setup_util.py
+/opt/ros/jade/env.sh
+/opt/ros/jade/setup.bash
+/opt/ros/jade/setup.sh
+/opt/ros/jade/setup.zsh
+/opt/ros/jade/.rosinstall
+/opt/ros/jade/lib/pkgconfig/rqt_topic.pc
+/opt/ros/jade/share/rqt_topic/cmake/rqt_topicConfig.cmake
+/opt/ros/jade/share/rqt_topic/cmake/rqt_topicConfig-version.cmake
+/opt/ros/jade/share/rqt_topic/package.xml
+/opt/ros/jade/share/rqt_topic/plugin.xml
+/opt/ros/jade/share/rqt_topic/resource/TopicWidget.ui
+/opt/ros/jade/lib/rqt_topic/rqt_topic

@@ -1,0 +1,17 @@
+Determining if the CXX compiler accepts the flag -Wl,--version-script,"/Users/adityabhat/Downloads/build/class_loader/test/class_loader_hide_library_symbols__class_loader_TestPlugins1.script" failed with the following output:
+Change Dir: /Users/adityabhat/Downloads/build/class_loader/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf48b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cf48b.dir/build.make CMakeFiles/cmTC_cf48b.dir/build
+Building CXX object CMakeFiles/cmTC_cf48b.dir/DummyCXXFile.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,--version-script,"/Users/adityabhat/Downloads/build/class_loader/test/class_loader_hide_library_symbols__class_loader_TestPlugins1.script" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk   -o CMakeFiles/cmTC_cf48b.dir/DummyCXXFile.cxx.o -c /usr/local/Cellar/cmake/3.5.0/share/cmake/Modules/DummyCXXFile.cxx
+clang: warning: -Wl,--version-script,/Users/adityabhat/Downloads/build/class_loader/test/class_loader_hide_library_symbols__class_loader_TestPlugins1.script: 'linker' input unused
+Linking CXX executable cmTC_cf48b
+/usr/local/Cellar/cmake/3.5.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf48b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,--version-script,"/Users/adityabhat/Downloads/build/class_loader/test/class_loader_hide_library_symbols__class_loader_TestPlugins1.script" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cf48b.dir/DummyCXXFile.cxx.o  -o cmTC_cf48b  
+ld: unknown option: --version-script
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_cf48b] Error 1
+make: *** [cmTC_cf48b/fast] Error 2
+
+

@@ -1,0 +1,47 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/adityabhat/Downloads/src/geometric_shapes/src/bodies.cpp" "/Users/adityabhat/Downloads/build/geometric_shapes/CMakeFiles/geometric_shapes.dir/src/bodies.cpp.o"
+  "/Users/adityabhat/Downloads/src/geometric_shapes/src/body_operations.cpp" "/Users/adityabhat/Downloads/build/geometric_shapes/CMakeFiles/geometric_shapes.dir/src/body_operations.cpp.o"
+  "/Users/adityabhat/Downloads/src/geometric_shapes/src/mesh_operations.cpp" "/Users/adityabhat/Downloads/build/geometric_shapes/CMakeFiles/geometric_shapes.dir/src/mesh_operations.cpp.o"
+  "/Users/adityabhat/Downloads/src/geometric_shapes/src/shape_extents.cpp" "/Users/adityabhat/Downloads/build/geometric_shapes/CMakeFiles/geometric_shapes.dir/src/shape_extents.cpp.o"
+  "/Users/adityabhat/Downloads/src/geometric_shapes/src/shape_operations.cpp" "/Users/adityabhat/Downloads/build/geometric_shapes/CMakeFiles/geometric_shapes.dir/src/shape_operations.cpp.o"
+  "/Users/adityabhat/Downloads/src/geometric_shapes/src/shape_to_marker.cpp" "/Users/adityabhat/Downloads/build/geometric_shapes/CMakeFiles/geometric_shapes.dir/src/shape_to_marker.cpp.o"
+  "/Users/adityabhat/Downloads/src/geometric_shapes/src/shapes.cpp" "/Users/adityabhat/Downloads/build/geometric_shapes/CMakeFiles/geometric_shapes.dir/src/shapes.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "Clang")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "ASSIMP_UNIFIED_HEADER_NAMES"
+  "GEOMETRIC_SHAPES_HAVE_QHULL_2011"
+  "qh_QHpointer"
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/Users/adityabhat/Downloads/src/geometric_shapes/include"
+  "/usr/local/Cellar/eigen/3.2.8/include/eigen3"
+  "/usr/local/include"
+  "/opt/ros/jade/include"
+  "/Users/adityabhat/Downloads/devel/include"
+  "/Users/adityabhat/Downloads/src/roscpp_core/cpp_common/include"
+  "/Users/adityabhat/Downloads/src/eigen_stl_containers/include"
+  "/Users/adityabhat/Downloads/src/random_numbers/include"
+  "/Users/adityabhat/Downloads/src/roscpp_core/roscpp_traits/include"
+  "/Users/adityabhat/Downloads/src/roscpp_core/rostime/include"
+  "/Users/adityabhat/Downloads/src/std_msgs/include"
+  "/Users/adityabhat/Downloads/src/roscpp_core/roscpp_serialization/include"
+  "/Users/adityabhat/Downloads/src/resource_retriever/include"
+  "/usr/local/Cellar/console_bridge/0.2.5/include"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
